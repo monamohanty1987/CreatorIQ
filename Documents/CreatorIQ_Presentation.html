@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CreatorIQ — AI Creator Intelligence</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#0F172A;--card:#1E293B;--border:#334155;
+  --text:#F1F5F9;--muted:#94A3B8;
+  --green:#10B981;--blue:#3B82F6;--purple:#8B5CF6;
+  --amber:#F59E0B;--red:#EF4444;--cyan:#06B6D4;
+}
+html{scroll-behavior:smooth;font-size:16px;}
+body{
+  font-family:'Inter',sans-serif;
+  background:var(--bg);color:var(--text);
+  overflow-x:hidden;
+}
+
+/* ── SECTION BASE ── */
+section{
+  min-height:100vh;
+  display:flex;flex-direction:column;
+  justify-content:center;align-items:center;
+  padding:40px 40px 60px;
+  position:relative;overflow:hidden;
+}
+.inner{max-width:1100px;width:100%;z-index:2;position:relative;}
+
+/* ── BLOBS ── */
+.blob{
+  position:absolute;border-radius:50%;filter:blur(100px);
+  opacity:0.13;pointer-events:none;
+}
+
+/* ── SCROLL INDICATOR ── */
+.scroll-hint{
+  position:absolute;bottom:32px;left:50%;transform:translateX(-50%);
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+  color:var(--muted);font-size:13px;animation:bounce 2s infinite;
+}
+@keyframes bounce{0%,100%{transform:translateX(-50%) translateY(0);}50%{transform:translateX(-50%) translateY(8px);}}
+
+/* ── PROGRESS BAR ── */
+#progress{
+  position:fixed;top:0;left:0;height:3px;
+  background:linear-gradient(90deg,var(--green),var(--blue),var(--purple));
+  z-index:999;transition:width 0.2s;
+}
+
+/* ── NAV DOTS ── */
+#nav-dots{
+  position:fixed;right:20px;top:50%;transform:translateY(-50%);
+  display:flex;flex-direction:column;gap:10px;z-index:999;
+}
+.ndot{
+  width:8px;height:8px;border-radius:50%;
+  background:var(--border);cursor:pointer;transition:all 0.3s;
+  border:none;
+}
+.ndot.active{background:var(--green);height:24px;border-radius:4px;}
+.ndot:hover{background:var(--muted);}
+
+/* ── TYPOGRAPHY ── */
+.eyebrow{
+  font-size:13px;font-weight:700;letter-spacing:3px;
+  text-transform:uppercase;color:var(--green);margin-bottom:20px;
+}
+.h1{font-size:clamp(28px,3.2vw,48px);font-weight:900;line-height:1.1;margin-bottom:16px;}
+.h2{font-size:clamp(22px,2.6vw,38px);font-weight:900;line-height:1.15;margin-bottom:14px;}
+.h3{font-size:clamp(16px,1.8vw,24px);font-weight:800;line-height:1.3;}
+.body{font-size:clamp(14px,1.4vw,16px);color:var(--muted);line-height:1.7;max-width:700px;}
+.body-sm{font-size:clamp(12px,1.1vw,14px);color:var(--muted);line-height:1.65;}
+
+.grad{background:linear-gradient(135deg,#10B981,#3B82F6,#8B5CF6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.red{color:var(--red);}
+.green{color:var(--green);}
+.blue{color:var(--blue);}
+.amber{color:var(--amber);}
+.purple{color:var(--purple);}
+
+/* ── CARDS ── */
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:20px 24px;}
+.card-sm{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:20px 24px;}
+.problem-card{background:rgba(239,68,68,0.07);border:1px solid rgba(239,68,68,0.2);border-radius:20px;padding:32px;}
+.solution-card{background:rgba(16,185,129,0.07);border:1px solid rgba(16,185,129,0.2);border-radius:20px;padding:28px;}
+
+/* ── GRIDS ── */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+
+/* ── BADGE ── */
+.badge{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;padding:6px 16px;border-radius:50px;}
+.b-green{background:rgba(16,185,129,0.15);color:var(--green);border:1px solid rgba(16,185,129,0.3);}
+.b-blue{background:rgba(59,130,246,0.15);color:var(--blue);border:1px solid rgba(59,130,246,0.3);}
+.b-purple{background:rgba(139,92,246,0.15);color:var(--purple);border:1px solid rgba(139,92,246,0.3);}
+.b-amber{background:rgba(245,158,11,0.15);color:var(--amber);border:1px solid rgba(245,158,11,0.3);}
+.b-red{background:rgba(239,68,68,0.15);color:var(--red);border:1px solid rgba(239,68,68,0.3);}
+
+/* ── STAT ── */
+.stat{font-size:clamp(28px,3.5vw,48px);font-weight:900;line-height:1;}
+
+/* ── TABLE ── */
+table{width:100%;border-collapse:collapse;font-size:15px;}
+th{text-align:left;padding:14px 20px;color:var(--muted);font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;border-bottom:1px solid var(--border);}
+td{padding:16px 20px;border-bottom:1px solid rgba(51,65,85,0.5);vertical-align:middle;}
+tr:last-child td{border-bottom:none;}
+
+/* ── TAG ── */
+.tag{font-size:13px;font-weight:500;padding:6px 14px;border-radius:8px;background:rgba(255,255,255,0.05);border:1px solid var(--border);color:var(--muted);}
+.tag-list{display:flex;flex-wrap:wrap;gap:10px;}
+
+/* ── DIVIDER ── */
+.divider{width:1px;background:var(--border);align-self:stretch;}
+
+/* ── FLOW ── */
+.flow{display:flex;align-items:center;gap:16px;flex-wrap:wrap;justify-content:center;}
+.flow-box{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:10px 14px;text-align:center;font-size:12px;font-weight:600;min-width:90px;}
+.flow-arrow{color:var(--muted);font-size:24px;}
+
+/* ── PROGRESS BAR ── */
+.pbar{height:8px;background:rgba(255,255,255,0.08);border-radius:4px;overflow:hidden;margin-top:8px;}
+.pfill{height:100%;border-radius:4px;}
+
+/* ── TIMELINE ── */
+.tl{display:flex;flex-direction:column;gap:0;}
+.tl-row{display:flex;gap:20px;padding-bottom:28px;}
+.tl-row:last-child{padding-bottom:0;}
+.tl-left{display:flex;flex-direction:column;align-items:center;}
+.tl-dot{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;}
+.tl-line{width:2px;background:var(--border);flex:1;margin-top:6px;min-height:20px;}
+.tl-row:last-child .tl-line{display:none;}
+
+/* ── REEL animation ── */
+@keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-12px);}}
+.float{animation:float 3s ease-in-out infinite;}
+@keyframes pulse-red{0%,100%{box-shadow:0 0 0 0 rgba(239,68,68,0.4);}50%{box-shadow:0 0 0 12px rgba(239,68,68,0);}}
+.pulse-red{animation:pulse-red 2s infinite;}
+
+/* ── SECTION DIVIDERS ── */
+.section-line{width:80px;height:4px;border-radius:2px;margin-bottom:28px;}
+
+/* ── QUOTE ── */
+.quote{
+  font-size:clamp(20px,3vw,28px);font-weight:700;
+  border-left:4px solid var(--green);
+  padding:20px 28px;
+  background:rgba(16,185,129,0.06);
+  border-radius:0 16px 16px 0;
+  line-height:1.5;
+}
+</style>
+</head>
+<body>
+
+<div id="progress"></div>
+
+<div id="nav-dots">
+  <button class="ndot active" onclick="scrollToSection(0)" title="Hook"></button>
+  <button class="ndot" onclick="scrollToSection(1)" title="Frustration"></button>
+  <button class="ndot" onclick="scrollToSection(2)" title="Turning Point"></button>
+  <button class="ndot" onclick="scrollToSection(3)" title="Introducing"></button>
+  <button class="ndot" onclick="scrollToSection(4)" title="Problem"></button>
+  <button class="ndot" onclick="scrollToSection(5)" title="Solution"></button>
+  <button class="ndot" onclick="scrollToSection(6)" title="How It Works"></button>
+  <button class="ndot" onclick="scrollToSection(7)" title="AI Tools"></button>
+  <button class="ndot" onclick="scrollToSection(8)" title="Who It's For"></button>
+  <button class="ndot" onclick="scrollToSection(9)" title="Roadmap"></button>
+  <button class="ndot" onclick="scrollToSection(10)" title="Closing"></button>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════
+     SECTION 1 — THE HOOK
+══════════════════════════════════════════════════════ -->
+<section id="s0" style="background:linear-gradient(160deg,#0F172A 60%,#0d1f0f);">
+  <div class="blob" style="width:700px;height:700px;background:#10B981;top:-300px;left:-300px;"></div>
+  <div class="blob" style="width:500px;height:500px;background:#3B82F6;bottom:-200px;right:-200px;"></div>
+
+  <div class="inner" style="text-align:center;">
+    <div style="font-size:clamp(36px,5vw,60px);margin-bottom:12px;" class="float">📱</div>
+    <div class="eyebrow">be honest with yourself</div>
+    <p style="font-size:clamp(14px,1.5vw,18px);color:var(--muted);margin-bottom:14px;">Do you have a dream to start a side business via the easiest way — <span style="color:var(--text);font-weight:600;">social media?</span></p>
+    <div style="font-size:clamp(26px,3vw,44px);font-weight:900;line-height:1.1;margin-bottom:14px;">
+      Do You Waste Hours<br>
+      <span class="grad">Scrolling Reels...</span>
+    </div>
+    <p class="body" style="margin:0 auto 18px;">
+      Watching others show off brand deals, luxury trips, and "₹5 Lakh this month" screenshots — while you're still on the couch wondering <em style="color:var(--text);">"how are they doing this?"</em>
+    </p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <span class="badge b-red pulse-red">You're not alone</span>
+      <span class="badge b-amber">600M+ creators globally</span>
+      <span class="badge b-green">Most are underpaid</span>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span>Scroll down</span>
+    <span style="font-size:20px;">↓</span>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     SECTION 2 — THE FRUSTRATION
+══════════════════════════════════════════════════════ -->
+<section id="s1" style="background:#0F172A;">
+  <div class="blob" style="width:500px;height:500px;background:#EF4444;top:-100px;right:-150px;opacity:0.1;"></div>
+
+  <div class="inner">
+    <div class="eyebrow">the real story</div>
+    <div class="h2" style="max-width:850px;">
+      You <span class="red">Wanted</span> to Start.<br>But Then Reality Hit.
+    </div>
+
+    <div class="g3" style="margin-top:20px;">
+      <div class="problem-card">
+        <div style="font-size:28px;margin-bottom:8px;">😤</div>
+        <div class="h3" style="font-size:16px;color:var(--red);margin-bottom:8px;">"Where do I even start?"</div>
+        <p class="body-sm">No one tells you which niche pays. No one tells you which platform brands actually spend money on. You Google it and get 10 different answers.</p>
+      </div>
+      <div class="problem-card">
+        <div style="font-size:28px;margin-bottom:8px;">📉</div>
+        <div class="h3" style="font-size:16px;color:var(--red);margin-bottom:8px;">"What if I get lowballed?"</div>
+        <p class="body-sm">A brand DMs you. Offers ₹5,000. Is that good? Is that terrible? You have zero data. So you either say yes — or worse, say nothing and miss it entirely.</p>
+      </div>
+      <div class="problem-card">
+        <div style="font-size:28px;margin-bottom:8px;">📄</div>
+        <div class="h3" style="font-size:16px;color:var(--red);margin-bottom:8px;">"I can't read contracts."</div>
+        <p class="body-sm">They send a 12-page legal agreement. You sign it without knowing you just gave them your content forever, with no kill fee, and can't work with competitors for 2 years.</p>
+      </div>
+    </div>
+
+    <div class="quote" style="margin-top:18px;">
+      So you scrap the whole idea. "Maybe it's not for me." But the truth is — you just didn't have the right tools. <span class="green">Until now.</span>
+    </div>
+  </div>
+
+  <div class="scroll-hint"><span style="font-size:20px;">↓</span></div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     SECTION 3 — THE TURNING POINT
+══════════════════════════════════════════════════════ -->
+<section id="s2" style="background:linear-gradient(160deg,#0F172A,#0a1628);padding:25px 40px 35px;">
+  <div class="blob" style="width:600px;height:600px;background:#8B5CF6;bottom:-200px;left:-200px;"></div>
+
+  <div class="inner" style="text-align:center;">
+    <div style="font-size:clamp(28px,3.5vw,48px);margin-bottom:10px;" class="float">💡</div>
+    <div class="eyebrow">the turning point</div>
+    <div style="font-size:clamp(26px,4vw,48px);font-weight:900;line-height:1.1;margin-bottom:16px;">
+      What If You Had the Intelligence<br>of a <span class="grad">Top Talent Agent</span>...
+    </div>
+    <p style="font-size:clamp(15px,1.8vw,18px);color:var(--muted);line-height:1.7;max-width:680px;margin:0 auto 28px;">
+      Imagine knowing <strong style="color:var(--text);">exactly</strong> what your audience is worth. Knowing which brands pay 3x more. Knowing what's in that contract before you sign. Knowing the right counter-offer — in seconds.
+    </p>
+
+    <div class="g3" style="max-width:860px;margin:0 auto;">
+      <div class="card-sm" style="text-align:center;">
+        <div style="font-size:28px;margin-bottom:10px;">📊</div>
+        <div style="font-weight:700;font-size:16px;margin-bottom:6px;">52,000+ Real Deals</div>
+        <p class="body-sm" style="font-size:14px;">Actual brand deal data powering every benchmark</p>
+      </div>
+      <div class="card-sm" style="text-align:center;">
+        <div style="font-size:28px;margin-bottom:10px;">🤖</div>
+        <div style="font-weight:700;font-size:16px;margin-bottom:6px;">AI That Works for You</div>
+        <p class="body-sm" style="font-size:14px;">OpenAI O4 analyzes your deal in seconds</p>
+      </div>
+      <div class="card-sm" style="text-align:center;">
+        <div style="font-size:28px;margin-bottom:10px;">🛡️</div>
+        <div style="font-weight:700;font-size:16px;margin-bottom:6px;">Contract Protection</div>
+        <p class="body-sm" style="font-size:14px;">AI spots every dangerous clause before you sign</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint"><span style="font-size:20px;">↓</span></div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     SECTION 4 — INTRODUCING CREATORIQ
+══════════════════════════════════════════════════════ -->
+<section id="s3" style="background:#0F172A;">
+  <div class="blob" style="width:700px;height:700px;background:#10B981;top:-200px;right:-200px;"></div>
+  <div class="blob" style="width:400px;height:400px;background:#3B82F6;bottom:-150px;left:-100px;"></div>
+
+  <div class="inner" style="text-align:center;">
+    <div style="font-size:clamp(30px,4vw,54px);margin-bottom:10px;">🚀</div>
+    <div class="eyebrow">introducing</div>
+    <div style="font-size:clamp(32px,4vw,58px);font-weight:900;line-height:1.1;margin-bottom:10px;"><span class="grad">CreatorIQ</span></div>
+    <p class="body" style="margin:0 auto 14px;font-size:clamp(16px,2vw,22px);color:var(--text);">
+      AI-Powered Creator Intelligence Platform
+    </p>
+    <p class="body" style="margin:0 auto 18px;">
+      Built on 52,000+ real brand deals, powered by OpenAI's best models, and designed for every creator — from 10K followers to 10M.
+    </p>
+
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:14px;">
+      <span class="badge b-green">● Platform Live</span>
+      <span class="badge b-blue">52K+ Real Deals</span>
+      <span class="badge b-purple">4 AI Workflows</span>
+      <span class="badge b-amber">18 Niches · 6 Platforms</span>
+    </div>
+
+    <div class="g4">
+      <div class="card" style="text-align:center;padding:16px 14px;">
+        <div style="font-size:26px;margin-bottom:8px;">💰</div>
+        <div style="font-weight:800;font-size:14px;margin-bottom:4px;">Deal Analyzer</div>
+        <p class="body-sm" style="font-size:13px;">Know your market rate instantly</p>
+      </div>
+      <div class="card" style="text-align:center;padding:16px 14px;">
+        <div style="font-size:26px;margin-bottom:8px;">📋</div>
+        <div style="font-weight:800;font-size:14px;margin-bottom:4px;">Contract Scanner</div>
+        <p class="body-sm" style="font-size:13px;">Catch dangerous clauses before you sign</p>
+      </div>
+      <div class="card" style="text-align:center;padding:16px 14px;">
+        <div style="font-size:26px;margin-bottom:8px;">📧</div>
+        <div style="font-weight:800;font-size:14px;margin-bottom:4px;">Campaign Builder</div>
+        <p class="body-sm" style="font-size:13px;">AI-written launch email sequences</p>
+      </div>
+      <div class="card" style="text-align:center;padding:16px 14px;">
+        <div style="font-size:26px;margin-bottom:8px;">📊</div>
+        <div style="font-weight:800;font-size:14px;margin-bottom:4px;">Market Dashboard</div>
+        <p class="body-sm" style="font-size:13px;">Live rates across all niches & platforms</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint"><span style="font-size:20px;">↓</span></div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     SECTION 5 — THE REAL PROBLEM (DATA)
+══════════════════════════════════════════════════════ -->
+<section id="s4" style="background:linear-gradient(160deg,#0F172A,#1a0a0a);">
+  <div class="blob" style="width:500px;height:500px;background:#EF4444;top:-100px;left:-150px;opacity:0.1;"></div>
+
+  <div class="inner">
+    <div class="eyebrow">the numbers don't lie</div>
+    <div style="font-size:clamp(24px,4vw,44px);font-weight:900;line-height:1.1;margin-bottom:14px;max-width:700px;">Creators Are Losing <span class="red">Crores</span> Every Year</div>
+    <p style="font-size:clamp(14px,1.6vw,17px);color:var(--muted);line-height:1.7;margin-bottom:24px;">This is not a motivation problem. It's a data problem. Brands have all the information. Creators have none.</p>
+
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:20px;">
+      <div class="card" style="display:flex;align-items:center;gap:16px;padding:20px;">
+        <div style="font-size:clamp(22px,2.8vw,38px);font-weight:900;color:var(--red);flex-shrink:0;">73%</div>
+        <div>
+          <div style="font-weight:700;font-size:15px;margin-bottom:4px;">Underpaid Creators</div>
+          <p class="body-sm" style="font-size:13px;">of micro-creators accept deals significantly below market rate</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex;align-items:center;gap:16px;padding:20px;">
+        <div style="font-size:clamp(22px,2.8vw,38px);font-weight:900;color:var(--amber);flex-shrink:0;">40%</div>
+        <div>
+          <div style="font-weight:700;font-size:15px;margin-bottom:4px;">Below Market</div>
+          <p class="body-sm" style="font-size:13px;">the typical first offer from brands — they start low expecting no pushback</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex;align-items:center;gap:16px;padding:20px;">
+        <div style="font-size:clamp(22px,2.8vw,38px);font-weight:900;color:var(--red);flex-shrink:0;">$18K</div>
+        <div>
+          <div style="font-weight:700;font-size:15px;margin-bottom:4px;">Lost Per Year</div>
+          <p class="body-sm" style="font-size:13px;">average annual income lost per creator from under-negotiation alone</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex;align-items:center;gap:16px;padding:20px;">
+        <div style="font-size:clamp(20px,2.5vw,34px);font-weight:900;color:var(--amber);flex-shrink:0;">600M+</div>
+        <div>
+          <div style="font-weight:700;font-size:15px;margin-bottom:4px;">Without Data</div>
+          <p class="body-sm" style="font-size:13px;">content creators globally with zero access to market deal intelligence</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="quote" style="font-size:clamp(14px,1.6vw,18px);padding:16px 22px;">
+      The brand that just DM'd you? They have a spreadsheet of what every creator in your niche accepts. <span class="red">You have nothing.</span> CreatorIQ changes that.
+    </div>
+  </div>
+
+  <div class="scroll-hint"><span style="font-size:20px;">↓</span></div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     SECTION 6 — THE SOLUTION
+══════════════════════════════════════════════════════ -->
+<section id="s5" style="background:#0F172A;">
+  <div class="blob" style="width:600px;height:600px;background:#10B981;bottom:-200px;right:-200px;"></div>
+
+  <div class="inner">
+    <div class="eyebrow">how we fix it</div>
+    <div style="font-size:clamp(18px,2.5vw,32px);font-weight:900;line-height:1.1;margin-bottom:6px;max-width:800px;">Four Tools. One Platform. <span class="grad">Complete Power.</span></div>
+    <p style="font-size:13px;color:var(--muted);line-height:1.5;margin-bottom:12px;">Every tool works together so you walk into every brand conversation fully prepared — with data, analysis, and a counter-offer ready to go.</p>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+
+      <div class="solution-card" style="padding:12px;">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;">
+          <div style="font-size:20px;">💰</div>
+          <div>
+            <div style="font-weight:800;font-size:13px;">Deal Rate Analyzer</div>
+            <div style="color:var(--green);font-size:11px;font-weight:600;">GPT-O4 + 52K deals</div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:var(--muted);line-height:1.5;margin-bottom:8px;">Enter niche, platform, followers, and brand offer — get the real market rate, gap, and exact counter-offer in 3 seconds.</p>
+        <div style="background:rgba(0,0,0,0.25);border-radius:8px;padding:8px;">
+          <div style="font-size:10px;color:var(--muted);margin-bottom:4px;">Example — Lifestyle · Instagram · 50K</div>
+          <div style="display:flex;justify-content:space-between;gap:6px;">
+            <div><div style="font-size:9px;color:var(--muted);">Offered</div><div style="font-weight:800;font-size:14px;color:var(--amber);">$3,000</div></div>
+            <div><div style="font-size:9px;color:var(--muted);">Market</div><div style="font-weight:800;font-size:14px;color:var(--blue);">$2,143</div></div>
+            <div><div style="font-size:9px;color:var(--muted);">Counter</div><div style="font-weight:800;font-size:14px;color:var(--green);">$3,150</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="solution-card" style="padding:12px;">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;">
+          <div style="font-size:20px;">📋</div>
+          <div>
+            <div style="font-weight:800;font-size:13px;">Contract Scanner</div>
+            <div style="color:var(--green);font-size:11px;font-weight:600;">GPT-O3</div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:var(--muted);line-height:1.5;margin-bottom:8px;">Paste any brand contract. AI flags every dangerous clause, missing term, and what to negotiate — before you sign.</p>
+        <div style="background:rgba(0,0,0,0.25);border-radius:8px;padding:8px;">
+          <div style="font-size:10px;color:var(--muted);margin-bottom:4px;">Auto-detected</div>
+          <div style="display:flex;flex-direction:column;gap:3px;">
+            <div style="font-size:11px;color:var(--red);">⚠ Unlimited usage rights — forever</div>
+            <div style="font-size:11px;color:var(--red);">⚠ No kill fee clause</div>
+            <div style="font-size:11px;color:var(--green);">✓ Payment terms — 30 days (fair)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="solution-card" style="padding:12px;">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;">
+          <div style="font-size:20px;">📧</div>
+          <div>
+            <div style="font-weight:800;font-size:13px;">Campaign Generator</div>
+            <div style="color:var(--green);font-size:11px;font-weight:600;">GPT-O1</div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:var(--muted);line-height:1.5;">Enter your product → AI builds a complete 5-email launch sequence with subject lines, schedule, and audience-tailored copy. Ready to send.</p>
+      </div>
+
+      <div class="solution-card" style="padding:12px;">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;">
+          <div style="font-size:20px;">📊</div>
+          <div>
+            <div style="font-weight:800;font-size:13px;">Market Dashboard</div>
+            <div style="color:var(--green);font-size:11px;font-weight:600;">Live Intelligence</div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:var(--muted);line-height:1.5;">Visual market intelligence across 18 niches and 6 platforms. Deal health scores, rate ranges, content format benchmarks — one dark dashboard.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="scroll-hint"><span style="font-size:20px;">↓</span></div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     SECTION 7 — HOW IT WORKS
+══════════════════════════════════════════════════════ -->
+<section id="s6" style="background:linear-gradient(160deg,#0F172A,#0a1020);">
+  <div class="blob" style="width:500px;height:500px;background:#3B82F6;top:-100px;right:-100px;"></div>
+
+  <div class="inner">
+    <div class="eyebrow">under the hood</div>
+    <div class="h2" style="text-align:center;margin-bottom:16px;">From Your Input to <span class="grad">AI Answer</span> in Seconds</div>
+    <p class="body" style="text-align:center;margin:0 auto 12px;">Here's exactly what happens the moment you click Analyze Deal.</p>
+
+    <div class="flow" style="margin-bottom:12px;">
+      <div class="flow-box">
+        <div style="font-size:20px;margin-bottom:4px;">👤</div>
+        <div style="font-size:12px;">You Enter Details</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:2px;">Niche · Platform · Offer</div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box" style="border-color:var(--blue);background:rgba(59,130,246,0.08);">
+        <div style="font-size:20px;margin-bottom:4px;">⚡</div>
+        <div style="font-size:12px;color:var(--blue);">FastAPI Backend</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:2px;">Validates & Routes</div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box" style="border-color:var(--purple);background:rgba(139,92,246,0.08);">
+        <div style="font-size:20px;margin-bottom:4px;">🔄</div>
+        <div style="font-size:12px;color:var(--purple);">n8n Workflow</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:2px;">AI Orchestration</div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box" style="border-color:var(--green);background:rgba(16,185,129,0.08);">
+        <div style="font-size:20px;margin-bottom:4px;">🤖</div>
+        <div style="font-size:12px;color:var(--green);">OpenAI O4</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:2px;">Analyzes Your Deal</div>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-box" style="border-color:var(--amber);background:rgba(245,158,11,0.08);">
+        <div style="font-size:20px;margin-bottom:4px;">📈</div>
+        <div style="font-size:12px;color:var(--amber);">Your Result</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:2px;">Verdict · Counter · Tips</div>
+      </div>
+    </div>
+
+    <div class="g3">
+      <div class="card-sm" style="text-align:center;padding:12px 14px;">
+        <div style="font-size:22px;margin-bottom:6px;">🛡️</div>
+        <div style="font-weight:700;font-size:13px;margin-bottom:4px;">Always Available</div>
+        <p class="body-sm" style="font-size:12px;">If AI is down, local benchmark engine from 52K deals kicks in instantly. Zero downtime.</p>
+      </div>
+      <div class="card-sm" style="text-align:center;padding:12px 14px;">
+        <div style="font-size:22px;margin-bottom:6px;">🔍</div>
+        <div style="font-weight:700;font-size:13px;margin-bottom:4px;">Full Observability</div>
+        <p class="body-sm" style="font-size:12px;">Every AI call tracked via LangSmith — latency, token cost, errors. Nothing is a black box.</p>
+      </div>
+      <div class="card-sm" style="text-align:center;padding:12px 14px;">
+        <div style="font-size:22px;margin-bottom:6px;">🏠</div>
+        <div style="font-weight:700;font-size:13px;margin-bottom:4px;">Private & Self-Hosted</div>
+        <p class="body-sm" style="font-size:12px;">n8n runs in Docker locally. Your deal data never leaves your machine. Full privacy.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint"><span style="font-size:20px;">↓</span></div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     SECTION 8 — TECH STACK
+══════════════════════════════════════════════════════ -->
+<section id="s7" style="background:#0F172A;padding:20px 40px 30px;">
+  <div class="blob" style="width:400px;height:400px;background:#8B5CF6;bottom:-100px;left:-100px;"></div>
+
+  <div class="inner">
+    <div class="eyebrow" style="margin-bottom:10px;">technology</div>
+    <div class="h2" style="margin-bottom:10px;">Built with a <span class="grad">Production-Grade Stack</span></div>
+
+    <div class="card" style="margin-bottom:10px;padding:0;overflow:hidden;">
+      <table style="font-size:12px;">
+        <thead><tr>
+          <th style="padding:7px 12px;">Layer</th><th style="padding:7px 12px;">Technology</th><th style="padding:7px 12px;">Purpose</th>
+        </tr></thead>
+        <tbody>
+          <tr>
+            <td style="padding:6px 12px;"><span style="font-weight:700;">Frontend</span></td>
+            <td style="padding:6px 12px;"><div class="tag-list" style="flex-wrap:nowrap;"><span class="tag" style="font-size:11px;padding:3px 9px;">⚛️ React</span><span class="tag" style="font-size:11px;padding:3px 9px;">🎨 Tailwind</span><span class="tag" style="font-size:11px;padding:3px 9px;">📊 Recharts</span><span class="tag" style="font-size:11px;padding:3px 9px;">⚡ Vite</span></div></td>
+            <td style="padding:6px 12px;" class="body-sm">Dark UI, charts, tool pages</td>
+          </tr>
+          <tr>
+            <td style="padding:6px 12px;"><span style="font-weight:700;">Backend</span></td>
+            <td style="padding:6px 12px;"><div class="tag-list" style="flex-wrap:nowrap;"><span class="tag" style="font-size:11px;padding:3px 9px;">🐍 FastAPI</span><span class="tag" style="font-size:11px;padding:3px 9px;">🗄️ SQLAlchemy</span><span class="tag" style="font-size:11px;padding:3px 9px;">💾 SQLite</span></div></td>
+            <td style="padding:6px 12px;" class="body-sm">REST API, ORM, history storage</td>
+          </tr>
+          <tr>
+            <td style="padding:6px 12px;"><span style="font-weight:700;">AI Engine</span></td>
+            <td style="padding:6px 12px;"><div class="tag-list" style="flex-wrap:nowrap;"><span class="tag" style="font-size:11px;padding:3px 9px;">🤖 GPT-O4</span><span class="tag" style="font-size:11px;padding:3px 9px;">🤖 GPT-O3</span><span class="tag" style="font-size:11px;padding:3px 9px;">🤖 GPT-O1</span></div></td>
+            <td style="padding:6px 12px;" class="body-sm">Deal, contract, campaign AI</td>
+          </tr>
+          <tr>
+            <td style="padding:6px 12px;"><span style="font-weight:700;">Orchestration</span></td>
+            <td style="padding:6px 12px;"><div class="tag-list" style="flex-wrap:nowrap;"><span class="tag" style="font-size:11px;padding:3px 9px;">🔄 n8n</span><span class="tag" style="font-size:11px;padding:3px 9px;">🐳 Docker</span><span class="tag" style="font-size:11px;padding:3px 9px;">📡 Webhooks</span></div></td>
+            <td style="padding:6px 12px;" class="body-sm">Self-hosted, no SaaS fees</td>
+          </tr>
+          <tr>
+            <td style="padding:6px 12px;"><span style="font-weight:700;">Observability</span></td>
+            <td style="padding:6px 12px;"><div class="tag-list" style="flex-wrap:nowrap;"><span class="tag" style="font-size:11px;padding:3px 9px;">🔍 LangSmith</span><span class="tag" style="font-size:11px;padding:3px 9px;">📊 Token Tracking</span></div></td>
+            <td style="padding:6px 12px;" class="body-sm">Cost, latency, full tracing</td>
+          </tr>
+          <tr>
+            <td style="padding:6px 12px;"><span style="font-weight:700;">Intelligence</span></td>
+            <td style="padding:6px 12px;"><div class="tag-list" style="flex-wrap:nowrap;"><span class="tag" style="font-size:11px;padding:3px 9px;">🧠 RAG System</span><span class="tag" style="font-size:11px;padding:3px 9px;">📐 Benchmark</span></div></td>
+            <td style="padding:6px 12px;" class="body-sm">52K deals, vector store</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="g3" style="gap:16px;">
+      <div style="text-align:center;">
+        <div class="stat green" style="font-size:24px;">52K+</div>
+        <p class="body-sm" style="margin-top:4px;font-size:12px;">Real deal records</p>
+      </div>
+      <div style="text-align:center;">
+        <div class="stat blue" style="font-size:24px;">4</div>
+        <p class="body-sm" style="margin-top:4px;font-size:12px;">AI workflows running</p>
+      </div>
+      <div style="text-align:center;">
+        <div class="stat purple" style="font-size:24px;">18</div>
+        <p class="body-sm" style="margin-top:4px;font-size:12px;">Niches × 6 platforms</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint"><span style="font-size:20px;">↓</span></div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     SECTION 9 — WHO IT'S FOR
+══════════════════════════════════════════════════════ -->
+<section id="s8" style="background:linear-gradient(160deg,#0F172A,#0a1020);">
+  <div class="blob" style="width:500px;height:500px;background:#F59E0B;top:-150px;right:-150px;opacity:0.08;"></div>
+
+  <div class="inner">
+    <div class="eyebrow">who it's for</div>
+    <div class="h2" style="margin-bottom:8px;">For Everyone in the <span class="grad">Creator Economy</span></div>
+    <p class="body" style="margin-bottom:10px;">Whether you're just starting or managing a roster of creators — CreatorIQ gives you the edge.</p>
+
+    <div class="g4" style="margin-bottom:16px;">
+      <div class="card" style="text-align:center;padding:14px;">
+        <div style="font-size:26px;margin-bottom:6px;">🎥</div>
+        <div style="font-weight:800;font-size:14px;margin-bottom:6px;">Solo Creators</div>
+        <p class="body-sm" style="font-size:12px;margin-bottom:8px;">Know your worth. Negotiate with data, not guesswork. Turn a ₹5K offer into ₹12K.</p>
+        <span class="badge b-green" style="font-size:11px;">10K–500K followers</span>
+      </div>
+      <div class="card" style="text-align:center;padding:14px;">
+        <div style="font-size:26px;margin-bottom:6px;">🤝</div>
+        <div style="font-weight:800;font-size:14px;margin-bottom:6px;">Talent Managers</div>
+        <p class="body-sm" style="font-size:12px;margin-bottom:8px;">Manage 10+ creators, track all their deals, benchmark across niches in one place.</p>
+        <span class="badge b-blue" style="font-size:11px;">Agency use</span>
+      </div>
+      <div class="card" style="text-align:center;padding:14px;">
+        <div style="font-size:26px;margin-bottom:6px;">🏢</div>
+        <div style="font-weight:800;font-size:14px;margin-bottom:6px;">Creator Agencies</div>
+        <p class="body-sm" style="font-size:12px;margin-bottom:8px;">Market intelligence, bulk analysis, client reporting — all automated.</p>
+        <span class="badge b-purple" style="font-size:11px;">Scale ops</span>
+      </div>
+      <div class="card" style="text-align:center;padding:14px;">
+        <div style="font-size:26px;margin-bottom:6px;">📣</div>
+        <div style="font-weight:800;font-size:14px;margin-bottom:6px;">Brands</div>
+        <p class="body-sm" style="font-size:12px;margin-bottom:8px;">Build fair offers that creators accept faster. Less back-and-forth. Faster deals.</p>
+        <span class="badge b-amber" style="font-size:11px;">Faster closings</span>
+      </div>
+    </div>
+
+    <div class="card" style="padding:14px 18px;">
+      <div style="display:flex;gap:20px;flex-wrap:wrap;">
+        <div style="flex:1;min-width:160px;">
+          <div style="font-size:11px;color:var(--muted);margin-bottom:5px;">DEAL BENCHMARK ACCURACY</div>
+          <div class="pbar"><div class="pfill" style="width:94%;background:var(--green);"></div></div>
+          <div style="font-weight:700;font-size:13px;margin-top:4px;">94% benchmark match rate</div>
+        </div>
+        <div style="flex:1;min-width:160px;">
+          <div style="font-size:11px;color:var(--muted);margin-bottom:5px;">CONTRACT ISSUE DETECTION</div>
+          <div class="pbar"><div class="pfill" style="width:89%;background:var(--blue);"></div></div>
+          <div style="font-weight:700;font-size:13px;margin-top:4px;">89% red flag detection rate</div>
+        </div>
+        <div style="flex:1;min-width:160px;">
+          <div style="font-size:11px;color:var(--muted);margin-bottom:5px;">SYSTEM UPTIME</div>
+          <div class="pbar"><div class="pfill" style="width:100%;background:var(--purple);"></div></div>
+          <div style="font-weight:700;font-size:13px;margin-top:4px;">100% with fallback engine</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint"><span style="font-size:20px;">↓</span></div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     SECTION 10 — ROADMAP
+══════════════════════════════════════════════════════ -->
+<section id="s9" style="background:#0F172A;">
+  <div class="blob" style="width:500px;height:500px;background:#3B82F6;bottom:-150px;right:-100px;"></div>
+
+  <div class="inner">
+    <div class="eyebrow">what's next</div>
+    <div class="h2" style="margin-bottom:10px;">The Road to a <span class="grad">Full Creator OS</span></div>
+
+    <div class="g2" style="gap:16px;align-items:start;">
+      <div class="tl">
+        <div class="tl-row" style="padding-bottom:14px;">
+          <div class="tl-left">
+            <div class="tl-dot" style="background:rgba(16,185,129,0.2);border:2px solid var(--green);font-size:14px;">✅</div>
+            <div class="tl-line"></div>
+          </div>
+          <div style="flex:1;padding-top:4px;">
+            <div style="font-weight:800;font-size:13px;margin-bottom:3px;">Phase 1 — Core Platform <span class="badge b-green" style="font-size:10px;margin-left:6px;vertical-align:middle;">Live Now</span></div>
+            <p class="body-sm" style="font-size:12px;">Deal Analyzer, Contract Scanner, Campaign Generator, Market Dashboard, n8n AI workflows, 52K benchmark fallback engine — all live.</p>
+          </div>
+        </div>
+        <div class="tl-row" style="padding-bottom:14px;">
+          <div class="tl-left">
+            <div class="tl-dot" style="background:rgba(59,130,246,0.2);border:2px solid var(--blue);font-size:14px;">🔐</div>
+            <div class="tl-line"></div>
+          </div>
+          <div style="flex:1;padding-top:4px;">
+            <div style="font-weight:800;font-size:13px;margin-bottom:3px;">Phase 2 — Creator Accounts</div>
+            <p class="body-sm" style="font-size:12px;">Login with social media (Instagram, YouTube, TikTok). Personalized dashboard showing your niche's rates. Deal history per creator.</p>
+          </div>
+        </div>
+        <div class="tl-row" style="padding-bottom:0;">
+          <div class="tl-left">
+            <div class="tl-dot" style="background:rgba(139,92,246,0.2);border:2px solid var(--purple);font-size:14px;">💬</div>
+            <div class="tl-line"></div>
+          </div>
+          <div style="flex:1;padding-top:4px;">
+            <div style="font-weight:800;font-size:13px;margin-bottom:3px;">Phase 3 — AI Chat Interface</div>
+            <p class="body-sm" style="font-size:12px;">"Is this deal fair?" — ask free-form questions about your deal in a chat. AI responds with data-backed answers conversationally.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div class="card-sm" style="display:flex;align-items:center;gap:12px;padding:14px 16px;">
+          <span style="font-size:22px;">📄</span>
+          <div><div style="font-weight:700;font-size:13px;">PDF Deal Reports</div><p class="body-sm" style="font-size:12px;">Export branded analysis to share with brands or managers</p></div>
+        </div>
+        <div class="card-sm" style="display:flex;align-items:center;gap:12px;padding:14px 16px;">
+          <span style="font-size:22px;">🔔</span>
+          <div><div style="font-weight:700;font-size:13px;">Market Rate Alerts</div><p class="body-sm" style="font-size:12px;">Get notified when rates in your niche shift significantly</p></div>
+        </div>
+        <div class="card-sm" style="display:flex;align-items:center;gap:12px;padding:14px 16px;">
+          <span style="font-size:22px;">📊</span>
+          <div><div style="font-weight:700;font-size:13px;">Bulk Deal Analysis</div><p class="body-sm" style="font-size:12px;">Upload CSV of deals — batch analyze all creators at once</p></div>
+        </div>
+        <div class="card-sm" style="display:flex;align-items:center;gap:12px;padding:14px 16px;">
+          <span style="font-size:22px;">📱</span>
+          <div><div style="font-weight:700;font-size:13px;">Mobile App</div><p class="body-sm" style="font-size:12px;">Check market rates before you reply to a brand DM — on the go</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint"><span style="font-size:20px;">↓</span></div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     SECTION 11 — CLOSING
+══════════════════════════════════════════════════════ -->
+<section id="s10" style="background:linear-gradient(160deg,#0F172A 40%,#0a1a0e);">
+  <div class="blob" style="width:700px;height:700px;background:#10B981;top:-300px;left:-300px;"></div>
+  <div class="blob" style="width:500px;height:500px;background:#8B5CF6;bottom:-200px;right:-200px;"></div>
+
+  <div class="inner" style="text-align:center;">
+    <div style="font-size:clamp(28px,3.5vw,48px);margin-bottom:10px;" class="float">🚀</div>
+    <div class="eyebrow">the bottom line</div>
+    <div style="font-size:clamp(22px,2.8vw,40px);font-weight:900;line-height:1.1;max-width:900px;margin:0 auto 14px;">
+      Creators Built the Internet.<br>
+      <span class="grad">It's Time They Got Paid for It.</span>
+    </div>
+    <p style="font-size:clamp(14px,1.6vw,18px);color:var(--muted);line-height:1.7;max-width:720px;margin:0 auto 28px;">
+      Stop leaving money on the table. Stop signing contracts you don't understand. Stop guessing your worth. CreatorIQ gives every creator — from 10K to 10M followers — the intelligence of a top talent agency.
+    </p>
+
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:800px;margin:0 auto 24px;">
+      <div class="card" style="text-align:center;padding:18px 12px;">
+        <div style="font-size:28px;font-weight:900;color:var(--green);">52K+</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Real deal records</div>
+      </div>
+      <div class="card" style="text-align:center;padding:18px 12px;">
+        <div style="font-size:28px;font-weight:900;color:var(--blue);">4</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">AI workflows live</div>
+      </div>
+      <div class="card" style="text-align:center;padding:18px 12px;">
+        <div style="font-size:28px;font-weight:900;color:var(--purple);">18</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Niches covered</div>
+      </div>
+      <div class="card" style="text-align:center;padding:18px 12px;">
+        <div style="font-size:28px;font-weight:900;color:var(--amber);">100%</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:4px;">Uptime guaranteed</div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+      <div style="background:linear-gradient(135deg,#10B981,#3B82F6);padding:14px 30px;border-radius:12px;font-weight:800;font-size:16px;cursor:pointer;">
+        🚀 Open Platform → localhost:3000
+      </div>
+      <div class="card" style="padding:14px 30px;font-weight:800;font-size:16px;cursor:pointer;border-radius:12px;">
+        📊 View Dashboard → localhost:8765
+      </div>
+    </div>
+
+    <p style="margin-top:20px;font-size:12px;color:var(--muted);">
+      Built with FastAPI · React · n8n · OpenAI · LangSmith · 52K+ real brand deals
+    </p>
+  </div>
+</section>
+
+
+<script>
+// ── PROGRESS BAR ──
+const bar = document.getElementById('progress');
+window.addEventListener('scroll', () => {
+  const pct = window.scrollY / (document.body.scrollHeight - window.innerHeight) * 100;
+  bar.style.width = pct + '%';
+  updateDots();
+});
+
+// ── SCROLL TO SECTION ──
+const sections = Array.from(document.querySelectorAll('section'));
+function scrollToSection(i) {
+  sections[i].scrollIntoView({behavior:'smooth'});
+}
+
+// ── ACTIVE DOT ──
+const dots = document.querySelectorAll('.ndot');
+function updateDots() {
+  const mid = window.scrollY + window.innerHeight / 2;
+  let active = 0;
+  sections.forEach((s, i) => {
+    if (s.offsetTop <= mid) active = i;
+  });
+  dots.forEach((d, i) => d.classList.toggle('active', i === active));
+}
+
+// ── KEYBOARD ──
+document.addEventListener('keydown', e => {
+  const mid = window.scrollY + window.innerHeight / 2;
+  let cur = 0;
+  sections.forEach((s, i) => { if (s.offsetTop <= mid) cur = i; });
+  if ((e.key === 'ArrowDown' || e.key === ' ') && cur < sections.length - 1) {
+    e.preventDefault();
+    scrollToSection(cur + 1);
+  }
+  if (e.key === 'ArrowUp' && cur > 0) {
+    e.preventDefault();
+    scrollToSection(cur - 1);
+  }
+});
+</script>
+</body>
+</html>

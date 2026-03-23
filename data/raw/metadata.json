@@ -1,0 +1,41 @@
+{
+  "Dataset": "YouTube Content Analytics",
+  "Records": 150,
+  "Date Generated": "2026-03-19 23:04:58",
+  "Columns": [
+    "id",
+    "title",
+    "platform",
+    "content_type",
+    "topic",
+    "views",
+    "engagement_rate",
+    "duration_minutes",
+    "estimated_sales",
+    "estimated_revenue",
+    "manual_sales",
+    "manual_revenue",
+    "suggested_moments",
+    "recommended_products",
+    "publish_date",
+    "created_at",
+    "updated_at"
+  ],
+  "Source": "Synthetic YouTube-like dataset (150 videos)",
+  "Topics": [
+    "Productivity",
+    "Tech",
+    "Finance",
+    "Fitness",
+    "Business",
+    "General",
+    "Lifestyle"
+  ],
+  "Content Types": [
+    "Educational",
+    "Tutorial",
+    "Review",
+    "Q&A",
+    "Vlog"
+  ]
+}

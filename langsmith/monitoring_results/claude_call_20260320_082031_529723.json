@@ -1,0 +1,27 @@
+{
+  "type": "claude_call",
+  "operation": "analyze_contract_with_rag",
+  "model": "claude-3-5-sonnet-20241022",
+  "input_tokens": 1200,
+  "output_tokens": 450,
+  "total_tokens": 1650,
+  "cost_usd": 0.01035,
+  "latency_ms": 2340.5,
+  "inputs": {
+    "creator_name": "Sarah",
+    "brand_name": "FitnessCo",
+    "contract_preview": "This agreement..."
+  },
+  "outputs": {
+    "risk_level": "MEDIUM",
+    "red_flags_count": 3
+  },
+  "metadata": {
+    "model": "claude-3-5-sonnet-20241022",
+    "rag_used": true
+  },
+  "error": null,
+  "timestamp": "2026-03-20T08:20:31.529688",
+  "status": "success",
+  "saved_at": "2026-03-20T08:20:31.529807"
+}

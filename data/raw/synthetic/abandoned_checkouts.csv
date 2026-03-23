@@ -1,0 +1,1501 @@
+checkout_id,creator_id,product_id,niche,product_price_usd,abandon_stage,visitor_source,recovery_email_sent,time_to_recovery_email_hours,ai_personalised_email,recovery_email_opened,recovered,recovery_revenue_usd,abandon_date,abandon_hour,device_type
+CHK00001,CRE0254,PRD01514,Language Learning,297,Final Review,Direct,False,,False,False,False,0,2026-02-06,13,Mobile
+CHK00002,CRE0059,PRD00748,Finance & Investing,67,Payment Info,Google,True,0.8,False,True,False,0,2026-02-09,23,Desktop
+CHK00003,CRE0531,PRD02008,Food & Cooking,67,Added to Cart,YouTube,True,3.0,True,False,False,0,2025-12-23,1,Tablet
+CHK00004,CRE0046,PRD02125,Sustainable Living,27,Final Review,YouTube,False,,False,False,False,0,2026-02-19,13,Mobile
+CHK00005,CRE0439,PRD01286,Comedy & Entertainment,17,Payment Info,TikTok,True,3.9,False,False,False,0,2025-09-22,0,Mobile
+CHK00006,CRE0059,PRD00083,Language Learning,197,Added to Cart,TikTok,True,1.2,False,True,False,0,2026-02-26,11,Mobile
+CHK00007,CRE0111,PRD00317,Comedy & Entertainment,497,Final Review,Google,True,3.1,True,False,False,0,2026-01-12,4,Mobile
+CHK00008,CRE0227,PRD01532,Personal Development,17,Started Checkout,TikTok,True,1.9,True,True,False,0,2025-11-18,8,Mobile
+CHK00009,CRE0018,PRD01397,Business & Entrepreneurship,67,Final Review,YouTube,True,3.2,False,True,False,0,2026-01-22,22,Tablet
+CHK00010,CRE0547,PRD00594,Gaming & Esports,9,Started Checkout,Instagram,True,1.4,False,False,True,9,2026-03-02,22,Tablet
+CHK00011,CRE0356,PRD01579,Food & Cooking,67,Started Checkout,Instagram,True,1.5,True,True,False,0,2026-01-19,21,Mobile
+CHK00012,CRE0090,PRD01970,Personal Development,9,Final Review,Email,True,3.5,True,False,False,0,2025-12-07,6,Desktop
+CHK00013,CRE0029,PRD00588,Technology & Software,47,Payment Info,Email,True,2.4,True,False,False,0,2025-12-10,7,Desktop
+CHK00014,CRE0442,PRD00429,Language Learning,497,Started Checkout,TikTok,False,,False,False,False,0,2025-09-23,11,Mobile
+CHK00015,CRE0054,PRD01250,Parenting & Family,127,Payment Info,TikTok,True,1.0,False,False,False,0,2025-12-07,0,Tablet
+CHK00016,CRE0250,PRD00847,Pet Care,37,Added to Cart,Instagram,True,1.6,True,False,False,0,2025-09-29,9,Tablet
+CHK00017,CRE0489,PRD02181,Technology & Software,197,Added to Cart,TikTok,True,2.5,False,False,False,0,2025-11-14,3,Desktop
+CHK00018,CRE0102,PRD01193,Photography & Videography,297,Added to Cart,Direct,True,2.0,True,False,False,0,2025-12-07,3,Mobile
+CHK00019,CRE0342,PRD00654,Finance & Investing,47,Started Checkout,Email,True,2.9,True,True,False,0,2026-02-05,8,Mobile
+CHK00020,CRE0129,PRD00232,Education & Online Courses,497,Payment Info,Google,False,,False,False,False,0,2025-12-21,15,Mobile
+CHK00021,CRE0432,PRD01352,Gaming & Esports,497,Started Checkout,TikTok,False,,False,False,False,0,2026-02-03,9,Desktop
+CHK00022,CRE0037,PRD02050,Pet Care,17,Started Checkout,Instagram,False,,False,False,False,0,2026-03-04,16,Mobile
+CHK00023,CRE0156,PRD00567,Parenting & Family,297,Started Checkout,Email,True,3.2,True,True,False,0,2025-11-14,10,Desktop
+CHK00024,CRE0070,PRD02003,Finance & Investing,97,Added to Cart,Google,True,3.4,False,True,False,0,2026-03-04,4,Mobile
+CHK00025,CRE0195,PRD02179,Photography & Videography,97,Added to Cart,TikTok,True,2.5,True,True,True,97,2025-11-08,19,Mobile
+CHK00026,CRE0041,PRD00807,Food & Cooking,27,Started Checkout,TikTok,True,2.8,True,True,False,0,2025-09-25,19,Mobile
+CHK00027,CRE0565,PRD01375,Gaming & Esports,67,Added to Cart,YouTube,False,,False,False,False,0,2026-02-24,9,Mobile
+CHK00028,CRE0331,PRD01828,Music & Audio Production,297,Started Checkout,Instagram,True,2.0,False,True,False,0,2025-09-23,14,Tablet
+CHK00029,CRE0153,PRD00950,Music & Audio Production,97,Final Review,YouTube,True,3.7,True,True,False,0,2025-10-08,0,Desktop
+CHK00030,CRE0231,PRD01096,Comedy & Entertainment,47,Added to Cart,Direct,True,2.2,False,False,False,0,2026-03-04,1,Mobile
+CHK00031,CRE0466,PRD02347,Education & Online Courses,47,Started Checkout,TikTok,True,3.3,False,False,False,0,2025-09-22,9,Tablet
+CHK00032,CRE0012,PRD00005,Food & Cooking,9,Payment Info,Direct,True,3.1,True,True,False,0,2026-02-06,5,Desktop
+CHK00033,CRE0599,PRD02347,Personal Development,297,Started Checkout,Direct,True,2.4,True,True,False,0,2025-10-26,0,Desktop
+CHK00034,CRE0027,PRD00312,Education & Online Courses,297,Added to Cart,Email,True,3.0,True,True,False,0,2025-12-01,7,Mobile
+CHK00035,CRE0281,PRD02386,Technology & Software,67,Added to Cart,Instagram,True,2.3,False,True,False,0,2026-01-23,4,Mobile
+CHK00036,CRE0043,PRD01298,Personal Development,127,Payment Info,Google,False,,False,False,False,0,2025-11-17,3,Mobile
+CHK00037,CRE0116,PRD00850,Travel & Adventure,297,Added to Cart,TikTok,False,,False,False,False,0,2025-11-20,17,Tablet
+CHK00038,CRE0456,PRD00879,Education & Online Courses,297,Added to Cart,Direct,True,3.3,False,False,False,0,2025-12-05,10,Mobile
+CHK00039,CRE0426,PRD00877,Photography & Videography,27,Started Checkout,Direct,False,,False,False,False,0,2025-11-07,10,Mobile
+CHK00040,CRE0325,PRD02306,Home Decor & Interior Design,497,Payment Info,Direct,True,1.2,True,True,False,0,2026-01-12,3,Desktop
+CHK00041,CRE0428,PRD00062,Sustainable Living,27,Added to Cart,Instagram,True,3.5,False,True,True,27,2025-12-16,1,Mobile
+CHK00042,CRE0430,PRD00240,Beauty & Fashion,297,Final Review,TikTok,True,3.3,True,True,False,0,2026-01-05,7,Tablet
+CHK00043,CRE0383,PRD01999,Beauty & Fashion,27,Final Review,TikTok,True,2.8,False,True,False,0,2025-09-23,18,Desktop
+CHK00044,CRE0037,PRD00249,Personal Development,127,Started Checkout,Email,True,2.8,False,True,False,0,2025-09-22,4,Mobile
+CHK00045,CRE0545,PRD01329,Music & Audio Production,297,Started Checkout,TikTok,True,1.6,True,True,False,0,2026-03-16,8,Desktop
+CHK00046,CRE0403,PRD00290,Language Learning,27,Payment Info,YouTube,True,3.9,False,False,False,0,2026-02-08,16,Desktop
+CHK00047,CRE0243,PRD00356,Language Learning,297,Started Checkout,YouTube,False,,False,False,False,0,2026-01-30,8,Mobile
+CHK00048,CRE0284,PRD00189,Language Learning,197,Added to Cart,TikTok,True,1.0,False,False,False,0,2026-01-24,4,Mobile
+CHK00049,CRE0123,PRD01987,Finance & Investing,47,Payment Info,Google,False,,False,False,False,0,2026-03-04,4,Tablet
+CHK00050,CRE0134,PRD02334,Travel & Adventure,47,Added to Cart,YouTube,True,2.3,False,False,False,0,2026-02-04,21,Mobile
+CHK00051,CRE0313,PRD00527,Education & Online Courses,37,Payment Info,TikTok,False,,False,False,False,0,2026-03-08,19,Mobile
+CHK00052,CRE0250,PRD00600,Home Decor & Interior Design,97,Added to Cart,Direct,True,2.4,False,True,False,0,2026-02-15,19,Mobile
+CHK00053,CRE0323,PRD01746,Parenting & Family,37,Started Checkout,YouTube,True,1.6,True,True,False,0,2025-09-29,17,Tablet
+CHK00054,CRE0005,PRD00835,Education & Online Courses,9,Added to Cart,Google,False,,False,False,False,0,2025-11-29,17,Tablet
+CHK00055,CRE0161,PRD02382,Food & Cooking,127,Added to Cart,YouTube,False,,False,False,False,0,2025-11-19,6,Tablet
+CHK00056,CRE0486,PRD02480,Gaming & Esports,27,Payment Info,Direct,True,1.3,False,True,False,0,2025-12-01,23,Mobile
+CHK00057,CRE0190,PRD01237,Education & Online Courses,497,Payment Info,YouTube,True,3.3,True,True,False,0,2025-10-31,11,Mobile
+CHK00058,CRE0450,PRD00640,Parenting & Family,497,Payment Info,Google,True,3.7,True,True,False,0,2026-03-04,19,Mobile
+CHK00059,CRE0019,PRD00078,Pet Care,127,Started Checkout,Direct,True,3.3,True,False,False,0,2026-02-13,23,Desktop
+CHK00060,CRE0536,PRD01844,Music & Audio Production,27,Started Checkout,Direct,True,2.8,False,True,False,0,2025-12-27,1,Mobile
+CHK00061,CRE0585,PRD02294,Science & Space,67,Final Review,Email,True,3.7,False,True,False,0,2025-11-01,1,Tablet
+CHK00062,CRE0315,PRD00652,Sustainable Living,17,Payment Info,TikTok,True,2.9,False,True,False,0,2025-09-27,9,Mobile
+CHK00063,CRE0065,PRD02118,Technology & Software,9,Payment Info,Direct,False,,False,False,False,0,2026-03-03,8,Mobile
+CHK00064,CRE0006,PRD00546,Personal Development,9,Started Checkout,Instagram,True,3.1,False,True,False,0,2025-11-25,23,Mobile
+CHK00065,CRE0529,PRD00700,Comedy & Entertainment,17,Payment Info,Direct,True,2.8,True,True,False,0,2026-02-01,3,Desktop
+CHK00066,CRE0511,PRD01265,Technology & Software,67,Added to Cart,TikTok,True,1.0,True,False,False,0,2025-11-28,22,Tablet
+CHK00067,CRE0086,PRD01739,Language Learning,197,Final Review,Google,False,,False,False,False,0,2025-12-19,12,Mobile
+CHK00068,CRE0392,PRD01228,Gaming & Esports,297,Added to Cart,Direct,True,3.5,False,True,False,0,2026-02-03,7,Mobile
+CHK00069,CRE0102,PRD02110,Music & Audio Production,197,Started Checkout,Google,True,1.5,False,False,False,0,2026-02-14,14,Mobile
+CHK00070,CRE0461,PRD00460,Food & Cooking,27,Started Checkout,Direct,True,3.5,False,False,False,0,2025-10-10,1,Mobile
+CHK00071,CRE0171,PRD01534,Home Decor & Interior Design,127,Started Checkout,Email,True,1.7,True,False,False,0,2026-01-18,11,Tablet
+CHK00072,CRE0457,PRD01226,Comedy & Entertainment,297,Added to Cart,YouTube,True,3.3,True,True,False,0,2025-12-24,2,Desktop
+CHK00073,CRE0075,PRD02087,Parenting & Family,67,Payment Info,Email,True,1.2,True,True,False,0,2025-12-05,11,Desktop
+CHK00074,CRE0465,PRD01910,Travel & Adventure,47,Payment Info,Google,False,,False,False,False,0,2025-12-28,23,Desktop
+CHK00075,CRE0387,PRD01722,Comedy & Entertainment,127,Payment Info,Google,False,,False,False,False,0,2026-03-01,6,Mobile
+CHK00076,CRE0508,PRD01777,Travel & Adventure,9,Final Review,TikTok,False,,False,False,False,0,2026-02-10,9,Mobile
+CHK00077,CRE0413,PRD01545,Education & Online Courses,27,Added to Cart,TikTok,True,2.4,False,False,False,0,2025-12-19,21,Desktop
+CHK00078,CRE0326,PRD01045,Beauty & Fashion,47,Started Checkout,Instagram,True,2.9,True,False,False,0,2026-01-21,9,Tablet
+CHK00079,CRE0025,PRD00822,Sustainable Living,497,Payment Info,Direct,True,1.0,True,True,False,0,2026-01-14,6,Mobile
+CHK00080,CRE0193,PRD01666,Gaming & Esports,127,Payment Info,Direct,False,,False,False,False,0,2025-10-04,8,Mobile
+CHK00081,CRE0167,PRD00447,Science & Space,17,Started Checkout,Direct,True,3.8,False,False,False,0,2025-09-30,9,Tablet
+CHK00082,CRE0150,PRD00562,Finance & Investing,297,Added to Cart,Instagram,True,0.7,False,True,False,0,2026-02-19,10,Mobile
+CHK00083,CRE0421,PRD02428,Comedy & Entertainment,497,Added to Cart,Google,True,1.2,False,False,True,497,2026-02-11,11,Mobile
+CHK00084,CRE0091,PRD01898,Beauty & Fashion,127,Final Review,Email,True,3.0,True,False,False,0,2025-11-20,1,Mobile
+CHK00085,CRE0551,PRD02176,Education & Online Courses,67,Payment Info,YouTube,True,0.9,False,False,False,0,2026-01-25,19,Mobile
+CHK00086,CRE0580,PRD01508,Science & Space,67,Started Checkout,Instagram,True,3.7,True,False,False,0,2026-03-19,17,Tablet
+CHK00087,CRE0368,PRD01743,Finance & Investing,97,Payment Info,Email,True,3.6,False,False,False,0,2025-09-20,20,Desktop
+CHK00088,CRE0560,PRD00564,Photography & Videography,27,Final Review,Direct,False,,False,False,False,0,2026-01-05,5,Tablet
+CHK00089,CRE0451,PRD01921,Sustainable Living,197,Started Checkout,TikTok,False,,False,False,False,0,2025-12-20,16,Desktop
+CHK00090,CRE0004,PRD01590,Food & Cooking,47,Payment Info,Direct,True,2.7,False,True,False,0,2025-10-20,14,Mobile
+CHK00091,CRE0146,PRD00222,Comedy & Entertainment,127,Started Checkout,YouTube,True,1.9,True,True,True,127,2025-10-11,11,Mobile
+CHK00092,CRE0109,PRD00984,Home Decor & Interior Design,17,Payment Info,Direct,True,3.9,True,True,False,0,2025-12-15,9,Mobile
+CHK00093,CRE0375,PRD02193,Sustainable Living,37,Started Checkout,Direct,False,,False,False,False,0,2025-12-09,16,Mobile
+CHK00094,CRE0592,PRD01760,Technology & Software,17,Payment Info,Instagram,True,3.5,True,False,False,0,2026-03-05,22,Tablet
+CHK00095,CRE0048,PRD00415,Business & Entrepreneurship,497,Added to Cart,Instagram,True,1.7,False,True,False,0,2025-12-09,15,Mobile
+CHK00096,CRE0291,PRD00679,Gaming & Esports,497,Started Checkout,YouTube,True,3.0,True,False,False,0,2025-11-03,7,Mobile
+CHK00097,CRE0497,PRD00466,Home Decor & Interior Design,37,Added to Cart,Google,True,0.8,True,True,False,0,2025-11-11,17,Desktop
+CHK00098,CRE0265,PRD01297,Travel & Adventure,9,Payment Info,TikTok,False,,False,False,False,0,2025-11-30,18,Mobile
+CHK00099,CRE0156,PRD01546,Finance & Investing,297,Final Review,TikTok,True,3.5,False,True,False,0,2025-10-03,7,Mobile
+CHK00100,CRE0198,PRD00120,Food & Cooking,37,Final Review,TikTok,True,2.5,True,False,False,0,2026-02-26,11,Mobile
+CHK00101,CRE0283,PRD01257,Gaming & Esports,17,Payment Info,Google,False,,False,False,False,0,2026-02-10,1,Mobile
+CHK00102,CRE0430,PRD00155,Gaming & Esports,67,Started Checkout,YouTube,True,1.6,False,False,False,0,2026-02-08,16,Desktop
+CHK00103,CRE0520,PRD00693,Finance & Investing,17,Started Checkout,Email,False,,False,False,False,0,2025-11-03,18,Mobile
+CHK00104,CRE0265,PRD01915,Gaming & Esports,27,Added to Cart,Email,True,3.5,False,True,False,0,2026-03-05,6,Tablet
+CHK00105,CRE0280,PRD00818,Education & Online Courses,17,Added to Cart,Email,True,1.8,False,True,True,17,2026-03-17,7,Desktop
+CHK00106,CRE0551,PRD00115,Photography & Videography,17,Final Review,Direct,False,,False,False,False,0,2025-10-14,11,Tablet
+CHK00107,CRE0567,PRD01986,Language Learning,9,Payment Info,TikTok,True,2.4,True,True,False,0,2026-01-22,1,Tablet
+CHK00108,CRE0310,PRD02074,Science & Space,27,Added to Cart,Instagram,True,3.0,False,False,False,0,2025-10-02,16,Mobile
+CHK00109,CRE0365,PRD00451,Home Decor & Interior Design,197,Started Checkout,Email,True,3.2,False,False,False,0,2025-12-02,17,Desktop
+CHK00110,CRE0344,PRD00420,Beauty & Fashion,67,Added to Cart,TikTok,False,,False,False,False,0,2025-11-02,6,Desktop
+CHK00111,CRE0111,PRD01452,Photography & Videography,127,Payment Info,Instagram,True,3.7,False,False,False,0,2025-11-23,20,Mobile
+CHK00112,CRE0250,PRD01139,Gaming & Esports,9,Final Review,TikTok,False,,False,False,False,0,2025-10-11,19,Desktop
+CHK00113,CRE0254,PRD00202,Gaming & Esports,97,Added to Cart,Instagram,True,0.8,True,False,False,0,2025-11-24,23,Mobile
+CHK00114,CRE0186,PRD00729,Pet Care,37,Payment Info,Email,False,,False,False,False,0,2025-12-24,0,Mobile
+CHK00115,CRE0226,PRD01710,Business & Entrepreneurship,47,Payment Info,TikTok,False,,False,False,False,0,2025-10-02,11,Tablet
+CHK00116,CRE0111,PRD01601,Travel & Adventure,27,Started Checkout,Google,False,,False,False,False,0,2025-12-31,20,Mobile
+CHK00117,CRE0479,PRD00856,Parenting & Family,67,Started Checkout,Instagram,True,0.8,False,True,False,0,2025-12-26,5,Mobile
+CHK00118,CRE0078,PRD01690,Home Decor & Interior Design,17,Added to Cart,Email,False,,False,False,False,0,2026-03-14,14,Tablet
+CHK00119,CRE0563,PRD00927,Business & Entrepreneurship,197,Payment Info,Instagram,True,3.9,False,True,False,0,2026-01-04,9,Mobile
+CHK00120,CRE0198,PRD02169,Photography & Videography,297,Payment Info,Instagram,False,,False,False,False,0,2025-12-25,0,Tablet
+CHK00121,CRE0163,PRD01386,Parenting & Family,27,Started Checkout,Email,True,3.9,True,False,False,0,2025-12-25,13,Mobile
+CHK00122,CRE0341,PRD01041,Travel & Adventure,67,Final Review,YouTube,True,0.8,False,True,False,0,2026-01-01,1,Mobile
+CHK00123,CRE0511,PRD01633,Photography & Videography,297,Added to Cart,TikTok,True,3.2,True,True,False,0,2026-03-07,17,Mobile
+CHK00124,CRE0447,PRD00742,Music & Audio Production,27,Added to Cart,Direct,True,1.1,False,False,True,27,2025-09-22,1,Tablet
+CHK00125,CRE0522,PRD01720,Food & Cooking,47,Final Review,Instagram,True,2.1,False,False,False,0,2025-09-27,7,Desktop
+CHK00126,CRE0269,PRD02147,Sustainable Living,9,Added to Cart,Email,True,3.1,True,True,False,0,2026-01-28,13,Tablet
+CHK00127,CRE0353,PRD01465,Science & Space,67,Started Checkout,Instagram,True,2.1,True,True,False,0,2025-12-30,2,Mobile
+CHK00128,CRE0581,PRD01376,Parenting & Family,67,Started Checkout,TikTok,True,1.0,True,True,False,0,2025-10-20,0,Desktop
+CHK00129,CRE0095,PRD00349,Personal Development,67,Added to Cart,Instagram,True,1.2,False,False,False,0,2025-10-27,20,Tablet
+CHK00130,CRE0187,PRD01489,Business & Entrepreneurship,97,Added to Cart,TikTok,True,2.3,False,True,False,0,2025-12-07,3,Tablet
+CHK00131,CRE0263,PRD02045,Science & Space,9,Final Review,Email,True,3.1,False,True,False,0,2026-03-09,0,Tablet
+CHK00132,CRE0525,PRD01580,Science & Space,127,Payment Info,Email,False,,False,False,False,0,2025-12-24,10,Mobile
+CHK00133,CRE0465,PRD01606,Music & Audio Production,127,Final Review,Email,True,2.5,True,False,False,0,2025-11-05,10,Mobile
+CHK00134,CRE0251,PRD02055,Photography & Videography,297,Final Review,Direct,True,3.7,True,False,False,0,2025-12-05,14,Mobile
+CHK00135,CRE0072,PRD00402,Comedy & Entertainment,197,Started Checkout,YouTube,True,3.5,True,False,False,0,2025-10-03,4,Tablet
+CHK00136,CRE0136,PRD01175,Food & Cooking,17,Payment Info,Email,True,3.7,True,False,False,0,2025-10-19,13,Mobile
+CHK00137,CRE0215,PRD00995,Gaming & Esports,27,Added to Cart,Google,True,3.6,False,False,False,0,2025-11-02,9,Tablet
+CHK00138,CRE0517,PRD02060,Travel & Adventure,127,Added to Cart,Instagram,False,,False,False,False,0,2026-02-13,1,Desktop
+CHK00139,CRE0544,PRD00959,Sustainable Living,27,Added to Cart,TikTok,True,1.2,False,False,False,0,2026-01-25,11,Mobile
+CHK00140,CRE0187,PRD00270,Travel & Adventure,17,Started Checkout,Instagram,True,2.3,False,True,False,0,2025-12-10,17,Mobile
+CHK00141,CRE0212,PRD00148,Language Learning,27,Final Review,Google,False,,False,False,False,0,2025-11-02,23,Mobile
+CHK00142,CRE0307,PRD00149,Education & Online Courses,97,Payment Info,Instagram,True,0.7,True,True,False,0,2025-10-09,14,Mobile
+CHK00143,CRE0087,PRD01843,Home Decor & Interior Design,297,Started Checkout,Email,True,1.6,True,True,False,0,2026-01-26,7,Mobile
+CHK00144,CRE0271,PRD02249,Parenting & Family,17,Payment Info,Instagram,True,0.6,True,False,False,0,2025-12-25,17,Desktop
+CHK00145,CRE0442,PRD02349,Music & Audio Production,37,Final Review,Google,True,3.8,True,False,False,0,2026-01-18,3,Tablet
+CHK00146,CRE0288,PRD00779,Beauty & Fashion,67,Final Review,TikTok,False,,False,False,False,0,2025-10-17,1,Tablet
+CHK00147,CRE0547,PRD01729,Food & Cooking,27,Started Checkout,Instagram,True,0.9,True,False,False,0,2025-11-24,18,Tablet
+CHK00148,CRE0134,PRD00467,Beauty & Fashion,67,Payment Info,Direct,False,,False,False,False,0,2026-02-02,4,Mobile
+CHK00149,CRE0362,PRD01549,Business & Entrepreneurship,17,Started Checkout,Instagram,False,,False,False,False,0,2026-02-17,22,Tablet
+CHK00150,CRE0108,PRD01976,Education & Online Courses,127,Started Checkout,YouTube,True,3.8,False,True,True,127,2026-01-13,4,Tablet
+CHK00151,CRE0207,PRD01498,Food & Cooking,127,Added to Cart,Instagram,False,,False,False,False,0,2026-02-24,19,Mobile
+CHK00152,CRE0410,PRD01863,Personal Development,67,Added to Cart,Direct,True,2.4,True,False,False,0,2025-12-28,0,Tablet
+CHK00153,CRE0492,PRD00441,Business & Entrepreneurship,297,Final Review,Direct,False,,False,False,False,0,2026-03-17,9,Desktop
+CHK00154,CRE0062,PRD01054,Beauty & Fashion,47,Added to Cart,YouTube,True,4.0,False,True,False,0,2026-02-08,20,Desktop
+CHK00155,CRE0504,PRD00709,Food & Cooking,497,Started Checkout,Google,True,1.2,False,True,False,0,2026-02-13,15,Desktop
+CHK00156,CRE0440,PRD00065,Science & Space,197,Added to Cart,Email,True,3.5,False,True,False,0,2026-02-09,17,Tablet
+CHK00157,CRE0459,PRD01850,Comedy & Entertainment,47,Added to Cart,Direct,True,2.2,True,False,False,0,2025-10-23,13,Tablet
+CHK00158,CRE0493,PRD01112,Parenting & Family,37,Payment Info,TikTok,False,,False,False,False,0,2025-12-31,20,Mobile
+CHK00159,CRE0265,PRD01001,Food & Cooking,47,Final Review,Email,True,1.0,False,False,False,0,2026-03-07,18,Mobile
+CHK00160,CRE0545,PRD00363,Parenting & Family,67,Final Review,TikTok,True,1.6,False,False,False,0,2025-09-25,10,Desktop
+CHK00161,CRE0239,PRD02307,Education & Online Courses,67,Started Checkout,YouTube,False,,False,False,False,0,2025-10-09,11,Mobile
+CHK00162,CRE0349,PRD00158,Education & Online Courses,67,Payment Info,YouTube,True,2.0,False,True,False,0,2025-10-14,19,Mobile
+CHK00163,CRE0386,PRD00565,Music & Audio Production,197,Final Review,Direct,True,3.0,True,False,False,0,2025-12-29,0,Desktop
+CHK00164,CRE0460,PRD00033,Sustainable Living,9,Final Review,TikTok,False,,False,False,False,0,2025-09-21,19,Tablet
+CHK00165,CRE0542,PRD00042,Business & Entrepreneurship,297,Added to Cart,YouTube,True,2.2,False,False,False,0,2025-12-29,0,Desktop
+CHK00166,CRE0513,PRD00534,Business & Entrepreneurship,197,Final Review,Direct,False,,False,False,False,0,2025-12-17,4,Tablet
+CHK00167,CRE0088,PRD00706,Beauty & Fashion,67,Final Review,Direct,True,2.2,True,True,False,0,2025-11-26,15,Tablet
+CHK00168,CRE0582,PRD01374,Comedy & Entertainment,9,Started Checkout,Email,True,3.9,True,False,False,0,2026-03-06,13,Mobile
+CHK00169,CRE0563,PRD00910,Comedy & Entertainment,97,Payment Info,Direct,True,3.8,True,True,False,0,2026-01-20,21,Desktop
+CHK00170,CRE0261,PRD00317,Food & Cooking,197,Started Checkout,Direct,True,3.0,True,False,False,0,2025-11-06,11,Desktop
+CHK00171,CRE0189,PRD02256,Personal Development,297,Added to Cart,TikTok,True,0.7,True,False,False,0,2025-11-26,19,Mobile
+CHK00172,CRE0205,PRD01400,Beauty & Fashion,27,Payment Info,Direct,False,,False,False,False,0,2025-12-13,22,Desktop
+CHK00173,CRE0429,PRD00957,Language Learning,47,Added to Cart,YouTube,False,,False,False,False,0,2025-09-20,8,Tablet
+CHK00174,CRE0135,PRD01723,Education & Online Courses,297,Payment Info,Instagram,False,,False,False,False,0,2025-12-12,5,Mobile
+CHK00175,CRE0002,PRD01358,Beauty & Fashion,27,Final Review,Google,True,3.5,True,False,False,0,2025-10-15,18,Mobile
+CHK00176,CRE0410,PRD01166,Beauty & Fashion,127,Started Checkout,Instagram,True,1.8,True,False,True,127,2025-09-27,15,Mobile
+CHK00177,CRE0405,PRD02358,Food & Cooking,97,Added to Cart,Email,False,,False,False,False,0,2025-12-03,14,Tablet
+CHK00178,CRE0136,PRD00940,Beauty & Fashion,9,Added to Cart,Instagram,True,1.7,True,False,False,0,2025-10-08,0,Mobile
+CHK00179,CRE0022,PRD01917,Music & Audio Production,127,Payment Info,Google,True,3.7,True,False,False,0,2025-11-24,4,Mobile
+CHK00180,CRE0478,PRD00054,Sustainable Living,67,Added to Cart,Direct,False,,False,False,False,0,2026-02-14,5,Desktop
+CHK00181,CRE0086,PRD02175,Beauty & Fashion,17,Final Review,Google,False,,False,False,False,0,2025-12-26,3,Tablet
+CHK00182,CRE0413,PRD01720,Science & Space,127,Payment Info,Direct,True,1.4,False,False,False,0,2026-03-05,5,Tablet
+CHK00183,CRE0243,PRD00474,Food & Cooking,297,Added to Cart,Instagram,True,3.0,False,False,False,0,2026-03-11,14,Mobile
+CHK00184,CRE0156,PRD01825,Comedy & Entertainment,27,Added to Cart,Direct,True,1.0,True,True,False,0,2026-02-09,6,Mobile
+CHK00185,CRE0213,PRD00599,Music & Audio Production,67,Started Checkout,Email,False,,False,False,False,0,2026-01-31,15,Mobile
+CHK00186,CRE0256,PRD00263,Travel & Adventure,297,Final Review,Google,False,,False,False,False,0,2026-03-09,0,Mobile
+CHK00187,CRE0581,PRD01957,Pet Care,297,Payment Info,Email,True,3.1,True,False,False,0,2026-02-03,22,Desktop
+CHK00188,CRE0583,PRD00846,Business & Entrepreneurship,47,Started Checkout,Email,False,,False,False,False,0,2025-10-18,7,Mobile
+CHK00189,CRE0265,PRD02208,Travel & Adventure,297,Started Checkout,YouTube,True,0.9,False,False,False,0,2026-03-07,19,Tablet
+CHK00190,CRE0544,PRD01143,Science & Space,497,Payment Info,Email,True,2.6,False,False,False,0,2026-02-08,4,Mobile
+CHK00191,CRE0518,PRD01205,Travel & Adventure,127,Payment Info,YouTube,True,0.9,False,False,True,127,2025-10-10,7,Tablet
+CHK00192,CRE0067,PRD01553,Business & Entrepreneurship,37,Added to Cart,Direct,True,2.9,True,True,False,0,2026-01-15,20,Mobile
+CHK00193,CRE0074,PRD01651,Parenting & Family,197,Payment Info,Google,True,1.9,False,False,False,0,2026-01-15,4,Mobile
+CHK00194,CRE0005,PRD01855,Comedy & Entertainment,497,Payment Info,Direct,True,3.4,False,False,False,0,2025-12-01,13,Mobile
+CHK00195,CRE0438,PRD00405,Beauty & Fashion,197,Started Checkout,Google,True,2.2,False,True,False,0,2026-01-17,19,Tablet
+CHK00196,CRE0443,PRD00282,Home Decor & Interior Design,9,Added to Cart,Email,False,,False,False,False,0,2026-01-19,6,Mobile
+CHK00197,CRE0048,PRD00512,Language Learning,127,Final Review,Google,True,2.9,False,False,False,0,2025-12-25,0,Desktop
+CHK00198,CRE0427,PRD00139,Home Decor & Interior Design,9,Added to Cart,Instagram,False,,False,False,False,0,2025-11-15,2,Tablet
+CHK00199,CRE0225,PRD02136,Language Learning,17,Added to Cart,TikTok,False,,False,False,False,0,2025-11-07,7,Desktop
+CHK00200,CRE0196,PRD02128,Education & Online Courses,297,Payment Info,Google,True,3.1,True,False,False,0,2026-03-04,6,Mobile
+CHK00201,CRE0151,PRD01342,Music & Audio Production,67,Final Review,Google,True,2.0,True,True,False,0,2025-09-20,4,Desktop
+CHK00202,CRE0575,PRD01541,Music & Audio Production,17,Payment Info,Direct,False,,False,False,False,0,2025-11-27,14,Mobile
+CHK00203,CRE0444,PRD01633,Technology & Software,9,Final Review,YouTube,False,,False,False,False,0,2026-01-10,9,Mobile
+CHK00204,CRE0084,PRD00856,Pet Care,297,Final Review,TikTok,True,0.7,True,False,False,0,2025-10-11,1,Mobile
+CHK00205,CRE0087,PRD00807,Home Decor & Interior Design,27,Started Checkout,Email,False,,False,False,False,0,2026-03-07,22,Mobile
+CHK00206,CRE0382,PRD02149,Music & Audio Production,17,Final Review,Google,False,,False,False,False,0,2025-09-29,3,Mobile
+CHK00207,CRE0555,PRD01191,Photography & Videography,497,Started Checkout,Instagram,False,,False,False,False,0,2026-03-17,9,Mobile
+CHK00208,CRE0146,PRD00468,Pet Care,127,Final Review,Instagram,True,1.0,True,False,False,0,2026-01-13,18,Tablet
+CHK00209,CRE0043,PRD00533,Beauty & Fashion,17,Added to Cart,YouTube,True,0.9,False,False,False,0,2026-02-07,1,Tablet
+CHK00210,CRE0596,PRD00094,Technology & Software,47,Final Review,TikTok,True,2.0,True,True,False,0,2026-03-12,21,Mobile
+CHK00211,CRE0388,PRD01101,Parenting & Family,197,Final Review,Google,True,3.1,True,True,False,0,2025-09-30,7,Tablet
+CHK00212,CRE0313,PRD00412,Travel & Adventure,297,Started Checkout,Google,False,,False,False,False,0,2026-02-22,19,Mobile
+CHK00213,CRE0498,PRD00343,Education & Online Courses,67,Payment Info,Google,True,2.9,True,False,False,0,2026-03-04,23,Mobile
+CHK00214,CRE0292,PRD00046,Finance & Investing,47,Started Checkout,Google,True,2.6,False,False,False,0,2025-11-23,23,Desktop
+CHK00215,CRE0189,PRD00516,Beauty & Fashion,127,Started Checkout,Instagram,True,1.8,True,False,False,0,2026-02-01,7,Desktop
+CHK00216,CRE0284,PRD01011,Finance & Investing,127,Started Checkout,Google,True,3.8,True,True,False,0,2026-03-12,2,Mobile
+CHK00217,CRE0014,PRD01545,Personal Development,27,Added to Cart,Email,False,,False,False,False,0,2025-12-09,2,Tablet
+CHK00218,CRE0263,PRD01688,Finance & Investing,197,Started Checkout,YouTube,False,,False,False,False,0,2026-02-13,7,Mobile
+CHK00219,CRE0428,PRD00322,Pet Care,17,Final Review,Email,True,2.9,True,False,True,17,2026-03-06,2,Mobile
+CHK00220,CRE0375,PRD02346,Comedy & Entertainment,127,Started Checkout,Google,True,3.7,True,False,False,0,2025-11-08,6,Desktop
+CHK00221,CRE0492,PRD01496,Language Learning,27,Payment Info,Direct,True,2.3,True,True,False,0,2025-12-29,3,Mobile
+CHK00222,CRE0498,PRD00992,Business & Entrepreneurship,197,Added to Cart,Instagram,True,1.0,True,False,True,197,2026-03-13,23,Tablet
+CHK00223,CRE0066,PRD01576,Business & Entrepreneurship,67,Final Review,Google,True,2.8,False,False,False,0,2025-11-11,16,Mobile
+CHK00224,CRE0410,PRD02342,Beauty & Fashion,67,Final Review,Instagram,False,,False,False,False,0,2025-11-18,16,Desktop
+CHK00225,CRE0329,PRD01885,Parenting & Family,127,Started Checkout,Direct,False,,False,False,False,0,2026-01-20,18,Mobile
+CHK00226,CRE0058,PRD00402,Travel & Adventure,9,Added to Cart,YouTube,True,2.9,False,False,False,0,2025-09-22,4,Mobile
+CHK00227,CRE0530,PRD00602,Home Decor & Interior Design,37,Started Checkout,YouTube,False,,False,False,False,0,2026-01-03,2,Mobile
+CHK00228,CRE0291,PRD01961,Travel & Adventure,127,Final Review,TikTok,True,3.6,False,True,False,0,2026-01-16,18,Desktop
+CHK00229,CRE0570,PRD00779,Home Decor & Interior Design,497,Added to Cart,YouTube,True,1.1,False,True,False,0,2025-10-27,18,Mobile
+CHK00230,CRE0145,PRD02345,Photography & Videography,9,Payment Info,Google,True,3.0,False,False,False,0,2025-11-25,16,Mobile
+CHK00231,CRE0029,PRD02033,Science & Space,9,Final Review,TikTok,True,0.7,False,True,False,0,2025-09-28,12,Mobile
+CHK00232,CRE0201,PRD01788,Language Learning,297,Payment Info,Direct,False,,False,False,False,0,2025-11-19,23,Mobile
+CHK00233,CRE0117,PRD01606,Education & Online Courses,97,Started Checkout,Email,True,2.1,False,True,False,0,2025-11-07,22,Tablet
+CHK00234,CRE0490,PRD02461,Gaming & Esports,127,Final Review,Instagram,True,2.9,False,False,False,0,2025-11-10,17,Mobile
+CHK00235,CRE0125,PRD01587,Photography & Videography,197,Payment Info,Direct,True,0.5,False,True,False,0,2025-09-20,15,Mobile
+CHK00236,CRE0153,PRD01800,Music & Audio Production,127,Started Checkout,YouTube,False,,False,False,False,0,2026-01-30,8,Desktop
+CHK00237,CRE0101,PRD00692,Comedy & Entertainment,17,Started Checkout,TikTok,True,3.5,True,True,False,0,2026-01-17,7,Tablet
+CHK00238,CRE0322,PRD02119,Gaming & Esports,17,Final Review,TikTok,True,3.0,True,False,False,0,2025-11-13,22,Desktop
+CHK00239,CRE0230,PRD00561,Education & Online Courses,17,Final Review,Instagram,True,3.6,True,False,False,0,2026-03-01,8,Mobile
+CHK00240,CRE0092,PRD00807,Pet Care,17,Started Checkout,YouTube,False,,False,False,False,0,2026-02-23,3,Mobile
+CHK00241,CRE0290,PRD01347,Photography & Videography,497,Final Review,Email,True,0.6,False,True,False,0,2026-02-03,4,Tablet
+CHK00242,CRE0482,PRD02005,Food & Cooking,297,Added to Cart,YouTube,False,,False,False,False,0,2025-12-09,8,Mobile
+CHK00243,CRE0430,PRD02097,Music & Audio Production,37,Final Review,Direct,False,,False,False,False,0,2025-10-11,4,Mobile
+CHK00244,CRE0110,PRD00715,Food & Cooking,37,Final Review,TikTok,True,1.2,True,False,False,0,2026-02-20,6,Mobile
+CHK00245,CRE0436,PRD02150,Comedy & Entertainment,9,Final Review,Direct,False,,False,False,False,0,2026-03-03,6,Mobile
+CHK00246,CRE0442,PRD01423,Science & Space,97,Started Checkout,YouTube,True,3.9,False,True,False,0,2025-12-26,12,Mobile
+CHK00247,CRE0361,PRD00209,Gaming & Esports,297,Added to Cart,Email,True,3.6,False,True,False,0,2025-12-23,7,Mobile
+CHK00248,CRE0236,PRD01231,Language Learning,97,Final Review,Google,False,,False,False,False,0,2026-01-03,6,Tablet
+CHK00249,CRE0055,PRD00546,Pet Care,9,Final Review,TikTok,True,1.5,True,True,False,0,2025-12-14,8,Mobile
+CHK00250,CRE0058,PRD00734,Science & Space,37,Payment Info,Direct,False,,False,False,False,0,2026-02-04,14,Mobile
+CHK00251,CRE0071,PRD00272,Language Learning,27,Final Review,TikTok,False,,False,False,False,0,2025-11-05,21,Mobile
+CHK00252,CRE0572,PRD00376,Beauty & Fashion,67,Payment Info,Instagram,True,3.7,False,True,False,0,2026-03-16,13,Tablet
+CHK00253,CRE0282,PRD02205,Travel & Adventure,67,Final Review,Google,False,,False,False,False,0,2025-10-27,18,Mobile
+CHK00254,CRE0576,PRD01588,Technology & Software,497,Started Checkout,YouTube,False,,False,False,False,0,2026-03-05,23,Tablet
+CHK00255,CRE0488,PRD00152,Photography & Videography,37,Started Checkout,Google,True,1.3,True,True,False,0,2025-10-02,10,Mobile
+CHK00256,CRE0136,PRD01795,Photography & Videography,17,Payment Info,Instagram,False,,False,False,False,0,2025-11-03,22,Mobile
+CHK00257,CRE0481,PRD00949,Language Learning,297,Payment Info,Direct,False,,False,False,False,0,2025-12-15,10,Mobile
+CHK00258,CRE0538,PRD01031,Parenting & Family,197,Added to Cart,YouTube,True,1.2,False,False,False,0,2025-12-14,8,Mobile
+CHK00259,CRE0443,PRD02180,Education & Online Courses,17,Payment Info,YouTube,True,2.8,True,False,False,0,2025-10-10,14,Desktop
+CHK00260,CRE0533,PRD01465,Gaming & Esports,497,Started Checkout,Email,True,3.3,True,False,False,0,2025-11-26,2,Tablet
+CHK00261,CRE0268,PRD00757,Parenting & Family,37,Started Checkout,Direct,False,,False,False,False,0,2025-12-22,13,Desktop
+CHK00262,CRE0299,PRD00615,Education & Online Courses,9,Started Checkout,Direct,False,,False,False,False,0,2025-12-11,7,Mobile
+CHK00263,CRE0338,PRD02161,Photography & Videography,67,Added to Cart,TikTok,True,0.6,False,False,False,0,2025-11-15,5,Mobile
+CHK00264,CRE0128,PRD01699,Beauty & Fashion,67,Started Checkout,Email,True,3.9,True,False,False,0,2025-10-30,10,Mobile
+CHK00265,CRE0406,PRD02174,Food & Cooking,17,Payment Info,Email,False,,False,False,False,0,2026-02-20,13,Mobile
+CHK00266,CRE0174,PRD00061,Finance & Investing,127,Final Review,YouTube,True,3.5,False,True,True,127,2025-10-26,10,Mobile
+CHK00267,CRE0471,PRD01447,Technology & Software,97,Started Checkout,Google,False,,False,False,False,0,2025-10-16,16,Mobile
+CHK00268,CRE0447,PRD00341,Gaming & Esports,127,Final Review,Instagram,True,2.9,True,False,False,0,2026-02-01,21,Mobile
+CHK00269,CRE0592,PRD02264,Gaming & Esports,17,Payment Info,Instagram,True,2.5,False,True,False,0,2025-11-06,12,Tablet
+CHK00270,CRE0420,PRD01974,Travel & Adventure,197,Added to Cart,Email,True,3.5,True,True,False,0,2025-12-13,15,Desktop
+CHK00271,CRE0412,PRD01788,Personal Development,97,Final Review,YouTube,True,2.5,False,True,False,0,2025-11-22,18,Mobile
+CHK00272,CRE0515,PRD00334,Personal Development,197,Payment Info,Instagram,False,,False,False,False,0,2026-03-06,6,Tablet
+CHK00273,CRE0284,PRD02119,Technology & Software,37,Started Checkout,Direct,True,3.9,False,False,False,0,2026-02-27,18,Mobile
+CHK00274,CRE0260,PRD00471,Personal Development,37,Payment Info,Instagram,True,2.3,True,False,False,0,2026-01-26,8,Mobile
+CHK00275,CRE0094,PRD01695,Beauty & Fashion,9,Started Checkout,YouTube,False,,False,False,False,0,2025-11-17,10,Mobile
+CHK00276,CRE0211,PRD02248,Home Decor & Interior Design,27,Payment Info,Email,True,3.1,True,False,False,0,2025-11-16,16,Mobile
+CHK00277,CRE0271,PRD02441,Personal Development,197,Added to Cart,Email,True,3.8,True,True,False,0,2025-11-15,22,Mobile
+CHK00278,CRE0359,PRD01912,Music & Audio Production,47,Payment Info,YouTube,True,2.7,False,False,False,0,2025-12-08,7,Mobile
+CHK00279,CRE0158,PRD01235,Comedy & Entertainment,127,Started Checkout,YouTube,True,2.5,False,True,False,0,2026-01-29,6,Desktop
+CHK00280,CRE0248,PRD01023,Music & Audio Production,197,Final Review,TikTok,False,,False,False,False,0,2026-02-12,1,Mobile
+CHK00281,CRE0539,PRD00622,Technology & Software,297,Payment Info,Google,True,2.5,False,True,False,0,2025-12-24,2,Mobile
+CHK00282,CRE0217,PRD01388,Personal Development,497,Payment Info,Email,True,0.9,True,True,False,0,2025-11-30,17,Desktop
+CHK00283,CRE0508,PRD01133,Sustainable Living,497,Payment Info,YouTube,True,0.9,False,True,False,0,2025-11-23,16,Tablet
+CHK00284,CRE0110,PRD00873,Pet Care,37,Started Checkout,Instagram,True,2.0,True,False,False,0,2025-10-16,19,Mobile
+CHK00285,CRE0043,PRD02062,Personal Development,67,Payment Info,Direct,True,3.9,True,False,False,0,2026-03-03,16,Tablet
+CHK00286,CRE0249,PRD01375,Photography & Videography,97,Started Checkout,TikTok,True,3.4,False,False,False,0,2025-10-15,12,Mobile
+CHK00287,CRE0436,PRD02133,Gaming & Esports,497,Final Review,Instagram,True,2.0,False,True,False,0,2026-01-24,18,Desktop
+CHK00288,CRE0076,PRD01046,Parenting & Family,97,Payment Info,Email,True,0.9,True,True,True,97,2026-01-24,14,Mobile
+CHK00289,CRE0063,PRD01094,Gaming & Esports,197,Added to Cart,YouTube,True,3.4,True,True,False,0,2025-09-30,18,Desktop
+CHK00290,CRE0236,PRD00642,Pet Care,37,Final Review,Email,True,3.1,True,False,False,0,2025-10-22,1,Mobile
+CHK00291,CRE0456,PRD02016,Education & Online Courses,9,Payment Info,TikTok,True,1.1,False,True,False,0,2026-01-20,9,Tablet
+CHK00292,CRE0352,PRD00158,Finance & Investing,9,Payment Info,Email,True,3.3,True,False,False,0,2025-12-01,11,Tablet
+CHK00293,CRE0446,PRD02011,Beauty & Fashion,97,Started Checkout,TikTok,True,3.7,False,False,False,0,2025-10-16,22,Mobile
+CHK00294,CRE0124,PRD02089,Pet Care,67,Started Checkout,Direct,False,,False,False,False,0,2026-01-07,22,Mobile
+CHK00295,CRE0237,PRD00658,Science & Space,9,Started Checkout,Google,False,,False,False,False,0,2025-09-27,17,Mobile
+CHK00296,CRE0336,PRD02218,Comedy & Entertainment,197,Added to Cart,Email,True,2.1,True,True,False,0,2026-01-15,22,Mobile
+CHK00297,CRE0073,PRD02470,Science & Space,27,Started Checkout,Direct,True,2.6,True,False,False,0,2025-10-25,19,Mobile
+CHK00298,CRE0278,PRD02179,Business & Entrepreneurship,97,Added to Cart,Email,False,,False,False,False,0,2025-12-31,14,Mobile
+CHK00299,CRE0429,PRD02003,Parenting & Family,27,Payment Info,Direct,True,1.0,True,False,False,0,2026-01-10,16,Desktop
+CHK00300,CRE0188,PRD00935,Travel & Adventure,47,Started Checkout,YouTube,False,,False,False,False,0,2025-12-13,9,Desktop
+CHK00301,CRE0370,PRD01531,Technology & Software,47,Payment Info,Google,True,0.6,False,True,False,0,2026-01-07,20,Mobile
+CHK00302,CRE0152,PRD02297,Education & Online Courses,37,Added to Cart,Email,True,0.9,True,False,False,0,2025-12-16,21,Mobile
+CHK00303,CRE0335,PRD01143,Technology & Software,67,Started Checkout,Email,True,1.2,True,True,False,0,2025-10-25,5,Mobile
+CHK00304,CRE0028,PRD00284,Business & Entrepreneurship,9,Final Review,Google,False,,False,False,False,0,2025-11-05,22,Mobile
+CHK00305,CRE0309,PRD00422,Beauty & Fashion,297,Final Review,TikTok,True,1.6,True,False,False,0,2025-10-21,1,Desktop
+CHK00306,CRE0311,PRD02406,Travel & Adventure,67,Added to Cart,Email,False,,False,False,False,0,2026-02-02,9,Mobile
+CHK00307,CRE0498,PRD02461,Music & Audio Production,127,Added to Cart,Email,True,3.8,True,False,False,0,2025-09-25,9,Mobile
+CHK00308,CRE0400,PRD00354,Sustainable Living,67,Started Checkout,TikTok,False,,False,False,False,0,2026-03-15,14,Mobile
+CHK00309,CRE0364,PRD01845,Personal Development,27,Final Review,Direct,False,,False,False,False,0,2026-02-25,20,Desktop
+CHK00310,CRE0016,PRD00681,Technology & Software,67,Final Review,Direct,False,,False,False,False,0,2026-02-01,16,Mobile
+CHK00311,CRE0551,PRD00324,Travel & Adventure,497,Payment Info,YouTube,True,2.2,True,True,False,0,2025-12-21,9,Tablet
+CHK00312,CRE0189,PRD00558,Comedy & Entertainment,9,Added to Cart,YouTube,True,3.9,False,False,False,0,2026-02-08,0,Tablet
+CHK00313,CRE0105,PRD01086,Sustainable Living,297,Started Checkout,YouTube,True,2.7,False,True,False,0,2025-11-24,5,Mobile
+CHK00314,CRE0367,PRD02100,Science & Space,197,Started Checkout,TikTok,True,3.6,False,True,False,0,2025-10-27,11,Desktop
+CHK00315,CRE0422,PRD01665,Pet Care,497,Payment Info,Direct,False,,False,False,False,0,2025-10-23,9,Mobile
+CHK00316,CRE0162,PRD00629,Finance & Investing,67,Added to Cart,Email,True,1.7,False,True,False,0,2026-01-24,21,Mobile
+CHK00317,CRE0217,PRD01803,Business & Entrepreneurship,497,Added to Cart,TikTok,True,1.1,False,True,False,0,2026-02-15,14,Tablet
+CHK00318,CRE0561,PRD00691,Sustainable Living,9,Added to Cart,TikTok,True,1.3,False,False,False,0,2025-12-07,22,Mobile
+CHK00319,CRE0049,PRD00545,Education & Online Courses,47,Payment Info,Email,True,1.4,True,False,False,0,2026-03-16,19,Tablet
+CHK00320,CRE0245,PRD01509,Comedy & Entertainment,97,Started Checkout,Email,False,,False,False,False,0,2026-01-17,7,Mobile
+CHK00321,CRE0561,PRD00983,Sustainable Living,47,Started Checkout,YouTube,True,0.6,True,False,False,0,2025-11-25,11,Mobile
+CHK00322,CRE0179,PRD01203,Sustainable Living,97,Added to Cart,TikTok,False,,False,False,False,0,2025-12-03,8,Mobile
+CHK00323,CRE0514,PRD01431,Gaming & Esports,47,Payment Info,Direct,True,0.9,False,False,False,0,2025-12-13,3,Mobile
+CHK00324,CRE0587,PRD00050,Photography & Videography,127,Added to Cart,Direct,True,3.2,True,False,False,0,2026-03-02,11,Mobile
+CHK00325,CRE0270,PRD02010,Gaming & Esports,9,Payment Info,TikTok,True,2.4,False,False,False,0,2026-01-10,12,Mobile
+CHK00326,CRE0280,PRD00917,Home Decor & Interior Design,127,Started Checkout,Google,True,2.1,True,False,False,0,2026-01-10,0,Desktop
+CHK00327,CRE0154,PRD02215,Sustainable Living,97,Added to Cart,Email,False,,False,False,False,0,2025-12-13,12,Mobile
+CHK00328,CRE0392,PRD02161,Photography & Videography,497,Started Checkout,TikTok,True,2.8,False,True,False,0,2026-01-13,2,Mobile
+CHK00329,CRE0454,PRD01187,Music & Audio Production,97,Started Checkout,Google,False,,False,False,False,0,2025-10-17,5,Desktop
+CHK00330,CRE0406,PRD02191,Gaming & Esports,27,Added to Cart,YouTube,False,,False,False,False,0,2025-12-12,22,Mobile
+CHK00331,CRE0044,PRD02298,Home Decor & Interior Design,197,Final Review,TikTok,False,,False,False,False,0,2026-03-10,12,Mobile
+CHK00332,CRE0132,PRD00800,Personal Development,497,Started Checkout,YouTube,True,2.8,False,True,False,0,2025-10-27,21,Mobile
+CHK00333,CRE0258,PRD00348,Language Learning,127,Final Review,YouTube,True,2.5,False,False,False,0,2026-01-11,21,Tablet
+CHK00334,CRE0537,PRD00952,Home Decor & Interior Design,297,Started Checkout,Google,True,0.7,True,False,False,0,2025-10-20,8,Desktop
+CHK00335,CRE0560,PRD02490,Music & Audio Production,67,Final Review,YouTube,True,3.7,True,True,False,0,2026-01-06,8,Mobile
+CHK00336,CRE0070,PRD02106,Music & Audio Production,127,Final Review,TikTok,True,1.6,True,False,False,0,2025-09-22,4,Mobile
+CHK00337,CRE0506,PRD02104,Technology & Software,17,Final Review,TikTok,False,,False,False,False,0,2025-12-06,12,Mobile
+CHK00338,CRE0205,PRD02220,Finance & Investing,497,Started Checkout,TikTok,False,,False,False,False,0,2026-01-07,4,Tablet
+CHK00339,CRE0595,PRD02472,Comedy & Entertainment,9,Payment Info,Email,True,3.8,False,False,True,9,2025-12-07,17,Tablet
+CHK00340,CRE0266,PRD01500,Business & Entrepreneurship,17,Added to Cart,TikTok,True,3.4,True,True,False,0,2026-01-14,10,Tablet
+CHK00341,CRE0088,PRD02459,Education & Online Courses,127,Final Review,Direct,False,,False,False,False,0,2025-10-20,12,Tablet
+CHK00342,CRE0466,PRD01797,Finance & Investing,127,Added to Cart,Direct,True,2.6,True,True,False,0,2025-12-04,9,Mobile
+CHK00343,CRE0502,PRD02069,Comedy & Entertainment,9,Final Review,TikTok,True,2.0,False,False,False,0,2025-10-01,3,Mobile
+CHK00344,CRE0492,PRD01833,Beauty & Fashion,17,Final Review,Direct,False,,False,False,False,0,2025-12-24,11,Tablet
+CHK00345,CRE0317,PRD00205,Technology & Software,197,Started Checkout,Email,True,2.4,True,True,False,0,2026-03-03,0,Mobile
+CHK00346,CRE0117,PRD02220,Finance & Investing,67,Payment Info,Email,True,0.9,False,False,False,0,2026-01-23,4,Tablet
+CHK00347,CRE0363,PRD01266,Photography & Videography,27,Added to Cart,TikTok,True,3.6,False,False,False,0,2025-11-18,2,Tablet
+CHK00348,CRE0419,PRD02070,Gaming & Esports,9,Payment Info,Google,False,,False,False,False,0,2026-01-30,21,Tablet
+CHK00349,CRE0174,PRD01498,Travel & Adventure,97,Payment Info,Google,False,,False,False,False,0,2025-11-11,18,Tablet
+CHK00350,CRE0028,PRD02156,Finance & Investing,17,Added to Cart,TikTok,False,,False,False,False,0,2026-01-07,15,Desktop
+CHK00351,CRE0413,PRD02316,Science & Space,97,Final Review,Direct,False,,False,False,False,0,2025-12-10,2,Mobile
+CHK00352,CRE0231,PRD00928,Beauty & Fashion,127,Payment Info,TikTok,False,,False,False,False,0,2025-12-10,5,Mobile
+CHK00353,CRE0456,PRD01438,Technology & Software,37,Added to Cart,YouTube,False,,False,False,False,0,2025-11-23,1,Desktop
+CHK00354,CRE0039,PRD02210,Travel & Adventure,9,Final Review,Email,True,3.5,False,True,False,0,2025-11-14,8,Desktop
+CHK00355,CRE0037,PRD00415,Pet Care,297,Payment Info,Google,False,,False,False,False,0,2026-02-08,3,Desktop
+CHK00356,CRE0588,PRD01701,Music & Audio Production,97,Started Checkout,Instagram,False,,False,False,False,0,2026-03-17,10,Tablet
+CHK00357,CRE0460,PRD01365,Business & Entrepreneurship,27,Started Checkout,Instagram,True,3.0,False,False,False,0,2026-01-20,11,Mobile
+CHK00358,CRE0294,PRD02029,Education & Online Courses,67,Started Checkout,Email,False,,False,False,False,0,2026-02-08,22,Tablet
+CHK00359,CRE0112,PRD01465,Photography & Videography,27,Added to Cart,Email,True,1.6,False,True,False,0,2025-11-15,22,Tablet
+CHK00360,CRE0016,PRD02033,Sustainable Living,497,Final Review,TikTok,True,0.7,False,False,True,497,2026-02-24,11,Mobile
+CHK00361,CRE0227,PRD01368,Technology & Software,127,Added to Cart,Instagram,True,1.8,False,True,False,0,2025-10-29,4,Mobile
+CHK00362,CRE0236,PRD00944,Parenting & Family,17,Payment Info,Google,True,2.2,False,True,False,0,2025-11-14,13,Desktop
+CHK00363,CRE0084,PRD00425,Photography & Videography,97,Started Checkout,YouTube,True,2.0,True,False,False,0,2026-01-10,7,Mobile
+CHK00364,CRE0187,PRD01579,Home Decor & Interior Design,97,Payment Info,Google,True,1.8,False,True,False,0,2025-12-14,20,Mobile
+CHK00365,CRE0166,PRD00065,Pet Care,127,Final Review,TikTok,True,2.3,False,False,True,127,2025-11-24,13,Mobile
+CHK00366,CRE0270,PRD01006,Parenting & Family,97,Started Checkout,Google,True,0.9,True,True,False,0,2025-11-20,13,Tablet
+CHK00367,CRE0594,PRD00546,Finance & Investing,17,Added to Cart,Instagram,True,3.7,False,False,False,0,2025-11-24,20,Tablet
+CHK00368,CRE0370,PRD01541,Gaming & Esports,97,Final Review,YouTube,False,,False,False,False,0,2025-12-24,22,Mobile
+CHK00369,CRE0567,PRD01471,Finance & Investing,127,Added to Cart,Instagram,True,1.1,False,True,False,0,2026-01-10,3,Tablet
+CHK00370,CRE0458,PRD00463,Personal Development,17,Payment Info,Google,True,2.8,False,False,False,0,2025-10-03,0,Mobile
+CHK00371,CRE0480,PRD02324,Comedy & Entertainment,27,Final Review,YouTube,True,3.8,False,False,False,0,2026-02-09,14,Desktop
+CHK00372,CRE0496,PRD01826,Photography & Videography,197,Added to Cart,Instagram,False,,False,False,False,0,2025-09-22,8,Mobile
+CHK00373,CRE0300,PRD01531,Sustainable Living,497,Started Checkout,YouTube,True,0.9,False,True,False,0,2025-12-13,16,Tablet
+CHK00374,CRE0198,PRD01322,Travel & Adventure,127,Started Checkout,Google,True,0.5,True,True,False,0,2025-10-04,7,Mobile
+CHK00375,CRE0033,PRD02155,Business & Entrepreneurship,9,Final Review,TikTok,False,,False,False,False,0,2026-01-20,23,Mobile
+CHK00376,CRE0107,PRD00441,Food & Cooking,497,Added to Cart,Google,True,2.1,True,True,False,0,2025-09-25,22,Tablet
+CHK00377,CRE0031,PRD01659,Science & Space,97,Started Checkout,TikTok,True,0.9,True,True,True,97,2026-01-05,11,Tablet
+CHK00378,CRE0293,PRD01827,Home Decor & Interior Design,497,Added to Cart,YouTube,True,2.2,False,False,False,0,2026-02-26,17,Desktop
+CHK00379,CRE0312,PRD01665,Business & Entrepreneurship,47,Added to Cart,Direct,False,,False,False,False,0,2025-11-06,21,Mobile
+CHK00380,CRE0492,PRD01938,Finance & Investing,47,Started Checkout,TikTok,True,2.8,True,True,False,0,2025-10-08,7,Tablet
+CHK00381,CRE0017,PRD02479,Sustainable Living,97,Added to Cart,TikTok,True,2.7,True,False,False,0,2026-02-21,0,Mobile
+CHK00382,CRE0099,PRD01769,Travel & Adventure,297,Payment Info,YouTube,True,1.9,False,True,False,0,2025-10-13,0,Desktop
+CHK00383,CRE0587,PRD00330,Food & Cooking,67,Added to Cart,Instagram,True,3.1,True,False,False,0,2026-03-16,20,Desktop
+CHK00384,CRE0346,PRD01311,Sustainable Living,9,Payment Info,Email,True,1.0,True,False,False,0,2025-12-17,10,Tablet
+CHK00385,CRE0243,PRD01327,Pet Care,27,Payment Info,Instagram,False,,False,False,False,0,2026-01-23,0,Mobile
+CHK00386,CRE0172,PRD01385,Business & Entrepreneurship,27,Payment Info,YouTube,True,0.8,True,True,False,0,2025-12-07,17,Tablet
+CHK00387,CRE0511,PRD01091,Technology & Software,497,Final Review,Direct,True,2.3,True,True,False,0,2025-10-02,17,Mobile
+CHK00388,CRE0037,PRD00359,Home Decor & Interior Design,127,Added to Cart,Direct,False,,False,False,False,0,2025-11-04,20,Mobile
+CHK00389,CRE0544,PRD00812,Comedy & Entertainment,47,Final Review,Google,True,0.9,False,False,False,0,2025-10-11,13,Tablet
+CHK00390,CRE0245,PRD00323,Music & Audio Production,37,Added to Cart,YouTube,False,,False,False,False,0,2025-10-23,17,Tablet
+CHK00391,CRE0318,PRD00347,Science & Space,197,Final Review,Google,True,1.8,True,False,False,0,2026-02-16,7,Desktop
+CHK00392,CRE0376,PRD02365,Travel & Adventure,27,Final Review,Instagram,False,,False,False,False,0,2025-12-12,4,Mobile
+CHK00393,CRE0235,PRD00021,Music & Audio Production,297,Added to Cart,Google,True,1.4,True,False,False,0,2025-11-08,21,Mobile
+CHK00394,CRE0221,PRD00551,Gaming & Esports,67,Payment Info,Instagram,True,0.7,False,True,False,0,2025-12-07,2,Desktop
+CHK00395,CRE0067,PRD01187,Language Learning,297,Added to Cart,YouTube,False,,False,False,False,0,2025-11-11,21,Tablet
+CHK00396,CRE0436,PRD01104,Travel & Adventure,27,Added to Cart,Direct,False,,False,False,False,0,2026-01-04,10,Mobile
+CHK00397,CRE0144,PRD01918,Parenting & Family,497,Payment Info,Direct,True,0.9,False,False,True,497,2025-09-30,18,Mobile
+CHK00398,CRE0175,PRD01369,Comedy & Entertainment,9,Started Checkout,Instagram,True,1.4,False,False,False,0,2025-11-23,4,Mobile
+CHK00399,CRE0376,PRD01035,Comedy & Entertainment,27,Started Checkout,YouTube,True,3.2,True,True,False,0,2026-01-10,20,Mobile
+CHK00400,CRE0252,PRD01207,Photography & Videography,97,Added to Cart,Email,True,2.4,False,True,False,0,2026-03-04,10,Desktop
+CHK00401,CRE0140,PRD02446,Travel & Adventure,47,Payment Info,YouTube,False,,False,False,False,0,2026-02-23,21,Mobile
+CHK00402,CRE0323,PRD01739,Photography & Videography,297,Added to Cart,Email,False,,False,False,False,0,2026-01-25,2,Tablet
+CHK00403,CRE0045,PRD01988,Travel & Adventure,67,Added to Cart,TikTok,True,1.6,True,False,False,0,2025-10-23,16,Tablet
+CHK00404,CRE0056,PRD00334,Education & Online Courses,9,Payment Info,Email,True,3.4,True,False,False,0,2025-12-05,22,Desktop
+CHK00405,CRE0125,PRD01881,Finance & Investing,47,Started Checkout,Google,False,,False,False,False,0,2025-10-17,19,Tablet
+CHK00406,CRE0223,PRD01585,Sustainable Living,9,Added to Cart,TikTok,True,2.3,False,False,False,0,2025-11-20,6,Desktop
+CHK00407,CRE0264,PRD01232,Science & Space,197,Payment Info,YouTube,True,0.9,False,True,False,0,2025-12-26,23,Mobile
+CHK00408,CRE0176,PRD00265,Food & Cooking,197,Payment Info,Email,True,3.0,True,False,False,0,2026-01-06,20,Mobile
+CHK00409,CRE0232,PRD01334,Comedy & Entertainment,197,Payment Info,Instagram,True,3.1,True,True,False,0,2025-10-13,12,Tablet
+CHK00410,CRE0356,PRD01538,Photography & Videography,27,Final Review,TikTok,True,4.0,True,False,False,0,2025-11-23,7,Tablet
+CHK00411,CRE0393,PRD01735,Personal Development,97,Added to Cart,TikTok,False,,False,False,False,0,2026-02-28,14,Mobile
+CHK00412,CRE0410,PRD00731,Business & Entrepreneurship,47,Added to Cart,YouTube,False,,False,False,False,0,2025-11-14,19,Desktop
+CHK00413,CRE0246,PRD01805,Pet Care,497,Started Checkout,Google,True,3.6,False,False,False,0,2026-01-26,13,Desktop
+CHK00414,CRE0042,PRD02469,Business & Entrepreneurship,17,Started Checkout,TikTok,True,3.6,True,True,False,0,2025-11-23,3,Tablet
+CHK00415,CRE0173,PRD02307,Language Learning,97,Started Checkout,TikTok,False,,False,False,False,0,2025-11-29,7,Mobile
+CHK00416,CRE0276,PRD02191,Sustainable Living,127,Payment Info,Instagram,True,1.1,True,False,False,0,2025-12-13,19,Tablet
+CHK00417,CRE0500,PRD01509,Home Decor & Interior Design,127,Added to Cart,Instagram,False,,False,False,False,0,2025-12-11,15,Tablet
+CHK00418,CRE0386,PRD00401,Travel & Adventure,17,Added to Cart,Email,False,,False,False,False,0,2026-02-04,2,Mobile
+CHK00419,CRE0554,PRD01204,Personal Development,27,Started Checkout,TikTok,True,3.3,False,False,False,0,2025-11-12,6,Mobile
+CHK00420,CRE0190,PRD00339,Comedy & Entertainment,47,Added to Cart,Google,False,,False,False,False,0,2025-10-19,14,Mobile
+CHK00421,CRE0008,PRD02155,Finance & Investing,297,Added to Cart,YouTube,False,,False,False,False,0,2025-12-31,14,Mobile
+CHK00422,CRE0257,PRD02188,Gaming & Esports,497,Started Checkout,Google,False,,False,False,False,0,2025-10-09,9,Mobile
+CHK00423,CRE0587,PRD01673,Science & Space,9,Payment Info,Google,False,,False,False,False,0,2025-10-14,17,Mobile
+CHK00424,CRE0051,PRD00408,Education & Online Courses,97,Payment Info,Direct,True,3.8,True,False,False,0,2025-11-20,1,Desktop
+CHK00425,CRE0514,PRD00879,Comedy & Entertainment,127,Payment Info,Email,False,,False,False,False,0,2026-03-01,2,Tablet
+CHK00426,CRE0361,PRD01514,Food & Cooking,97,Started Checkout,TikTok,False,,False,False,False,0,2026-03-14,16,Desktop
+CHK00427,CRE0383,PRD00022,Gaming & Esports,47,Added to Cart,Email,True,1.4,False,True,False,0,2025-11-25,3,Mobile
+CHK00428,CRE0116,PRD01866,Photography & Videography,197,Added to Cart,TikTok,True,3.3,False,True,False,0,2026-03-08,6,Tablet
+CHK00429,CRE0079,PRD01388,Travel & Adventure,197,Final Review,Direct,False,,False,False,False,0,2026-01-05,11,Mobile
+CHK00430,CRE0583,PRD01547,Food & Cooking,9,Started Checkout,Email,True,1.3,True,False,False,0,2026-02-26,22,Mobile
+CHK00431,CRE0114,PRD02355,Personal Development,197,Payment Info,Email,False,,False,False,False,0,2025-12-06,10,Tablet
+CHK00432,CRE0112,PRD02386,Comedy & Entertainment,497,Started Checkout,YouTube,False,,False,False,False,0,2026-02-13,1,Tablet
+CHK00433,CRE0346,PRD02121,Personal Development,297,Added to Cart,TikTok,False,,False,False,False,0,2025-10-21,9,Mobile
+CHK00434,CRE0100,PRD01996,Language Learning,97,Added to Cart,Email,False,,False,False,False,0,2026-01-05,21,Desktop
+CHK00435,CRE0130,PRD00855,Music & Audio Production,127,Added to Cart,TikTok,True,0.5,True,False,False,0,2025-11-03,8,Tablet
+CHK00436,CRE0576,PRD00223,Comedy & Entertainment,47,Started Checkout,Direct,False,,False,False,False,0,2025-12-06,18,Mobile
+CHK00437,CRE0562,PRD02183,Gaming & Esports,47,Added to Cart,Email,True,3.3,False,True,False,0,2026-01-11,10,Mobile
+CHK00438,CRE0265,PRD01743,Parenting & Family,197,Started Checkout,Email,True,3.9,False,False,False,0,2025-12-14,6,Desktop
+CHK00439,CRE0005,PRD00451,Language Learning,27,Added to Cart,Direct,True,3.7,True,True,False,0,2026-01-09,22,Tablet
+CHK00440,CRE0255,PRD01754,Language Learning,67,Final Review,TikTok,True,3.2,False,True,False,0,2025-09-29,23,Desktop
+CHK00441,CRE0347,PRD02215,Parenting & Family,47,Payment Info,YouTube,True,2.2,True,True,False,0,2026-01-11,0,Mobile
+CHK00442,CRE0096,PRD00169,Home Decor & Interior Design,27,Started Checkout,TikTok,False,,False,False,False,0,2026-02-24,21,Tablet
+CHK00443,CRE0561,PRD01466,Music & Audio Production,127,Added to Cart,TikTok,True,3.0,True,True,False,0,2025-09-20,8,Tablet
+CHK00444,CRE0214,PRD01556,Finance & Investing,9,Final Review,Email,True,2.1,True,True,False,0,2026-01-21,18,Mobile
+CHK00445,CRE0541,PRD01292,Language Learning,297,Started Checkout,TikTok,True,1.7,False,True,False,0,2025-12-04,0,Mobile
+CHK00446,CRE0537,PRD00578,Gaming & Esports,47,Started Checkout,Google,True,1.6,False,False,False,0,2026-03-01,20,Tablet
+CHK00447,CRE0050,PRD01166,Pet Care,9,Started Checkout,Email,True,3.4,True,True,False,0,2025-12-14,11,Desktop
+CHK00448,CRE0035,PRD01957,Parenting & Family,197,Added to Cart,Email,True,3.3,True,True,False,0,2026-01-12,3,Tablet
+CHK00449,CRE0367,PRD01078,Photography & Videography,297,Started Checkout,TikTok,True,3.3,True,True,False,0,2026-02-27,3,Tablet
+CHK00450,CRE0449,PRD00219,Sustainable Living,497,Final Review,Google,True,1.4,True,False,True,497,2025-12-30,8,Tablet
+CHK00451,CRE0431,PRD00946,Education & Online Courses,37,Payment Info,Google,True,3.5,False,False,False,0,2025-11-05,21,Tablet
+CHK00452,CRE0591,PRD01290,Food & Cooking,47,Started Checkout,Instagram,True,1.3,False,False,False,0,2026-01-03,3,Mobile
+CHK00453,CRE0545,PRD01612,Photography & Videography,47,Final Review,Email,True,1.4,True,False,False,0,2026-02-17,6,Mobile
+CHK00454,CRE0218,PRD02113,Music & Audio Production,297,Started Checkout,Instagram,True,0.8,False,True,False,0,2026-01-27,11,Mobile
+CHK00455,CRE0079,PRD01785,Parenting & Family,97,Added to Cart,TikTok,True,2.7,False,True,False,0,2026-01-20,0,Tablet
+CHK00456,CRE0283,PRD01794,Science & Space,37,Payment Info,Direct,True,3.1,True,False,False,0,2025-09-21,3,Mobile
+CHK00457,CRE0300,PRD01071,Business & Entrepreneurship,47,Added to Cart,Google,True,2.1,False,False,False,0,2025-12-31,18,Desktop
+CHK00458,CRE0162,PRD00866,Education & Online Courses,197,Final Review,YouTube,True,2.5,False,False,False,0,2026-03-10,22,Tablet
+CHK00459,CRE0194,PRD02365,Gaming & Esports,67,Started Checkout,YouTube,True,2.7,False,True,False,0,2025-10-08,21,Mobile
+CHK00460,CRE0139,PRD00345,Language Learning,17,Final Review,YouTube,False,,False,False,False,0,2025-11-08,16,Desktop
+CHK00461,CRE0552,PRD00613,Pet Care,17,Payment Info,Direct,False,,False,False,False,0,2026-01-17,8,Desktop
+CHK00462,CRE0101,PRD01669,Parenting & Family,9,Payment Info,TikTok,False,,False,False,False,0,2025-09-24,3,Tablet
+CHK00463,CRE0536,PRD01093,Parenting & Family,127,Payment Info,Google,False,,False,False,False,0,2025-10-17,17,Mobile
+CHK00464,CRE0372,PRD00815,Food & Cooking,497,Final Review,Google,True,4.0,False,True,False,0,2026-02-10,16,Mobile
+CHK00465,CRE0435,PRD01279,Business & Entrepreneurship,497,Final Review,Direct,False,,False,False,False,0,2026-03-17,15,Mobile
+CHK00466,CRE0452,PRD01528,Beauty & Fashion,17,Payment Info,Email,True,3.3,False,True,True,17,2026-01-02,3,Desktop
+CHK00467,CRE0157,PRD01198,Parenting & Family,47,Started Checkout,TikTok,True,1.4,False,True,False,0,2025-09-27,17,Desktop
+CHK00468,CRE0395,PRD00724,Business & Entrepreneurship,97,Started Checkout,Google,True,1.8,False,False,False,0,2026-02-18,18,Mobile
+CHK00469,CRE0286,PRD01799,Language Learning,127,Started Checkout,Google,True,2.4,True,False,False,0,2025-11-19,20,Mobile
+CHK00470,CRE0529,PRD00165,Finance & Investing,27,Payment Info,Direct,False,,False,False,False,0,2025-12-16,13,Mobile
+CHK00471,CRE0476,PRD00178,Language Learning,97,Added to Cart,Email,True,3.1,False,False,False,0,2025-12-03,11,Mobile
+CHK00472,CRE0302,PRD01830,Food & Cooking,27,Added to Cart,Email,False,,False,False,False,0,2025-12-05,10,Tablet
+CHK00473,CRE0180,PRD00655,Science & Space,297,Payment Info,Direct,True,1.6,True,True,False,0,2025-09-22,5,Mobile
+CHK00474,CRE0459,PRD01065,Personal Development,27,Payment Info,Email,True,1.1,False,True,False,0,2026-01-23,19,Desktop
+CHK00475,CRE0393,PRD00006,Science & Space,17,Added to Cart,YouTube,True,1.4,False,False,False,0,2026-01-26,15,Mobile
+CHK00476,CRE0065,PRD01109,Food & Cooking,47,Added to Cart,Email,False,,False,False,False,0,2025-11-06,14,Mobile
+CHK00477,CRE0347,PRD00468,Home Decor & Interior Design,27,Added to Cart,Instagram,True,2.6,False,False,False,0,2025-11-06,8,Desktop
+CHK00478,CRE0474,PRD00297,Language Learning,127,Payment Info,Google,False,,False,False,False,0,2025-12-16,3,Mobile
+CHK00479,CRE0194,PRD02259,Science & Space,9,Added to Cart,Google,True,0.7,False,True,False,0,2025-10-26,5,Desktop
+CHK00480,CRE0282,PRD00078,Education & Online Courses,9,Added to Cart,Direct,False,,False,False,False,0,2025-12-22,14,Desktop
+CHK00481,CRE0197,PRD01674,Education & Online Courses,67,Started Checkout,TikTok,True,3.7,False,True,True,67,2026-03-14,18,Tablet
+CHK00482,CRE0468,PRD00818,Sustainable Living,47,Added to Cart,TikTok,True,0.9,True,True,False,0,2025-11-19,7,Mobile
+CHK00483,CRE0459,PRD00074,Education & Online Courses,37,Payment Info,Direct,True,1.5,False,False,False,0,2026-01-11,7,Mobile
+CHK00484,CRE0391,PRD00357,Parenting & Family,9,Added to Cart,Instagram,True,3.8,False,False,False,0,2026-01-11,12,Tablet
+CHK00485,CRE0130,PRD00404,Parenting & Family,97,Added to Cart,Instagram,True,2.7,False,True,False,0,2025-09-30,2,Desktop
+CHK00486,CRE0295,PRD01852,Beauty & Fashion,27,Final Review,YouTube,True,1.0,False,False,False,0,2026-01-25,6,Mobile
+CHK00487,CRE0280,PRD02061,Sustainable Living,67,Payment Info,YouTube,False,,False,False,False,0,2025-12-18,10,Mobile
+CHK00488,CRE0079,PRD01086,Gaming & Esports,97,Started Checkout,Instagram,False,,False,False,False,0,2026-02-23,9,Desktop
+CHK00489,CRE0299,PRD00633,Education & Online Courses,127,Started Checkout,Email,True,1.4,False,False,False,0,2025-11-20,0,Mobile
+CHK00490,CRE0274,PRD02367,Beauty & Fashion,197,Payment Info,Instagram,True,1.6,True,True,False,0,2025-11-24,4,Mobile
+CHK00491,CRE0002,PRD00566,Travel & Adventure,67,Started Checkout,YouTube,False,,False,False,False,0,2025-09-21,17,Desktop
+CHK00492,CRE0056,PRD00265,Gaming & Esports,97,Added to Cart,Email,False,,False,False,False,0,2025-12-27,15,Desktop
+CHK00493,CRE0510,PRD01963,Beauty & Fashion,17,Payment Info,TikTok,False,,False,False,False,0,2025-09-25,5,Desktop
+CHK00494,CRE0455,PRD00288,Comedy & Entertainment,37,Started Checkout,TikTok,False,,False,False,False,0,2026-01-17,16,Tablet
+CHK00495,CRE0055,PRD00173,Personal Development,297,Payment Info,YouTube,True,3.0,False,False,False,0,2025-12-28,2,Tablet
+CHK00496,CRE0460,PRD01842,Sustainable Living,27,Added to Cart,Email,True,4.0,True,True,False,0,2026-01-13,5,Tablet
+CHK00497,CRE0308,PRD02075,Language Learning,97,Started Checkout,TikTok,False,,False,False,False,0,2026-03-18,10,Mobile
+CHK00498,CRE0176,PRD01668,Education & Online Courses,297,Started Checkout,Google,True,3.5,False,False,False,0,2026-03-11,17,Tablet
+CHK00499,CRE0572,PRD01060,Photography & Videography,27,Started Checkout,Direct,False,,False,False,False,0,2026-01-08,13,Desktop
+CHK00500,CRE0499,PRD01614,Parenting & Family,27,Added to Cart,YouTube,False,,False,False,False,0,2025-11-07,16,Mobile
+CHK00501,CRE0226,PRD00197,Pet Care,37,Started Checkout,Email,False,,False,False,False,0,2026-01-12,4,Mobile
+CHK00502,CRE0507,PRD00097,Language Learning,197,Final Review,Email,True,3.3,False,False,False,0,2026-02-20,5,Mobile
+CHK00503,CRE0469,PRD01322,Education & Online Courses,497,Payment Info,TikTok,False,,False,False,False,0,2025-10-14,3,Mobile
+CHK00504,CRE0028,PRD00678,Travel & Adventure,47,Started Checkout,Google,True,3.8,True,False,False,0,2025-10-07,1,Tablet
+CHK00505,CRE0220,PRD00854,Travel & Adventure,97,Payment Info,YouTube,True,3.9,True,False,False,0,2026-03-16,17,Tablet
+CHK00506,CRE0141,PRD00938,Business & Entrepreneurship,47,Started Checkout,Direct,False,,False,False,False,0,2025-12-28,18,Mobile
+CHK00507,CRE0008,PRD02284,Music & Audio Production,497,Payment Info,Email,True,3.4,False,True,False,0,2026-01-20,19,Desktop
+CHK00508,CRE0540,PRD00316,Science & Space,197,Added to Cart,Instagram,False,,False,False,False,0,2025-10-07,14,Tablet
+CHK00509,CRE0568,PRD01717,Comedy & Entertainment,67,Payment Info,YouTube,True,3.6,True,True,False,0,2026-02-26,12,Mobile
+CHK00510,CRE0418,PRD01452,Music & Audio Production,37,Added to Cart,Google,True,1.5,False,True,False,0,2026-01-24,21,Desktop
+CHK00511,CRE0168,PRD01292,Pet Care,297,Final Review,Direct,True,2.1,True,False,False,0,2025-10-04,6,Mobile
+CHK00512,CRE0309,PRD01455,Parenting & Family,27,Started Checkout,Google,True,0.9,False,True,False,0,2025-12-29,11,Desktop
+CHK00513,CRE0224,PRD00214,Parenting & Family,17,Started Checkout,Direct,True,1.9,True,False,False,0,2026-02-09,8,Mobile
+CHK00514,CRE0447,PRD02251,Gaming & Esports,17,Added to Cart,Google,True,1.2,True,True,False,0,2025-10-10,14,Mobile
+CHK00515,CRE0082,PRD01251,Sustainable Living,297,Added to Cart,Email,True,0.9,False,False,False,0,2025-10-11,6,Mobile
+CHK00516,CRE0394,PRD01931,Home Decor & Interior Design,497,Payment Info,Direct,True,1.0,True,True,False,0,2025-10-25,20,Mobile
+CHK00517,CRE0438,PRD01807,Finance & Investing,67,Started Checkout,Direct,True,3.5,True,False,False,0,2026-01-19,13,Mobile
+CHK00518,CRE0474,PRD02352,Gaming & Esports,197,Started Checkout,Direct,False,,False,False,False,0,2026-02-24,10,Mobile
+CHK00519,CRE0319,PRD00229,Personal Development,9,Started Checkout,Direct,False,,False,False,False,0,2025-12-07,7,Desktop
+CHK00520,CRE0521,PRD01136,Education & Online Courses,97,Started Checkout,Instagram,True,0.9,False,False,False,0,2026-01-23,9,Mobile
+CHK00521,CRE0506,PRD02445,Education & Online Courses,127,Started Checkout,Direct,True,0.6,True,True,False,0,2026-02-14,16,Mobile
+CHK00522,CRE0244,PRD00618,Pet Care,27,Started Checkout,Email,False,,False,False,False,0,2026-02-05,21,Mobile
+CHK00523,CRE0536,PRD01549,Sustainable Living,497,Final Review,Google,True,2.0,False,False,False,0,2026-01-01,22,Mobile
+CHK00524,CRE0201,PRD00164,Gaming & Esports,297,Added to Cart,Direct,True,1.4,True,False,False,0,2025-11-01,11,Tablet
+CHK00525,CRE0534,PRD00540,Finance & Investing,497,Started Checkout,Instagram,True,3.4,False,True,False,0,2025-10-22,18,Desktop
+CHK00526,CRE0301,PRD00872,Food & Cooking,127,Final Review,Google,False,,False,False,False,0,2026-01-11,4,Mobile
+CHK00527,CRE0567,PRD01778,Travel & Adventure,9,Final Review,YouTube,True,3.6,True,False,False,0,2025-09-22,23,Mobile
+CHK00528,CRE0072,PRD00187,Photography & Videography,197,Final Review,Email,True,3.5,False,False,False,0,2026-01-18,2,Mobile
+CHK00529,CRE0270,PRD00591,Technology & Software,297,Added to Cart,TikTok,True,2.4,True,True,False,0,2025-10-24,11,Desktop
+CHK00530,CRE0377,PRD00004,Pet Care,37,Added to Cart,YouTube,True,2.9,False,False,False,0,2025-10-23,11,Mobile
+CHK00531,CRE0433,PRD00786,Finance & Investing,17,Added to Cart,Email,False,,False,False,False,0,2025-11-30,23,Mobile
+CHK00532,CRE0128,PRD01216,Technology & Software,127,Final Review,TikTok,True,2.6,True,True,False,0,2025-10-31,4,Tablet
+CHK00533,CRE0480,PRD01789,Pet Care,17,Payment Info,Instagram,True,1.9,False,False,False,0,2025-10-01,12,Mobile
+CHK00534,CRE0146,PRD02293,Photography & Videography,37,Added to Cart,YouTube,True,1.8,True,True,False,0,2025-10-03,1,Mobile
+CHK00535,CRE0415,PRD01282,Gaming & Esports,9,Payment Info,YouTube,True,3.4,True,False,False,0,2026-03-18,11,Mobile
+CHK00536,CRE0525,PRD02421,Finance & Investing,497,Final Review,TikTok,True,1.4,False,True,False,0,2026-02-03,6,Mobile
+CHK00537,CRE0517,PRD00444,Language Learning,17,Added to Cart,Email,True,3.6,False,True,False,0,2025-11-07,16,Tablet
+CHK00538,CRE0247,PRD00790,Science & Space,67,Final Review,Email,False,,False,False,False,0,2026-02-28,14,Tablet
+CHK00539,CRE0077,PRD01678,Business & Entrepreneurship,497,Final Review,Email,True,0.6,True,True,False,0,2025-11-30,5,Mobile
+CHK00540,CRE0010,PRD01852,Beauty & Fashion,297,Started Checkout,Email,True,0.9,False,True,False,0,2025-10-01,17,Tablet
+CHK00541,CRE0298,PRD00564,Technology & Software,37,Payment Info,YouTube,False,,False,False,False,0,2025-09-21,10,Mobile
+CHK00542,CRE0380,PRD00219,Beauty & Fashion,97,Payment Info,Instagram,False,,False,False,False,0,2026-02-22,6,Mobile
+CHK00543,CRE0146,PRD00875,Food & Cooking,9,Started Checkout,Direct,False,,False,False,False,0,2025-10-13,2,Mobile
+CHK00544,CRE0521,PRD00618,Travel & Adventure,27,Started Checkout,YouTube,True,1.7,False,False,False,0,2025-12-06,0,Tablet
+CHK00545,CRE0521,PRD02368,Technology & Software,97,Added to Cart,Google,True,1.0,False,False,False,0,2026-02-03,0,Mobile
+CHK00546,CRE0498,PRD01291,Science & Space,97,Added to Cart,Google,True,2.8,False,False,False,0,2025-12-23,17,Desktop
+CHK00547,CRE0299,PRD00367,Music & Audio Production,37,Final Review,TikTok,True,1.4,True,True,False,0,2026-01-03,16,Mobile
+CHK00548,CRE0203,PRD01007,Comedy & Entertainment,27,Final Review,Direct,True,1.5,True,False,False,0,2025-11-02,20,Desktop
+CHK00549,CRE0592,PRD00218,Home Decor & Interior Design,9,Added to Cart,Google,True,3.1,True,False,False,0,2026-01-20,16,Desktop
+CHK00550,CRE0174,PRD01180,Business & Entrepreneurship,37,Added to Cart,Instagram,False,,False,False,False,0,2026-03-07,9,Mobile
+CHK00551,CRE0221,PRD01848,Pet Care,47,Started Checkout,Direct,False,,False,False,False,0,2025-11-28,10,Tablet
+CHK00552,CRE0457,PRD01313,Food & Cooking,197,Added to Cart,Email,True,0.7,True,False,True,197,2025-11-25,4,Mobile
+CHK00553,CRE0566,PRD00456,Travel & Adventure,127,Final Review,Instagram,False,,False,False,False,0,2025-11-09,22,Mobile
+CHK00554,CRE0587,PRD02268,Food & Cooking,497,Started Checkout,Email,True,1.9,True,False,False,0,2026-01-20,21,Tablet
+CHK00555,CRE0144,PRD01178,Food & Cooking,197,Started Checkout,Email,True,1.6,False,True,False,0,2025-10-11,20,Mobile
+CHK00556,CRE0587,PRD00889,Parenting & Family,27,Payment Info,Google,True,1.9,False,True,False,0,2025-11-29,1,Desktop
+CHK00557,CRE0473,PRD00681,Comedy & Entertainment,17,Started Checkout,Google,False,,False,False,False,0,2025-10-05,20,Mobile
+CHK00558,CRE0257,PRD00794,Technology & Software,67,Final Review,Instagram,True,2.9,False,True,False,0,2025-12-31,20,Mobile
+CHK00559,CRE0478,PRD01033,Science & Space,9,Final Review,YouTube,False,,False,False,False,0,2025-11-23,0,Tablet
+CHK00560,CRE0110,PRD00735,Pet Care,127,Started Checkout,Direct,True,1.8,True,False,False,0,2026-03-10,4,Tablet
+CHK00561,CRE0333,PRD00057,Pet Care,9,Added to Cart,Email,False,,False,False,False,0,2025-12-05,0,Mobile
+CHK00562,CRE0160,PRD02024,Gaming & Esports,47,Added to Cart,TikTok,True,3.3,False,True,False,0,2026-01-09,6,Mobile
+CHK00563,CRE0489,PRD00028,Language Learning,27,Payment Info,YouTube,True,1.4,False,True,False,0,2025-10-09,22,Mobile
+CHK00564,CRE0192,PRD02308,Beauty & Fashion,47,Final Review,Google,True,3.4,False,False,True,47,2025-09-28,10,Desktop
+CHK00565,CRE0414,PRD01262,Pet Care,67,Started Checkout,Instagram,False,,False,False,False,0,2026-01-01,3,Desktop
+CHK00566,CRE0183,PRD00576,Gaming & Esports,47,Payment Info,YouTube,True,3.5,False,False,False,0,2025-12-19,21,Mobile
+CHK00567,CRE0335,PRD02016,Music & Audio Production,297,Payment Info,YouTube,True,1.1,False,False,False,0,2026-01-01,1,Tablet
+CHK00568,CRE0134,PRD02327,Sustainable Living,297,Final Review,Direct,False,,False,False,False,0,2025-10-30,8,Mobile
+CHK00569,CRE0334,PRD01523,Comedy & Entertainment,67,Final Review,YouTube,False,,False,False,False,0,2025-11-30,6,Tablet
+CHK00570,CRE0355,PRD02434,Home Decor & Interior Design,47,Added to Cart,Google,True,0.6,True,True,False,0,2025-11-27,0,Mobile
+CHK00571,CRE0479,PRD00172,Travel & Adventure,127,Added to Cart,Direct,True,2.4,True,False,False,0,2025-10-23,18,Desktop
+CHK00572,CRE0169,PRD00460,Photography & Videography,17,Final Review,Direct,True,2.0,True,True,False,0,2026-03-19,19,Tablet
+CHK00573,CRE0298,PRD00736,Business & Entrepreneurship,47,Final Review,Instagram,True,1.3,True,True,False,0,2025-12-10,15,Desktop
+CHK00574,CRE0104,PRD01493,Photography & Videography,67,Started Checkout,Direct,False,,False,False,False,0,2026-03-08,0,Mobile
+CHK00575,CRE0402,PRD00581,Music & Audio Production,27,Payment Info,YouTube,False,,False,False,False,0,2025-10-16,13,Mobile
+CHK00576,CRE0088,PRD02315,Travel & Adventure,297,Final Review,YouTube,True,1.3,False,False,False,0,2026-01-15,6,Mobile
+CHK00577,CRE0573,PRD02029,Photography & Videography,97,Started Checkout,Instagram,True,1.8,True,True,False,0,2026-01-10,20,Mobile
+CHK00578,CRE0293,PRD00128,Education & Online Courses,197,Added to Cart,YouTube,False,,False,False,False,0,2026-01-02,10,Mobile
+CHK00579,CRE0182,PRD00506,Language Learning,127,Final Review,Instagram,True,1.8,True,False,False,0,2026-02-06,1,Tablet
+CHK00580,CRE0336,PRD00355,Photography & Videography,97,Final Review,TikTok,True,1.7,True,False,False,0,2025-10-13,23,Mobile
+CHK00581,CRE0188,PRD01912,Food & Cooking,97,Payment Info,Email,False,,False,False,False,0,2025-10-11,11,Mobile
+CHK00582,CRE0455,PRD00669,Travel & Adventure,197,Added to Cart,Instagram,True,0.8,False,False,False,0,2026-01-14,3,Tablet
+CHK00583,CRE0069,PRD01965,Science & Space,197,Started Checkout,Google,True,0.8,True,True,False,0,2025-12-09,21,Tablet
+CHK00584,CRE0277,PRD01208,Language Learning,97,Payment Info,Direct,False,,False,False,False,0,2026-03-01,12,Tablet
+CHK00585,CRE0255,PRD00243,Science & Space,197,Final Review,YouTube,True,2.3,True,False,False,0,2025-11-19,5,Tablet
+CHK00586,CRE0235,PRD01212,Education & Online Courses,9,Final Review,Instagram,False,,False,False,False,0,2026-02-27,19,Mobile
+CHK00587,CRE0399,PRD02263,Travel & Adventure,9,Added to Cart,TikTok,True,1.5,True,False,False,0,2026-01-12,12,Mobile
+CHK00588,CRE0187,PRD00788,Education & Online Courses,17,Added to Cart,Email,True,1.1,False,True,False,0,2025-11-02,5,Mobile
+CHK00589,CRE0315,PRD01668,Language Learning,27,Payment Info,Instagram,False,,False,False,False,0,2025-12-08,6,Mobile
+CHK00590,CRE0357,PRD01016,Science & Space,197,Final Review,Google,False,,False,False,False,0,2026-02-26,0,Mobile
+CHK00591,CRE0333,PRD02312,Pet Care,27,Added to Cart,TikTok,True,1.2,False,False,False,0,2026-01-27,5,Mobile
+CHK00592,CRE0293,PRD01545,Comedy & Entertainment,47,Added to Cart,Email,True,0.7,True,True,False,0,2025-11-04,21,Mobile
+CHK00593,CRE0221,PRD00852,Pet Care,97,Final Review,Google,True,3.9,False,True,True,97,2026-02-01,11,Desktop
+CHK00594,CRE0482,PRD00645,Language Learning,37,Final Review,Instagram,True,1.0,False,False,False,0,2026-02-14,21,Desktop
+CHK00595,CRE0511,PRD01609,Travel & Adventure,97,Final Review,TikTok,True,0.6,True,False,False,0,2025-10-21,0,Desktop
+CHK00596,CRE0075,PRD01219,Sustainable Living,67,Payment Info,Instagram,True,3.7,True,False,False,0,2026-03-18,14,Mobile
+CHK00597,CRE0155,PRD00950,Personal Development,97,Added to Cart,Direct,True,1.8,True,False,True,97,2026-02-15,20,Mobile
+CHK00598,CRE0246,PRD00058,Travel & Adventure,47,Final Review,Instagram,True,3.1,False,False,False,0,2025-11-02,16,Mobile
+CHK00599,CRE0456,PRD00347,Pet Care,297,Started Checkout,Instagram,True,3.4,False,False,False,0,2026-03-04,14,Mobile
+CHK00600,CRE0041,PRD00948,Comedy & Entertainment,197,Added to Cart,Instagram,True,1.5,False,True,False,0,2026-02-15,0,Mobile
+CHK00601,CRE0012,PRD01009,Music & Audio Production,37,Added to Cart,Direct,True,1.7,False,False,False,0,2025-12-26,11,Mobile
+CHK00602,CRE0416,PRD00258,Sustainable Living,127,Added to Cart,Direct,True,0.6,True,False,False,0,2026-02-13,5,Mobile
+CHK00603,CRE0363,PRD01538,Technology & Software,47,Started Checkout,Direct,True,3.3,True,True,False,0,2026-02-23,6,Mobile
+CHK00604,CRE0010,PRD01368,Comedy & Entertainment,97,Payment Info,YouTube,False,,False,False,False,0,2025-10-05,6,Desktop
+CHK00605,CRE0311,PRD01482,Sustainable Living,127,Final Review,Direct,False,,False,False,False,0,2025-11-05,8,Tablet
+CHK00606,CRE0460,PRD00748,Science & Space,47,Started Checkout,Instagram,False,,False,False,False,0,2025-11-28,20,Desktop
+CHK00607,CRE0312,PRD00359,Home Decor & Interior Design,47,Started Checkout,Direct,True,1.9,False,False,False,0,2025-10-07,15,Tablet
+CHK00608,CRE0481,PRD01896,Comedy & Entertainment,47,Added to Cart,TikTok,True,2.7,True,False,False,0,2025-12-25,12,Tablet
+CHK00609,CRE0298,PRD02170,Personal Development,127,Final Review,Google,True,2.6,False,False,False,0,2026-02-08,10,Mobile
+CHK00610,CRE0323,PRD01144,Comedy & Entertainment,127,Started Checkout,TikTok,True,1.8,False,True,False,0,2025-10-24,18,Mobile
+CHK00611,CRE0325,PRD00922,Home Decor & Interior Design,27,Added to Cart,YouTube,True,1.0,False,False,False,0,2026-02-15,13,Mobile
+CHK00612,CRE0162,PRD00802,Music & Audio Production,47,Payment Info,Email,True,3.1,False,True,False,0,2026-03-09,19,Tablet
+CHK00613,CRE0041,PRD00417,Music & Audio Production,67,Started Checkout,TikTok,False,,False,False,False,0,2026-03-19,6,Mobile
+CHK00614,CRE0229,PRD02331,Travel & Adventure,297,Final Review,Instagram,True,0.9,True,False,False,0,2026-01-30,9,Desktop
+CHK00615,CRE0345,PRD01789,Personal Development,297,Started Checkout,TikTok,True,1.2,False,False,False,0,2026-01-13,11,Mobile
+CHK00616,CRE0245,PRD01080,Language Learning,27,Payment Info,Google,True,2.0,False,True,False,0,2025-12-08,13,Tablet
+CHK00617,CRE0171,PRD01055,Education & Online Courses,97,Added to Cart,Direct,True,1.9,True,False,False,0,2026-03-07,6,Mobile
+CHK00618,CRE0095,PRD00667,Business & Entrepreneurship,37,Final Review,YouTube,True,3.4,False,True,False,0,2025-11-23,3,Mobile
+CHK00619,CRE0038,PRD01594,Finance & Investing,497,Payment Info,Email,False,,False,False,False,0,2025-12-15,4,Desktop
+CHK00620,CRE0502,PRD01992,Photography & Videography,17,Final Review,Google,True,4.0,True,False,False,0,2025-12-14,17,Tablet
+CHK00621,CRE0381,PRD01531,Gaming & Esports,27,Payment Info,Direct,True,2.2,False,True,False,0,2026-03-08,13,Mobile
+CHK00622,CRE0093,PRD00316,Comedy & Entertainment,127,Payment Info,YouTube,False,,False,False,False,0,2025-09-28,8,Mobile
+CHK00623,CRE0353,PRD01190,Personal Development,27,Added to Cart,Email,True,2.7,False,True,False,0,2025-09-24,2,Mobile
+CHK00624,CRE0512,PRD00567,Comedy & Entertainment,47,Final Review,Instagram,True,1.1,True,True,False,0,2025-10-11,1,Mobile
+CHK00625,CRE0311,PRD00523,Food & Cooking,9,Started Checkout,Instagram,True,2.5,False,True,False,0,2026-01-14,21,Desktop
+CHK00626,CRE0467,PRD00655,Education & Online Courses,127,Final Review,Google,True,3.7,False,True,False,0,2025-12-11,1,Mobile
+CHK00627,CRE0242,PRD01008,Parenting & Family,97,Started Checkout,Direct,False,,False,False,False,0,2025-11-07,21,Mobile
+CHK00628,CRE0463,PRD01696,Sustainable Living,297,Payment Info,Google,False,,False,False,False,0,2025-11-20,6,Desktop
+CHK00629,CRE0264,PRD01968,Food & Cooking,127,Added to Cart,Email,True,2.3,True,False,False,0,2026-01-25,19,Desktop
+CHK00630,CRE0255,PRD02210,Home Decor & Interior Design,67,Final Review,Instagram,True,3.4,True,False,False,0,2026-03-06,12,Mobile
+CHK00631,CRE0049,PRD00875,Comedy & Entertainment,27,Added to Cart,YouTube,False,,False,False,False,0,2025-11-03,11,Mobile
+CHK00632,CRE0255,PRD01063,Finance & Investing,97,Final Review,Instagram,True,2.5,False,True,False,0,2026-01-04,0,Tablet
+CHK00633,CRE0132,PRD01682,Comedy & Entertainment,37,Added to Cart,YouTube,True,3.6,True,False,False,0,2025-09-29,20,Mobile
+CHK00634,CRE0096,PRD01721,Science & Space,97,Final Review,Email,False,,False,False,False,0,2025-12-13,4,Desktop
+CHK00635,CRE0190,PRD01397,Comedy & Entertainment,67,Added to Cart,Instagram,True,0.7,False,True,False,0,2026-01-18,9,Mobile
+CHK00636,CRE0475,PRD02406,Finance & Investing,47,Added to Cart,YouTube,True,3.2,False,False,False,0,2025-10-23,3,Mobile
+CHK00637,CRE0362,PRD01121,Sustainable Living,497,Final Review,Instagram,False,,False,False,False,0,2025-10-04,19,Desktop
+CHK00638,CRE0524,PRD01608,Home Decor & Interior Design,47,Added to Cart,YouTube,True,0.7,False,False,True,47,2026-01-02,8,Mobile
+CHK00639,CRE0508,PRD00043,Parenting & Family,67,Payment Info,Email,False,,False,False,False,0,2025-09-22,15,Mobile
+CHK00640,CRE0027,PRD00666,Beauty & Fashion,37,Added to Cart,Email,True,1.8,False,True,False,0,2026-01-10,3,Tablet
+CHK00641,CRE0378,PRD01032,Travel & Adventure,297,Started Checkout,Google,False,,False,False,False,0,2025-10-11,23,Desktop
+CHK00642,CRE0558,PRD01691,Personal Development,67,Final Review,Instagram,True,0.6,True,False,False,0,2026-02-24,23,Desktop
+CHK00643,CRE0380,PRD01037,Food & Cooking,67,Final Review,Direct,True,1.0,True,False,False,0,2026-01-09,8,Mobile
+CHK00644,CRE0179,PRD00852,Science & Space,297,Started Checkout,Google,False,,False,False,False,0,2025-09-26,18,Mobile
+CHK00645,CRE0225,PRD00663,Home Decor & Interior Design,17,Started Checkout,YouTube,True,0.5,True,False,False,0,2025-12-15,11,Mobile
+CHK00646,CRE0506,PRD01244,Science & Space,127,Added to Cart,Direct,True,3.8,True,False,False,0,2025-12-12,3,Mobile
+CHK00647,CRE0486,PRD00247,Beauty & Fashion,97,Payment Info,Google,True,1.4,False,False,False,0,2026-03-01,2,Mobile
+CHK00648,CRE0129,PRD01291,Parenting & Family,47,Final Review,Email,False,,False,False,False,0,2025-10-17,3,Mobile
+CHK00649,CRE0159,PRD01568,Technology & Software,197,Added to Cart,Email,True,0.9,True,False,False,0,2026-03-03,19,Desktop
+CHK00650,CRE0370,PRD00099,Education & Online Courses,297,Final Review,Direct,True,3.3,False,False,False,0,2026-02-14,8,Mobile
+CHK00651,CRE0508,PRD01951,Travel & Adventure,497,Added to Cart,Google,True,3.2,False,False,False,0,2026-02-24,16,Mobile
+CHK00652,CRE0458,PRD00245,Pet Care,297,Final Review,Email,True,2.7,False,False,False,0,2025-12-28,13,Mobile
+CHK00653,CRE0469,PRD01338,Pet Care,197,Added to Cart,Instagram,True,2.6,True,False,True,197,2026-01-09,19,Mobile
+CHK00654,CRE0321,PRD00562,Technology & Software,497,Added to Cart,Direct,True,1.8,False,False,True,497,2026-03-08,16,Tablet
+CHK00655,CRE0270,PRD02385,Language Learning,17,Added to Cart,Instagram,True,2.4,True,True,True,17,2026-01-06,17,Tablet
+CHK00656,CRE0250,PRD02319,Language Learning,127,Final Review,Instagram,True,0.9,False,False,False,0,2026-02-20,16,Mobile
+CHK00657,CRE0343,PRD02426,Language Learning,297,Started Checkout,YouTube,True,2.5,True,False,False,0,2026-03-03,2,Mobile
+CHK00658,CRE0150,PRD00358,Home Decor & Interior Design,197,Final Review,Direct,False,,False,False,False,0,2026-01-07,17,Mobile
+CHK00659,CRE0072,PRD02073,Home Decor & Interior Design,197,Payment Info,Email,True,1.6,False,True,False,0,2026-03-15,14,Tablet
+CHK00660,CRE0444,PRD01936,Food & Cooking,127,Payment Info,Direct,True,1.2,False,True,False,0,2026-02-04,3,Tablet
+CHK00661,CRE0487,PRD00761,Comedy & Entertainment,67,Final Review,Google,False,,False,False,False,0,2025-10-19,1,Desktop
+CHK00662,CRE0544,PRD01262,Parenting & Family,497,Added to Cart,Email,True,1.2,False,True,False,0,2025-10-31,5,Mobile
+CHK00663,CRE0359,PRD00814,Music & Audio Production,27,Final Review,Direct,True,1.2,True,False,False,0,2026-02-01,10,Mobile
+CHK00664,CRE0556,PRD01652,Photography & Videography,127,Payment Info,TikTok,True,2.8,True,True,False,0,2026-01-02,10,Tablet
+CHK00665,CRE0280,PRD02179,Parenting & Family,37,Final Review,Instagram,True,1.2,False,True,False,0,2026-02-13,0,Mobile
+CHK00666,CRE0337,PRD00143,Finance & Investing,47,Final Review,Instagram,True,2.6,False,False,False,0,2025-11-23,7,Desktop
+CHK00667,CRE0513,PRD01032,Language Learning,497,Final Review,Email,False,,False,False,False,0,2026-02-23,18,Tablet
+CHK00668,CRE0422,PRD00525,Technology & Software,67,Added to Cart,Instagram,True,3.8,False,True,False,0,2025-10-07,21,Tablet
+CHK00669,CRE0365,PRD01821,Science & Space,37,Added to Cart,Google,True,3.3,False,True,False,0,2025-11-11,19,Mobile
+CHK00670,CRE0583,PRD00476,Gaming & Esports,97,Started Checkout,Instagram,True,0.8,True,False,False,0,2025-11-10,6,Desktop
+CHK00671,CRE0005,PRD02434,Business & Entrepreneurship,9,Payment Info,Instagram,False,,False,False,False,0,2025-09-20,16,Mobile
+CHK00672,CRE0336,PRD00015,Gaming & Esports,9,Final Review,TikTok,True,3.1,False,True,False,0,2026-01-11,8,Desktop
+CHK00673,CRE0415,PRD00661,Language Learning,37,Final Review,TikTok,False,,False,False,False,0,2025-10-16,6,Mobile
+CHK00674,CRE0141,PRD00729,Beauty & Fashion,9,Added to Cart,YouTube,True,0.6,False,False,False,0,2025-12-30,19,Desktop
+CHK00675,CRE0011,PRD01470,Comedy & Entertainment,37,Added to Cart,Instagram,True,2.9,False,False,False,0,2026-03-12,5,Mobile
+CHK00676,CRE0316,PRD02047,Comedy & Entertainment,497,Final Review,Email,True,0.6,True,True,False,0,2026-01-05,9,Mobile
+CHK00677,CRE0271,PRD01044,Home Decor & Interior Design,127,Payment Info,Direct,True,2.2,False,False,False,0,2026-02-09,21,Mobile
+CHK00678,CRE0345,PRD00115,Pet Care,297,Payment Info,Instagram,True,1.5,False,True,False,0,2025-12-16,11,Mobile
+CHK00679,CRE0179,PRD01172,Comedy & Entertainment,17,Started Checkout,Google,False,,False,False,False,0,2025-11-05,20,Desktop
+CHK00680,CRE0371,PRD00910,Language Learning,47,Final Review,Email,False,,False,False,False,0,2026-02-14,14,Mobile
+CHK00681,CRE0007,PRD00877,Pet Care,9,Added to Cart,TikTok,False,,False,False,False,0,2025-10-11,13,Mobile
+CHK00682,CRE0320,PRD01546,Music & Audio Production,127,Payment Info,TikTok,True,3.0,False,True,False,0,2026-01-24,0,Tablet
+CHK00683,CRE0009,PRD00929,Food & Cooking,37,Started Checkout,TikTok,True,3.6,True,True,False,0,2026-02-23,11,Mobile
+CHK00684,CRE0374,PRD01647,Language Learning,97,Added to Cart,TikTok,True,3.7,False,False,False,0,2025-11-04,1,Desktop
+CHK00685,CRE0412,PRD00822,Parenting & Family,97,Payment Info,Direct,False,,False,False,False,0,2025-12-18,23,Mobile
+CHK00686,CRE0573,PRD00410,Food & Cooking,67,Final Review,Direct,True,3.0,True,True,False,0,2026-02-17,0,Mobile
+CHK00687,CRE0466,PRD00082,Language Learning,127,Final Review,Direct,False,,False,False,False,0,2025-12-12,20,Mobile
+CHK00688,CRE0009,PRD02310,Finance & Investing,297,Payment Info,Instagram,False,,False,False,False,0,2026-03-02,8,Desktop
+CHK00689,CRE0258,PRD00897,Parenting & Family,297,Final Review,Direct,False,,False,False,False,0,2026-01-01,5,Desktop
+CHK00690,CRE0450,PRD01165,Language Learning,297,Payment Info,YouTube,True,2.4,True,True,True,297,2026-01-14,20,Mobile
+CHK00691,CRE0135,PRD00061,Music & Audio Production,37,Payment Info,Direct,True,2.0,True,False,False,0,2026-02-07,2,Desktop
+CHK00692,CRE0210,PRD00211,Travel & Adventure,297,Final Review,Google,True,0.8,True,True,False,0,2026-02-23,19,Tablet
+CHK00693,CRE0248,PRD01370,Comedy & Entertainment,17,Payment Info,Google,False,,False,False,False,0,2025-10-30,23,Desktop
+CHK00694,CRE0015,PRD02330,Photography & Videography,297,Payment Info,Instagram,True,1.8,True,True,False,0,2026-01-27,2,Tablet
+CHK00695,CRE0336,PRD00891,Personal Development,197,Started Checkout,TikTok,True,2.7,True,False,False,0,2026-02-01,3,Mobile
+CHK00696,CRE0398,PRD02140,Parenting & Family,47,Added to Cart,Direct,True,3.8,False,False,False,0,2025-12-25,0,Tablet
+CHK00697,CRE0284,PRD02406,Science & Space,497,Payment Info,YouTube,True,2.4,False,False,False,0,2026-01-30,21,Mobile
+CHK00698,CRE0169,PRD00734,Comedy & Entertainment,67,Added to Cart,YouTube,False,,False,False,False,0,2025-11-15,13,Mobile
+CHK00699,CRE0522,PRD00483,Music & Audio Production,127,Added to Cart,Direct,True,2.1,False,False,False,0,2026-02-09,0,Desktop
+CHK00700,CRE0264,PRD00174,Photography & Videography,197,Added to Cart,Direct,False,,False,False,False,0,2026-01-26,20,Tablet
+CHK00701,CRE0390,PRD00598,Education & Online Courses,127,Added to Cart,Direct,True,0.8,False,True,False,0,2025-12-07,3,Mobile
+CHK00702,CRE0500,PRD01650,Business & Entrepreneurship,67,Started Checkout,Direct,False,,False,False,False,0,2025-11-26,0,Mobile
+CHK00703,CRE0084,PRD01455,Food & Cooking,9,Final Review,Instagram,True,1.2,False,False,False,0,2025-10-03,16,Mobile
+CHK00704,CRE0541,PRD00070,Music & Audio Production,27,Started Checkout,TikTok,True,0.6,False,False,False,0,2025-09-25,16,Tablet
+CHK00705,CRE0503,PRD01451,Personal Development,47,Started Checkout,Google,False,,False,False,False,0,2026-02-02,21,Desktop
+CHK00706,CRE0497,PRD01280,Sustainable Living,97,Added to Cart,TikTok,True,2.9,False,True,False,0,2026-01-06,10,Desktop
+CHK00707,CRE0137,PRD01485,Travel & Adventure,27,Started Checkout,Instagram,True,2.0,False,True,False,0,2026-01-05,18,Tablet
+CHK00708,CRE0456,PRD00719,Finance & Investing,27,Started Checkout,Google,True,2.1,False,False,False,0,2025-11-13,1,Desktop
+CHK00709,CRE0010,PRD01331,Travel & Adventure,37,Payment Info,TikTok,True,2.0,False,False,False,0,2026-03-08,10,Desktop
+CHK00710,CRE0290,PRD00981,Food & Cooking,47,Payment Info,Email,True,3.4,False,False,True,47,2026-03-04,3,Mobile
+CHK00711,CRE0531,PRD01208,Music & Audio Production,67,Payment Info,Google,True,3.8,True,False,False,0,2025-09-30,22,Desktop
+CHK00712,CRE0559,PRD00771,Sustainable Living,47,Started Checkout,Google,False,,False,False,False,0,2025-09-23,15,Tablet
+CHK00713,CRE0071,PRD01315,Photography & Videography,67,Started Checkout,TikTok,True,1.4,True,False,False,0,2026-01-16,16,Desktop
+CHK00714,CRE0287,PRD00844,Music & Audio Production,27,Final Review,YouTube,True,3.3,True,True,False,0,2025-10-09,12,Mobile
+CHK00715,CRE0535,PRD00811,Parenting & Family,27,Started Checkout,TikTok,False,,False,False,False,0,2025-12-08,20,Desktop
+CHK00716,CRE0291,PRD00079,Sustainable Living,37,Payment Info,Instagram,True,3.8,False,False,False,0,2026-02-14,14,Desktop
+CHK00717,CRE0387,PRD00812,Gaming & Esports,297,Final Review,TikTok,True,1.1,True,False,False,0,2025-10-25,6,Tablet
+CHK00718,CRE0366,PRD02499,Finance & Investing,197,Started Checkout,TikTok,False,,False,False,False,0,2025-11-27,23,Mobile
+CHK00719,CRE0334,PRD01487,Comedy & Entertainment,197,Payment Info,Email,True,1.0,False,False,False,0,2026-01-31,18,Mobile
+CHK00720,CRE0114,PRD01953,Business & Entrepreneurship,17,Started Checkout,YouTube,True,2.0,True,True,False,0,2026-02-26,17,Mobile
+CHK00721,CRE0553,PRD00373,Parenting & Family,27,Payment Info,Direct,True,0.6,True,True,True,27,2025-10-17,5,Tablet
+CHK00722,CRE0069,PRD01237,Science & Space,9,Started Checkout,Direct,True,1.4,True,False,False,0,2025-11-06,0,Mobile
+CHK00723,CRE0219,PRD01697,Music & Audio Production,197,Started Checkout,Instagram,False,,False,False,False,0,2025-11-07,6,Mobile
+CHK00724,CRE0100,PRD01557,Comedy & Entertainment,297,Payment Info,Instagram,True,2.7,False,True,True,297,2025-10-20,6,Desktop
+CHK00725,CRE0143,PRD00891,Beauty & Fashion,47,Payment Info,Google,True,3.3,False,True,False,0,2025-12-23,14,Desktop
+CHK00726,CRE0045,PRD02099,Language Learning,197,Final Review,Direct,True,3.0,True,False,False,0,2025-12-29,0,Tablet
+CHK00727,CRE0139,PRD00354,Personal Development,497,Payment Info,Direct,True,3.9,False,False,False,0,2025-11-01,0,Mobile
+CHK00728,CRE0113,PRD01377,Travel & Adventure,27,Final Review,YouTube,True,0.9,True,True,False,0,2026-02-12,9,Mobile
+CHK00729,CRE0496,PRD00165,Science & Space,497,Final Review,Instagram,True,3.9,False,True,False,0,2026-01-11,3,Tablet
+CHK00730,CRE0176,PRD01477,Language Learning,97,Payment Info,Google,True,3.4,False,True,False,0,2025-12-08,11,Mobile
+CHK00731,CRE0432,PRD01732,Language Learning,37,Payment Info,Google,True,1.4,True,True,False,0,2026-01-07,20,Mobile
+CHK00732,CRE0030,PRD00022,Pet Care,37,Payment Info,YouTube,False,,False,False,False,0,2026-01-09,3,Desktop
+CHK00733,CRE0567,PRD00970,Finance & Investing,27,Final Review,Email,True,3.3,False,True,False,0,2026-01-22,23,Tablet
+CHK00734,CRE0107,PRD01630,Business & Entrepreneurship,67,Started Checkout,Instagram,True,2.0,True,True,False,0,2026-01-25,3,Mobile
+CHK00735,CRE0594,PRD01218,Sustainable Living,497,Added to Cart,Google,True,2.0,False,False,False,0,2025-11-20,5,Mobile
+CHK00736,CRE0125,PRD01848,Music & Audio Production,297,Payment Info,TikTok,True,0.8,False,False,False,0,2026-03-13,7,Tablet
+CHK00737,CRE0454,PRD00611,Travel & Adventure,197,Started Checkout,Instagram,True,3.1,False,False,False,0,2026-02-19,7,Mobile
+CHK00738,CRE0281,PRD00938,Home Decor & Interior Design,37,Payment Info,TikTok,True,3.0,True,True,False,0,2025-10-10,1,Tablet
+CHK00739,CRE0281,PRD01803,Pet Care,9,Final Review,Google,True,2.1,False,False,False,0,2026-01-28,12,Tablet
+CHK00740,CRE0336,PRD01094,Finance & Investing,17,Started Checkout,YouTube,False,,False,False,False,0,2025-12-08,4,Mobile
+CHK00741,CRE0420,PRD00801,Technology & Software,47,Final Review,TikTok,True,2.7,True,True,False,0,2026-01-24,20,Tablet
+CHK00742,CRE0124,PRD02144,Food & Cooking,497,Final Review,Instagram,True,2.4,False,False,False,0,2026-01-01,2,Mobile
+CHK00743,CRE0063,PRD00467,Language Learning,47,Final Review,Google,True,3.9,False,False,False,0,2025-09-28,22,Mobile
+CHK00744,CRE0334,PRD02251,Home Decor & Interior Design,197,Final Review,YouTube,True,1.3,False,False,False,0,2025-11-27,21,Mobile
+CHK00745,CRE0365,PRD00208,Comedy & Entertainment,297,Final Review,TikTok,True,3.5,False,False,False,0,2025-12-07,0,Mobile
+CHK00746,CRE0466,PRD01347,Beauty & Fashion,197,Started Checkout,TikTok,False,,False,False,False,0,2025-12-08,19,Desktop
+CHK00747,CRE0438,PRD01842,Sustainable Living,17,Final Review,TikTok,True,2.5,True,False,False,0,2025-09-26,3,Tablet
+CHK00748,CRE0055,PRD00768,Education & Online Courses,47,Started Checkout,TikTok,True,3.1,False,True,False,0,2025-12-21,12,Desktop
+CHK00749,CRE0053,PRD02494,Technology & Software,27,Added to Cart,Direct,True,3.2,True,True,False,0,2025-10-17,14,Mobile
+CHK00750,CRE0089,PRD02194,Beauty & Fashion,297,Added to Cart,Instagram,True,1.8,False,False,False,0,2025-10-03,7,Mobile
+CHK00751,CRE0230,PRD00012,Education & Online Courses,127,Payment Info,YouTube,False,,False,False,False,0,2026-03-13,1,Mobile
+CHK00752,CRE0580,PRD00107,Travel & Adventure,17,Payment Info,Instagram,True,3.0,True,False,False,0,2026-03-16,9,Mobile
+CHK00753,CRE0415,PRD02162,Language Learning,97,Started Checkout,Instagram,True,2.8,True,True,False,0,2026-02-28,9,Desktop
+CHK00754,CRE0322,PRD00634,Comedy & Entertainment,27,Added to Cart,Email,True,0.5,True,False,False,0,2026-01-14,0,Mobile
+CHK00755,CRE0281,PRD00057,Sustainable Living,37,Final Review,Google,False,,False,False,False,0,2025-12-11,19,Tablet
+CHK00756,CRE0338,PRD00192,Beauty & Fashion,17,Added to Cart,Instagram,True,2.2,True,True,False,0,2026-01-03,10,Tablet
+CHK00757,CRE0251,PRD00943,Parenting & Family,197,Payment Info,Email,True,1.3,True,False,False,0,2026-03-01,10,Tablet
+CHK00758,CRE0363,PRD01847,Education & Online Courses,97,Started Checkout,Email,False,,False,False,False,0,2025-09-29,16,Mobile
+CHK00759,CRE0463,PRD01220,Pet Care,27,Final Review,Email,False,,False,False,False,0,2026-02-27,11,Mobile
+CHK00760,CRE0517,PRD02394,Travel & Adventure,17,Payment Info,Google,False,,False,False,False,0,2025-11-01,14,Desktop
+CHK00761,CRE0013,PRD01431,Gaming & Esports,9,Final Review,Google,False,,False,False,False,0,2025-10-20,18,Tablet
+CHK00762,CRE0013,PRD01834,Technology & Software,17,Added to Cart,Direct,False,,False,False,False,0,2026-02-05,4,Desktop
+CHK00763,CRE0435,PRD00026,Food & Cooking,297,Added to Cart,Email,True,3.3,False,False,False,0,2025-10-08,6,Mobile
+CHK00764,CRE0284,PRD00390,Business & Entrepreneurship,497,Payment Info,Google,False,,False,False,False,0,2025-11-01,11,Tablet
+CHK00765,CRE0416,PRD00063,Technology & Software,497,Final Review,Instagram,True,1.1,False,True,False,0,2026-02-04,8,Desktop
+CHK00766,CRE0473,PRD01780,Science & Space,47,Added to Cart,Email,True,3.4,False,True,False,0,2025-12-02,22,Mobile
+CHK00767,CRE0498,PRD00160,Gaming & Esports,9,Final Review,YouTube,True,3.7,True,True,True,9,2026-02-27,12,Mobile
+CHK00768,CRE0097,PRD01233,Food & Cooking,97,Final Review,Email,False,,False,False,False,0,2026-03-14,9,Mobile
+CHK00769,CRE0342,PRD02079,Language Learning,97,Payment Info,Email,True,1.3,False,True,False,0,2025-11-08,16,Mobile
+CHK00770,CRE0516,PRD02099,Travel & Adventure,9,Added to Cart,Google,True,3.7,True,True,False,0,2025-12-14,7,Mobile
+CHK00771,CRE0285,PRD00748,Education & Online Courses,47,Added to Cart,TikTok,True,3.3,True,True,False,0,2026-03-09,7,Mobile
+CHK00772,CRE0299,PRD01235,Photography & Videography,47,Started Checkout,TikTok,True,0.5,False,False,False,0,2026-02-21,11,Desktop
+CHK00773,CRE0285,PRD00182,Parenting & Family,197,Final Review,Instagram,False,,False,False,False,0,2025-11-18,19,Mobile
+CHK00774,CRE0277,PRD01320,Gaming & Esports,297,Final Review,YouTube,True,2.0,False,False,False,0,2025-10-16,21,Mobile
+CHK00775,CRE0121,PRD02156,Food & Cooking,297,Payment Info,TikTok,False,,False,False,False,0,2025-10-30,3,Mobile
+CHK00776,CRE0050,PRD01894,Personal Development,37,Added to Cart,Direct,True,2.8,True,False,False,0,2025-12-29,18,Mobile
+CHK00777,CRE0406,PRD00134,Music & Audio Production,47,Started Checkout,Email,True,3.8,False,True,False,0,2026-01-16,20,Desktop
+CHK00778,CRE0041,PRD00947,Food & Cooking,297,Added to Cart,Email,False,,False,False,False,0,2026-03-09,0,Mobile
+CHK00779,CRE0033,PRD00050,Personal Development,17,Added to Cart,Email,True,3.8,True,False,True,17,2026-01-27,10,Tablet
+CHK00780,CRE0132,PRD00836,Beauty & Fashion,297,Payment Info,TikTok,True,2.0,False,False,False,0,2026-01-09,0,Tablet
+CHK00781,CRE0539,PRD00553,Pet Care,127,Started Checkout,TikTok,True,3.2,True,False,False,0,2026-03-07,19,Mobile
+CHK00782,CRE0005,PRD02252,Language Learning,297,Final Review,Google,True,3.3,False,True,False,0,2025-09-27,16,Mobile
+CHK00783,CRE0547,PRD01074,Food & Cooking,297,Final Review,Instagram,False,,False,False,False,0,2026-01-26,12,Tablet
+CHK00784,CRE0280,PRD00189,Technology & Software,97,Payment Info,Email,True,3.9,True,False,False,0,2025-11-12,0,Mobile
+CHK00785,CRE0220,PRD01822,Education & Online Courses,127,Final Review,Google,False,,False,False,False,0,2025-12-15,1,Tablet
+CHK00786,CRE0208,PRD00083,Beauty & Fashion,297,Added to Cart,Instagram,True,1.1,True,True,True,297,2026-01-27,21,Mobile
+CHK00787,CRE0012,PRD00384,Parenting & Family,47,Added to Cart,Direct,True,2.6,True,True,False,0,2026-01-11,17,Mobile
+CHK00788,CRE0591,PRD00949,Personal Development,127,Payment Info,Instagram,True,2.7,False,True,False,0,2026-01-08,11,Mobile
+CHK00789,CRE0193,PRD00019,Photography & Videography,17,Started Checkout,Instagram,True,1.0,False,True,False,0,2026-02-09,16,Mobile
+CHK00790,CRE0504,PRD02478,Business & Entrepreneurship,47,Started Checkout,Direct,True,0.6,True,True,False,0,2026-03-11,7,Mobile
+CHK00791,CRE0016,PRD01186,Finance & Investing,37,Started Checkout,YouTube,False,,False,False,False,0,2025-12-22,1,Mobile
+CHK00792,CRE0020,PRD00239,Language Learning,127,Final Review,Google,True,1.6,True,False,False,0,2026-01-30,0,Desktop
+CHK00793,CRE0283,PRD01035,Parenting & Family,47,Payment Info,YouTube,False,,False,False,False,0,2026-01-07,10,Tablet
+CHK00794,CRE0243,PRD01504,Beauty & Fashion,497,Payment Info,TikTok,True,1.7,False,True,False,0,2025-12-09,4,Desktop
+CHK00795,CRE0043,PRD00184,Personal Development,197,Payment Info,Google,True,1.9,False,False,False,0,2026-03-14,12,Mobile
+CHK00796,CRE0046,PRD02056,Music & Audio Production,9,Final Review,YouTube,False,,False,False,False,0,2026-01-01,0,Mobile
+CHK00797,CRE0451,PRD00120,Travel & Adventure,127,Started Checkout,TikTok,True,1.8,False,False,False,0,2026-03-14,16,Tablet
+CHK00798,CRE0167,PRD01744,Science & Space,97,Added to Cart,Email,False,,False,False,False,0,2025-12-29,0,Tablet
+CHK00799,CRE0492,PRD01068,Beauty & Fashion,9,Started Checkout,Google,False,,False,False,False,0,2026-02-19,5,Mobile
+CHK00800,CRE0121,PRD00916,Beauty & Fashion,37,Started Checkout,Instagram,False,,False,False,False,0,2026-02-10,15,Tablet
+CHK00801,CRE0380,PRD00159,Education & Online Courses,9,Added to Cart,Direct,False,,False,False,False,0,2025-10-22,4,Mobile
+CHK00802,CRE0223,PRD00476,Parenting & Family,497,Started Checkout,Google,True,1.7,False,False,False,0,2026-01-02,6,Mobile
+CHK00803,CRE0455,PRD00157,Language Learning,97,Started Checkout,Google,False,,False,False,False,0,2026-03-09,23,Mobile
+CHK00804,CRE0116,PRD00586,Food & Cooking,47,Started Checkout,TikTok,True,0.6,True,True,False,0,2025-12-31,11,Tablet
+CHK00805,CRE0152,PRD01470,Science & Space,297,Added to Cart,TikTok,False,,False,False,False,0,2025-11-22,4,Tablet
+CHK00806,CRE0272,PRD01213,Music & Audio Production,17,Payment Info,Instagram,True,4.0,False,False,False,0,2025-11-22,7,Mobile
+CHK00807,CRE0099,PRD00617,Photography & Videography,37,Started Checkout,TikTok,True,1.8,False,False,False,0,2025-10-13,7,Mobile
+CHK00808,CRE0520,PRD00682,Personal Development,47,Final Review,Email,True,0.9,False,False,False,0,2026-01-13,18,Desktop
+CHK00809,CRE0163,PRD02155,Education & Online Courses,17,Payment Info,Instagram,False,,False,False,False,0,2025-10-23,3,Desktop
+CHK00810,CRE0288,PRD01924,Pet Care,37,Final Review,TikTok,True,1.4,True,True,False,0,2026-02-27,23,Mobile
+CHK00811,CRE0051,PRD00074,Home Decor & Interior Design,497,Payment Info,Google,False,,False,False,False,0,2025-11-20,16,Mobile
+CHK00812,CRE0407,PRD00223,Parenting & Family,197,Final Review,Instagram,False,,False,False,False,0,2025-12-24,11,Desktop
+CHK00813,CRE0448,PRD02165,Comedy & Entertainment,97,Final Review,YouTube,False,,False,False,False,0,2026-02-12,14,Mobile
+CHK00814,CRE0468,PRD00075,Home Decor & Interior Design,67,Final Review,Google,True,0.5,False,False,True,67,2025-10-03,10,Mobile
+CHK00815,CRE0183,PRD00005,Food & Cooking,67,Final Review,TikTok,False,,False,False,False,0,2025-12-20,12,Tablet
+CHK00816,CRE0249,PRD00448,Photography & Videography,47,Payment Info,Direct,True,2.8,True,True,False,0,2026-01-06,11,Mobile
+CHK00817,CRE0341,PRD01037,Photography & Videography,27,Added to Cart,TikTok,True,1.4,True,False,False,0,2026-02-10,18,Tablet
+CHK00818,CRE0268,PRD00006,Gaming & Esports,17,Started Checkout,Instagram,False,,False,False,False,0,2026-01-11,13,Mobile
+CHK00819,CRE0550,PRD01109,Business & Entrepreneurship,37,Payment Info,TikTok,True,0.8,True,False,False,0,2025-10-25,10,Desktop
+CHK00820,CRE0563,PRD00539,Personal Development,9,Added to Cart,Google,True,3.5,True,False,False,0,2025-11-12,7,Tablet
+CHK00821,CRE0268,PRD01594,Sustainable Living,9,Final Review,TikTok,False,,False,False,False,0,2025-10-02,9,Mobile
+CHK00822,CRE0402,PRD00062,Travel & Adventure,67,Final Review,Instagram,True,3.0,True,False,False,0,2026-02-01,18,Desktop
+CHK00823,CRE0582,PRD00155,Sustainable Living,97,Added to Cart,Instagram,True,3.6,True,True,False,0,2025-10-28,2,Tablet
+CHK00824,CRE0353,PRD00977,Photography & Videography,297,Added to Cart,TikTok,False,,False,False,False,0,2025-09-26,19,Mobile
+CHK00825,CRE0095,PRD01144,Beauty & Fashion,67,Payment Info,Google,True,3.4,False,False,False,0,2025-12-23,20,Mobile
+CHK00826,CRE0293,PRD00598,Gaming & Esports,27,Added to Cart,YouTube,False,,False,False,False,0,2026-02-22,21,Tablet
+CHK00827,CRE0549,PRD01940,Personal Development,197,Payment Info,YouTube,True,0.8,True,False,False,0,2026-01-25,4,Mobile
+CHK00828,CRE0153,PRD01479,Music & Audio Production,37,Started Checkout,Instagram,True,1.4,True,False,False,0,2025-09-22,5,Mobile
+CHK00829,CRE0195,PRD01465,Gaming & Esports,17,Started Checkout,TikTok,False,,False,False,False,0,2025-12-23,8,Mobile
+CHK00830,CRE0565,PRD01230,Sustainable Living,9,Payment Info,Email,True,2.7,False,False,False,0,2025-11-21,13,Desktop
+CHK00831,CRE0540,PRD00996,Music & Audio Production,197,Started Checkout,TikTok,True,3.1,True,True,False,0,2026-03-14,13,Mobile
+CHK00832,CRE0012,PRD00935,Travel & Adventure,297,Final Review,Google,False,,False,False,False,0,2025-10-10,10,Mobile
+CHK00833,CRE0252,PRD00884,Education & Online Courses,197,Started Checkout,YouTube,True,1.8,False,False,False,0,2025-12-31,0,Mobile
+CHK00834,CRE0391,PRD00848,Parenting & Family,297,Started Checkout,YouTube,True,1.4,True,False,False,0,2025-12-10,16,Tablet
+CHK00835,CRE0337,PRD00149,Home Decor & Interior Design,9,Final Review,TikTok,False,,False,False,False,0,2025-10-23,10,Mobile
+CHK00836,CRE0399,PRD01824,Photography & Videography,67,Final Review,TikTok,True,0.9,False,False,False,0,2025-10-08,0,Tablet
+CHK00837,CRE0553,PRD00191,Education & Online Courses,127,Started Checkout,TikTok,False,,False,False,False,0,2026-02-08,2,Mobile
+CHK00838,CRE0303,PRD01018,Travel & Adventure,9,Final Review,Email,False,,False,False,False,0,2025-10-01,5,Mobile
+CHK00839,CRE0297,PRD02194,Science & Space,17,Started Checkout,YouTube,False,,False,False,False,0,2025-09-25,20,Desktop
+CHK00840,CRE0030,PRD02019,Parenting & Family,497,Started Checkout,TikTok,False,,False,False,False,0,2025-11-17,3,Desktop
+CHK00841,CRE0110,PRD00733,Sustainable Living,17,Final Review,Email,True,3.2,False,False,False,0,2025-10-14,12,Desktop
+CHK00842,CRE0313,PRD00973,Science & Space,67,Payment Info,Email,True,2.2,False,False,False,0,2025-12-17,11,Desktop
+CHK00843,CRE0486,PRD01951,Technology & Software,297,Payment Info,TikTok,False,,False,False,False,0,2025-12-31,11,Mobile
+CHK00844,CRE0083,PRD01164,Music & Audio Production,27,Added to Cart,Google,True,3.5,True,False,False,0,2025-10-25,10,Mobile
+CHK00845,CRE0272,PRD00403,Beauty & Fashion,27,Payment Info,Email,True,1.3,True,False,False,0,2026-02-04,17,Mobile
+CHK00846,CRE0424,PRD00629,Comedy & Entertainment,9,Added to Cart,Instagram,True,3.8,False,False,True,9,2025-09-20,0,Tablet
+CHK00847,CRE0531,PRD01991,Finance & Investing,9,Added to Cart,Email,True,2.6,False,True,False,0,2025-11-03,3,Mobile
+CHK00848,CRE0001,PRD01342,Pet Care,197,Payment Info,TikTok,True,3.4,False,True,False,0,2026-01-29,9,Mobile
+CHK00849,CRE0275,PRD00144,Travel & Adventure,297,Payment Info,Direct,False,,False,False,False,0,2026-01-28,8,Tablet
+CHK00850,CRE0051,PRD00439,Business & Entrepreneurship,67,Payment Info,Email,False,,False,False,False,0,2026-02-13,5,Mobile
+CHK00851,CRE0060,PRD01870,Beauty & Fashion,9,Started Checkout,YouTube,False,,False,False,False,0,2025-10-22,17,Desktop
+CHK00852,CRE0167,PRD01526,Personal Development,127,Final Review,Email,False,,False,False,False,0,2025-11-02,7,Desktop
+CHK00853,CRE0539,PRD01832,Pet Care,127,Final Review,Email,True,1.6,False,False,False,0,2026-01-13,15,Tablet
+CHK00854,CRE0199,PRD01745,Photography & Videography,9,Added to Cart,Direct,False,,False,False,False,0,2025-10-11,17,Mobile
+CHK00855,CRE0352,PRD01989,Pet Care,497,Started Checkout,Email,False,,False,False,False,0,2025-11-02,16,Desktop
+CHK00856,CRE0391,PRD00081,Photography & Videography,67,Final Review,TikTok,False,,False,False,False,0,2025-12-24,3,Mobile
+CHK00857,CRE0187,PRD00850,Technology & Software,67,Added to Cart,Direct,True,3.3,False,True,False,0,2026-01-07,20,Mobile
+CHK00858,CRE0145,PRD02079,Photography & Videography,197,Started Checkout,Email,False,,False,False,False,0,2025-11-20,6,Tablet
+CHK00859,CRE0285,PRD01358,Technology & Software,9,Started Checkout,Instagram,True,2.4,False,True,False,0,2025-12-16,18,Mobile
+CHK00860,CRE0194,PRD01220,Music & Audio Production,297,Added to Cart,Direct,True,2.8,True,True,False,0,2025-11-12,0,Desktop
+CHK00861,CRE0580,PRD01855,Travel & Adventure,47,Added to Cart,Email,True,1.6,False,True,False,0,2026-01-27,20,Mobile
+CHK00862,CRE0319,PRD01865,Home Decor & Interior Design,27,Added to Cart,YouTube,True,3.7,True,False,False,0,2025-09-22,18,Desktop
+CHK00863,CRE0187,PRD01629,Science & Space,497,Final Review,TikTok,True,3.5,False,True,False,0,2026-01-08,4,Desktop
+CHK00864,CRE0567,PRD02441,Travel & Adventure,497,Started Checkout,YouTube,False,,False,False,False,0,2025-12-29,18,Mobile
+CHK00865,CRE0443,PRD01890,Science & Space,197,Final Review,YouTube,True,4.0,True,False,False,0,2025-12-20,5,Mobile
+CHK00866,CRE0237,PRD01950,Photography & Videography,197,Added to Cart,Email,False,,False,False,False,0,2026-02-28,16,Tablet
+CHK00867,CRE0226,PRD01330,Sustainable Living,37,Added to Cart,Direct,True,3.3,False,False,False,0,2026-01-18,15,Mobile
+CHK00868,CRE0178,PRD00364,Language Learning,197,Started Checkout,Google,True,2.5,False,False,False,0,2026-02-28,5,Tablet
+CHK00869,CRE0130,PRD02474,Travel & Adventure,297,Started Checkout,Direct,False,,False,False,False,0,2025-12-24,14,Mobile
+CHK00870,CRE0413,PRD01952,Pet Care,67,Added to Cart,TikTok,True,1.4,False,True,True,67,2025-09-24,7,Mobile
+CHK00871,CRE0190,PRD01083,Language Learning,9,Payment Info,Instagram,False,,False,False,False,0,2025-10-20,23,Desktop
+CHK00872,CRE0132,PRD00515,Home Decor & Interior Design,297,Final Review,Google,True,0.7,True,False,False,0,2026-03-19,22,Mobile
+CHK00873,CRE0359,PRD01873,Pet Care,127,Added to Cart,YouTube,False,,False,False,False,0,2025-11-13,12,Tablet
+CHK00874,CRE0408,PRD00159,Science & Space,27,Final Review,YouTube,False,,False,False,False,0,2025-10-03,7,Desktop
+CHK00875,CRE0015,PRD00282,Education & Online Courses,27,Final Review,Google,True,0.9,True,True,False,0,2025-10-05,3,Mobile
+CHK00876,CRE0218,PRD01349,Photography & Videography,497,Payment Info,Direct,True,1.9,True,False,False,0,2026-01-23,18,Mobile
+CHK00877,CRE0023,PRD01687,Comedy & Entertainment,97,Added to Cart,Email,False,,False,False,False,0,2025-11-15,3,Desktop
+CHK00878,CRE0441,PRD01903,Language Learning,497,Started Checkout,TikTok,False,,False,False,False,0,2025-10-14,22,Desktop
+CHK00879,CRE0514,PRD02165,Food & Cooking,27,Payment Info,Google,True,1.0,False,False,False,0,2026-02-01,16,Mobile
+CHK00880,CRE0502,PRD02129,Home Decor & Interior Design,9,Started Checkout,Google,True,1.9,True,False,False,0,2025-11-06,15,Tablet
+CHK00881,CRE0514,PRD01957,Gaming & Esports,67,Added to Cart,Instagram,True,0.5,True,False,True,67,2025-11-22,11,Tablet
+CHK00882,CRE0204,PRD01901,Finance & Investing,497,Final Review,Direct,False,,False,False,False,0,2026-01-22,6,Tablet
+CHK00883,CRE0496,PRD01055,Music & Audio Production,297,Payment Info,Email,True,1.5,False,True,False,0,2025-12-06,15,Mobile
+CHK00884,CRE0163,PRD00924,Technology & Software,97,Payment Info,YouTube,True,2.5,False,True,False,0,2025-11-21,4,Tablet
+CHK00885,CRE0422,PRD01699,Food & Cooking,27,Added to Cart,Instagram,True,3.2,True,True,False,0,2025-11-19,14,Mobile
+CHK00886,CRE0117,PRD02231,Beauty & Fashion,9,Payment Info,TikTok,False,,False,False,False,0,2025-12-10,19,Mobile
+CHK00887,CRE0003,PRD02196,Technology & Software,497,Payment Info,Instagram,True,2.1,False,False,False,0,2026-01-13,0,Tablet
+CHK00888,CRE0311,PRD00522,Food & Cooking,37,Payment Info,Email,False,,False,False,False,0,2025-11-20,6,Tablet
+CHK00889,CRE0461,PRD01842,Travel & Adventure,497,Payment Info,TikTok,True,3.4,False,False,False,0,2025-12-08,1,Mobile
+CHK00890,CRE0328,PRD02413,Food & Cooking,27,Added to Cart,Email,True,1.8,False,False,False,0,2025-12-23,20,Desktop
+CHK00891,CRE0274,PRD00442,Technology & Software,197,Payment Info,Direct,True,2.6,True,False,False,0,2025-12-18,5,Desktop
+CHK00892,CRE0134,PRD00608,Sustainable Living,197,Started Checkout,Google,False,,False,False,False,0,2026-01-17,11,Mobile
+CHK00893,CRE0263,PRD02345,Pet Care,47,Payment Info,Google,False,,False,False,False,0,2026-02-12,19,Mobile
+CHK00894,CRE0253,PRD00838,Gaming & Esports,47,Added to Cart,Direct,True,3.1,True,True,False,0,2026-02-06,5,Mobile
+CHK00895,CRE0319,PRD01090,Comedy & Entertainment,127,Payment Info,Direct,False,,False,False,False,0,2026-02-19,8,Mobile
+CHK00896,CRE0484,PRD01644,Travel & Adventure,497,Added to Cart,TikTok,True,3.1,False,False,False,0,2025-12-21,15,Desktop
+CHK00897,CRE0357,PRD01082,Business & Entrepreneurship,27,Started Checkout,Direct,False,,False,False,False,0,2025-10-25,13,Tablet
+CHK00898,CRE0047,PRD01203,Music & Audio Production,297,Payment Info,Email,False,,False,False,False,0,2026-01-14,1,Mobile
+CHK00899,CRE0011,PRD02216,Food & Cooking,17,Final Review,Instagram,False,,False,False,False,0,2026-02-11,9,Tablet
+CHK00900,CRE0412,PRD00136,Technology & Software,97,Final Review,TikTok,True,3.4,True,False,False,0,2026-01-22,10,Mobile
+CHK00901,CRE0053,PRD00073,Gaming & Esports,17,Started Checkout,Email,True,2.3,False,False,False,0,2025-10-03,3,Tablet
+CHK00902,CRE0198,PRD00759,Pet Care,97,Added to Cart,Google,False,,False,False,False,0,2026-02-20,12,Tablet
+CHK00903,CRE0521,PRD02150,Parenting & Family,127,Final Review,TikTok,True,1.2,False,False,False,0,2025-12-19,17,Mobile
+CHK00904,CRE0315,PRD00815,Home Decor & Interior Design,17,Added to Cart,Direct,True,3.8,False,False,False,0,2026-02-28,19,Mobile
+CHK00905,CRE0172,PRD02038,Sustainable Living,197,Added to Cart,YouTube,True,3.3,True,True,False,0,2026-01-12,21,Tablet
+CHK00906,CRE0102,PRD02087,Gaming & Esports,27,Payment Info,Google,True,0.6,True,False,False,0,2025-09-29,19,Tablet
+CHK00907,CRE0222,PRD01977,Science & Space,197,Final Review,TikTok,True,1.4,True,True,False,0,2026-03-07,15,Mobile
+CHK00908,CRE0575,PRD01084,Sustainable Living,9,Added to Cart,Email,False,,False,False,False,0,2025-10-19,21,Desktop
+CHK00909,CRE0254,PRD01879,Food & Cooking,9,Final Review,TikTok,False,,False,False,False,0,2026-01-22,14,Mobile
+CHK00910,CRE0126,PRD00460,Education & Online Courses,67,Added to Cart,TikTok,False,,False,False,False,0,2025-10-14,9,Tablet
+CHK00911,CRE0496,PRD00995,Parenting & Family,37,Added to Cart,Instagram,False,,False,False,False,0,2026-01-25,14,Mobile
+CHK00912,CRE0213,PRD02463,Business & Entrepreneurship,197,Payment Info,Google,True,3.8,False,False,True,197,2025-10-08,7,Mobile
+CHK00913,CRE0579,PRD00016,Technology & Software,17,Final Review,YouTube,True,2.6,False,False,False,0,2025-11-18,7,Mobile
+CHK00914,CRE0379,PRD00282,Travel & Adventure,67,Started Checkout,Email,False,,False,False,False,0,2026-03-17,18,Desktop
+CHK00915,CRE0380,PRD00346,Travel & Adventure,27,Payment Info,Direct,True,1.6,False,True,False,0,2025-09-26,11,Mobile
+CHK00916,CRE0366,PRD00141,Personal Development,27,Payment Info,TikTok,False,,False,False,False,0,2026-03-10,18,Desktop
+CHK00917,CRE0519,PRD00732,Comedy & Entertainment,47,Added to Cart,Direct,True,0.8,True,False,False,0,2025-10-11,18,Desktop
+CHK00918,CRE0223,PRD00542,Photography & Videography,9,Final Review,Direct,True,2.9,True,True,False,0,2025-12-21,5,Mobile
+CHK00919,CRE0368,PRD00839,Technology & Software,497,Started Checkout,TikTok,True,2.0,False,True,False,0,2025-10-11,8,Mobile
+CHK00920,CRE0336,PRD00145,Music & Audio Production,297,Added to Cart,Email,True,1.9,True,True,False,0,2025-09-24,18,Desktop
+CHK00921,CRE0337,PRD00232,Parenting & Family,127,Started Checkout,YouTube,True,0.6,True,False,False,0,2025-12-03,15,Mobile
+CHK00922,CRE0024,PRD01511,Food & Cooking,17,Started Checkout,Direct,True,1.6,False,False,False,0,2025-12-17,7,Tablet
+CHK00923,CRE0189,PRD00775,Business & Entrepreneurship,47,Final Review,Direct,True,3.7,False,False,False,0,2025-12-25,4,Mobile
+CHK00924,CRE0186,PRD00581,Language Learning,497,Payment Info,YouTube,True,2.6,True,True,False,0,2026-02-05,6,Desktop
+CHK00925,CRE0278,PRD00334,Business & Entrepreneurship,297,Added to Cart,YouTube,True,1.2,True,True,False,0,2026-03-08,3,Mobile
+CHK00926,CRE0276,PRD01111,Personal Development,27,Payment Info,Direct,True,1.3,True,False,False,0,2026-01-14,5,Tablet
+CHK00927,CRE0573,PRD01395,Music & Audio Production,127,Started Checkout,Email,True,1.3,False,False,False,0,2025-11-16,15,Mobile
+CHK00928,CRE0034,PRD01382,Language Learning,197,Started Checkout,YouTube,True,2.2,False,True,False,0,2025-11-25,10,Mobile
+CHK00929,CRE0283,PRD01324,Comedy & Entertainment,97,Payment Info,Direct,True,1.3,True,True,False,0,2025-11-09,11,Mobile
+CHK00930,CRE0542,PRD02294,Finance & Investing,47,Started Checkout,Google,True,1.7,False,True,False,0,2026-03-07,14,Mobile
+CHK00931,CRE0564,PRD00565,Education & Online Courses,9,Payment Info,Direct,True,1.0,True,True,False,0,2025-10-23,6,Mobile
+CHK00932,CRE0571,PRD02214,Travel & Adventure,17,Payment Info,TikTok,True,0.9,False,True,False,0,2026-01-01,10,Tablet
+CHK00933,CRE0410,PRD00144,Gaming & Esports,497,Added to Cart,TikTok,False,,False,False,False,0,2026-03-03,7,Mobile
+CHK00934,CRE0557,PRD00199,Home Decor & Interior Design,47,Final Review,Google,True,2.6,False,True,False,0,2025-11-14,23,Mobile
+CHK00935,CRE0419,PRD00852,Business & Entrepreneurship,97,Started Checkout,Email,True,2.2,False,False,False,0,2025-10-09,18,Mobile
+CHK00936,CRE0248,PRD00894,Parenting & Family,197,Final Review,YouTube,True,1.4,True,False,False,0,2025-11-22,16,Desktop
+CHK00937,CRE0328,PRD01146,Travel & Adventure,47,Added to Cart,TikTok,True,1.2,True,False,False,0,2025-10-22,15,Tablet
+CHK00938,CRE0461,PRD00045,Technology & Software,197,Final Review,Direct,False,,False,False,False,0,2025-12-07,16,Mobile
+CHK00939,CRE0176,PRD00782,Home Decor & Interior Design,67,Payment Info,Direct,False,,False,False,False,0,2026-02-17,14,Tablet
+CHK00940,CRE0567,PRD02250,Business & Entrepreneurship,97,Started Checkout,YouTube,True,3.9,False,False,False,0,2026-02-06,9,Mobile
+CHK00941,CRE0570,PRD02256,Parenting & Family,47,Added to Cart,Direct,True,2.3,False,True,True,47,2025-10-13,6,Mobile
+CHK00942,CRE0540,PRD02072,Pet Care,297,Final Review,Google,True,3.7,False,True,False,0,2025-12-10,20,Mobile
+CHK00943,CRE0454,PRD01630,Finance & Investing,27,Payment Info,TikTok,True,0.7,False,True,False,0,2025-12-08,23,Mobile
+CHK00944,CRE0494,PRD01666,Business & Entrepreneurship,17,Started Checkout,TikTok,False,,False,False,False,0,2026-03-02,7,Mobile
+CHK00945,CRE0339,PRD01685,Music & Audio Production,67,Final Review,YouTube,False,,False,False,False,0,2026-01-23,0,Mobile
+CHK00946,CRE0563,PRD00696,Finance & Investing,127,Final Review,YouTube,False,,False,False,False,0,2026-02-14,13,Mobile
+CHK00947,CRE0441,PRD01891,Education & Online Courses,127,Added to Cart,YouTube,True,3.3,True,False,False,0,2025-11-26,18,Tablet
+CHK00948,CRE0472,PRD01341,Music & Audio Production,17,Payment Info,YouTube,True,4.0,True,True,False,0,2025-11-03,13,Mobile
+CHK00949,CRE0186,PRD00052,Business & Entrepreneurship,47,Payment Info,TikTok,True,3.8,False,False,False,0,2026-03-03,14,Mobile
+CHK00950,CRE0580,PRD02326,Photography & Videography,127,Final Review,YouTube,True,1.9,False,True,False,0,2025-10-10,6,Tablet
+CHK00951,CRE0029,PRD00596,Personal Development,27,Started Checkout,Email,False,,False,False,False,0,2025-10-08,23,Mobile
+CHK00952,CRE0480,PRD01640,Music & Audio Production,17,Payment Info,Instagram,True,0.6,True,True,False,0,2026-01-29,11,Desktop
+CHK00953,CRE0323,PRD01548,Beauty & Fashion,9,Payment Info,Direct,False,,False,False,False,0,2026-01-24,20,Tablet
+CHK00954,CRE0446,PRD00430,Business & Entrepreneurship,17,Payment Info,TikTok,True,3.5,False,True,True,17,2025-10-18,21,Tablet
+CHK00955,CRE0515,PRD00019,Comedy & Entertainment,127,Final Review,Instagram,True,2.7,True,False,False,0,2025-09-25,20,Mobile
+CHK00956,CRE0476,PRD02167,Education & Online Courses,27,Final Review,Instagram,False,,False,False,False,0,2025-10-20,16,Mobile
+CHK00957,CRE0339,PRD00761,Beauty & Fashion,9,Started Checkout,Google,False,,False,False,False,0,2025-11-21,22,Mobile
+CHK00958,CRE0216,PRD01611,Photography & Videography,67,Final Review,Google,False,,False,False,False,0,2026-01-10,17,Mobile
+CHK00959,CRE0339,PRD01269,Home Decor & Interior Design,97,Added to Cart,YouTube,True,3.6,True,True,False,0,2026-01-31,9,Desktop
+CHK00960,CRE0243,PRD00645,Education & Online Courses,97,Started Checkout,Direct,True,3.2,False,True,False,0,2025-11-14,17,Desktop
+CHK00961,CRE0205,PRD00429,Music & Audio Production,97,Added to Cart,Instagram,False,,False,False,False,0,2025-10-03,17,Mobile
+CHK00962,CRE0220,PRD02068,Language Learning,297,Final Review,Email,False,,False,False,False,0,2025-11-21,6,Tablet
+CHK00963,CRE0183,PRD02315,Food & Cooking,497,Started Checkout,Direct,True,0.5,True,False,True,497,2025-12-23,4,Mobile
+CHK00964,CRE0138,PRD00874,Language Learning,97,Added to Cart,Google,True,3.4,True,False,False,0,2026-01-20,5,Mobile
+CHK00965,CRE0488,PRD00116,Comedy & Entertainment,497,Final Review,TikTok,False,,False,False,False,0,2026-02-16,6,Mobile
+CHK00966,CRE0346,PRD02166,Finance & Investing,37,Final Review,YouTube,True,2.9,True,True,False,0,2026-02-25,20,Tablet
+CHK00967,CRE0241,PRD00042,Pet Care,197,Started Checkout,Instagram,True,1.5,True,False,False,0,2025-12-12,11,Tablet
+CHK00968,CRE0044,PRD00178,Sustainable Living,37,Payment Info,Google,True,3.4,False,False,False,0,2025-09-27,10,Tablet
+CHK00969,CRE0313,PRD02260,Pet Care,297,Added to Cart,Direct,True,1.8,False,True,False,0,2026-01-13,0,Desktop
+CHK00970,CRE0350,PRD01407,Finance & Investing,197,Final Review,TikTok,True,2.4,False,False,False,0,2025-10-26,9,Desktop
+CHK00971,CRE0585,PRD00553,Photography & Videography,67,Started Checkout,YouTube,False,,False,False,False,0,2025-10-14,10,Mobile
+CHK00972,CRE0349,PRD00193,Personal Development,67,Payment Info,Email,False,,False,False,False,0,2025-12-29,3,Mobile
+CHK00973,CRE0082,PRD01419,Comedy & Entertainment,17,Started Checkout,Direct,True,3.1,True,True,False,0,2025-11-21,9,Mobile
+CHK00974,CRE0061,PRD00539,Education & Online Courses,97,Added to Cart,Instagram,False,,False,False,False,0,2025-12-21,22,Mobile
+CHK00975,CRE0481,PRD00781,Comedy & Entertainment,27,Final Review,Instagram,True,2.5,False,False,False,0,2026-03-14,5,Desktop
+CHK00976,CRE0409,PRD01479,Personal Development,47,Added to Cart,YouTube,False,,False,False,False,0,2026-01-22,22,Tablet
+CHK00977,CRE0118,PRD01012,Business & Entrepreneurship,9,Started Checkout,Direct,True,2.4,True,False,False,0,2025-10-05,22,Mobile
+CHK00978,CRE0470,PRD02458,Home Decor & Interior Design,497,Payment Info,TikTok,True,2.6,True,False,False,0,2026-03-16,10,Mobile
+CHK00979,CRE0085,PRD00310,Music & Audio Production,37,Final Review,YouTube,True,3.8,False,False,False,0,2025-10-20,3,Mobile
+CHK00980,CRE0391,PRD02384,Science & Space,497,Added to Cart,TikTok,True,3.2,True,False,False,0,2025-12-07,11,Tablet
+CHK00981,CRE0200,PRD02267,Music & Audio Production,27,Final Review,Email,False,,False,False,False,0,2026-02-09,7,Mobile
+CHK00982,CRE0042,PRD01586,Technology & Software,27,Payment Info,Email,False,,False,False,False,0,2026-02-08,11,Tablet
+CHK00983,CRE0566,PRD00221,Sustainable Living,27,Payment Info,YouTube,False,,False,False,False,0,2025-09-30,4,Mobile
+CHK00984,CRE0051,PRD00029,Home Decor & Interior Design,297,Payment Info,Instagram,False,,False,False,False,0,2026-03-02,19,Mobile
+CHK00985,CRE0015,PRD00805,Gaming & Esports,127,Payment Info,YouTube,False,,False,False,False,0,2025-11-02,8,Tablet
+CHK00986,CRE0506,PRD02203,Science & Space,497,Started Checkout,Google,False,,False,False,False,0,2025-09-28,4,Tablet
+CHK00987,CRE0482,PRD01789,Beauty & Fashion,297,Added to Cart,Google,True,2.0,False,False,False,0,2026-03-12,22,Desktop
+CHK00988,CRE0293,PRD01832,Business & Entrepreneurship,497,Started Checkout,Instagram,True,2.0,False,True,False,0,2026-01-01,22,Desktop
+CHK00989,CRE0041,PRD01796,Finance & Investing,37,Final Review,YouTube,True,1.3,False,False,False,0,2026-03-02,12,Mobile
+CHK00990,CRE0241,PRD01018,Science & Space,97,Added to Cart,Google,True,3.4,False,False,False,0,2025-10-27,23,Mobile
+CHK00991,CRE0425,PRD00207,Pet Care,17,Payment Info,YouTube,True,0.6,True,True,False,0,2026-01-31,2,Mobile
+CHK00992,CRE0553,PRD01194,Parenting & Family,17,Payment Info,YouTube,False,,False,False,False,0,2025-10-01,14,Tablet
+CHK00993,CRE0368,PRD01817,Travel & Adventure,297,Added to Cart,Direct,True,2.8,True,True,False,0,2026-02-06,13,Tablet
+CHK00994,CRE0212,PRD00399,Music & Audio Production,37,Added to Cart,TikTok,False,,False,False,False,0,2025-12-07,20,Desktop
+CHK00995,CRE0341,PRD00423,Science & Space,97,Final Review,Direct,True,1.9,True,False,False,0,2026-03-11,2,Desktop
+CHK00996,CRE0048,PRD00321,Technology & Software,197,Added to Cart,TikTok,True,1.8,False,False,False,0,2025-10-21,10,Mobile
+CHK00997,CRE0317,PRD01653,Technology & Software,27,Final Review,TikTok,True,3.1,True,True,True,27,2026-02-21,9,Desktop
+CHK00998,CRE0318,PRD00720,Language Learning,9,Started Checkout,YouTube,False,,False,False,False,0,2026-02-09,13,Tablet
+CHK00999,CRE0468,PRD01296,Travel & Adventure,297,Started Checkout,Instagram,False,,False,False,False,0,2026-01-13,13,Tablet
+CHK01000,CRE0036,PRD01889,Travel & Adventure,97,Added to Cart,YouTube,False,,False,False,False,0,2025-12-20,6,Desktop
+CHK01001,CRE0492,PRD01547,Parenting & Family,27,Final Review,Email,True,3.6,False,True,False,0,2026-01-31,8,Mobile
+CHK01002,CRE0175,PRD01541,Comedy & Entertainment,47,Payment Info,Direct,True,3.3,False,True,False,0,2026-02-02,0,Tablet
+CHK01003,CRE0465,PRD02150,Music & Audio Production,497,Added to Cart,Instagram,True,2.9,True,False,False,0,2025-11-02,23,Tablet
+CHK01004,CRE0275,PRD01913,Science & Space,17,Started Checkout,Google,True,3.1,True,True,False,0,2025-12-24,18,Tablet
+CHK01005,CRE0111,PRD02243,Music & Audio Production,27,Added to Cart,Direct,True,2.3,True,True,False,0,2025-11-04,21,Mobile
+CHK01006,CRE0378,PRD00325,Language Learning,67,Added to Cart,Instagram,False,,False,False,False,0,2025-10-04,3,Desktop
+CHK01007,CRE0148,PRD01581,Parenting & Family,47,Added to Cart,Direct,True,3.6,False,True,False,0,2025-10-18,0,Tablet
+CHK01008,CRE0389,PRD02377,Photography & Videography,297,Payment Info,Direct,False,,False,False,False,0,2025-10-01,22,Desktop
+CHK01009,CRE0503,PRD00325,Finance & Investing,9,Started Checkout,Google,True,1.0,True,False,False,0,2025-11-13,11,Desktop
+CHK01010,CRE0318,PRD01411,Technology & Software,197,Final Review,TikTok,True,1.1,False,False,False,0,2025-12-27,5,Desktop
+CHK01011,CRE0381,PRD00411,Finance & Investing,37,Payment Info,Email,True,3.5,True,True,False,0,2026-01-29,7,Tablet
+CHK01012,CRE0567,PRD00079,Finance & Investing,9,Added to Cart,Direct,True,2.7,True,False,False,0,2026-01-27,13,Tablet
+CHK01013,CRE0113,PRD02228,Business & Entrepreneurship,17,Final Review,Google,True,3.0,True,True,False,0,2026-02-27,20,Mobile
+CHK01014,CRE0123,PRD01468,Comedy & Entertainment,297,Final Review,Email,True,0.6,False,False,False,0,2025-10-02,0,Mobile
+CHK01015,CRE0458,PRD02270,Sustainable Living,67,Payment Info,Email,True,3.2,False,False,False,0,2025-10-14,19,Mobile
+CHK01016,CRE0409,PRD01642,Photography & Videography,47,Added to Cart,Direct,False,,False,False,False,0,2025-10-01,16,Mobile
+CHK01017,CRE0526,PRD01362,Beauty & Fashion,9,Started Checkout,Instagram,True,0.8,False,False,False,0,2025-12-07,16,Tablet
+CHK01018,CRE0545,PRD02124,Food & Cooking,47,Started Checkout,Instagram,False,,False,False,False,0,2025-11-25,1,Tablet
+CHK01019,CRE0278,PRD00653,Language Learning,297,Added to Cart,Instagram,True,3.7,False,True,False,0,2026-01-31,5,Mobile
+CHK01020,CRE0416,PRD01186,Education & Online Courses,497,Added to Cart,TikTok,True,4.0,False,False,False,0,2025-10-14,8,Mobile
+CHK01021,CRE0350,PRD01512,Home Decor & Interior Design,27,Added to Cart,Email,True,2.6,False,True,False,0,2025-12-28,1,Mobile
+CHK01022,CRE0508,PRD01738,Sustainable Living,197,Added to Cart,TikTok,True,1.9,True,True,False,0,2025-11-23,11,Mobile
+CHK01023,CRE0186,PRD01970,Education & Online Courses,9,Final Review,Email,True,1.2,True,False,False,0,2025-11-13,12,Mobile
+CHK01024,CRE0118,PRD01104,Food & Cooking,297,Added to Cart,Direct,True,3.2,False,False,True,297,2026-02-18,21,Desktop
+CHK01025,CRE0267,PRD01857,Food & Cooking,127,Added to Cart,Instagram,False,,False,False,False,0,2025-10-28,17,Tablet
+CHK01026,CRE0012,PRD02359,Technology & Software,127,Payment Info,YouTube,True,1.3,True,False,False,0,2025-11-23,14,Mobile
+CHK01027,CRE0247,PRD02298,Beauty & Fashion,297,Started Checkout,Email,False,,False,False,False,0,2025-12-31,19,Mobile
+CHK01028,CRE0195,PRD00536,Technology & Software,67,Final Review,Google,False,,False,False,False,0,2025-10-21,10,Desktop
+CHK01029,CRE0159,PRD01282,Music & Audio Production,67,Final Review,Google,True,1.4,True,False,False,0,2026-01-14,2,Mobile
+CHK01030,CRE0144,PRD01651,Music & Audio Production,9,Payment Info,TikTok,False,,False,False,False,0,2025-10-26,7,Mobile
+CHK01031,CRE0499,PRD02192,Sustainable Living,27,Final Review,Instagram,True,2.9,False,False,False,0,2025-12-14,8,Tablet
+CHK01032,CRE0120,PRD00448,Beauty & Fashion,497,Started Checkout,Email,False,,False,False,False,0,2026-03-14,2,Mobile
+CHK01033,CRE0321,PRD00906,Beauty & Fashion,297,Added to Cart,Instagram,True,0.7,False,True,False,0,2025-10-27,8,Desktop
+CHK01034,CRE0480,PRD00913,Language Learning,17,Payment Info,Google,True,0.7,True,False,False,0,2025-12-20,9,Tablet
+CHK01035,CRE0539,PRD02007,Technology & Software,47,Final Review,Email,False,,False,False,False,0,2025-10-05,8,Desktop
+CHK01036,CRE0263,PRD00811,Business & Entrepreneurship,67,Payment Info,Email,False,,False,False,False,0,2025-10-29,23,Mobile
+CHK01037,CRE0379,PRD01354,Finance & Investing,9,Final Review,TikTok,False,,False,False,False,0,2026-01-21,19,Desktop
+CHK01038,CRE0231,PRD00244,Travel & Adventure,37,Started Checkout,Direct,False,,False,False,False,0,2026-01-21,3,Mobile
+CHK01039,CRE0155,PRD01144,Pet Care,27,Final Review,Direct,False,,False,False,False,0,2026-01-20,1,Desktop
+CHK01040,CRE0371,PRD01110,Gaming & Esports,27,Started Checkout,Email,True,2.5,True,False,True,27,2026-01-12,5,Tablet
+CHK01041,CRE0509,PRD00703,Technology & Software,127,Started Checkout,Email,False,,False,False,False,0,2026-03-17,17,Desktop
+CHK01042,CRE0159,PRD00423,Science & Space,9,Final Review,Email,True,2.8,False,True,False,0,2026-03-19,10,Mobile
+CHK01043,CRE0004,PRD02290,Sustainable Living,17,Added to Cart,Email,False,,False,False,False,0,2025-11-24,1,Tablet
+CHK01044,CRE0519,PRD00932,Gaming & Esports,27,Payment Info,Email,True,3.6,True,True,False,0,2025-11-22,1,Tablet
+CHK01045,CRE0405,PRD00670,Sustainable Living,47,Added to Cart,Google,False,,False,False,False,0,2025-11-05,22,Mobile
+CHK01046,CRE0069,PRD01428,Photography & Videography,67,Payment Info,Direct,True,2.2,False,False,False,0,2026-01-19,0,Tablet
+CHK01047,CRE0120,PRD01059,Parenting & Family,37,Started Checkout,Instagram,True,1.3,False,True,False,0,2026-03-14,16,Desktop
+CHK01048,CRE0553,PRD00912,Comedy & Entertainment,9,Added to Cart,Google,True,1.9,False,False,False,0,2026-02-11,1,Mobile
+CHK01049,CRE0348,PRD01963,Food & Cooking,497,Started Checkout,YouTube,True,3.5,False,True,False,0,2025-12-19,1,Mobile
+CHK01050,CRE0491,PRD01919,Travel & Adventure,17,Added to Cart,TikTok,True,1.1,True,False,False,0,2025-12-05,17,Mobile
+CHK01051,CRE0424,PRD01749,Travel & Adventure,67,Payment Info,Email,True,3.4,False,True,False,0,2025-11-03,18,Mobile
+CHK01052,CRE0458,PRD02309,Education & Online Courses,47,Payment Info,TikTok,True,1.3,False,False,False,0,2025-11-03,18,Tablet
+CHK01053,CRE0250,PRD00679,Language Learning,127,Final Review,YouTube,False,,False,False,False,0,2025-12-19,12,Tablet
+CHK01054,CRE0456,PRD00545,Personal Development,127,Added to Cart,Email,True,1.0,True,False,False,0,2025-09-23,15,Mobile
+CHK01055,CRE0189,PRD00842,Music & Audio Production,97,Final Review,YouTube,False,,False,False,False,0,2025-09-25,22,Mobile
+CHK01056,CRE0147,PRD02039,Parenting & Family,47,Started Checkout,Email,True,3.2,False,True,False,0,2025-12-02,23,Tablet
+CHK01057,CRE0486,PRD01483,Personal Development,9,Added to Cart,Direct,False,,False,False,False,0,2026-01-23,20,Mobile
+CHK01058,CRE0496,PRD00757,Parenting & Family,27,Started Checkout,Email,True,1.2,False,True,False,0,2026-01-22,11,Desktop
+CHK01059,CRE0234,PRD01967,Language Learning,47,Started Checkout,TikTok,True,1.8,True,True,False,0,2025-09-25,0,Mobile
+CHK01060,CRE0463,PRD01388,Science & Space,97,Added to Cart,YouTube,True,3.6,False,True,False,0,2025-10-06,15,Mobile
+CHK01061,CRE0016,PRD00601,Technology & Software,297,Started Checkout,TikTok,True,2.1,False,False,False,0,2026-02-03,21,Desktop
+CHK01062,CRE0489,PRD00959,Travel & Adventure,197,Started Checkout,Direct,True,1.3,True,True,False,0,2026-03-12,8,Mobile
+CHK01063,CRE0378,PRD00938,Parenting & Family,297,Final Review,Google,True,1.8,True,True,False,0,2025-11-05,12,Tablet
+CHK01064,CRE0126,PRD00429,Travel & Adventure,27,Added to Cart,Direct,True,1.4,True,True,False,0,2025-10-23,4,Mobile
+CHK01065,CRE0382,PRD00695,Music & Audio Production,9,Started Checkout,Google,True,0.7,False,False,False,0,2025-12-20,13,Tablet
+CHK01066,CRE0117,PRD01529,Travel & Adventure,97,Final Review,Google,True,1.7,False,True,False,0,2025-11-17,18,Mobile
+CHK01067,CRE0507,PRD00113,Comedy & Entertainment,197,Added to Cart,TikTok,False,,False,False,False,0,2026-01-20,15,Tablet
+CHK01068,CRE0027,PRD00081,Technology & Software,97,Final Review,Email,True,2.0,False,False,False,0,2026-01-30,8,Tablet
+CHK01069,CRE0571,PRD02030,Gaming & Esports,197,Payment Info,Instagram,True,1.6,False,False,False,0,2025-10-10,20,Tablet
+CHK01070,CRE0294,PRD01755,Education & Online Courses,27,Added to Cart,Instagram,False,,False,False,False,0,2025-11-11,2,Tablet
+CHK01071,CRE0313,PRD02448,Sustainable Living,67,Payment Info,TikTok,False,,False,False,False,0,2026-01-05,11,Mobile
+CHK01072,CRE0284,PRD01063,Science & Space,67,Payment Info,Instagram,False,,False,False,False,0,2026-01-20,6,Tablet
+CHK01073,CRE0178,PRD00526,Education & Online Courses,47,Payment Info,Email,True,1.3,False,False,False,0,2025-12-12,9,Mobile
+CHK01074,CRE0039,PRD01520,Science & Space,67,Started Checkout,Google,True,0.8,False,False,False,0,2026-03-02,19,Desktop
+CHK01075,CRE0361,PRD00162,Food & Cooking,17,Started Checkout,YouTube,True,3.5,False,True,True,17,2025-10-03,0,Mobile
+CHK01076,CRE0106,PRD00243,Personal Development,97,Final Review,Direct,True,3.5,False,False,False,0,2026-01-31,12,Desktop
+CHK01077,CRE0008,PRD01315,Education & Online Courses,297,Started Checkout,Instagram,True,1.8,True,True,False,0,2025-11-05,10,Desktop
+CHK01078,CRE0526,PRD01146,Science & Space,17,Started Checkout,YouTube,False,,False,False,False,0,2025-10-11,8,Mobile
+CHK01079,CRE0090,PRD00053,Science & Space,497,Started Checkout,YouTube,False,,False,False,False,0,2025-12-30,4,Tablet
+CHK01080,CRE0596,PRD02236,Travel & Adventure,47,Started Checkout,YouTube,True,2.4,True,True,True,47,2025-10-22,11,Desktop
+CHK01081,CRE0579,PRD01800,Sustainable Living,97,Payment Info,TikTok,False,,False,False,False,0,2025-09-21,13,Mobile
+CHK01082,CRE0450,PRD01766,Gaming & Esports,47,Payment Info,Direct,False,,False,False,False,0,2026-03-01,22,Mobile
+CHK01083,CRE0540,PRD01081,Language Learning,17,Final Review,Instagram,True,3.2,False,False,False,0,2026-02-19,12,Desktop
+CHK01084,CRE0182,PRD02029,Science & Space,47,Payment Info,Google,True,2.4,False,True,False,0,2025-12-24,9,Tablet
+CHK01085,CRE0599,PRD00915,Parenting & Family,197,Payment Info,TikTok,True,1.2,False,False,False,0,2025-11-21,22,Mobile
+CHK01086,CRE0447,PRD01763,Science & Space,127,Added to Cart,Direct,True,1.3,False,True,False,0,2025-12-13,19,Mobile
+CHK01087,CRE0171,PRD01130,Beauty & Fashion,197,Payment Info,YouTube,True,1.5,False,False,False,0,2026-02-05,10,Desktop
+CHK01088,CRE0054,PRD00392,Comedy & Entertainment,67,Started Checkout,Direct,False,,False,False,False,0,2025-09-24,8,Tablet
+CHK01089,CRE0477,PRD00578,Technology & Software,27,Payment Info,YouTube,True,2.4,True,True,False,0,2026-03-08,17,Tablet
+CHK01090,CRE0253,PRD02463,Business & Entrepreneurship,67,Added to Cart,Direct,True,3.1,False,False,False,0,2025-12-10,8,Mobile
+CHK01091,CRE0337,PRD00555,Photography & Videography,37,Payment Info,Direct,False,,False,False,False,0,2026-01-11,17,Mobile
+CHK01092,CRE0257,PRD01484,Technology & Software,67,Started Checkout,Instagram,True,0.9,True,True,False,0,2025-11-09,23,Mobile
+CHK01093,CRE0298,PRD02396,Comedy & Entertainment,67,Added to Cart,Direct,True,2.3,True,True,False,0,2025-10-22,22,Tablet
+CHK01094,CRE0204,PRD00070,Business & Entrepreneurship,67,Final Review,Google,False,,False,False,False,0,2025-12-21,4,Desktop
+CHK01095,CRE0105,PRD00847,Travel & Adventure,17,Added to Cart,Email,True,3.1,False,False,False,0,2025-12-10,0,Tablet
+CHK01096,CRE0071,PRD00523,Personal Development,37,Payment Info,YouTube,False,,False,False,False,0,2025-10-17,2,Tablet
+CHK01097,CRE0377,PRD01795,Food & Cooking,67,Payment Info,YouTube,True,3.7,True,False,False,0,2026-02-24,22,Mobile
+CHK01098,CRE0261,PRD02470,Gaming & Esports,197,Started Checkout,Instagram,True,3.0,False,False,True,197,2026-02-12,0,Mobile
+CHK01099,CRE0463,PRD00891,Music & Audio Production,27,Payment Info,Google,False,,False,False,False,0,2025-09-30,2,Mobile
+CHK01100,CRE0504,PRD01026,Finance & Investing,17,Final Review,Instagram,True,2.5,True,False,False,0,2025-11-26,0,Mobile
+CHK01101,CRE0478,PRD01649,Gaming & Esports,37,Final Review,Direct,False,,False,False,False,0,2026-01-23,20,Tablet
+CHK01102,CRE0567,PRD02165,Technology & Software,497,Payment Info,Direct,True,0.8,True,True,False,0,2025-12-09,21,Mobile
+CHK01103,CRE0329,PRD00360,Technology & Software,97,Payment Info,Instagram,True,2.5,False,False,False,0,2026-02-02,20,Desktop
+CHK01104,CRE0276,PRD02046,Home Decor & Interior Design,37,Added to Cart,TikTok,False,,False,False,False,0,2025-11-30,4,Mobile
+CHK01105,CRE0229,PRD02185,Parenting & Family,197,Started Checkout,YouTube,True,3.9,False,False,False,0,2025-12-24,16,Mobile
+CHK01106,CRE0399,PRD01527,Finance & Investing,97,Added to Cart,Instagram,True,3.3,True,False,False,0,2025-11-19,2,Mobile
+CHK01107,CRE0118,PRD01624,Home Decor & Interior Design,17,Started Checkout,Instagram,True,2.5,False,False,False,0,2025-12-24,3,Tablet
+CHK01108,CRE0302,PRD00580,Business & Entrepreneurship,97,Started Checkout,Direct,True,1.3,True,False,False,0,2025-12-16,5,Tablet
+CHK01109,CRE0209,PRD01357,Music & Audio Production,17,Payment Info,Google,True,2.9,True,False,False,0,2026-02-03,0,Tablet
+CHK01110,CRE0256,PRD01167,Pet Care,197,Final Review,TikTok,True,0.7,True,True,False,0,2025-12-01,16,Mobile
+CHK01111,CRE0214,PRD01541,Pet Care,37,Final Review,Direct,True,1.7,False,True,False,0,2025-11-02,1,Desktop
+CHK01112,CRE0479,PRD02095,Finance & Investing,37,Payment Info,TikTok,True,3.7,False,True,False,0,2026-03-06,5,Desktop
+CHK01113,CRE0578,PRD00308,Food & Cooking,297,Final Review,Instagram,False,,False,False,False,0,2026-01-26,21,Mobile
+CHK01114,CRE0563,PRD00627,Parenting & Family,127,Final Review,Direct,False,,False,False,False,0,2025-10-23,18,Mobile
+CHK01115,CRE0472,PRD00937,Beauty & Fashion,97,Final Review,Google,True,2.5,False,False,False,0,2026-03-09,9,Mobile
+CHK01116,CRE0318,PRD00416,Home Decor & Interior Design,9,Payment Info,Email,True,2.1,True,False,False,0,2026-02-21,1,Tablet
+CHK01117,CRE0058,PRD00939,Technology & Software,127,Added to Cart,Google,False,,False,False,False,0,2026-02-21,22,Tablet
+CHK01118,CRE0358,PRD01211,Food & Cooking,9,Added to Cart,Direct,True,3.1,True,False,False,0,2026-03-09,12,Mobile
+CHK01119,CRE0141,PRD02344,Language Learning,37,Started Checkout,Direct,True,3.6,False,False,False,0,2026-02-05,12,Mobile
+CHK01120,CRE0180,PRD01363,Photography & Videography,17,Payment Info,Email,False,,False,False,False,0,2025-10-17,5,Mobile
+CHK01121,CRE0366,PRD00526,Home Decor & Interior Design,197,Final Review,Google,False,,False,False,False,0,2025-12-25,17,Mobile
+CHK01122,CRE0558,PRD00282,Gaming & Esports,497,Payment Info,YouTube,False,,False,False,False,0,2026-01-29,15,Mobile
+CHK01123,CRE0161,PRD01119,Language Learning,27,Payment Info,Direct,False,,False,False,False,0,2025-10-19,1,Mobile
+CHK01124,CRE0298,PRD02270,Business & Entrepreneurship,127,Added to Cart,Email,True,0.6,False,True,False,0,2025-09-25,4,Mobile
+CHK01125,CRE0427,PRD02478,Finance & Investing,37,Final Review,YouTube,True,1.8,False,True,False,0,2025-10-08,16,Mobile
+CHK01126,CRE0303,PRD01009,Music & Audio Production,127,Payment Info,Google,True,2.4,True,False,False,0,2026-03-02,1,Mobile
+CHK01127,CRE0145,PRD01483,Pet Care,27,Final Review,Google,True,1.4,True,False,False,0,2025-11-13,21,Mobile
+CHK01128,CRE0445,PRD00875,Travel & Adventure,97,Started Checkout,Google,True,0.7,False,False,False,0,2026-01-15,18,Desktop
+CHK01129,CRE0494,PRD00495,Personal Development,97,Added to Cart,Email,True,3.0,True,True,False,0,2026-01-12,3,Tablet
+CHK01130,CRE0500,PRD02296,Home Decor & Interior Design,67,Added to Cart,TikTok,False,,False,False,False,0,2025-10-17,13,Mobile
+CHK01131,CRE0072,PRD02331,Education & Online Courses,297,Final Review,Google,True,3.2,False,False,False,0,2025-09-23,14,Mobile
+CHK01132,CRE0184,PRD02399,Language Learning,27,Added to Cart,TikTok,True,0.7,True,True,False,0,2026-03-01,21,Mobile
+CHK01133,CRE0189,PRD00126,Food & Cooking,27,Started Checkout,Direct,False,,False,False,False,0,2025-10-10,6,Mobile
+CHK01134,CRE0194,PRD00997,Education & Online Courses,497,Started Checkout,Email,True,1.4,True,False,False,0,2025-12-11,1,Mobile
+CHK01135,CRE0416,PRD02109,Pet Care,97,Payment Info,Email,True,1.9,True,False,False,0,2026-03-02,22,Tablet
+CHK01136,CRE0514,PRD01061,Beauty & Fashion,47,Started Checkout,Email,False,,False,False,False,0,2026-01-08,7,Tablet
+CHK01137,CRE0170,PRD02104,Travel & Adventure,17,Added to Cart,TikTok,True,2.8,True,False,False,0,2025-12-29,19,Tablet
+CHK01138,CRE0011,PRD01495,Sustainable Living,197,Payment Info,YouTube,False,,False,False,False,0,2026-03-10,23,Mobile
+CHK01139,CRE0280,PRD02391,Parenting & Family,67,Added to Cart,Email,True,3.5,True,True,False,0,2026-03-13,20,Desktop
+CHK01140,CRE0436,PRD00425,Travel & Adventure,17,Final Review,Email,True,3.3,True,False,False,0,2025-12-30,20,Mobile
+CHK01141,CRE0344,PRD01604,Travel & Adventure,297,Started Checkout,Direct,False,,False,False,False,0,2026-01-28,17,Desktop
+CHK01142,CRE0015,PRD00646,Home Decor & Interior Design,27,Started Checkout,YouTube,False,,False,False,False,0,2026-03-07,23,Mobile
+CHK01143,CRE0247,PRD02350,Finance & Investing,27,Started Checkout,Google,True,0.9,False,True,False,0,2026-01-02,17,Mobile
+CHK01144,CRE0022,PRD01309,Home Decor & Interior Design,97,Started Checkout,Google,True,3.8,False,True,False,0,2025-11-13,10,Mobile
+CHK01145,CRE0330,PRD00101,Comedy & Entertainment,47,Added to Cart,TikTok,True,1.8,False,False,False,0,2025-10-06,19,Tablet
+CHK01146,CRE0323,PRD01091,Sustainable Living,17,Added to Cart,Instagram,True,3.6,True,True,False,0,2025-12-28,14,Mobile
+CHK01147,CRE0197,PRD01244,Gaming & Esports,47,Added to Cart,Instagram,True,2.8,False,False,False,0,2025-10-10,17,Desktop
+CHK01148,CRE0423,PRD01080,Parenting & Family,67,Started Checkout,Instagram,True,2.1,True,False,False,0,2026-02-04,23,Mobile
+CHK01149,CRE0478,PRD01423,Language Learning,97,Payment Info,TikTok,False,,False,False,False,0,2026-01-28,11,Tablet
+CHK01150,CRE0170,PRD02279,Sustainable Living,9,Started Checkout,Email,True,0.8,True,True,True,9,2025-11-11,23,Mobile
+CHK01151,CRE0532,PRD01962,Science & Space,297,Final Review,Direct,True,2.7,True,False,True,297,2025-10-18,21,Desktop
+CHK01152,CRE0204,PRD00470,Sustainable Living,97,Started Checkout,Direct,True,3.6,False,True,False,0,2026-01-27,19,Mobile
+CHK01153,CRE0580,PRD01734,Food & Cooking,37,Final Review,TikTok,True,3.3,True,True,False,0,2025-12-10,19,Tablet
+CHK01154,CRE0261,PRD01883,Travel & Adventure,497,Payment Info,Instagram,True,3.4,True,True,False,0,2025-09-24,8,Tablet
+CHK01155,CRE0551,PRD01847,Music & Audio Production,47,Payment Info,TikTok,True,1.4,False,True,False,0,2026-01-05,18,Mobile
+CHK01156,CRE0401,PRD01829,Music & Audio Production,9,Started Checkout,Email,True,0.6,False,False,False,0,2025-10-12,23,Mobile
+CHK01157,CRE0057,PRD00809,Sustainable Living,47,Started Checkout,Instagram,False,,False,False,False,0,2026-03-06,18,Tablet
+CHK01158,CRE0537,PRD01040,Pet Care,297,Payment Info,Email,True,2.4,False,False,False,0,2025-10-31,19,Mobile
+CHK01159,CRE0497,PRD02455,Business & Entrepreneurship,47,Final Review,Direct,True,0.9,False,False,False,0,2026-03-08,14,Mobile
+CHK01160,CRE0170,PRD01010,Gaming & Esports,127,Final Review,YouTube,True,3.6,False,False,False,0,2025-10-02,19,Mobile
+CHK01161,CRE0487,PRD00874,Food & Cooking,67,Payment Info,Instagram,True,1.5,True,False,False,0,2025-10-25,13,Mobile
+CHK01162,CRE0491,PRD02316,Personal Development,17,Started Checkout,Email,True,3.6,True,True,False,0,2026-01-19,14,Tablet
+CHK01163,CRE0283,PRD01001,Home Decor & Interior Design,127,Final Review,Email,False,,False,False,False,0,2025-10-10,11,Mobile
+CHK01164,CRE0472,PRD02192,Travel & Adventure,127,Payment Info,Google,True,0.8,False,False,False,0,2026-02-02,3,Mobile
+CHK01165,CRE0373,PRD00092,Comedy & Entertainment,127,Added to Cart,Direct,True,0.9,True,False,False,0,2025-09-24,22,Mobile
+CHK01166,CRE0453,PRD00600,Beauty & Fashion,127,Payment Info,Email,True,3.5,False,True,False,0,2025-10-30,13,Mobile
+CHK01167,CRE0033,PRD00970,Home Decor & Interior Design,297,Added to Cart,Email,False,,False,False,False,0,2026-03-14,11,Mobile
+CHK01168,CRE0188,PRD01045,Education & Online Courses,97,Final Review,Instagram,True,3.7,False,True,True,97,2026-01-17,16,Mobile
+CHK01169,CRE0061,PRD01060,Travel & Adventure,497,Payment Info,Direct,True,0.8,False,True,False,0,2026-01-11,17,Mobile
+CHK01170,CRE0444,PRD01826,Photography & Videography,67,Started Checkout,Email,False,,False,False,False,0,2025-11-02,9,Tablet
+CHK01171,CRE0418,PRD00495,Music & Audio Production,127,Payment Info,Email,True,3.1,True,False,False,0,2026-03-09,1,Tablet
+CHK01172,CRE0090,PRD02233,Science & Space,127,Started Checkout,YouTube,False,,False,False,False,0,2025-12-22,5,Mobile
+CHK01173,CRE0392,PRD01900,Beauty & Fashion,27,Added to Cart,Direct,True,1.0,True,True,False,0,2025-10-02,23,Desktop
+CHK01174,CRE0415,PRD00952,Beauty & Fashion,497,Started Checkout,TikTok,True,1.7,True,False,False,0,2026-01-07,8,Mobile
+CHK01175,CRE0136,PRD01452,Travel & Adventure,17,Payment Info,TikTok,False,,False,False,False,0,2026-02-05,0,Tablet
+CHK01176,CRE0330,PRD00972,Business & Entrepreneurship,27,Added to Cart,Google,True,2.7,False,True,False,0,2025-11-14,2,Desktop
+CHK01177,CRE0434,PRD02465,Beauty & Fashion,97,Started Checkout,Direct,False,,False,False,False,0,2025-10-04,6,Mobile
+CHK01178,CRE0086,PRD01696,Personal Development,47,Final Review,Instagram,True,1.7,True,True,False,0,2025-10-20,12,Tablet
+CHK01179,CRE0061,PRD00098,Music & Audio Production,197,Started Checkout,Email,True,0.6,True,False,False,0,2026-02-23,3,Mobile
+CHK01180,CRE0421,PRD00053,Parenting & Family,97,Final Review,Direct,True,1.3,True,True,False,0,2025-12-05,5,Tablet
+CHK01181,CRE0064,PRD00321,Home Decor & Interior Design,127,Final Review,Email,True,0.7,True,True,False,0,2026-01-12,2,Tablet
+CHK01182,CRE0592,PRD01776,Beauty & Fashion,197,Started Checkout,Direct,False,,False,False,False,0,2025-09-20,23,Mobile
+CHK01183,CRE0071,PRD00952,Home Decor & Interior Design,497,Added to Cart,Instagram,True,3.1,False,True,True,497,2025-12-07,3,Desktop
+CHK01184,CRE0270,PRD00114,Sustainable Living,17,Payment Info,Email,True,1.2,False,False,False,0,2026-02-03,8,Desktop
+CHK01185,CRE0413,PRD00842,Science & Space,17,Started Checkout,Instagram,False,,False,False,False,0,2025-12-25,11,Mobile
+CHK01186,CRE0326,PRD01658,Pet Care,297,Payment Info,YouTube,True,1.4,False,True,False,0,2025-10-11,3,Desktop
+CHK01187,CRE0233,PRD00734,Personal Development,127,Started Checkout,Google,True,1.5,False,False,False,0,2026-03-09,10,Mobile
+CHK01188,CRE0322,PRD00710,Business & Entrepreneurship,37,Added to Cart,Direct,False,,False,False,False,0,2026-02-01,4,Desktop
+CHK01189,CRE0241,PRD02079,Pet Care,37,Final Review,Direct,False,,False,False,False,0,2026-03-10,11,Tablet
+CHK01190,CRE0225,PRD00446,Sustainable Living,297,Payment Info,TikTok,True,2.3,False,False,False,0,2025-12-25,20,Mobile
+CHK01191,CRE0341,PRD01087,Parenting & Family,47,Started Checkout,TikTok,True,1.1,False,True,False,0,2025-10-18,18,Mobile
+CHK01192,CRE0305,PRD00472,Science & Space,17,Started Checkout,Email,True,3.9,False,False,True,17,2026-01-26,9,Mobile
+CHK01193,CRE0413,PRD01805,Parenting & Family,497,Added to Cart,TikTok,False,,False,False,False,0,2025-09-26,14,Tablet
+CHK01194,CRE0230,PRD00824,Sustainable Living,67,Added to Cart,Direct,True,0.6,False,False,False,0,2025-10-06,4,Desktop
+CHK01195,CRE0548,PRD02139,Pet Care,67,Payment Info,Direct,False,,False,False,False,0,2026-01-10,17,Desktop
+CHK01196,CRE0106,PRD01445,Technology & Software,47,Added to Cart,Direct,True,3.4,False,True,False,0,2026-02-04,13,Mobile
+CHK01197,CRE0065,PRD01097,Personal Development,9,Payment Info,Email,True,1.6,True,False,True,9,2026-03-10,22,Desktop
+CHK01198,CRE0404,PRD01515,Home Decor & Interior Design,17,Started Checkout,Google,False,,False,False,False,0,2025-10-11,20,Desktop
+CHK01199,CRE0393,PRD01453,Music & Audio Production,47,Final Review,YouTube,True,0.8,True,True,False,0,2026-01-01,10,Desktop
+CHK01200,CRE0565,PRD02238,Home Decor & Interior Design,97,Added to Cart,Instagram,False,,False,False,False,0,2025-10-30,16,Mobile
+CHK01201,CRE0348,PRD00135,Travel & Adventure,497,Payment Info,Instagram,False,,False,False,False,0,2026-03-19,13,Mobile
+CHK01202,CRE0600,PRD00676,Parenting & Family,97,Final Review,Instagram,True,3.2,False,True,False,0,2025-11-17,13,Mobile
+CHK01203,CRE0463,PRD01798,Music & Audio Production,37,Started Checkout,TikTok,True,1.3,True,False,False,0,2026-03-01,0,Desktop
+CHK01204,CRE0521,PRD00964,Comedy & Entertainment,17,Final Review,Instagram,True,3.9,True,True,False,0,2026-02-24,2,Mobile
+CHK01205,CRE0561,PRD01434,Technology & Software,17,Started Checkout,Direct,True,3.6,True,True,False,0,2025-11-21,17,Tablet
+CHK01206,CRE0350,PRD00462,Music & Audio Production,297,Final Review,Instagram,False,,False,False,False,0,2025-12-23,20,Tablet
+CHK01207,CRE0193,PRD02314,Parenting & Family,127,Final Review,Email,True,3.6,False,False,False,0,2025-11-10,18,Tablet
+CHK01208,CRE0465,PRD02305,Comedy & Entertainment,297,Final Review,TikTok,False,,False,False,False,0,2026-01-19,6,Mobile
+CHK01209,CRE0384,PRD00078,Sustainable Living,17,Payment Info,Direct,True,0.9,True,False,False,0,2026-02-15,11,Mobile
+CHK01210,CRE0113,PRD00677,Finance & Investing,47,Started Checkout,YouTube,False,,False,False,False,0,2026-01-24,1,Tablet
+CHK01211,CRE0320,PRD01065,Beauty & Fashion,47,Payment Info,TikTok,True,3.8,False,True,False,0,2025-12-20,1,Desktop
+CHK01212,CRE0356,PRD01452,Language Learning,27,Added to Cart,TikTok,True,0.5,True,True,False,0,2025-11-03,3,Desktop
+CHK01213,CRE0591,PRD02420,Education & Online Courses,67,Final Review,Email,False,,False,False,False,0,2026-02-26,7,Desktop
+CHK01214,CRE0179,PRD01861,Gaming & Esports,27,Final Review,Email,True,2.4,True,True,False,0,2026-02-02,0,Tablet
+CHK01215,CRE0459,PRD01348,Photography & Videography,17,Payment Info,Email,True,1.2,False,False,False,0,2025-12-01,12,Mobile
+CHK01216,CRE0297,PRD02029,Pet Care,27,Payment Info,Email,False,,False,False,False,0,2026-01-25,2,Tablet
+CHK01217,CRE0383,PRD01668,Personal Development,297,Final Review,Instagram,True,3.9,False,False,False,0,2026-03-08,15,Tablet
+CHK01218,CRE0384,PRD01146,Language Learning,17,Final Review,Email,False,,False,False,False,0,2026-01-31,13,Tablet
+CHK01219,CRE0204,PRD00623,Business & Entrepreneurship,197,Added to Cart,Instagram,True,2.0,False,False,False,0,2026-02-05,5,Mobile
+CHK01220,CRE0040,PRD01887,Education & Online Courses,67,Final Review,TikTok,False,,False,False,False,0,2026-01-28,16,Desktop
+CHK01221,CRE0253,PRD00087,Parenting & Family,97,Payment Info,Google,True,1.9,False,True,False,0,2025-10-06,12,Mobile
+CHK01222,CRE0536,PRD00311,Travel & Adventure,67,Final Review,Direct,False,,False,False,False,0,2025-11-20,23,Mobile
+CHK01223,CRE0413,PRD01300,Pet Care,37,Payment Info,YouTube,False,,False,False,False,0,2025-11-30,2,Desktop
+CHK01224,CRE0360,PRD00900,Technology & Software,197,Added to Cart,YouTube,True,3.8,False,False,False,0,2026-02-01,2,Mobile
+CHK01225,CRE0315,PRD02060,Sustainable Living,47,Started Checkout,Email,False,,False,False,False,0,2026-01-24,23,Mobile
+CHK01226,CRE0179,PRD02099,Technology & Software,9,Payment Info,Email,True,0.6,False,True,False,0,2026-02-20,15,Mobile
+CHK01227,CRE0340,PRD01820,Personal Development,97,Final Review,Google,True,1.7,True,True,False,0,2026-02-11,1,Tablet
+CHK01228,CRE0120,PRD00239,Home Decor & Interior Design,47,Payment Info,YouTube,True,1.0,False,False,False,0,2026-03-06,4,Mobile
+CHK01229,CRE0097,PRD01443,Personal Development,197,Final Review,YouTube,True,3.6,False,False,False,0,2025-09-30,12,Mobile
+CHK01230,CRE0326,PRD01201,Travel & Adventure,127,Added to Cart,Direct,True,0.8,True,False,False,0,2026-01-08,9,Tablet
+CHK01231,CRE0548,PRD01472,Home Decor & Interior Design,47,Started Checkout,Direct,True,2.3,True,True,False,0,2025-12-01,21,Tablet
+CHK01232,CRE0008,PRD00472,Music & Audio Production,67,Started Checkout,Direct,True,1.7,False,True,False,0,2026-01-25,14,Mobile
+CHK01233,CRE0556,PRD01079,Finance & Investing,17,Started Checkout,YouTube,True,1.2,True,False,True,17,2026-02-15,1,Mobile
+CHK01234,CRE0347,PRD00910,Photography & Videography,67,Final Review,Email,False,,False,False,False,0,2025-11-13,16,Mobile
+CHK01235,CRE0416,PRD01452,Business & Entrepreneurship,37,Payment Info,Instagram,True,3.9,False,True,False,0,2025-12-12,14,Desktop
+CHK01236,CRE0286,PRD00010,Food & Cooking,17,Started Checkout,YouTube,True,3.1,False,False,False,0,2026-02-09,2,Mobile
+CHK01237,CRE0001,PRD01240,Gaming & Esports,27,Added to Cart,Direct,True,3.4,True,True,False,0,2025-11-04,16,Desktop
+CHK01238,CRE0280,PRD01948,Gaming & Esports,127,Payment Info,YouTube,True,0.7,False,True,False,0,2025-09-21,11,Mobile
+CHK01239,CRE0102,PRD00709,Food & Cooking,97,Final Review,Instagram,True,2.0,False,True,False,0,2026-01-21,10,Mobile
+CHK01240,CRE0196,PRD00807,Home Decor & Interior Design,67,Final Review,Google,True,3.2,True,True,False,0,2025-10-15,19,Tablet
+CHK01241,CRE0342,PRD01075,Comedy & Entertainment,17,Started Checkout,Instagram,True,1.8,True,False,False,0,2025-10-07,14,Mobile
+CHK01242,CRE0492,PRD00873,Technology & Software,197,Added to Cart,Email,True,2.2,True,False,False,0,2025-11-20,12,Mobile
+CHK01243,CRE0388,PRD02275,Music & Audio Production,17,Payment Info,YouTube,False,,False,False,False,0,2025-09-26,13,Desktop
+CHK01244,CRE0317,PRD00966,Personal Development,497,Payment Info,Email,False,,False,False,False,0,2026-01-29,15,Tablet
+CHK01245,CRE0426,PRD00099,Technology & Software,9,Final Review,Google,True,1.6,False,True,False,0,2026-02-15,8,Desktop
+CHK01246,CRE0575,PRD00186,Pet Care,9,Added to Cart,YouTube,True,1.7,False,False,False,0,2025-12-12,19,Mobile
+CHK01247,CRE0239,PRD00746,Comedy & Entertainment,297,Payment Info,Google,True,2.1,False,True,True,297,2026-02-04,2,Mobile
+CHK01248,CRE0555,PRD02431,Finance & Investing,27,Started Checkout,Instagram,True,1.1,False,True,False,0,2026-03-03,17,Mobile
+CHK01249,CRE0216,PRD01956,Finance & Investing,197,Added to Cart,Google,True,3.4,True,False,False,0,2026-01-13,10,Mobile
+CHK01250,CRE0111,PRD01871,Technology & Software,47,Final Review,Instagram,True,3.8,False,False,False,0,2026-03-19,14,Mobile
+CHK01251,CRE0111,PRD00598,Education & Online Courses,67,Added to Cart,Google,True,2.3,True,True,False,0,2025-09-23,10,Mobile
+CHK01252,CRE0413,PRD01639,Photography & Videography,197,Payment Info,Direct,True,2.8,False,False,False,0,2025-12-06,8,Mobile
+CHK01253,CRE0262,PRD00545,Personal Development,197,Final Review,Google,False,,False,False,False,0,2025-12-07,13,Tablet
+CHK01254,CRE0467,PRD01401,Parenting & Family,97,Final Review,Google,True,3.9,False,False,False,0,2026-03-12,21,Mobile
+CHK01255,CRE0392,PRD01387,Pet Care,297,Started Checkout,Google,False,,False,False,False,0,2026-01-08,1,Desktop
+CHK01256,CRE0432,PRD01278,Business & Entrepreneurship,27,Payment Info,Google,True,3.7,False,False,False,0,2026-02-15,5,Mobile
+CHK01257,CRE0562,PRD00906,Business & Entrepreneurship,47,Payment Info,Google,True,2.1,False,True,False,0,2026-02-17,11,Mobile
+CHK01258,CRE0278,PRD00948,Sustainable Living,497,Started Checkout,YouTube,True,1.8,False,True,False,0,2025-12-31,16,Desktop
+CHK01259,CRE0502,PRD00051,Business & Entrepreneurship,497,Added to Cart,Direct,True,0.9,True,False,False,0,2026-01-24,14,Desktop
+CHK01260,CRE0270,PRD02273,Photography & Videography,127,Started Checkout,Email,True,1.2,True,False,False,0,2025-10-23,3,Mobile
+CHK01261,CRE0289,PRD00280,Food & Cooking,9,Final Review,YouTube,False,,False,False,False,0,2025-11-16,1,Desktop
+CHK01262,CRE0477,PRD01915,Comedy & Entertainment,497,Added to Cart,YouTube,False,,False,False,False,0,2026-02-14,18,Tablet
+CHK01263,CRE0432,PRD00555,Photography & Videography,97,Started Checkout,Google,True,1.9,False,True,False,0,2025-09-25,0,Desktop
+CHK01264,CRE0509,PRD01617,Home Decor & Interior Design,297,Payment Info,Instagram,True,1.7,True,False,True,297,2025-12-03,2,Mobile
+CHK01265,CRE0071,PRD00418,Home Decor & Interior Design,47,Started Checkout,YouTube,True,2.3,True,True,False,0,2026-01-05,12,Mobile
+CHK01266,CRE0494,PRD01474,Food & Cooking,127,Started Checkout,YouTube,True,0.8,True,True,True,127,2025-12-06,5,Mobile
+CHK01267,CRE0222,PRD02066,Home Decor & Interior Design,9,Started Checkout,Google,True,2.2,True,True,True,9,2025-12-13,14,Desktop
+CHK01268,CRE0401,PRD01369,Technology & Software,17,Final Review,Google,True,3.9,True,True,False,0,2025-11-30,22,Desktop
+CHK01269,CRE0116,PRD00448,Comedy & Entertainment,497,Payment Info,Google,True,0.7,False,False,False,0,2026-01-03,23,Mobile
+CHK01270,CRE0201,PRD00475,Education & Online Courses,9,Started Checkout,Instagram,True,2.4,False,False,False,0,2025-10-18,21,Tablet
+CHK01271,CRE0121,PRD01429,Music & Audio Production,17,Added to Cart,Google,False,,False,False,False,0,2025-11-23,21,Desktop
+CHK01272,CRE0273,PRD02165,Pet Care,127,Added to Cart,TikTok,True,1.4,True,True,False,0,2026-02-20,1,Desktop
+CHK01273,CRE0272,PRD01139,Photography & Videography,17,Final Review,TikTok,True,2.8,True,True,False,0,2025-12-25,16,Mobile
+CHK01274,CRE0198,PRD01087,Photography & Videography,47,Final Review,Instagram,True,1.9,True,False,False,0,2025-11-01,1,Mobile
+CHK01275,CRE0564,PRD00267,Technology & Software,27,Payment Info,Email,True,1.2,True,False,False,0,2025-09-23,9,Mobile
+CHK01276,CRE0227,PRD00158,Travel & Adventure,97,Started Checkout,Instagram,False,,False,False,False,0,2025-10-08,7,Desktop
+CHK01277,CRE0484,PRD00489,Business & Entrepreneurship,497,Final Review,TikTok,True,1.2,False,False,False,0,2026-03-17,0,Tablet
+CHK01278,CRE0319,PRD02328,Personal Development,9,Added to Cart,YouTube,True,1.7,True,False,False,0,2026-02-04,14,Mobile
+CHK01279,CRE0355,PRD01189,Beauty & Fashion,97,Started Checkout,TikTok,True,3.5,False,False,False,0,2026-03-11,22,Tablet
+CHK01280,CRE0134,PRD01451,Business & Entrepreneurship,197,Payment Info,Instagram,True,2.4,False,False,False,0,2026-02-26,9,Mobile
+CHK01281,CRE0570,PRD01996,Sustainable Living,67,Added to Cart,Instagram,False,,False,False,False,0,2025-11-04,3,Desktop
+CHK01282,CRE0169,PRD02178,Finance & Investing,9,Final Review,Google,True,1.9,True,False,False,0,2025-12-18,8,Tablet
+CHK01283,CRE0131,PRD02202,Personal Development,297,Payment Info,Google,True,3.4,False,False,False,0,2025-10-06,12,Mobile
+CHK01284,CRE0310,PRD02084,Science & Space,67,Added to Cart,TikTok,True,2.9,False,True,False,0,2025-09-30,4,Tablet
+CHK01285,CRE0497,PRD00888,Music & Audio Production,27,Final Review,YouTube,True,3.3,True,True,True,27,2025-11-06,5,Mobile
+CHK01286,CRE0056,PRD01830,Personal Development,127,Payment Info,Email,False,,False,False,False,0,2026-01-16,17,Mobile
+CHK01287,CRE0585,PRD02080,Finance & Investing,197,Final Review,Instagram,True,3.1,True,False,True,197,2025-11-15,12,Desktop
+CHK01288,CRE0587,PRD00876,Gaming & Esports,9,Final Review,TikTok,True,1.6,True,True,False,0,2026-02-25,5,Mobile
+CHK01289,CRE0479,PRD00461,Pet Care,17,Final Review,Direct,True,1.4,False,False,False,0,2026-01-20,23,Desktop
+CHK01290,CRE0337,PRD00611,Comedy & Entertainment,27,Final Review,Email,True,3.3,False,True,False,0,2025-10-17,14,Desktop
+CHK01291,CRE0327,PRD00127,Music & Audio Production,67,Added to Cart,TikTok,True,1.6,True,False,False,0,2026-03-13,6,Tablet
+CHK01292,CRE0174,PRD01794,Pet Care,17,Payment Info,YouTube,True,3.9,True,False,False,0,2025-12-30,0,Tablet
+CHK01293,CRE0558,PRD02385,Parenting & Family,47,Payment Info,TikTok,True,0.5,False,False,False,0,2025-10-01,0,Mobile
+CHK01294,CRE0308,PRD00261,Parenting & Family,497,Started Checkout,Instagram,True,2.0,True,False,False,0,2026-01-02,12,Tablet
+CHK01295,CRE0049,PRD02181,Photography & Videography,127,Added to Cart,TikTok,True,3.2,True,False,False,0,2026-02-27,0,Mobile
+CHK01296,CRE0285,PRD01911,Music & Audio Production,97,Final Review,Direct,True,2.2,True,True,False,0,2026-01-13,8,Mobile
+CHK01297,CRE0103,PRD00186,Education & Online Courses,17,Started Checkout,Direct,True,3.7,True,True,False,0,2025-09-20,15,Tablet
+CHK01298,CRE0003,PRD00458,Comedy & Entertainment,67,Final Review,Instagram,True,1.0,True,True,False,0,2026-02-22,18,Desktop
+CHK01299,CRE0323,PRD02000,Photography & Videography,17,Started Checkout,Direct,False,,False,False,False,0,2026-03-08,5,Mobile
+CHK01300,CRE0199,PRD01989,Pet Care,17,Final Review,TikTok,True,3.1,False,False,False,0,2026-01-19,13,Desktop
+CHK01301,CRE0450,PRD00471,Parenting & Family,27,Added to Cart,YouTube,True,2.0,False,False,False,0,2026-01-28,14,Tablet
+CHK01302,CRE0288,PRD00519,Personal Development,497,Added to Cart,Direct,False,,False,False,False,0,2026-02-01,9,Tablet
+CHK01303,CRE0374,PRD00839,Finance & Investing,497,Added to Cart,Google,True,2.7,False,False,False,0,2026-01-22,19,Desktop
+CHK01304,CRE0439,PRD01039,Technology & Software,197,Added to Cart,YouTube,True,2.8,True,False,False,0,2025-11-29,9,Desktop
+CHK01305,CRE0585,PRD01476,Language Learning,37,Final Review,YouTube,False,,False,False,False,0,2026-01-31,15,Desktop
+CHK01306,CRE0295,PRD01403,Gaming & Esports,497,Payment Info,Google,True,1.5,False,True,False,0,2026-01-04,22,Mobile
+CHK01307,CRE0134,PRD00054,Sustainable Living,37,Payment Info,Instagram,True,0.7,False,False,False,0,2026-03-19,20,Desktop
+CHK01308,CRE0539,PRD00138,Comedy & Entertainment,127,Final Review,TikTok,True,2.5,False,False,False,0,2025-12-07,16,Mobile
+CHK01309,CRE0068,PRD00279,Sustainable Living,497,Final Review,Google,True,1.3,True,True,False,0,2025-10-29,5,Desktop
+CHK01310,CRE0169,PRD00458,Music & Audio Production,17,Added to Cart,Direct,True,0.8,True,True,False,0,2025-12-08,8,Mobile
+CHK01311,CRE0373,PRD00253,Sustainable Living,67,Payment Info,Direct,False,,False,False,False,0,2026-02-10,1,Mobile
+CHK01312,CRE0190,PRD01076,Travel & Adventure,97,Started Checkout,Direct,True,1.0,True,True,False,0,2026-03-16,7,Desktop
+CHK01313,CRE0445,PRD01613,Photography & Videography,127,Added to Cart,TikTok,True,1.5,False,True,False,0,2026-02-17,20,Mobile
+CHK01314,CRE0373,PRD00051,Sustainable Living,127,Payment Info,Email,True,1.3,False,True,True,127,2025-11-19,10,Tablet
+CHK01315,CRE0583,PRD02079,Business & Entrepreneurship,497,Added to Cart,Google,False,,False,False,False,0,2025-10-18,15,Mobile
+CHK01316,CRE0216,PRD01986,Pet Care,497,Added to Cart,Direct,True,1.7,True,True,False,0,2025-11-02,7,Tablet
+CHK01317,CRE0147,PRD00742,Technology & Software,9,Started Checkout,Email,True,2.0,False,True,False,0,2025-11-19,20,Desktop
+CHK01318,CRE0013,PRD00991,Home Decor & Interior Design,197,Added to Cart,YouTube,False,,False,False,False,0,2026-01-29,11,Mobile
+CHK01319,CRE0317,PRD01437,Parenting & Family,297,Final Review,Instagram,False,,False,False,False,0,2026-01-10,5,Tablet
+CHK01320,CRE0159,PRD02140,Finance & Investing,17,Added to Cart,TikTok,True,1.4,True,True,False,0,2025-11-11,9,Tablet
+CHK01321,CRE0477,PRD00187,Finance & Investing,37,Started Checkout,TikTok,True,3.7,False,False,True,37,2026-01-04,6,Mobile
+CHK01322,CRE0104,PRD00299,Photography & Videography,297,Final Review,YouTube,True,0.6,False,False,False,0,2025-09-21,10,Tablet
+CHK01323,CRE0373,PRD00447,Technology & Software,9,Final Review,YouTube,True,0.5,False,True,False,0,2026-01-31,22,Tablet
+CHK01324,CRE0446,PRD00199,Beauty & Fashion,37,Started Checkout,YouTube,True,0.5,False,True,False,0,2026-02-03,4,Desktop
+CHK01325,CRE0239,PRD01813,Personal Development,497,Payment Info,Direct,False,,False,False,False,0,2025-11-04,9,Mobile
+CHK01326,CRE0209,PRD01246,Personal Development,127,Payment Info,Email,False,,False,False,False,0,2026-02-22,6,Mobile
+CHK01327,CRE0296,PRD02198,Food & Cooking,17,Started Checkout,TikTok,False,,False,False,False,0,2025-12-25,11,Mobile
+CHK01328,CRE0596,PRD02038,Technology & Software,47,Final Review,TikTok,True,1.2,False,False,False,0,2026-03-07,5,Mobile
+CHK01329,CRE0338,PRD01761,Home Decor & Interior Design,97,Final Review,TikTok,True,2.0,True,True,False,0,2025-09-22,22,Mobile
+CHK01330,CRE0131,PRD02338,Beauty & Fashion,9,Started Checkout,TikTok,False,,False,False,False,0,2025-12-26,8,Tablet
+CHK01331,CRE0288,PRD00088,Language Learning,497,Final Review,TikTok,False,,False,False,False,0,2026-03-17,6,Tablet
+CHK01332,CRE0257,PRD00017,Gaming & Esports,27,Started Checkout,TikTok,False,,False,False,False,0,2025-11-26,15,Tablet
+CHK01333,CRE0354,PRD01865,Personal Development,17,Added to Cart,TikTok,False,,False,False,False,0,2025-10-19,2,Mobile
+CHK01334,CRE0402,PRD01050,Pet Care,127,Added to Cart,TikTok,True,3.1,True,False,True,127,2025-11-19,2,Tablet
+CHK01335,CRE0113,PRD02073,Beauty & Fashion,9,Started Checkout,Email,True,2.9,False,False,False,0,2025-12-24,11,Desktop
+CHK01336,CRE0567,PRD00026,Photography & Videography,297,Final Review,TikTok,True,3.5,True,True,False,0,2026-01-26,17,Mobile
+CHK01337,CRE0271,PRD00739,Music & Audio Production,67,Added to Cart,YouTube,True,1.2,False,False,False,0,2025-11-23,7,Desktop
+CHK01338,CRE0314,PRD02468,Technology & Software,297,Payment Info,Google,True,1.9,True,True,False,0,2026-02-06,14,Desktop
+CHK01339,CRE0319,PRD01550,Travel & Adventure,97,Final Review,Direct,False,,False,False,False,0,2025-10-02,0,Mobile
+CHK01340,CRE0598,PRD00277,Sustainable Living,197,Added to Cart,Direct,True,1.6,True,False,False,0,2026-03-16,14,Mobile
+CHK01341,CRE0573,PRD02438,Business & Entrepreneurship,37,Payment Info,Google,True,3.4,True,True,False,0,2025-09-29,3,Mobile
+CHK01342,CRE0296,PRD00790,Science & Space,37,Started Checkout,YouTube,False,,False,False,False,0,2025-10-27,12,Mobile
+CHK01343,CRE0535,PRD00772,Sustainable Living,97,Final Review,YouTube,True,3.3,False,False,False,0,2025-10-04,17,Desktop
+CHK01344,CRE0085,PRD01829,Education & Online Courses,17,Payment Info,Instagram,True,1.5,False,True,False,0,2025-11-27,9,Tablet
+CHK01345,CRE0283,PRD00549,Language Learning,9,Payment Info,Email,True,1.8,True,False,False,0,2025-10-13,13,Mobile
+CHK01346,CRE0486,PRD00025,Gaming & Esports,67,Payment Info,TikTok,False,,False,False,False,0,2026-01-24,4,Mobile
+CHK01347,CRE0541,PRD02471,Sustainable Living,97,Final Review,Google,True,3.0,False,False,False,0,2026-03-15,12,Tablet
+CHK01348,CRE0252,PRD01035,Technology & Software,297,Added to Cart,Instagram,False,,False,False,False,0,2026-01-12,2,Desktop
+CHK01349,CRE0181,PRD00442,Science & Space,197,Added to Cart,Instagram,False,,False,False,False,0,2026-01-06,6,Mobile
+CHK01350,CRE0274,PRD02128,Language Learning,47,Added to Cart,Instagram,True,3.4,False,False,False,0,2025-11-02,0,Mobile
+CHK01351,CRE0404,PRD01860,Personal Development,67,Started Checkout,Email,False,,False,False,False,0,2025-09-29,21,Tablet
+CHK01352,CRE0512,PRD01713,Gaming & Esports,197,Added to Cart,Google,False,,False,False,False,0,2025-11-17,11,Desktop
+CHK01353,CRE0102,PRD00333,Pet Care,17,Added to Cart,YouTube,False,,False,False,False,0,2026-01-31,12,Mobile
+CHK01354,CRE0045,PRD01395,Food & Cooking,497,Payment Info,YouTube,True,1.2,True,True,False,0,2025-10-25,3,Mobile
+CHK01355,CRE0025,PRD01042,Technology & Software,297,Final Review,Email,True,1.7,True,True,False,0,2025-12-13,19,Tablet
+CHK01356,CRE0088,PRD01829,Pet Care,197,Added to Cart,YouTube,False,,False,False,False,0,2025-12-08,23,Desktop
+CHK01357,CRE0318,PRD01428,Music & Audio Production,297,Payment Info,Google,True,4.0,True,True,False,0,2025-12-29,17,Mobile
+CHK01358,CRE0160,PRD01967,Business & Entrepreneurship,47,Added to Cart,Email,False,,False,False,False,0,2025-11-15,16,Tablet
+CHK01359,CRE0146,PRD01426,Business & Entrepreneurship,497,Final Review,Direct,False,,False,False,False,0,2026-02-04,5,Tablet
+CHK01360,CRE0468,PRD02432,Sustainable Living,197,Added to Cart,Email,True,1.6,False,False,False,0,2026-03-09,8,Tablet
+CHK01361,CRE0130,PRD01849,Technology & Software,27,Final Review,Google,True,1.2,True,False,False,0,2025-10-23,19,Mobile
+CHK01362,CRE0414,PRD00385,Music & Audio Production,127,Payment Info,Direct,True,3.6,False,True,False,0,2026-02-04,18,Tablet
+CHK01363,CRE0450,PRD00603,Beauty & Fashion,47,Payment Info,TikTok,False,,False,False,False,0,2025-12-03,0,Mobile
+CHK01364,CRE0360,PRD00343,Travel & Adventure,67,Started Checkout,TikTok,True,2.4,False,True,False,0,2026-03-09,21,Tablet
+CHK01365,CRE0163,PRD00321,Language Learning,197,Final Review,Instagram,False,,False,False,False,0,2026-03-08,11,Mobile
+CHK01366,CRE0362,PRD01708,Food & Cooking,97,Started Checkout,Direct,False,,False,False,False,0,2026-03-19,12,Desktop
+CHK01367,CRE0340,PRD02230,Comedy & Entertainment,497,Added to Cart,Email,True,1.6,True,True,False,0,2025-12-11,1,Tablet
+CHK01368,CRE0578,PRD01407,Personal Development,37,Added to Cart,Google,True,3.3,True,False,False,0,2026-02-27,11,Tablet
+CHK01369,CRE0507,PRD00455,Business & Entrepreneurship,27,Started Checkout,Instagram,False,,False,False,False,0,2026-02-24,4,Desktop
+CHK01370,CRE0039,PRD00927,Gaming & Esports,97,Started Checkout,TikTok,False,,False,False,False,0,2026-02-14,1,Tablet
+CHK01371,CRE0050,PRD02115,Beauty & Fashion,197,Added to Cart,TikTok,False,,False,False,False,0,2026-01-23,23,Mobile
+CHK01372,CRE0552,PRD00589,Comedy & Entertainment,127,Payment Info,Direct,True,3.6,False,False,False,0,2026-03-13,4,Mobile
+CHK01373,CRE0252,PRD01587,Travel & Adventure,67,Payment Info,Direct,False,,False,False,False,0,2025-10-21,8,Desktop
+CHK01374,CRE0108,PRD01912,Technology & Software,497,Started Checkout,YouTube,False,,False,False,False,0,2025-12-28,5,Desktop
+CHK01375,CRE0531,PRD02035,Technology & Software,97,Started Checkout,Direct,False,,False,False,False,0,2026-03-03,0,Mobile
+CHK01376,CRE0262,PRD02222,Parenting & Family,67,Added to Cart,Google,False,,False,False,False,0,2025-10-02,15,Mobile
+CHK01377,CRE0047,PRD01523,Language Learning,17,Final Review,TikTok,False,,False,False,False,0,2025-10-04,7,Tablet
+CHK01378,CRE0233,PRD01392,Science & Space,9,Payment Info,Direct,False,,False,False,False,0,2025-11-20,16,Mobile
+CHK01379,CRE0239,PRD01051,Finance & Investing,9,Payment Info,Email,False,,False,False,False,0,2026-01-22,3,Desktop
+CHK01380,CRE0030,PRD00649,Sustainable Living,47,Started Checkout,Google,False,,False,False,False,0,2026-01-06,13,Mobile
+CHK01381,CRE0029,PRD01948,Science & Space,297,Started Checkout,YouTube,False,,False,False,False,0,2025-11-29,1,Mobile
+CHK01382,CRE0484,PRD00760,Parenting & Family,497,Started Checkout,Google,False,,False,False,False,0,2026-01-22,0,Tablet
+CHK01383,CRE0219,PRD01793,Gaming & Esports,127,Added to Cart,Google,False,,False,False,False,0,2025-11-04,23,Tablet
+CHK01384,CRE0537,PRD01419,Personal Development,97,Payment Info,Instagram,True,3.6,False,False,False,0,2025-12-26,1,Desktop
+CHK01385,CRE0492,PRD01139,Personal Development,37,Payment Info,TikTok,False,,False,False,False,0,2025-11-17,13,Desktop
+CHK01386,CRE0533,PRD01150,Travel & Adventure,47,Final Review,Google,False,,False,False,False,0,2025-10-05,6,Mobile
+CHK01387,CRE0057,PRD00813,Finance & Investing,127,Payment Info,YouTube,True,2.6,False,False,False,0,2025-10-28,10,Mobile
+CHK01388,CRE0511,PRD00253,Gaming & Esports,297,Added to Cart,Email,False,,False,False,False,0,2025-10-23,8,Mobile
+CHK01389,CRE0073,PRD01287,Personal Development,37,Final Review,TikTok,True,0.9,True,True,False,0,2026-03-19,23,Desktop
+CHK01390,CRE0387,PRD00803,Technology & Software,127,Started Checkout,Google,False,,False,False,False,0,2025-12-19,11,Mobile
+CHK01391,CRE0407,PRD01534,Music & Audio Production,47,Started Checkout,Direct,False,,False,False,False,0,2026-01-29,5,Mobile
+CHK01392,CRE0157,PRD01755,Language Learning,497,Added to Cart,Email,False,,False,False,False,0,2025-09-22,4,Mobile
+CHK01393,CRE0280,PRD00189,Language Learning,17,Started Checkout,Instagram,True,2.8,True,True,False,0,2026-01-21,8,Mobile
+CHK01394,CRE0218,PRD01911,Pet Care,297,Added to Cart,Direct,False,,False,False,False,0,2025-11-29,13,Desktop
+CHK01395,CRE0295,PRD02484,Science & Space,497,Added to Cart,Google,True,0.5,False,True,False,0,2025-11-17,17,Mobile
+CHK01396,CRE0532,PRD02297,Gaming & Esports,97,Final Review,TikTok,True,2.7,False,False,False,0,2026-01-29,5,Desktop
+CHK01397,CRE0423,PRD00895,Food & Cooking,37,Added to Cart,Google,False,,False,False,False,0,2025-12-09,17,Mobile
+CHK01398,CRE0176,PRD01868,Education & Online Courses,197,Started Checkout,TikTok,True,0.9,True,False,False,0,2026-01-17,13,Mobile
+CHK01399,CRE0492,PRD00325,Personal Development,9,Final Review,YouTube,True,1.7,False,True,False,0,2026-02-22,7,Desktop
+CHK01400,CRE0269,PRD00593,Personal Development,67,Final Review,Email,False,,False,False,False,0,2026-03-10,20,Desktop
+CHK01401,CRE0586,PRD01688,Language Learning,127,Started Checkout,Instagram,True,2.0,True,True,True,127,2025-12-19,20,Mobile
+CHK01402,CRE0298,PRD02447,Parenting & Family,97,Payment Info,YouTube,False,,False,False,False,0,2026-02-08,18,Tablet
+CHK01403,CRE0308,PRD01405,Language Learning,67,Final Review,Google,True,1.7,True,False,False,0,2025-11-19,8,Tablet
+CHK01404,CRE0470,PRD02240,Science & Space,497,Payment Info,YouTube,True,1.0,True,False,False,0,2025-12-15,5,Tablet
+CHK01405,CRE0067,PRD02364,Pet Care,47,Added to Cart,Google,True,2.5,True,False,False,0,2025-09-20,19,Mobile
+CHK01406,CRE0272,PRD01088,Finance & Investing,47,Started Checkout,YouTube,False,,False,False,False,0,2026-02-19,1,Desktop
+CHK01407,CRE0543,PRD01502,Technology & Software,297,Added to Cart,Direct,True,3.5,False,True,False,0,2026-02-28,3,Mobile
+CHK01408,CRE0197,PRD00859,Home Decor & Interior Design,197,Final Review,Instagram,False,,False,False,False,0,2026-03-08,4,Mobile
+CHK01409,CRE0088,PRD00457,Technology & Software,27,Final Review,Email,True,3.2,False,False,False,0,2025-10-15,1,Mobile
+CHK01410,CRE0239,PRD01943,Business & Entrepreneurship,497,Payment Info,TikTok,True,2.9,True,False,False,0,2026-01-09,22,Tablet
+CHK01411,CRE0225,PRD01418,Music & Audio Production,97,Final Review,YouTube,True,2.5,False,True,False,0,2026-02-22,12,Tablet
+CHK01412,CRE0382,PRD00497,Gaming & Esports,67,Final Review,Instagram,True,3.6,True,True,False,0,2026-02-09,21,Desktop
+CHK01413,CRE0168,PRD01854,Food & Cooking,127,Payment Info,Google,True,3.2,True,False,False,0,2025-09-29,19,Mobile
+CHK01414,CRE0541,PRD01060,Comedy & Entertainment,9,Payment Info,TikTok,True,1.6,True,False,False,0,2025-11-30,0,Tablet
+CHK01415,CRE0209,PRD00599,Technology & Software,47,Payment Info,Direct,False,,False,False,False,0,2025-12-17,4,Mobile
+CHK01416,CRE0235,PRD01441,Music & Audio Production,9,Started Checkout,Instagram,True,3.1,True,False,False,0,2025-11-29,18,Mobile
+CHK01417,CRE0231,PRD01189,Home Decor & Interior Design,37,Payment Info,Instagram,True,2.9,True,False,False,0,2025-09-20,9,Desktop
+CHK01418,CRE0509,PRD01779,Home Decor & Interior Design,47,Final Review,Google,False,,False,False,False,0,2025-11-12,4,Mobile
+CHK01419,CRE0318,PRD01578,Beauty & Fashion,27,Payment Info,TikTok,True,1.5,False,False,False,0,2025-10-11,8,Desktop
+CHK01420,CRE0273,PRD01880,Home Decor & Interior Design,27,Final Review,Email,True,1.3,False,False,False,0,2026-03-11,5,Tablet
+CHK01421,CRE0077,PRD02019,Beauty & Fashion,297,Added to Cart,Google,False,,False,False,False,0,2026-03-06,17,Mobile
+CHK01422,CRE0303,PRD01400,Technology & Software,9,Payment Info,Direct,True,2.3,False,True,False,0,2025-10-10,1,Mobile
+CHK01423,CRE0304,PRD00655,Parenting & Family,97,Added to Cart,Direct,True,2.2,True,False,False,0,2026-02-22,13,Desktop
+CHK01424,CRE0067,PRD00110,Food & Cooking,47,Payment Info,YouTube,False,,False,False,False,0,2026-01-17,10,Tablet
+CHK01425,CRE0455,PRD01916,Language Learning,197,Payment Info,Email,False,,False,False,False,0,2025-11-05,12,Mobile
+CHK01426,CRE0382,PRD00005,Finance & Investing,67,Started Checkout,Instagram,True,1.7,True,True,False,0,2025-12-08,1,Mobile
+CHK01427,CRE0078,PRD01188,Parenting & Family,497,Payment Info,Instagram,True,0.7,True,True,False,0,2026-02-12,11,Mobile
+CHK01428,CRE0397,PRD02163,Home Decor & Interior Design,17,Payment Info,Google,False,,False,False,False,0,2025-10-26,10,Mobile
+CHK01429,CRE0398,PRD01586,Beauty & Fashion,37,Added to Cart,Email,True,1.2,True,True,False,0,2026-03-11,19,Mobile
+CHK01430,CRE0336,PRD01421,Pet Care,17,Payment Info,Google,True,3.4,True,True,False,0,2025-10-23,9,Desktop
+CHK01431,CRE0456,PRD01486,Science & Space,67,Payment Info,YouTube,True,3.1,False,True,False,0,2025-10-14,6,Desktop
+CHK01432,CRE0418,PRD00962,Pet Care,9,Added to Cart,YouTube,True,1.8,True,True,True,9,2025-09-24,10,Tablet
+CHK01433,CRE0180,PRD01206,Photography & Videography,97,Payment Info,Email,True,2.6,True,False,False,0,2026-03-18,0,Tablet
+CHK01434,CRE0085,PRD02326,Food & Cooking,297,Final Review,Google,True,3.5,False,False,True,297,2026-01-05,0,Desktop
+CHK01435,CRE0398,PRD00495,Education & Online Courses,37,Added to Cart,YouTube,True,2.9,True,True,False,0,2025-10-15,7,Mobile
+CHK01436,CRE0058,PRD01737,Parenting & Family,37,Started Checkout,Google,False,,False,False,False,0,2026-02-20,6,Desktop
+CHK01437,CRE0481,PRD02146,Education & Online Courses,37,Final Review,Google,True,1.2,False,False,False,0,2026-03-01,8,Mobile
+CHK01438,CRE0467,PRD01754,Language Learning,497,Added to Cart,Direct,False,,False,False,False,0,2025-12-17,14,Desktop
+CHK01439,CRE0008,PRD00599,Parenting & Family,97,Added to Cart,Instagram,False,,False,False,False,0,2025-12-20,18,Desktop
+CHK01440,CRE0286,PRD01966,Education & Online Courses,127,Started Checkout,YouTube,True,2.2,False,False,False,0,2026-02-23,13,Mobile
+CHK01441,CRE0139,PRD01215,Home Decor & Interior Design,297,Added to Cart,Email,False,,False,False,False,0,2025-12-04,8,Mobile
+CHK01442,CRE0086,PRD00266,Personal Development,47,Added to Cart,Google,True,1.4,True,True,False,0,2026-03-11,3,Tablet
+CHK01443,CRE0100,PRD01518,Science & Space,47,Payment Info,TikTok,False,,False,False,False,0,2026-01-10,3,Mobile
+CHK01444,CRE0542,PRD02223,Photography & Videography,17,Payment Info,YouTube,True,0.9,False,False,False,0,2025-11-24,3,Mobile
+CHK01445,CRE0073,PRD01330,Gaming & Esports,67,Started Checkout,Google,False,,False,False,False,0,2026-01-25,1,Desktop
+CHK01446,CRE0339,PRD01560,Personal Development,497,Started Checkout,Direct,True,2.2,False,False,False,0,2025-10-30,23,Tablet
+CHK01447,CRE0301,PRD00260,Beauty & Fashion,197,Added to Cart,TikTok,True,3.1,False,False,False,0,2025-10-13,16,Mobile
+CHK01448,CRE0119,PRD01128,Parenting & Family,47,Payment Info,Google,False,,False,False,False,0,2025-12-01,4,Desktop
+CHK01449,CRE0034,PRD00099,Technology & Software,9,Started Checkout,Direct,False,,False,False,False,0,2025-12-28,15,Tablet
+CHK01450,CRE0144,PRD01218,Finance & Investing,17,Payment Info,Direct,True,3.0,False,True,False,0,2026-01-11,19,Mobile
+CHK01451,CRE0447,PRD01460,Personal Development,9,Final Review,Instagram,False,,False,False,False,0,2026-03-02,3,Tablet
+CHK01452,CRE0198,PRD01453,Photography & Videography,47,Payment Info,Direct,False,,False,False,False,0,2026-01-20,8,Mobile
+CHK01453,CRE0578,PRD01514,Music & Audio Production,67,Payment Info,Email,False,,False,False,False,0,2025-11-08,9,Tablet
+CHK01454,CRE0066,PRD01198,Finance & Investing,497,Final Review,TikTok,True,1.4,True,True,False,0,2025-10-16,7,Mobile
+CHK01455,CRE0354,PRD02089,Language Learning,27,Final Review,TikTok,True,1.1,True,True,False,0,2025-10-20,13,Mobile
+CHK01456,CRE0523,PRD01757,Business & Entrepreneurship,297,Added to Cart,TikTok,True,3.3,False,False,False,0,2025-10-21,17,Tablet
+CHK01457,CRE0155,PRD00004,Personal Development,9,Started Checkout,Google,False,,False,False,False,0,2026-01-30,16,Tablet
+CHK01458,CRE0505,PRD00427,Language Learning,97,Added to Cart,YouTube,True,2.7,True,False,False,0,2026-01-20,5,Desktop
+CHK01459,CRE0323,PRD01888,Parenting & Family,197,Added to Cart,Google,True,1.5,False,False,False,0,2025-10-28,15,Tablet
+CHK01460,CRE0521,PRD00549,Technology & Software,17,Final Review,Direct,True,0.8,False,False,False,0,2025-11-26,12,Desktop
+CHK01461,CRE0065,PRD01981,Pet Care,67,Payment Info,YouTube,True,2.6,True,False,False,0,2025-12-12,1,Mobile
+CHK01462,CRE0079,PRD00571,Home Decor & Interior Design,197,Payment Info,Instagram,True,2.7,True,True,False,0,2026-02-26,9,Desktop
+CHK01463,CRE0477,PRD00590,Food & Cooking,47,Added to Cart,TikTok,True,3.0,True,True,False,0,2025-10-07,21,Mobile
+CHK01464,CRE0577,PRD02167,Home Decor & Interior Design,9,Final Review,Email,True,0.5,False,False,False,0,2026-03-07,14,Mobile
+CHK01465,CRE0055,PRD01627,Food & Cooking,47,Added to Cart,Email,True,3.0,True,True,False,0,2026-02-27,5,Desktop
+CHK01466,CRE0354,PRD02245,Photography & Videography,497,Started Checkout,Google,False,,False,False,False,0,2025-09-28,5,Mobile
+CHK01467,CRE0442,PRD02357,Sustainable Living,27,Final Review,YouTube,True,2.0,False,False,False,0,2026-02-13,13,Tablet
+CHK01468,CRE0540,PRD01169,Education & Online Courses,497,Final Review,Email,True,1.3,True,True,False,0,2026-01-20,16,Desktop
+CHK01469,CRE0540,PRD01084,Beauty & Fashion,127,Started Checkout,Direct,True,3.7,True,True,True,127,2025-12-07,8,Mobile
+CHK01470,CRE0274,PRD01576,Beauty & Fashion,47,Final Review,YouTube,True,2.6,False,True,False,0,2025-11-28,13,Mobile
+CHK01471,CRE0391,PRD01765,Gaming & Esports,37,Added to Cart,Email,False,,False,False,False,0,2025-11-11,23,Tablet
+CHK01472,CRE0435,PRD02180,Pet Care,27,Started Checkout,Instagram,False,,False,False,False,0,2026-01-25,20,Desktop
+CHK01473,CRE0459,PRD00336,Technology & Software,97,Payment Info,YouTube,True,2.3,False,False,False,0,2026-01-07,16,Mobile
+CHK01474,CRE0328,PRD02282,Science & Space,97,Final Review,YouTube,True,2.3,True,False,False,0,2026-03-01,16,Mobile
+CHK01475,CRE0352,PRD01735,Business & Entrepreneurship,127,Payment Info,Instagram,True,2.5,False,False,False,0,2025-10-15,3,Mobile
+CHK01476,CRE0425,PRD01612,Gaming & Esports,297,Payment Info,Google,True,1.0,False,True,True,297,2025-10-04,20,Desktop
+CHK01477,CRE0242,PRD01535,Technology & Software,97,Payment Info,Google,True,2.5,True,False,False,0,2025-12-17,5,Mobile
+CHK01478,CRE0001,PRD01750,Beauty & Fashion,497,Payment Info,Google,False,,False,False,False,0,2025-10-09,0,Desktop
+CHK01479,CRE0417,PRD02428,Travel & Adventure,37,Started Checkout,Google,False,,False,False,False,0,2025-12-24,14,Tablet
+CHK01480,CRE0518,PRD00551,Music & Audio Production,127,Added to Cart,TikTok,True,2.5,False,True,False,0,2026-01-29,20,Mobile
+CHK01481,CRE0087,PRD01468,Photography & Videography,27,Payment Info,Instagram,True,1.2,False,True,False,0,2025-12-08,6,Mobile
+CHK01482,CRE0438,PRD00397,Music & Audio Production,297,Final Review,YouTube,True,2.9,False,True,True,297,2025-12-19,3,Mobile
+CHK01483,CRE0112,PRD00770,Parenting & Family,127,Started Checkout,Google,True,2.4,True,True,False,0,2026-02-26,0,Mobile
+CHK01484,CRE0447,PRD00302,Pet Care,497,Added to Cart,Email,False,,False,False,False,0,2025-09-27,6,Tablet
+CHK01485,CRE0274,PRD00482,Food & Cooking,67,Payment Info,YouTube,True,4.0,False,True,False,0,2026-01-20,3,Mobile
+CHK01486,CRE0215,PRD01832,Education & Online Courses,9,Added to Cart,Direct,True,1.3,False,False,False,0,2025-12-20,6,Desktop
+CHK01487,CRE0497,PRD01179,Photography & Videography,67,Payment Info,YouTube,False,,False,False,False,0,2025-10-29,0,Desktop
+CHK01488,CRE0585,PRD00319,Pet Care,297,Added to Cart,YouTube,False,,False,False,False,0,2025-11-11,21,Tablet
+CHK01489,CRE0084,PRD01505,Photography & Videography,127,Added to Cart,Direct,True,1.7,False,True,False,0,2025-11-25,6,Mobile
+CHK01490,CRE0390,PRD00940,Education & Online Courses,127,Started Checkout,Instagram,True,0.5,True,True,False,0,2025-12-26,16,Tablet
+CHK01491,CRE0248,PRD00250,Technology & Software,17,Added to Cart,Instagram,False,,False,False,False,0,2025-10-20,7,Tablet
+CHK01492,CRE0568,PRD00875,Music & Audio Production,37,Payment Info,Email,True,1.3,False,False,False,0,2025-12-27,13,Tablet
+CHK01493,CRE0558,PRD02047,Gaming & Esports,97,Started Checkout,YouTube,True,3.4,True,True,False,0,2025-11-28,21,Tablet
+CHK01494,CRE0420,PRD01580,Photography & Videography,37,Added to Cart,Email,True,3.4,True,False,False,0,2026-01-25,11,Tablet
+CHK01495,CRE0390,PRD01374,Parenting & Family,27,Added to Cart,YouTube,False,,False,False,False,0,2026-01-18,4,Tablet
+CHK01496,CRE0248,PRD02259,Personal Development,497,Final Review,Google,False,,False,False,False,0,2026-01-22,5,Desktop
+CHK01497,CRE0003,PRD00518,Food & Cooking,27,Payment Info,Direct,True,3.0,False,False,False,0,2025-11-16,11,Tablet
+CHK01498,CRE0358,PRD01899,Business & Entrepreneurship,127,Final Review,Instagram,False,,False,False,False,0,2025-09-24,16,Mobile
+CHK01499,CRE0423,PRD01070,Sustainable Living,497,Started Checkout,Google,True,2.8,True,False,False,0,2026-01-23,23,Tablet
+CHK01500,CRE0320,PRD00766,Beauty & Fashion,67,Added to Cart,TikTok,False,,False,False,False,0,2025-11-10,1,Tablet

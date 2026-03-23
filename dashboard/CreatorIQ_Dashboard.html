@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CreatorIQ — AI-Powered Creator Monetization Platform</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #090E1A;
+    color: #F1F5F9;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  .header {
+    background: linear-gradient(135deg, #0d1b3e 0%, #1A56DB 50%, #1d4ed8 100%);
+    padding: 28px 40px 24px;
+    border-bottom: 1px solid #334155;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-left h1 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  .header-left h1 span { color: #60A5FA; }
+  .header-left p {
+    font-size: 13px;
+    color: #93C5FD;
+    margin-top: 4px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+  }
+  .header-badge {
+    background: rgba(16,185,129,0.15);
+    border: 1px solid #10B981;
+    color: #10B981;
+    padding: 6px 14px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+  }
+
+  /* ── KPI strip ── */
+  .kpi-strip {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 24px 40px;
+    background: #0F172A;
+    border-bottom: 1px solid #334155;
+  }
+  .kpi-card {
+    background: #1E293B;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 18px 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  .kpi-card:hover { transform: translateY(-2px); }
+  .kpi-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    border-radius: 12px 12px 0 0;
+  }
+  .kpi-card.blue::before { background: #1A56DB; }
+  .kpi-card.teal::before { background: #10B981; }
+  .kpi-card.amber::before { background: #F59E0B; }
+  .kpi-card.red::before { background: #EF4444; }
+  .kpi-card.purple::before { background: #8B5CF6; }
+  .kpi-icon {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .kpi-label {
+    font-size: 11px;
+    color: #94A3B8;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+  }
+  .kpi-value {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 4px 0;
+    line-height: 1.1;
+  }
+  .kpi-sub {
+    font-size: 11px;
+    color: #94A3B8;
+    margin-top: 2px;
+  }
+  .kpi-card.blue .kpi-value { color: #60A5FA; }
+  .kpi-card.teal .kpi-value { color: #10B981; }
+  .kpi-card.amber .kpi-value { color: #F59E0B; }
+  .kpi-card.red .kpi-value { color: #EF4444; }
+  .kpi-card.purple .kpi-value { color: #A78BFA; }
+
+  /* ── Chart area ── */
+  .chart-wrapper {
+    padding: 8px 24px 32px;
+    background: #090E1A;
+  }
+
+  /* ── Legend strip ── */
+  .legend-strip {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 10px 40px;
+    background: #0F172A;
+    border-bottom: 1px solid #334155;
+    font-size: 11px;
+    color: #94A3B8;
+    flex-wrap: wrap;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* ── Footer ── */
+  .footer {
+    text-align: center;
+    padding: 16px;
+    color: #94A3B8;
+    font-size: 11px;
+    border-top: 1px solid #334155;
+    background: #0F172A;
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-left">
+    <h1>Creator<span>IQ</span> &mdash; AI-Powered Creator Monetization Platform</h1>
+    <p>Creator Economy Intelligence &nbsp;&bull;&nbsp; 2,000 Deals Tracked &nbsp;&bull;&nbsp; March 2026</p>
+  </div>
+  <div class="header-badge">&#9679; LIVE DASHBOARD</div>
+</div>
+
+<!-- KPI Strip -->
+<div class="kpi-strip">
+  <div class="kpi-card blue">
+    <div class="kpi-icon">👥</div>
+    <div class="kpi-label">Total Creators</div>
+    <div class="kpi-value">600</div>
+    <div class="kpi-sub">Across 18 niches</div>
+  </div>
+  <div class="kpi-card teal">
+    <div class="kpi-icon">💰</div>
+    <div class="kpi-label">Revenue Pool</div>
+    <div class="kpi-value">$7.3B</div>
+    <div class="kpi-sub">Total addressable market</div>
+  </div>
+  <div class="kpi-card amber">
+    <div class="kpi-icon">❤️</div>
+    <div class="kpi-label">Avg Health Score</div>
+    <div class="kpi-value">68.4<span style="font-size:14px">/100</span></div>
+    <div class="kpi-sub">Audience retention index</div>
+  </div>
+  <div class="kpi-card purple">
+    <div class="kpi-icon">🤖</div>
+    <div class="kpi-label">AI Benchmark Usage</div>
+    <div class="kpi-value">50%</div>
+    <div class="kpi-sub">of deals used AI analysis</div>
+  </div>
+  <div class="kpi-card red">
+    <div class="kpi-icon">💸</div>
+    <div class="kpi-label">Avg Rate Recovered</div>
+    <div class="kpi-value">$1,543</div>
+    <div class="kpi-sub">per AI-assisted deal</div>
+  </div>
+</div>
+
+<!-- Legend -->
+<div class="legend-strip">
+  <strong style="color:#F1F5F9;">Health Score Key:</strong>
+  <div class="legend-item"><div class="dot" style="background:#10B981"></div> Healthy (≥70)</div>
+  <div class="legend-item"><div class="dot" style="background:#F59E0B"></div> Watch (60–70)</div>
+  <div class="legend-item"><div class="dot" style="background:#EF4444"></div> At Risk (&lt;60)</div>
+  &nbsp;&nbsp;
+  <strong style="color:#F1F5F9;">Deal Gap:</strong>
+  <div class="legend-item"><div class="dot" style="background:#EF4444"></div> Critical (&gt;43% below)</div>
+  <div class="legend-item"><div class="dot" style="background:#F59E0B"></div> High (40–43% below)</div>
+  <div class="legend-item"><div class="dot" style="background:#1A56DB"></div> Moderate (&lt;40% below)</div>
+</div>
+
+<!-- Charts -->
+<div class="chart-wrapper">
+  <div>                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.4.0.min.js" integrity="sha256-KEmPoupLpFyGMyGAiOsiNDbKDKAvxXAn/W+oQa0ZAfk=" crossorigin="anonymous"></script>                <div id="fba95f89-a88c-422b-8666-e7067cd01c83" class="plotly-graph-div" style="height:1380px; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("fba95f89-a88c-422b-8666-e7067cd01c83")) {                    Plotly.newPlot(                        "fba95f89-a88c-422b-8666-e7067cd01c83",                        [{"hovertemplate":"\u003cb\u003e%{y}\u003c\u002fb\u003e\u003cbr\u003eRevenue Pool: %{x:$,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":["#1A56DB","#10B981","#F59E0B","#EF4444","#8B5CF6","#06B6D4","#F97316","#84CC16","#EC4899","#14B8A6","#A855F7","#EAB308","#6366F1","#22C55E","#F43F5E","#0EA5E9","#D946EF","#FB923C"],"line":{"width":0}},"name":"Revenue","orientation":"h","text":["$138M","$172M","$181M","$239M","$249M","$303M","$311M","$381M","$410M","$440M","$459M","$482M","$528M","$528M","$564M","$575M","$597M","$695M"],"textfont":{"color":"#F1F5F9","size":10},"textposition":"outside","x":{"dtype":"f8","bdata":"w\u002fUoKMh9oEEpXA8a+oGkQRSuRwOIj6VBCtejQv+HrEGPwvVbbbytQbgeRakZCLJB7FH4OYKMskEUrkdFca+2QVyPQh3Eb7hB7FH4t7k6ukEzM\u002fO9ZGO7Qc3MDIsLvbxB4XpU\u002foJ3v0E9Cpecknq\u002fQfYonDuU0sBBzczsz38gwUEK1yN0u8nBQY\u002fCdQe3ucRB"},"y":["Gaming & Esports","Education & Online Courses","Finance & Investing","Photography & Videography","Language Learning","Pet Care","Travel & Adventure","Personal Development","Comedy & Entertainment","Sustainable Living","Business & Entrepreneurship","Home Decor & Interior Design","Food & Cooking","Beauty & Fashion","Music & Audio Production","Science & Space","Parenting & Family","Technology & Software"],"type":"bar","xaxis":"x","yaxis":"y"},{"hole":0.55,"hovertemplate":"\u003cb\u003e%{label}\u003c\u002fb\u003e\u003cbr\u003e%{value:$,.0f}\u003cbr\u003e%{percent}\u003cextra\u003e\u003c\u002fextra\u003e","labels":["Instagram","Twitter\u002fX","TikTok","LinkedIn","YouTube","Substack"],"marker":{"colors":["#1A56DB","#10B981","#F59E0B","#EF4444","#8B5CF6","#06B6D4","#F97316","#84CC16","#EC4899","#14B8A6","#A855F7","#EAB308","#6366F1","#22C55E","#F43F5E","#0EA5E9","#D946EF","#FB923C"],"line":{"color":"#0F172A","width":2}},"showlegend":false,"textfont":{"color":"#F1F5F9","size":11},"textinfo":"label+percent","values":{"dtype":"f8","bdata":"wvUoPBt6aEGuR+FCrn1jQVK4HlWaglZBSOF6ZJZcVUGF61HIAr1TQT4K12NCo1NB"},"type":"pie","domain":{"x":[0.577,1.0],"y":[0.728,1.0]}},{"hovertemplate":"\u003cb\u003e%{y}\u003c\u002fb\u003e\u003cbr\u003eHealth Score: %{x:.1f}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":["#EF4444","#EF4444","#F59E0B","#F59E0B","#F59E0B","#F59E0B","#F59E0B","#F59E0B","#F59E0B","#F59E0B","#F59E0B","#F59E0B","#F59E0B","#10B981","#10B981","#10B981"],"line":{"width":0}},"name":"Health","orientation":"h","text":["58.2","58.9","60.3","60.9","61.1","62.9","63.3","64.0","64.2","64.3","64.7","67.0","69.9","71.8","76.2","77.1"],"textfont":{"color":"#F1F5F9","size":10},"textposition":"outside","x":{"dtype":"f8","bdata":"aqVWaqUWTUCP8RiP8XhNQFuplVqpJU5ARVmURVl0TkB2Yid2YodOQPDu7u7ubk9AoRd6oReqT0CmaIqmaPpPQHZiJ3ZiD1BAUiu1UisTUEBne7Zney5QQPRCL\u002fRCv1BA0Qu90At5UUDphV7ohfRRQMVO7MRODFNAS63USq1EU0A="},"y":["Travel & Adventure","Parenting & Family","Sustainable Living","Finance & Investing","Home Decor & Interior Design","Personal Development","Science & Space","Food & Cooking","Business & Entrepreneurship","Beauty & Fashion","Education & Online Courses","Technology & Software","Comedy & Entertainment","Language Learning","Gaming & Esports","Photography & Videography"],"type":"bar","xaxis":"x2","yaxis":"y2"},{"hole":0.55,"hovertemplate":"\u003cb\u003e%{label}\u003c\u002fb\u003e\u003cbr\u003e%{value} deals (%{percent})\u003cextra\u003e\u003c\u002fextra\u003e","labels":["Completed","Declined","Negotiating","In Progress"],"marker":{"colors":["#10B981","#EF4444","#1A56DB","#F59E0B"],"line":{"color":"#0F172A","width":2}},"showlegend":false,"textfont":{"color":"#F1F5F9","size":11},"textinfo":"label+percent","values":{"dtype":"i2","bdata":"5wNcAVwBMQE="},"type":"pie","domain":{"x":[0.577,1.0],"y":[0.356,0.628]}},{"hovertemplate":"\u003cb\u003e%{y}\u003c\u002fb\u003e\u003cbr\u003e%{x:.1f}% below market rate\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":["#1A56DB","#F59E0B","#F59E0B","#F59E0B","#F59E0B","#F59E0B","#F59E0B","#F59E0B","#EF4444","#EF4444","#EF4444","#EF4444","#EF4444","#EF4444","#EF4444","#EF4444","#EF4444","#EF4444"],"line":{"width":0}},"name":"Gap","orientation":"h","text":["40.0%","40.4%","40.4%","40.7%","40.8%","42.2%","42.2%","42.9%","43.0%","43.1%","43.3%","43.4%","43.8%","44.4%","44.5%","44.6%","44.6%","45.7%"],"textfont":{"color":"#F1F5F9","size":10},"textposition":"outside","x":{"dtype":"f8","bdata":"B30R8Qz6Q0BiIRZiIS5EQPHT\u002fT7dL0RA6RHPzbBdREBwmTCjzGNEQDl93WX8FkVAe5EaCwUaRUAMtmALtnhFQC+S2sHvhUVARcMFojePRUCq32aYk6JFQFOfDNo7uEVALcluAbrmRUBsfs5+JTVGQNmY8hj7Q0ZAvDq3bqRHRkB47T1FukxGQB4M9YNy00ZA"},"y":["Travel & Adventure","Education & Online Courses","Finance & Investing","Language Learning","Food & Cooking","Personal Development","Music & Audio Production","Home Decor & Interior Design","Pet Care","Beauty & Fashion","Business & Entrepreneurship","Parenting & Family","Photography & Videography","Sustainable Living","Technology & Software","Science & Space","Comedy & Entertainment","Gaming & Esports"],"type":"bar","xaxis":"x3","yaxis":"y3"},{"hovertemplate":"\u003cb\u003e%{x}\u003c\u002fb\u003e\u003cbr\u003e%{y:$,.0f}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":["#1A56DB","#10B981","#F59E0B","#EF4444","#8B5CF6","#06B6D4","#F97316","#84CC16"],"line":{"width":0}},"name":"Format","text":["$11M","$6M","$5M","$5M","$5M","$5M","$4M","$4M"],"textfont":{"color":"#F1F5F9","size":10},"textposition":"outside","x":["Instagram Post","Substack Issue","TikTok","YouTube Short","Instagram Story","YouTube Video","LinkedIn Post","Instagram Reel"],"y":{"dtype":"f8","bdata":"MzMzYzdXZUEK16PAeKpWQTMzM6Mu9FRBcT0Kh6IsU0HXo3Bd3eVRQVyPwsXwp1FBH4Xr8QYLUEGuR+E69jhMQQ=="},"type":"bar","xaxis":"x4","yaxis":"y4"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,0.517],"tickfont":{"color":"#94A3B8","size":10},"title":{"font":{"color":"#94A3B8","size":11},"text":"Total Revenue Pool (USD)"},"gridcolor":"#1E293B","zerolinecolor":"#334155","linecolor":"#334155","tickprefix":"$","tickformat":",.0s"},"yaxis":{"anchor":"x","domain":[0.728,1.0],"tickfont":{"color":"#94A3B8","size":10},"title":{"font":{"color":"#94A3B8","size":11}},"gridcolor":"#1E293B","zerolinecolor":"#334155","linecolor":"#334155","automargin":true},"xaxis2":{"anchor":"y2","domain":[0.0,0.517],"tickfont":{"color":"#94A3B8","size":10},"title":{"font":{"color":"#94A3B8","size":11},"text":"Avg Health Score"},"gridcolor":"#1E293B","zerolinecolor":"#334155","linecolor":"#334155","range":[0,100]},"yaxis2":{"anchor":"x2","domain":[0.356,0.628],"tickfont":{"color":"#94A3B8","size":10},"title":{"font":{"color":"#94A3B8","size":11}},"gridcolor":"#1E293B","zerolinecolor":"#334155","linecolor":"#334155","automargin":true},"xaxis3":{"anchor":"y3","domain":[0.0,0.517],"tickfont":{"color":"#94A3B8","size":10},"title":{"font":{"color":"#94A3B8","size":11},"text":"% Below Market Rate"},"gridcolor":"#1E293B","zerolinecolor":"#334155","linecolor":"#334155"},"yaxis3":{"anchor":"x3","domain":[0.0,0.256],"tickfont":{"color":"#94A3B8","size":10},"title":{"font":{"color":"#94A3B8","size":11}},"gridcolor":"#1E293B","zerolinecolor":"#334155","linecolor":"#334155","automargin":true},"xaxis4":{"anchor":"y4","domain":[0.577,1.0],"tickfont":{"color":"#94A3B8","size":10},"title":{"font":{"color":"#94A3B8","size":11}},"gridcolor":"#1E293B","zerolinecolor":"#334155","linecolor":"#334155"},"yaxis4":{"anchor":"x4","domain":[0.0,0.256],"tickfont":{"color":"#94A3B8","size":10},"title":{"font":{"color":"#94A3B8","size":11},"text":""},"gridcolor":"#1E293B","zerolinecolor":"#334155","linecolor":"#334155"},"annotations":[{"font":{"color":"#F1F5F9","family":"Inter, Segoe UI, Arial","size":13},"showarrow":false,"text":"💰 Total Revenue Pool by Niche","x":0.2685,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"color":"#F1F5F9","family":"Inter, Segoe UI, Arial","size":13},"showarrow":false,"text":"📊 Platform Revenue Share","x":0.7985,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"color":"#F1F5F9","family":"Inter, Segoe UI, Arial","size":13},"showarrow":false,"text":"❤️ Audience Health Score by Niche","x":0.2685,"xanchor":"center","xref":"paper","y":0.628,"yanchor":"bottom","yref":"paper"},{"font":{"color":"#F1F5F9","family":"Inter, Segoe UI, Arial","size":13},"showarrow":false,"text":"🤝 Deal Status Breakdown","x":0.7985,"xanchor":"center","xref":"paper","y":0.628,"yanchor":"bottom","yref":"paper"},{"font":{"color":"#F1F5F9","family":"Inter, Segoe UI, Arial","size":13},"showarrow":false,"text":"📉 Avg Deal Gap vs Market Rate (%)","x":0.2685,"xanchor":"center","xref":"paper","y":0.256,"yanchor":"bottom","yref":"paper"},{"font":{"color":"#F1F5F9","family":"Inter, Segoe UI, Arial","size":13},"showarrow":false,"text":"🎬 Top Content Formats by Revenue","x":0.7985,"xanchor":"center","xref":"paper","y":0.256,"yanchor":"bottom","yref":"paper"}],"shapes":[{"line":{"color":"#10B981","dash":"dot","width":1.5},"type":"line","x0":70,"x1":70,"xref":"x3","y0":-0.5,"y1":15.5,"yref":"y3"},{"line":{"color":"#F59E0B","dash":"dot","width":1.5},"type":"line","x0":60,"x1":60,"xref":"x3","y0":-0.5,"y1":15.5,"yref":"y3"}],"font":{"family":"Inter, Segoe UI, Arial","color":"#F1F5F9","size":12},"margin":{"t":60,"b":40,"l":20,"r":30},"paper_bgcolor":"#090E1A","plot_bgcolor":"#0F172A","height":1380,"showlegend":false},                        {"displayModeBar": false, "responsive": true}                    )                };            </script>        </div>
+</div>
+
+<div class="footer">
+  CreatorIQ &mdash; AI-Powered Creator Intelligence Platform &nbsp;&bull;&nbsp; Data current as of March 2026 &nbsp;&bull;&nbsp; Built with LangSmith + n8n
+</div>
+
+</body>
+</html>

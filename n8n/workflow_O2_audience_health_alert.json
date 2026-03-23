@@ -1,0 +1,182 @@
+[
+  {
+    "name": "CreatorIQ \u2014 O2 Weekly Audience Health Alert",
+    "nodes": [
+      {
+        "parameters": {
+          "triggerTimes": {
+            "item": [
+              {
+                "mode": "everyWeek",
+                "hour": 8,
+                "minute": 0,
+                "weekday": 1
+              }
+            ]
+          }
+        },
+        "id": "o2000000-0000-0000-0000-000000000001",
+        "name": "Schedule \u2014 Every Monday 8am",
+        "type": "n8n-nodes-base.scheduleTrigger",
+        "typeVersion": 1,
+        "position": [240, 300],
+        "notes": "Fires every Monday at 8:00 AM\nO2: Audience Churn Early Warning ($15K-$40K/year protected)\nFor testing: change mode to 'everyMinute'"
+      },
+      {
+        "parameters": {
+          "jsCode": "// \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n// CreatorIQ \u2014 Load Creator Health Data\n// In production: read from audience_health_trend.csv or database\n// For POC: uses representative synthetic data from our dataset\n// \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\nconst creators = [\n  { creator_id: 'C001', name: 'FitWithSarah',    niche: 'Health & Fitness', platform: 'instagram', followers: 85000,  health_score: 38, engagement_rate: 1.8, watch_time_pct: 22, unsubscribe_rate: 3.2, weekly_follower_change: -420 },\n  { creator_id: 'C002', name: 'FinanceWithAlex', niche: 'Finance',           platform: 'youtube',   followers: 220000, health_score: 72, engagement_rate: 5.1, watch_time_pct: 58, unsubscribe_rate: 0.4, weekly_follower_change: 1200 },\n  { creator_id: 'C003', name: 'TechTalkMia',     niche: 'Tech & Gaming',    platform: 'youtube',   followers: 145000, health_score: 51, engagement_rate: 3.2, watch_time_pct: 41, unsubscribe_rate: 1.8, weekly_follower_change: -180 },\n  { creator_id: 'C004', name: 'CookWithJamie',   niche: 'Food & Cooking',   platform: 'tiktok',    followers: 320000, health_score: 81, engagement_rate: 7.4, watch_time_pct: 72, unsubscribe_rate: 0.2, weekly_follower_change: 3400 },\n  { creator_id: 'C005', name: 'StyleByLuna',     niche: 'Beauty & Fashion', platform: 'instagram', followers: 67000,  health_score: 44, engagement_rate: 2.1, watch_time_pct: 31, unsubscribe_rate: 2.6, weekly_follower_change: -290 }\n];\n\n// Calculate risk level from health score (matches CreatorIQ dataset logic)\nfunction getRiskLevel(score) {\n  if (score < 40) return 'Critical';\n  if (score < 55) return 'Alert';\n  if (score < 70) return 'Watch';\n  return 'Safe';\n}\n\n// Calculate trend from weekly follower change\nfunction getTrend(change) {\n  if (change < -300) return '\u2b07\ufe0f Declining Fast';\n  if (change < 0)    return '\u2198\ufe0f Declining';\n  if (change < 500)  return '\u27a1\ufe0f Stable';\n  return '\u2b06\ufe0f Growing';\n}\n\nreturn creators.map(c => ({\n  json: {\n    ...c,\n    risk_level:  getRiskLevel(c.health_score),\n    trend:       getTrend(c.weekly_follower_change),\n    week_ending: new Date().toISOString().split('T')[0],\n    revenue_at_risk_usd: c.health_score < 55 ? Math.round(c.followers * 0.012 * 12) : 0\n  }\n}));"
+        },
+        "id": "o2000000-0000-0000-0000-000000000002",
+        "name": "Code \u2014 Load Health Data",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [460, 300],
+        "notes": "Loads 5 creators with health metrics.\nProduction: replace with HTTP Request to read processed CSV.\nOutputs: health_score, risk_level, engagement_rate, revenue_at_risk"
+      },
+      {
+        "parameters": {
+          "conditions": {
+            "options": { "caseSensitive": false, "leftValue": "", "typeValidation": "strict" },
+            "conditions": [
+              {
+                "id": "o2-cond-001",
+                "leftValue": "={{ $json.health_score }}",
+                "rightValue": 55,
+                "operator": { "type": "number", "operation": "lt" }
+              }
+            ],
+            "combinator": "and"
+          },
+          "options": {}
+        },
+        "id": "o2000000-0000-0000-0000-000000000003",
+        "name": "IF \u2014 At Risk? (Score < 55)",
+        "type": "n8n-nodes-base.if",
+        "typeVersion": 2,
+        "position": [680, 300],
+        "notes": "TRUE: health_score < 55 (Critical or Alert) \u2192 send urgent alert\nFALSE: health_score \u2265 55 (Watch or Safe) \u2192 send weekly summary"
+      },
+      {
+        "parameters": {
+          "mode": "manual",
+          "duplicateItem": false,
+          "assignments": {
+            "assignments": [
+              { "id": "o2-set-001", "name": "alert_type",    "value": "URGENT",                                                                                                          "type": "string" },
+              { "id": "o2-set-002", "name": "priority",      "value": "HIGH",                                                                                                            "type": "string" },
+              { "id": "o2-set-003", "name": "subject",       "value": "=\ud83d\udea8 URGENT: {{ $json.name }} audience health at {{ $json.health_score }}/100 \u2014 Action needed this week",         "type": "string" },
+              { "id": "o2-set-004", "name": "message",       "value": "=Creator {{ $json.name }} ({{ $json.niche }}) has a {{ $json.risk_level }} health score of {{ $json.health_score }}/100. Engagement: {{ $json.engagement_rate }}% | Unsubscribe rate: {{ $json.unsubscribe_rate }}% | Weekly change: {{ $json.weekly_follower_change }} followers. Trend: {{ $json.trend }}. Revenue at risk: ${{ $json.revenue_at_risk_usd.toLocaleString() }}/year.", "type": "string" },
+              { "id": "o2-set-005", "name": "action_needed", "value": "Review content strategy | Analyse top-performing posts | Check platform algorithm updates | Consider posting frequency change", "type": "string" },
+              { "id": "o2-set-006", "name": "creator_data",  "value": "={{ $json }}",                                                                                                    "type": "object" }
+            ]
+          },
+          "options": {}
+        },
+        "id": "o2000000-0000-0000-0000-000000000004",
+        "name": "Set \u2014 Urgent Alert",
+        "type": "n8n-nodes-base.set",
+        "typeVersion": 3,
+        "position": [900, 160],
+        "notes": "Formats urgent alert for Critical/Alert creators.\nIncludes: revenue at risk, recommended actions, trend direction."
+      },
+      {
+        "parameters": {
+          "mode": "manual",
+          "duplicateItem": false,
+          "assignments": {
+            "assignments": [
+              { "id": "o2-set-101", "name": "alert_type",    "value": "WEEKLY_SUMMARY",                                                                                "type": "string" },
+              { "id": "o2-set-102", "name": "priority",      "value": "LOW",                                                                                           "type": "string" },
+              { "id": "o2-set-103", "name": "subject",       "value": "=\u2705 Weekly Health Update: {{ $json.name }} \u2014 {{ $json.risk_level }} ({{ $json.health_score }}/100)", "type": "string" },
+              { "id": "o2-set-104", "name": "message",       "value": "=Creator {{ $json.name }} is in good health. Score: {{ $json.health_score }}/100 | Risk: {{ $json.risk_level }} | Trend: {{ $json.trend }} | Engagement: {{ $json.engagement_rate }}%", "type": "string" },
+              { "id": "o2-set-105", "name": "action_needed", "value": "Keep current strategy | Monitor for any sudden drops | Consider increasing posting frequency", "type": "string" },
+              { "id": "o2-set-106", "name": "creator_data",  "value": "={{ $json }}", "type": "object" }
+            ]
+          },
+          "options": {}
+        },
+        "id": "o2000000-0000-0000-0000-000000000005",
+        "name": "Set \u2014 Weekly Summary",
+        "type": "n8n-nodes-base.set",
+        "typeVersion": 3,
+        "position": [900, 440],
+        "notes": "Formats normal weekly summary for Watch/Safe creators.\nNo urgent action needed \u2014 positive reinforcement."
+      },
+      {
+        "parameters": {
+          "mode": "append"
+        },
+        "id": "o2000000-0000-0000-0000-000000000006",
+        "name": "Merge \u2014 All Alerts",
+        "type": "n8n-nodes-base.merge",
+        "typeVersion": 3,
+        "position": [1120, 300],
+        "notes": "Combines urgent alerts and weekly summaries into single output."
+      },
+      {
+        "parameters": {
+          "jsCode": "// \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n// CreatorIQ \u2014 Build Weekly Health Report\n// Aggregates all creator alerts into a single report\n// \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\nconst all = $input.all();\nconst urgent   = all.filter(i => i.json.alert_type === 'URGENT');\nconst summaries = all.filter(i => i.json.alert_type === 'WEEKLY_SUMMARY');\nconst totalRevenueAtRisk = urgent.reduce((sum, i) => sum + (i.json.creator_data?.revenue_at_risk_usd || 0), 0);\n\nconst report = {\n  report_type:  'CreatorIQ Weekly Audience Health Report',\n  week_ending:  new Date().toISOString().split('T')[0],\n  generated_at: new Date().toISOString(),\n  opportunity:  'O2 \u2014 Audience Churn Early Warning ($15K-$40K/year protected)',\n\n  summary: {\n    total_creators_monitored: all.length,\n    urgent_alerts:            urgent.length,\n    healthy_creators:         summaries.length,\n    total_revenue_at_risk:    `$${totalRevenueAtRisk.toLocaleString()}/year`,\n    action_required:          urgent.length > 0\n  },\n\n  urgent_alerts: urgent.map(i => ({\n    creator:          i.json.creator_data?.name,\n    health_score:     i.json.creator_data?.health_score,\n    risk_level:       i.json.creator_data?.risk_level,\n    trend:            i.json.creator_data?.trend,\n    revenue_at_risk:  `$${(i.json.creator_data?.revenue_at_risk_usd || 0).toLocaleString()}/year`,\n    subject:          i.json.subject,\n    actions:          i.json.action_needed\n  })),\n\n  healthy_creators: summaries.map(i => ({\n    creator:      i.json.creator_data?.name,\n    health_score: i.json.creator_data?.health_score,\n    risk_level:   i.json.creator_data?.risk_level,\n    trend:        i.json.creator_data?.trend\n  }))\n};\n\nreturn [{ json: report }];"
+        },
+        "id": "o2000000-0000-0000-0000-000000000007",
+        "name": "Code \u2014 Build Weekly Report",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [1340, 300],
+        "notes": "Aggregates all creator health data into one weekly report.\nOutputs: urgent_alerts[], healthy_creators[], total_revenue_at_risk."
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "https://webhook.site/YOUR-WEBHOOK-URL",
+          "sendBody": true,
+          "contentType": "json",
+          "specifyBody": "json",
+          "jsonBody": "={{ JSON.stringify($json, null, 2) }}",
+          "options": {}
+        },
+        "id": "o2000000-0000-0000-0000-000000000008",
+        "name": "HTTP Request \u2014 Send Report",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4,
+        "position": [1560, 300],
+        "retryOnFail": true,
+        "maxTries": 3,
+        "waitBetweenTries": 5000,
+        "notes": "Sends weekly health report to webhook/email.\nReplace URL with: your email webhook, Slack webhook, or frontend API.\nRetry: 3 attempts, 5s delay (matches lab pattern)."
+      }
+    ],
+    "connections": {
+      "Schedule \u2014 Every Monday 8am": {
+        "main": [[{ "node": "Code \u2014 Load Health Data", "type": "main", "index": 0 }]]
+      },
+      "Code \u2014 Load Health Data": {
+        "main": [[{ "node": "IF \u2014 At Risk? (Score < 55)", "type": "main", "index": 0 }]]
+      },
+      "IF \u2014 At Risk? (Score < 55)": {
+        "main": [
+          [{ "node": "Set \u2014 Urgent Alert",   "type": "main", "index": 0 }],
+          [{ "node": "Set \u2014 Weekly Summary", "type": "main", "index": 0 }]
+        ]
+      },
+      "Set \u2014 Urgent Alert": {
+        "main": [[{ "node": "Merge \u2014 All Alerts", "type": "main", "index": 0 }]]
+      },
+      "Set \u2014 Weekly Summary": {
+        "main": [[{ "node": "Merge \u2014 All Alerts", "type": "main", "index": 1 }]]
+      },
+      "Merge \u2014 All Alerts": {
+        "main": [[{ "node": "Code \u2014 Build Weekly Report", "type": "main", "index": 0 }]]
+      },
+      "Code \u2014 Build Weekly Report": {
+        "main": [[{ "node": "HTTP Request \u2014 Send Report", "type": "main", "index": 0 }]]
+      }
+    },
+    "active": false,
+    "settings": {
+      "saveManualExecutions": true,
+      "callerPolicy": "workflowsFromSameOwner",
+      "executionOrder": "v1"
+    },
+    "meta": { "templateCredsSetupCompleted": true }
+  }
+]

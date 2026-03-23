@@ -1,0 +1,461 @@
+{
+  "evaluation_metadata": {
+    "project": "CreatorIQ \u2014 AI-Powered Creator Monetization Platform",
+    "evaluation_date": "2026-03-23",
+    "evaluator_model": "LangSmith Rule-Based Evaluators",
+    "tool_evaluated": "Brand Deal Rate Analyzer (O4 Workflow)",
+    "total_insights_evaluated": 10,
+    "evaluation_criteria": [
+      "relevance",
+      "accuracy",
+      "actionability",
+      "clarity",
+      "bias_awareness"
+    ],
+    "langsmith_dataset": "CreatorIQ-Deal-Analyzer"
+  },
+  "summary_statistics": {
+    "average_scores": {
+      "relevance": 5.0,
+      "accuracy": 4.76,
+      "actionability": 5.0,
+      "clarity": 5.0,
+      "bias_awareness": 5.0
+    },
+    "overall_average": 4.95,
+    "highest_scoring_insight": "insight_001",
+    "lowest_scoring_insight": "insight_007"
+  },
+  "insights": [
+    {
+      "insight_id": "insight_001",
+      "input": {
+        "niche": "fitness",
+        "format": "video",
+        "platform": "tiktok",
+        "followers": 1200000,
+        "offered_rate_usd": 25000
+      },
+      "agent_output": {
+        "deal_id": 57,
+        "creator_name": "LangSmithEval",
+        "verdict": "ABOVE_MARKET",
+        "alert_level": "GOOD",
+        "headline": "Strong offer \u2014 +492.5% above market",
+        "recommendation": "Accept or counter slightly higher to maximise value.",
+        "market_rate": 4219.0,
+        "offered_rate": 25000.0,
+        "market_range": "$1,031 \u2013 $8,631",
+        "offer_percentile": "93th percentile",
+        "gap_usd": 20781.0,
+        "gap_pct": 492.5,
+        "counter_offer": 26250.0,
+        "follower_tier": "Mega",
+        "talking_points": [
+          "Market benchmark for fitness on tiktok is $4,219 (median of 306 comparable deals)",
+          "Your audience of 1,200,000 (Mega tier) commands $1,031\u2013$8,631 range",
+          "Counter offer of $26,250 reflects fair value + 10% negotiation buffer",
+          "Request usage rights fee (+15\u201325%) and exclusivity compensation if required",
+          "Leverage engagement rate \u2014 ask for performance bonus if CPM exceeds 3%"
+        ],
+        "created_at": "2026-03-23T01:52:10"
+      },
+      "llm_judge_scores": {
+        "relevance": 5.0,
+        "accuracy": 5.0,
+        "actionability": 5.0,
+        "clarity": 5.0,
+        "bias_awareness": 5.0
+      },
+      "overall_score": 5.0,
+      "judge_reasoning": "Market rate $4,219 | Verdict: ABOVE_MARKET | Gap: +492.5%"
+    },
+    {
+      "insight_id": "insight_002",
+      "input": {
+        "niche": "education",
+        "format": "post",
+        "platform": "instagram",
+        "followers": 30000,
+        "offered_rate_usd": 500
+      },
+      "agent_output": {
+        "deal_id": 58,
+        "creator_name": "LangSmithEval",
+        "verdict": "SIGNIFICANTLY_BELOW_MARKET",
+        "alert_level": "DANGER",
+        "headline": "Significantly below market \u2014 80.2% under benchmark",
+        "recommendation": "Counter firmly. This offer undervalues your audience significantly.",
+        "market_rate": 2525.0,
+        "offered_rate": 500.0,
+        "market_range": "$806 \u2013 $6,175",
+        "offer_percentile": "14th percentile",
+        "gap_usd": -2025.0,
+        "gap_pct": -80.2,
+        "counter_offer": 2904.0,
+        "follower_tier": "Micro",
+        "talking_points": [
+          "Market benchmark for education on instagram is $2,525 (median of 28 comparable deals)",
+          "Your audience of 30,000 (Micro tier) commands $806\u2013$6,175 range",
+          "Counter offer of $2,904 reflects fair value + 10% negotiation buffer",
+          "Request usage rights fee (+15\u201325%) and exclusivity compensation if required",
+          "Leverage engagement rate \u2014 ask for performance bonus if CPM exceeds 3%"
+        ],
+        "created_at": "2026-03-23T01:52:13"
+      },
+      "llm_judge_scores": {
+        "relevance": 5.0,
+        "accuracy": 5.0,
+        "actionability": 5.0,
+        "clarity": 5.0,
+        "bias_awareness": 5.0
+      },
+      "overall_score": 5.0,
+      "judge_reasoning": "Market rate $2,525 | Verdict: SIGNIFICANTLY_BELOW_MARKET | Gap: -80.2%"
+    },
+    {
+      "insight_id": "insight_003",
+      "input": {
+        "niche": "food",
+        "format": "post",
+        "platform": "instagram",
+        "followers": 25000,
+        "offered_rate_usd": 150
+      },
+      "agent_output": {
+        "deal_id": 59,
+        "creator_name": "LangSmithEval",
+        "verdict": "SIGNIFICANTLY_BELOW_MARKET",
+        "alert_level": "DANGER",
+        "headline": "Significantly below market \u2014 93.4% under benchmark",
+        "recommendation": "Counter firmly. This offer undervalues your audience significantly.",
+        "market_rate": 2264.0,
+        "offered_rate": 150.0,
+        "market_range": "$1,136 \u2013 $5,606",
+        "offer_percentile": "5th percentile",
+        "gap_usd": -2114.0,
+        "gap_pct": -93.4,
+        "counter_offer": 2603.0,
+        "follower_tier": "Micro",
+        "talking_points": [
+          "Market benchmark for food on instagram is $2,264 (median of 17 comparable deals)",
+          "Your audience of 25,000 (Micro tier) commands $1,136\u2013$5,606 range",
+          "Counter offer of $2,603 reflects fair value + 10% negotiation buffer",
+          "Request usage rights fee (+15\u201325%) and exclusivity compensation if required",
+          "Leverage engagement rate \u2014 ask for performance bonus if CPM exceeds 3%"
+        ],
+        "created_at": "2026-03-23T01:52:16"
+      },
+      "llm_judge_scores": {
+        "relevance": 5.0,
+        "accuracy": 5.0,
+        "actionability": 5.0,
+        "clarity": 5.0,
+        "bias_awareness": 5.0
+      },
+      "overall_score": 5.0,
+      "judge_reasoning": "Market rate $2,264 | Verdict: SIGNIFICANTLY_BELOW_MARKET | Gap: -93.4%"
+    },
+    {
+      "insight_id": "insight_004",
+      "input": {
+        "niche": "fitness",
+        "format": "post",
+        "platform": "instagram",
+        "followers": 50000,
+        "offered_rate_usd": 3000
+      },
+      "agent_output": {
+        "deal_id": 60,
+        "creator_name": "LangSmithEval",
+        "verdict": "ABOVE_MARKET",
+        "alert_level": "GOOD",
+        "headline": "Strong offer \u2014 +40.0% above market",
+        "recommendation": "Accept or counter slightly higher to maximise value.",
+        "market_rate": 2143.0,
+        "offered_rate": 3000.0,
+        "market_range": "$760 \u2013 $5,807",
+        "offer_percentile": "57th percentile",
+        "gap_usd": 857.0,
+        "gap_pct": 40.0,
+        "counter_offer": 3150.0,
+        "follower_tier": "Micro",
+        "talking_points": [
+          "Market benchmark for fitness on instagram is $2,143 (median of 350 comparable deals)",
+          "Your audience of 50,000 (Micro tier) commands $760\u2013$5,807 range",
+          "Counter offer of $3,150 reflects fair value + 10% negotiation buffer",
+          "Request usage rights fee (+15\u201325%) and exclusivity compensation if required",
+          "Leverage engagement rate \u2014 ask for performance bonus if CPM exceeds 3%"
+        ],
+        "created_at": "2026-03-23T01:52:19"
+      },
+      "llm_judge_scores": {
+        "relevance": 5.0,
+        "accuracy": 5.0,
+        "actionability": 5.0,
+        "clarity": 5.0,
+        "bias_awareness": 5.0
+      },
+      "overall_score": 5.0,
+      "judge_reasoning": "Market rate $2,143 | Verdict: ABOVE_MARKET | Gap: +40.0%"
+    },
+    {
+      "insight_id": "insight_005",
+      "input": {
+        "niche": "finance",
+        "format": "video",
+        "platform": "youtube",
+        "followers": 250000,
+        "offered_rate_usd": 3000
+      },
+      "agent_output": {
+        "deal_id": 61,
+        "creator_name": "LangSmithEval",
+        "verdict": "SIGNIFICANTLY_BELOW_MARKET",
+        "alert_level": "DANGER",
+        "headline": "Significantly below market \u2014 49.2% under benchmark",
+        "recommendation": "Counter firmly. This offer undervalues your audience significantly.",
+        "market_rate": 5900.0,
+        "offered_rate": 3000.0,
+        "market_range": "$2,421 \u2013 $9,136",
+        "offer_percentile": "29th percentile",
+        "gap_usd": -2900.0,
+        "gap_pct": -49.2,
+        "counter_offer": 6785.0,
+        "follower_tier": "Mid",
+        "talking_points": [
+          "Market benchmark for finance on youtube is $5,900 (median of 17 comparable deals)",
+          "Your audience of 250,000 (Mid tier) commands $2,421\u2013$9,136 range",
+          "Counter offer of $6,785 reflects fair value + 10% negotiation buffer",
+          "Request usage rights fee (+15\u201325%) and exclusivity compensation if required",
+          "Leverage engagement rate \u2014 ask for performance bonus if CPM exceeds 3%"
+        ],
+        "created_at": "2026-03-23T01:52:23"
+      },
+      "llm_judge_scores": {
+        "relevance": 5.0,
+        "accuracy": 5.0,
+        "actionability": 5.0,
+        "clarity": 5.0,
+        "bias_awareness": 5.0
+      },
+      "overall_score": 5.0,
+      "judge_reasoning": "Market rate $5,900 | Verdict: SIGNIFICANTLY_BELOW_MARKET | Gap: -49.2%"
+    },
+    {
+      "insight_id": "insight_006",
+      "input": {
+        "niche": "lifestyle",
+        "format": "reel",
+        "platform": "tiktok",
+        "followers": 120000,
+        "offered_rate_usd": 1800
+      },
+      "agent_output": {
+        "deal_id": 62,
+        "creator_name": "LangSmithEval",
+        "verdict": "SIGNIFICANTLY_BELOW_MARKET",
+        "alert_level": "DANGER",
+        "headline": "Significantly below market \u2014 57.3% under benchmark",
+        "recommendation": "Counter firmly. This offer undervalues your audience significantly.",
+        "market_rate": 4219.0,
+        "offered_rate": 1800.0,
+        "market_range": "$1,031 \u2013 $8,631",
+        "offer_percentile": "38th percentile",
+        "gap_usd": -2419.0,
+        "gap_pct": -57.3,
+        "counter_offer": 4852.0,
+        "follower_tier": "Mid",
+        "talking_points": [
+          "Market benchmark for lifestyle on tiktok is $4,219 (median of 306 comparable deals)",
+          "Your audience of 120,000 (Mid tier) commands $1,031\u2013$8,631 range",
+          "Counter offer of $4,852 reflects fair value + 10% negotiation buffer",
+          "Request usage rights fee (+15\u201325%) and exclusivity compensation if required",
+          "Leverage engagement rate \u2014 ask for performance bonus if CPM exceeds 3%"
+        ],
+        "created_at": "2026-03-23T01:52:26"
+      },
+      "llm_judge_scores": {
+        "relevance": 5.0,
+        "accuracy": 5.0,
+        "actionability": 5.0,
+        "clarity": 5.0,
+        "bias_awareness": 5.0
+      },
+      "overall_score": 5.0,
+      "judge_reasoning": "Market rate $4,219 | Verdict: SIGNIFICANTLY_BELOW_MARKET | Gap: -57.3%"
+    },
+    {
+      "insight_id": "insight_007",
+      "input": {
+        "niche": "gaming",
+        "format": "video",
+        "platform": "youtube",
+        "followers": 500000,
+        "offered_rate_usd": 10000
+      },
+      "agent_output": {
+        "deal_id": 63,
+        "creator_name": "LangSmithEval",
+        "verdict": "ABOVE_MARKET",
+        "alert_level": "GOOD",
+        "headline": "Strong offer \u2014 +631.4% above market",
+        "recommendation": "Accept or counter slightly higher to maximise value.",
+        "market_rate": 1367.0,
+        "offered_rate": 10000.0,
+        "market_range": "$515 \u2013 $5,584",
+        "offer_percentile": "82th percentile",
+        "gap_usd": 8633.0,
+        "gap_pct": 631.4,
+        "counter_offer": 10500.0,
+        "follower_tier": "Macro",
+        "talking_points": [
+          "Market benchmark for gaming on youtube is $1,367 (median of 17 comparable deals)",
+          "Your audience of 500,000 (Macro tier) commands $515\u2013$5,584 range",
+          "Counter offer of $10,500 reflects fair value + 10% negotiation buffer",
+          "Request usage rights fee (+15\u201325%) and exclusivity compensation if required",
+          "Leverage engagement rate \u2014 ask for performance bonus if CPM exceeds 3%"
+        ],
+        "created_at": "2026-03-23T01:52:29"
+      },
+      "llm_judge_scores": {
+        "relevance": 5.0,
+        "accuracy": 2.6,
+        "actionability": 5.0,
+        "clarity": 5.0,
+        "bias_awareness": 5.0
+      },
+      "overall_score": 4.52,
+      "judge_reasoning": "Market rate $1,367 | Verdict: ABOVE_MARKET | Gap: +631.4%"
+    },
+    {
+      "insight_id": "insight_008",
+      "input": {
+        "niche": "beauty",
+        "format": "reel",
+        "platform": "tiktok",
+        "followers": 320000,
+        "offered_rate_usd": 6000
+      },
+      "agent_output": {
+        "deal_id": 64,
+        "creator_name": "LangSmithEval",
+        "verdict": "ABOVE_MARKET",
+        "alert_level": "GOOD",
+        "headline": "Strong offer \u2014 +21.8% above market",
+        "recommendation": "Accept or counter slightly higher to maximise value.",
+        "market_rate": 4924.0,
+        "offered_rate": 6000.0,
+        "market_range": "$1,233 \u2013 $8,797",
+        "offer_percentile": "56th percentile",
+        "gap_usd": 1076.0,
+        "gap_pct": 21.8,
+        "counter_offer": 6300.0,
+        "follower_tier": "Mid",
+        "talking_points": [
+          "Market benchmark for beauty on tiktok is $4,924 (median of 16 comparable deals)",
+          "Your audience of 320,000 (Mid tier) commands $1,233\u2013$8,797 range",
+          "Counter offer of $6,300 reflects fair value + 10% negotiation buffer",
+          "Request usage rights fee (+15\u201325%) and exclusivity compensation if required",
+          "Leverage engagement rate \u2014 ask for performance bonus if CPM exceeds 3%"
+        ],
+        "created_at": "2026-03-23T01:52:32"
+      },
+      "llm_judge_scores": {
+        "relevance": 5.0,
+        "accuracy": 5.0,
+        "actionability": 5.0,
+        "clarity": 5.0,
+        "bias_awareness": 5.0
+      },
+      "overall_score": 5.0,
+      "judge_reasoning": "Market rate $4,924 | Verdict: ABOVE_MARKET | Gap: +21.8%"
+    },
+    {
+      "insight_id": "insight_009",
+      "input": {
+        "niche": "travel",
+        "format": "video",
+        "platform": "youtube",
+        "followers": 180000,
+        "offered_rate_usd": 4500
+      },
+      "agent_output": {
+        "deal_id": 65,
+        "creator_name": "LangSmithEval",
+        "verdict": "AT_MARKET",
+        "alert_level": "NEUTRAL",
+        "headline": "Fair market offer",
+        "recommendation": "Offer is within normal range. Negotiate 5\u201310% higher.",
+        "market_rate": 4235.0,
+        "offered_rate": 4500.0,
+        "market_range": "$1,599 \u2013 $11,152",
+        "offer_percentile": "55th percentile",
+        "gap_usd": 265.0,
+        "gap_pct": 6.3,
+        "counter_offer": 4574.0,
+        "follower_tier": "Mid",
+        "talking_points": [
+          "Market benchmark for travel on youtube is $4,235 (median of 20 comparable deals)",
+          "Your audience of 180,000 (Mid tier) commands $1,599\u2013$11,152 range",
+          "Counter offer of $4,574 reflects fair value + 10% negotiation buffer",
+          "Request usage rights fee (+15\u201325%) and exclusivity compensation if required",
+          "Leverage engagement rate \u2014 ask for performance bonus if CPM exceeds 3%"
+        ],
+        "created_at": "2026-03-23T01:52:35"
+      },
+      "llm_judge_scores": {
+        "relevance": 5.0,
+        "accuracy": 5.0,
+        "actionability": 5.0,
+        "clarity": 5.0,
+        "bias_awareness": 5.0
+      },
+      "overall_score": 5.0,
+      "judge_reasoning": "Market rate $4,235 | Verdict: AT_MARKET | Gap: +6.3%"
+    },
+    {
+      "insight_id": "insight_010",
+      "input": {
+        "niche": "beauty",
+        "format": "reel",
+        "platform": "instagram",
+        "followers": 85000,
+        "offered_rate_usd": 700
+      },
+      "agent_output": {
+        "deal_id": 66,
+        "creator_name": "LangSmithEval",
+        "verdict": "SIGNIFICANTLY_BELOW_MARKET",
+        "alert_level": "DANGER",
+        "headline": "Significantly below market \u2014 76.6% under benchmark",
+        "recommendation": "Counter firmly. This offer undervalues your audience significantly.",
+        "market_rate": 2997.0,
+        "offered_rate": 700.0,
+        "market_range": "$761 \u2013 $9,973",
+        "offer_percentile": "20th percentile",
+        "gap_usd": -2297.0,
+        "gap_pct": -76.6,
+        "counter_offer": 3447.0,
+        "follower_tier": "Micro",
+        "talking_points": [
+          "Market benchmark for beauty on instagram is $2,997 (median of 24 comparable deals)",
+          "Your audience of 85,000 (Micro tier) commands $761\u2013$9,973 range",
+          "Counter offer of $3,447 reflects fair value + 10% negotiation buffer",
+          "Request usage rights fee (+15\u201325%) and exclusivity compensation if required",
+          "Leverage engagement rate \u2014 ask for performance bonus if CPM exceeds 3%"
+        ],
+        "created_at": "2026-03-23T01:52:38"
+      },
+      "llm_judge_scores": {
+        "relevance": 5.0,
+        "accuracy": 5.0,
+        "actionability": 5.0,
+        "clarity": 5.0,
+        "bias_awareness": 5.0
+      },
+      "overall_score": 5.0,
+      "judge_reasoning": "Market rate $2,997 | Verdict: SIGNIFICANTLY_BELOW_MARKET | Gap: -76.6%"
+    }
+  ]
+}

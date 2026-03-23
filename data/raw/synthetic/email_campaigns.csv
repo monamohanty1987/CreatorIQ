@@ -1,0 +1,1201 @@
+campaign_id,creator_id,campaign_type,niche,email_list_size,emails_sent,open_rate,click_rate,conversion_rate,unsubscribe_rate,revenue_generated_usd,revenue_per_email_usd,ai_generated_copy,send_date,send_day_of_week,subject_line_length,has_emoji_in_subject,sequence_number
+EML0001,CRE0357,Weekly Newsletter,Business & Entrepreneurship,6216,6089,0.28,0.037,0.0024,0.0061,0.0,0.0,False,2025-05-12,Friday,49,True,1
+EML0002,CRE0528,Abandoned Cart Recovery,Home Decor & Interior Design,12891,12192,0.378,0.048,0.0082,0.007,2198.61,0.94,True,2025-05-02,Tuesday,71,True,5
+EML0003,CRE0115,Abandoned Cart Recovery,Science & Space,7986,7562,0.597,0.152,0.0209,0.0113,74352.33,10.26,False,2026-02-14,Friday,67,True,5
+EML0004,CRE0158,Re-engagement,Parenting & Family,4573,4420,0.188,0.053,0.0102,0.0116,0.0,0.0,True,2025-09-18,Monday,75,False,5
+EML0005,CRE0267,Promotional Offer,Sustainable Living,7731,7482,0.339,0.077,0.0134,0.0031,5267.04,2.61,True,2025-04-13,Wednesday,50,False,5
+EML0006,CRE0078,Product Launch,Beauty & Fashion,8186,7541,0.407,0.063,0.0085,0.0149,7829.17,3.73,True,2025-08-08,Tuesday,49,True,1
+EML0007,CRE0004,Weekly Newsletter,Parenting & Family,8144,8126,0.243,0.037,0.0059,0.0077,0.0,0.0,True,2025-09-23,Friday,74,True,3
+EML0008,CRE0486,Abandoned Cart Recovery,Personal Development,9258,9044,0.596,0.145,0.0248,0.011,65526.25,8.19,False,2025-10-31,Thursday,58,True,1
+EML0009,CRE0028,Re-engagement,Technology & Software,3508,3459,0.134,0.014,0.0026,0.0138,0.0,0.0,True,2025-06-27,Friday,36,False,5
+EML0010,CRE0235,Product Launch,Food & Cooking,7011,6709,0.458,0.129,0.0079,0.0137,18764.34,4.53,True,2025-10-26,Tuesday,48,False,2
+EML0011,CRE0406,Promotional Offer,Sustainable Living,9141,8580,0.231,0.055,0.0088,0.0094,6073.93,5.23,True,2025-08-09,Wednesday,43,True,2
+EML0012,CRE0018,Re-engagement,Music & Audio Production,1301,1229,0.236,0.07,0.0051,0.0145,0.0,0.0,True,2025-08-16,Tuesday,59,False,4
+EML0013,CRE0175,Promotional Offer,Business & Entrepreneurship,8831,8130,0.302,0.042,0.0035,0.0038,1108.92,0.99,True,2025-04-21,Tuesday,53,True,4
+EML0014,CRE0293,Product Launch,Home Decor & Interior Design,1718,1714,0.496,0.16,0.0294,0.0055,2495.03,1.83,True,2025-07-21,Wednesday,70,False,5
+EML0015,CRE0337,Product Launch,Gaming & Esports,1444,1389,0.332,0.097,0.0181,0.0052,4143.38,8.91,True,2025-11-03,Tuesday,71,False,5
+EML0016,CRE0433,Re-engagement,Technology & Software,5565,5145,0.136,0.042,0.0056,0.0106,0.0,0.0,True,2025-10-05,Thursday,69,True,4
+EML0017,CRE0073,Abandoned Cart Recovery,Gaming & Esports,811,758,0.618,0.148,0.0077,0.01,7721.86,10.41,False,2026-01-26,Monday,65,True,3
+EML0018,CRE0113,Re-engagement,Personal Development,10617,9864,0.239,0.059,0.0055,0.0028,0.0,0.0,True,2025-10-29,Friday,51,True,1
+EML0019,CRE0204,Product Launch,Science & Space,2668,2654,0.33,0.097,0.009,0.0071,1588.49,1.86,False,2025-10-10,Tuesday,36,True,4
+EML0020,CRE0459,Abandoned Cart Recovery,Travel & Adventure,12560,11815,0.324,0.081,0.0125,0.0096,13020.17,3.95,False,2025-05-16,Wednesday,67,True,5
+EML0021,CRE0245,Product Launch,Education & Online Courses,3652,3581,0.33,0.115,0.0076,0.0038,5723.91,4.13,False,2025-11-21,Thursday,53,False,3
+EML0022,CRE0135,Re-engagement,Language Learning,7604,7598,0.209,0.036,0.0046,0.0015,0.0,0.0,False,2025-11-06,Friday,63,True,5
+EML0023,CRE0264,Re-engagement,Personal Development,6449,6152,0.16,0.051,0.0068,0.0056,0.0,0.0,True,2025-04-07,Monday,45,True,1
+EML0024,CRE0437,Product Launch,Finance & Investing,2179,2059,0.384,0.117,0.0174,0.0022,1928.59,1.97,False,2025-11-18,Thursday,75,True,5
+EML0025,CRE0285,Abandoned Cart Recovery,Travel & Adventure,6346,5937,0.552,0.055,0.0086,0.0108,11328.68,5.88,False,2025-11-22,Thursday,48,False,2
+EML0026,CRE0046,Weekly Newsletter,Photography & Videography,5598,5511,0.303,0.046,0.0065,0.0141,0.0,0.0,False,2025-11-03,Thursday,52,True,1
+EML0027,CRE0480,Product Launch,Parenting & Family,7742,7414,0.317,0.091,0.0065,0.0019,24432.68,10.94,True,2026-02-18,Friday,46,True,1
+EML0028,CRE0002,Abandoned Cart Recovery,Personal Development,9002,8976,0.552,0.092,0.0181,0.0127,28069.47,6.14,False,2026-03-15,Friday,38,True,2
+EML0029,CRE0120,Weekly Newsletter,Education & Online Courses,1820,1714,0.245,0.08,0.0081,0.0134,0.0,0.0,True,2025-07-15,Thursday,30,False,1
+EML0030,CRE0388,Product Launch,Food & Cooking,14598,13524,0.527,0.165,0.0258,0.0067,27418.37,2.16,False,2025-09-18,Wednesday,72,False,2
+EML0031,CRE0260,New Content Alert,Photography & Videography,6137,5841,0.245,0.046,0.0085,0.0094,0.0,0.0,False,2025-12-15,Wednesday,58,False,5
+EML0032,CRE0440,Product Launch,Home Decor & Interior Design,4023,3975,0.522,0.091,0.0154,0.0071,13205.05,6.91,True,2025-05-05,Thursday,37,False,1
+EML0033,CRE0487,Re-engagement,Education & Online Courses,12601,11829,0.249,0.073,0.0126,0.0097,0.0,0.0,True,2025-09-04,Friday,39,False,3
+EML0034,CRE0020,Re-engagement,Parenting & Family,5649,5366,0.221,0.062,0.0105,0.0096,0.0,0.0,False,2025-07-03,Friday,75,True,4
+EML0035,CRE0540,Abandoned Cart Recovery,Finance & Investing,1507,1424,0.443,0.053,0.0029,0.0132,205.22,0.58,False,2025-07-27,Wednesday,30,True,2
+EML0036,CRE0567,Product Launch,Gaming & Esports,13632,12738,0.495,0.157,0.0186,0.0093,85282.58,8.05,True,2025-06-11,Monday,30,False,2
+EML0037,CRE0119,Weekly Newsletter,Personal Development,6090,5616,0.356,0.107,0.0067,0.0042,0.0,0.0,False,2025-08-23,Monday,42,False,2
+EML0038,CRE0599,Product Launch,Business & Entrepreneurship,4725,4578,0.488,0.083,0.0063,0.0028,7272.49,3.8,True,2025-11-24,Monday,62,False,3
+EML0039,CRE0170,Product Launch,Pet Care,11089,10890,0.356,0.052,0.0048,0.0149,8560.16,4.17,False,2026-02-23,Tuesday,58,False,4
+EML0040,CRE0024,Promotional Offer,Technology & Software,12816,12367,0.321,0.091,0.0112,0.0113,16547.07,4.42,False,2025-05-19,Wednesday,41,True,2
+EML0041,CRE0410,Weekly Newsletter,Food & Cooking,11345,10699,0.315,0.095,0.0112,0.0103,0.0,0.0,False,2026-02-13,Monday,61,False,1
+EML0042,CRE0406,Promotional Offer,Finance & Investing,2904,2847,0.198,0.03,0.0048,0.0081,1897.47,11.0,False,2025-10-15,Monday,43,True,2
+EML0043,CRE0316,Weekly Newsletter,Comedy & Entertainment,14827,14575,0.336,0.08,0.0137,0.0024,0.0,0.0,False,2025-09-13,Wednesday,38,True,2
+EML0044,CRE0247,Promotional Offer,Travel & Adventure,10394,10333,0.177,0.041,0.0068,0.0057,5777.88,7.66,False,2025-05-21,Monday,61,True,5
+EML0045,CRE0365,Abandoned Cart Recovery,Science & Space,526,524,0.602,0.198,0.0384,0.0076,7435.88,11.86,True,2025-07-04,Monday,49,False,4
+EML0046,CRE0588,Abandoned Cart Recovery,Language Learning,12883,12823,0.364,0.088,0.0064,0.0037,40400.22,9.79,False,2025-10-30,Friday,42,True,1
+EML0047,CRE0473,New Content Alert,Beauty & Fashion,7603,7494,0.415,0.106,0.0055,0.0128,0.0,0.0,False,2025-04-18,Thursday,67,False,1
+EML0048,CRE0320,Abandoned Cart Recovery,Science & Space,9655,9023,0.375,0.095,0.0174,0.0082,33983.19,9.88,False,2025-03-19,Thursday,49,False,2
+EML0049,CRE0056,Re-engagement,Food & Cooking,14011,13508,0.221,0.029,0.0025,0.0011,0.0,0.0,False,2025-04-14,Monday,70,False,3
+EML0050,CRE0041,Abandoned Cart Recovery,Beauty & Fashion,14930,14757,0.552,0.136,0.0232,0.0129,100201.75,8.94,False,2025-11-20,Tuesday,75,True,4
+EML0051,CRE0120,Promotional Offer,Pet Care,582,576,0.205,0.031,0.0049,0.0145,122.79,3.32,True,2026-01-05,Monday,42,False,2
+EML0052,CRE0417,Promotional Offer,Sustainable Living,5636,5353,0.294,0.06,0.0102,0.0069,11303.94,11.37,False,2025-06-24,Friday,75,True,3
+EML0053,CRE0520,Weekly Newsletter,Language Learning,12983,11959,0.306,0.098,0.007,0.0124,0.0,0.0,False,2025-05-31,Monday,37,True,5
+EML0054,CRE0026,New Content Alert,Beauty & Fashion,566,525,0.44,0.13,0.0204,0.0083,0.0,0.0,False,2026-01-20,Wednesday,30,True,3
+EML0055,CRE0074,Promotional Offer,Finance & Investing,14856,14099,0.189,0.02,0.0019,0.0011,4745.15,8.45,False,2025-10-23,Thursday,56,False,5
+EML0056,CRE0002,Product Launch,Parenting & Family,8016,7825,0.414,0.09,0.0068,0.0021,6302.07,2.11,False,2026-01-07,Tuesday,50,False,3
+EML0057,CRE0160,Abandoned Cart Recovery,Home Decor & Interior Design,10750,9954,0.507,0.137,0.015,0.0109,63393.49,8.49,True,2025-08-14,Tuesday,47,False,1
+EML0058,CRE0315,Abandoned Cart Recovery,Personal Development,1588,1565,0.55,0.066,0.007,0.0038,576.44,1.0,False,2025-08-10,Wednesday,53,False,4
+EML0059,CRE0232,Weekly Newsletter,Gaming & Esports,7521,7385,0.285,0.067,0.0044,0.0095,0.0,0.0,False,2025-05-05,Wednesday,58,False,2
+EML0060,CRE0468,Product Launch,Personal Development,4566,4325,0.451,0.104,0.0107,0.0064,23343.84,10.9,True,2025-10-25,Thursday,74,False,4
+EML0061,CRE0037,Product Launch,Music & Audio Production,4054,3933,0.481,0.072,0.011,0.0131,8044.81,5.73,True,2026-01-04,Friday,68,True,3
+EML0062,CRE0279,Weekly Newsletter,Home Decor & Interior Design,14972,14023,0.364,0.126,0.0225,0.0109,0.0,0.0,False,2026-02-01,Wednesday,32,True,4
+EML0063,CRE0355,Abandoned Cart Recovery,Personal Development,8002,7436,0.597,0.166,0.0205,0.0147,86517.85,10.91,False,2025-12-27,Friday,30,True,5
+EML0064,CRE0499,Abandoned Cart Recovery,Finance & Investing,13448,12887,0.583,0.107,0.0089,0.0072,71390.36,8.51,True,2025-06-05,Tuesday,45,True,2
+EML0065,CRE0462,New Content Alert,Home Decor & Interior Design,3901,3816,0.239,0.066,0.009,0.015,0.0,0.0,False,2025-06-11,Thursday,75,True,1
+EML0066,CRE0071,Abandoned Cart Recovery,Home Decor & Interior Design,7373,6809,0.378,0.077,0.0129,0.0145,6244.82,2.91,True,2025-08-12,Monday,43,True,2
+EML0067,CRE0033,New Content Alert,Business & Entrepreneurship,5701,5559,0.324,0.056,0.0102,0.0112,0.0,0.0,True,2025-11-14,Monday,61,False,2
+EML0068,CRE0326,Product Launch,Beauty & Fashion,1198,1183,0.472,0.116,0.0171,0.0127,695.28,1.06,False,2025-12-22,Monday,39,False,4
+EML0069,CRE0211,Weekly Newsletter,Gaming & Esports,14388,14159,0.319,0.052,0.0044,0.0054,0.0,0.0,True,2025-03-21,Friday,46,True,3
+EML0070,CRE0245,Re-engagement,Parenting & Family,10182,9861,0.157,0.02,0.0026,0.0091,0.0,0.0,False,2025-12-30,Friday,66,True,4
+EML0071,CRE0551,Re-engagement,Sustainable Living,12922,12862,0.184,0.035,0.0036,0.0091,0.0,0.0,False,2025-04-11,Friday,44,False,5
+EML0072,CRE0107,Product Launch,Business & Entrepreneurship,793,763,0.416,0.08,0.0093,0.0143,921.05,3.49,False,2025-06-19,Tuesday,40,True,2
+EML0073,CRE0466,New Content Alert,Music & Audio Production,13928,13250,0.416,0.101,0.007,0.0088,0.0,0.0,True,2025-12-08,Wednesday,56,False,4
+EML0074,CRE0572,New Content Alert,Music & Audio Production,832,795,0.34,0.082,0.0105,0.0098,0.0,0.0,True,2026-03-10,Monday,47,True,4
+EML0075,CRE0503,Promotional Offer,Sustainable Living,5208,4993,0.312,0.054,0.009,0.0026,4746.97,5.41,False,2025-11-25,Monday,68,True,1
+EML0076,CRE0386,Promotional Offer,Pet Care,9530,9509,0.259,0.057,0.008,0.0019,4094.12,2.91,False,2026-02-15,Monday,45,True,1
+EML0077,CRE0554,Weekly Newsletter,Food & Cooking,4868,4715,0.392,0.134,0.0084,0.0029,0.0,0.0,True,2025-11-14,Tuesday,58,False,1
+EML0078,CRE0268,New Content Alert,Food & Cooking,14352,14291,0.431,0.054,0.0107,0.0127,0.0,0.0,False,2025-06-04,Wednesday,69,True,3
+EML0079,CRE0488,Abandoned Cart Recovery,Business & Entrepreneurship,11268,10807,0.63,0.154,0.0159,0.0089,32359.35,2.96,True,2025-07-19,Wednesday,44,False,2
+EML0080,CRE0243,Promotional Offer,Home Decor & Interior Design,10965,10248,0.297,0.074,0.0102,0.0048,9302.17,3.86,False,2026-02-01,Tuesday,48,True,3
+EML0081,CRE0080,Weekly Newsletter,Travel & Adventure,337,318,0.305,0.04,0.0026,0.0016,0.0,0.0,False,2025-10-10,Thursday,39,False,3
+EML0082,CRE0105,Abandoned Cart Recovery,Business & Entrepreneurship,1129,1099,0.32,0.081,0.0131,0.0071,3280.46,11.21,False,2025-10-15,Wednesday,55,True,4
+EML0083,CRE0165,Weekly Newsletter,Language Learning,7235,6957,0.314,0.081,0.0087,0.0015,0.0,0.0,True,2025-07-14,Tuesday,45,False,1
+EML0084,CRE0540,Re-engagement,Pet Care,4826,4627,0.146,0.047,0.0039,0.0126,0.0,0.0,True,2025-06-17,Thursday,49,False,3
+EML0085,CRE0462,Abandoned Cart Recovery,Music & Audio Production,10406,10310,0.449,0.122,0.0075,0.0029,61448.14,10.78,False,2025-07-01,Monday,47,False,4
+EML0086,CRE0026,New Content Alert,Sustainable Living,9840,9691,0.238,0.074,0.0125,0.0041,0.0,0.0,False,2025-06-20,Thursday,74,False,4
+EML0087,CRE0547,Re-engagement,Finance & Investing,13941,13202,0.251,0.077,0.0092,0.0072,0.0,0.0,False,2025-10-16,Thursday,31,True,5
+EML0088,CRE0171,Weekly Newsletter,Photography & Videography,762,740,0.292,0.071,0.0132,0.0045,0.0,0.0,True,2025-04-22,Thursday,69,False,2
+EML0089,CRE0005,Product Launch,Language Learning,7512,7289,0.41,0.058,0.008,0.0125,2983.21,1.67,True,2025-10-22,Wednesday,66,True,4
+EML0090,CRE0055,Promotional Offer,Education & Online Courses,7606,7372,0.304,0.062,0.0106,0.0043,6780.83,4.73,False,2026-03-03,Wednesday,64,False,1
+EML0091,CRE0470,New Content Alert,Home Decor & Interior Design,6812,6392,0.284,0.033,0.0019,0.0023,0.0,0.0,True,2025-10-20,Wednesday,59,True,3
+EML0092,CRE0096,New Content Alert,Sustainable Living,4083,3819,0.256,0.068,0.0108,0.0132,0.0,0.0,False,2025-05-24,Thursday,75,True,5
+EML0093,CRE0163,Promotional Offer,Pet Care,5937,5707,0.22,0.062,0.0085,0.0016,6616.12,8.17,True,2026-03-15,Friday,56,True,3
+EML0094,CRE0527,Re-engagement,Technology & Software,1993,1906,0.249,0.05,0.0086,0.0098,0.0,0.0,False,2025-10-14,Monday,49,True,5
+EML0095,CRE0120,Abandoned Cart Recovery,Photography & Videography,7533,7222,0.567,0.067,0.0056,0.0104,16683.78,5.83,False,2025-08-24,Wednesday,73,False,4
+EML0096,CRE0051,Promotional Offer,Personal Development,12806,12306,0.264,0.067,0.0042,0.0133,23240.19,10.26,True,2025-09-17,Friday,54,True,4
+EML0097,CRE0508,Abandoned Cart Recovery,Finance & Investing,373,348,0.316,0.076,0.0118,0.0016,165.72,1.85,True,2025-11-19,Friday,40,False,4
+EML0098,CRE0091,Abandoned Cart Recovery,Education & Online Courses,7463,7372,0.493,0.05,0.009,0.0099,15931.19,8.66,False,2025-08-04,Tuesday,75,False,5
+EML0099,CRE0403,Weekly Newsletter,Business & Entrepreneurship,12305,11737,0.364,0.041,0.0038,0.004,0.0,0.0,False,2025-04-09,Wednesday,52,True,5
+EML0100,CRE0388,Abandoned Cart Recovery,Science & Space,10336,10256,0.623,0.17,0.0334,0.0049,10290.05,0.94,False,2025-12-13,Wednesday,59,True,5
+EML0101,CRE0146,Product Launch,Food & Cooking,10106,9970,0.436,0.087,0.0045,0.0018,40097.45,10.46,True,2025-05-23,Thursday,70,False,3
+EML0102,CRE0454,New Content Alert,Sustainable Living,14512,14345,0.318,0.077,0.0152,0.0134,0.0,0.0,False,2025-12-07,Friday,52,False,4
+EML0103,CRE0232,Promotional Offer,Education & Online Courses,5776,5640,0.334,0.051,0.0041,0.0118,1544.7,1.57,False,2025-07-31,Wednesday,70,True,3
+EML0104,CRE0096,Abandoned Cart Recovery,Science & Space,12750,11800,0.605,0.128,0.0229,0.0141,61216.32,6.2,False,2025-05-03,Monday,69,True,2
+EML0105,CRE0378,Re-engagement,Parenting & Family,5857,5436,0.165,0.053,0.0105,0.0063,0.0,0.0,True,2025-04-19,Thursday,71,True,4
+EML0106,CRE0210,Abandoned Cart Recovery,Beauty & Fashion,12281,11597,0.386,0.132,0.0231,0.008,23653.03,3.78,True,2026-01-15,Wednesday,61,True,4
+EML0107,CRE0146,Weekly Newsletter,Music & Audio Production,6976,6816,0.32,0.053,0.0041,0.0021,0.0,0.0,False,2025-06-20,Monday,62,True,2
+EML0108,CRE0448,Abandoned Cart Recovery,Technology & Software,13900,13051,0.466,0.051,0.01,0.0043,20712.78,6.27,False,2025-07-30,Friday,51,False,2
+EML0109,CRE0542,Abandoned Cart Recovery,Travel & Adventure,3393,3285,0.597,0.078,0.0088,0.013,1279.79,0.81,False,2025-08-05,Friday,30,True,4
+EML0110,CRE0057,Re-engagement,Gaming & Esports,10365,10160,0.195,0.048,0.0086,0.0065,0.0,0.0,False,2026-02-05,Tuesday,38,True,1
+EML0111,CRE0006,Promotional Offer,Gaming & Esports,6366,6172,0.32,0.052,0.0094,0.0103,12584.51,11.88,False,2025-04-08,Friday,58,True,3
+EML0112,CRE0485,Promotional Offer,Parenting & Family,946,908,0.278,0.042,0.007,0.0017,1023.92,9.27,False,2025-09-16,Monday,68,False,2
+EML0113,CRE0028,New Content Alert,Finance & Investing,11549,10878,0.422,0.132,0.022,0.0086,0.0,0.0,True,2025-04-06,Wednesday,61,True,4
+EML0114,CRE0507,Product Launch,Parenting & Family,499,493,0.452,0.108,0.0184,0.0106,2070.53,8.5,True,2025-12-10,Friday,33,False,5
+EML0115,CRE0003,Promotional Offer,Pet Care,1135,1111,0.256,0.059,0.0089,0.0077,1626.87,9.49,True,2026-02-25,Monday,52,False,4
+EML0116,CRE0578,Product Launch,Science & Space,12487,11940,0.44,0.062,0.008,0.0018,30624.02,8.99,False,2026-02-09,Monday,62,False,2
+EML0117,CRE0196,Weekly Newsletter,Music & Audio Production,4061,3974,0.312,0.094,0.0144,0.0112,0.0,0.0,False,2025-08-04,Tuesday,42,True,4
+EML0118,CRE0083,Product Launch,Food & Cooking,11108,10325,0.437,0.132,0.026,0.0011,5959.01,0.93,False,2025-07-08,Monday,72,False,1
+EML0119,CRE0562,Product Launch,Comedy & Entertainment,9801,9233,0.464,0.156,0.0208,0.0015,40934.43,5.77,True,2025-09-13,Friday,66,False,5
+EML0120,CRE0162,Promotional Offer,Gaming & Esports,9847,9084,0.184,0.045,0.0089,0.0133,6596.03,8.09,True,2025-04-06,Wednesday,71,False,1
+EML0121,CRE0395,Product Launch,Education & Online Courses,3570,3297,0.435,0.088,0.013,0.0077,3184.17,2.33,True,2026-03-05,Thursday,48,False,4
+EML0122,CRE0165,Abandoned Cart Recovery,Pet Care,7691,7140,0.588,0.105,0.0127,0.0101,53039.89,11.17,False,2025-09-06,Tuesday,64,False,4
+EML0123,CRE0109,New Content Alert,Comedy & Entertainment,13610,13247,0.254,0.066,0.0071,0.0099,0.0,0.0,True,2025-08-19,Wednesday,36,True,4
+EML0124,CRE0162,New Content Alert,Pet Care,3407,3154,0.245,0.077,0.0103,0.0139,0.0,0.0,True,2025-11-04,Thursday,41,False,4
+EML0125,CRE0046,Promotional Offer,Parenting & Family,4781,4604,0.345,0.117,0.0124,0.0016,11694.89,6.06,False,2026-02-12,Wednesday,74,True,3
+EML0126,CRE0491,New Content Alert,Gaming & Esports,14024,13357,0.353,0.086,0.0075,0.0143,0.0,0.0,True,2026-02-01,Wednesday,31,True,1
+EML0127,CRE0431,Promotional Offer,Technology & Software,3161,3047,0.246,0.062,0.005,0.0062,2748.06,5.7,True,2025-07-02,Thursday,53,False,5
+EML0128,CRE0131,Re-engagement,Technology & Software,4514,4235,0.202,0.044,0.0023,0.0094,0.0,0.0,True,2025-12-24,Thursday,32,True,5
+EML0129,CRE0072,Re-engagement,Science & Space,13944,13394,0.239,0.059,0.0064,0.007,0.0,0.0,True,2025-10-25,Thursday,46,False,1
+EML0130,CRE0367,Re-engagement,Business & Entrepreneurship,5677,5363,0.251,0.067,0.0133,0.0013,0.0,0.0,False,2025-09-08,Monday,48,True,5
+EML0131,CRE0195,New Content Alert,Finance & Investing,12260,12081,0.279,0.03,0.0024,0.0053,0.0,0.0,True,2025-11-25,Thursday,58,False,1
+EML0132,CRE0550,Product Launch,Education & Online Courses,1041,1025,0.46,0.101,0.0181,0.0135,4497.93,9.3,True,2026-01-26,Tuesday,41,True,4
+EML0133,CRE0226,Abandoned Cart Recovery,Education & Online Courses,14663,14164,0.392,0.109,0.0162,0.0086,50434.91,8.05,False,2025-06-03,Tuesday,34,False,5
+EML0134,CRE0504,New Content Alert,Personal Development,10630,9798,0.228,0.023,0.002,0.0111,0.0,0.0,True,2026-03-16,Wednesday,51,False,5
+EML0135,CRE0032,Abandoned Cart Recovery,Parenting & Family,4875,4685,0.478,0.154,0.0189,0.0057,33983.9,9.47,False,2025-05-16,Monday,72,False,5
+EML0136,CRE0352,Weekly Newsletter,Beauty & Fashion,12361,11478,0.278,0.049,0.0073,0.0017,0.0,0.0,True,2025-08-02,Thursday,62,False,2
+EML0137,CRE0040,Abandoned Cart Recovery,Pet Care,8503,7842,0.508,0.1,0.0151,0.0113,15593.48,3.61,True,2026-02-15,Monday,67,True,3
+EML0138,CRE0124,Abandoned Cart Recovery,Business & Entrepreneurship,9049,8564,0.479,0.142,0.0249,0.0039,63457.52,10.31,True,2025-07-25,Friday,42,True,1
+EML0139,CRE0425,Weekly Newsletter,Music & Audio Production,12823,12594,0.222,0.024,0.0043,0.0017,0.0,0.0,False,2025-08-02,Monday,31,True,4
+EML0140,CRE0325,Product Launch,Sustainable Living,14637,14309,0.27,0.035,0.0069,0.0071,15920.59,11.51,False,2025-11-14,Monday,60,False,2
+EML0141,CRE0165,Promotional Offer,Finance & Investing,1768,1648,0.305,0.066,0.0068,0.0064,992.96,2.79,False,2026-02-12,Tuesday,59,False,4
+EML0142,CRE0560,Weekly Newsletter,Comedy & Entertainment,3744,3683,0.351,0.12,0.0195,0.0021,0.0,0.0,True,2025-12-05,Wednesday,45,False,5
+EML0143,CRE0285,Product Launch,Beauty & Fashion,11923,11239,0.5,0.16,0.0093,0.015,18218.34,1.91,False,2025-04-19,Thursday,61,False,1
+EML0144,CRE0194,Product Launch,Photography & Videography,5328,4986,0.304,0.055,0.0097,0.0061,10413.94,11.69,True,2025-04-05,Wednesday,54,False,4
+EML0145,CRE0111,Promotional Offer,Technology & Software,6692,6545,0.317,0.086,0.0118,0.014,19356.6,10.61,False,2025-06-09,Friday,41,False,2
+EML0146,CRE0031,Abandoned Cart Recovery,Finance & Investing,6301,5867,0.572,0.142,0.0098,0.0011,18219.81,3.56,False,2026-01-21,Tuesday,62,True,2
+EML0147,CRE0151,Promotional Offer,Comedy & Entertainment,7430,6875,0.324,0.034,0.0038,0.0092,3437.65,4.2,False,2025-04-11,Tuesday,61,True,1
+EML0148,CRE0047,Promotional Offer,Education & Online Courses,9157,8884,0.18,0.063,0.0032,0.0053,8743.36,8.42,True,2025-07-13,Tuesday,35,False,4
+EML0149,CRE0268,Weekly Newsletter,Business & Entrepreneurship,14999,13928,0.349,0.109,0.0169,0.0129,0.0,0.0,True,2025-08-01,Wednesday,60,True,1
+EML0150,CRE0340,New Content Alert,Home Decor & Interior Design,7664,7311,0.305,0.085,0.0077,0.005,0.0,0.0,True,2026-02-12,Tuesday,41,True,4
+EML0151,CRE0136,Promotional Offer,Technology & Software,14350,13603,0.301,0.042,0.0045,0.0077,16327.14,9.0,False,2025-05-20,Friday,70,False,3
+EML0152,CRE0542,Abandoned Cart Recovery,Gaming & Esports,8127,8060,0.587,0.135,0.0099,0.0092,12558.47,1.95,False,2025-04-13,Tuesday,30,False,4
+EML0153,CRE0418,Weekly Newsletter,Science & Space,14074,13861,0.207,0.032,0.0064,0.0062,0.0,0.0,False,2025-11-26,Monday,48,True,4
+EML0154,CRE0318,Promotional Offer,Music & Audio Production,8408,7795,0.296,0.056,0.009,0.0121,6202.01,4.45,True,2025-10-23,Friday,43,True,4
+EML0155,CRE0477,Abandoned Cart Recovery,Education & Online Courses,8087,7651,0.541,0.166,0.0105,0.0015,85626.19,11.79,False,2025-07-11,Monday,54,True,2
+EML0156,CRE0462,Promotional Offer,Pet Care,7777,7584,0.253,0.063,0.0074,0.015,4053.41,3.27,True,2026-02-13,Thursday,44,True,3
+EML0157,CRE0099,New Content Alert,Technology & Software,11101,10977,0.273,0.031,0.0039,0.0109,0.0,0.0,True,2025-06-10,Friday,56,True,1
+EML0158,CRE0446,Promotional Offer,Sustainable Living,11937,11641,0.189,0.049,0.0088,0.0075,7572.58,6.85,True,2026-01-03,Thursday,69,True,3
+EML0159,CRE0137,Abandoned Cart Recovery,Education & Online Courses,13054,12505,0.37,0.062,0.0082,0.0149,4162.48,1.39,True,2025-06-30,Wednesday,66,True,5
+EML0160,CRE0279,Re-engagement,Beauty & Fashion,10464,10130,0.145,0.025,0.0026,0.0118,0.0,0.0,True,2025-11-20,Wednesday,33,False,3
+EML0161,CRE0348,Re-engagement,Travel & Adventure,5255,4909,0.152,0.033,0.0042,0.0085,0.0,0.0,False,2025-04-05,Friday,69,False,3
+EML0162,CRE0500,Weekly Newsletter,Sustainable Living,8850,8368,0.387,0.045,0.0078,0.0029,0.0,0.0,True,2025-11-29,Wednesday,72,True,3
+EML0163,CRE0156,New Content Alert,Business & Entrepreneurship,266,250,0.375,0.088,0.0047,0.0065,0.0,0.0,True,2026-02-02,Wednesday,71,False,5
+EML0164,CRE0055,Promotional Offer,Beauty & Fashion,14316,13814,0.248,0.053,0.0028,0.006,2709.64,1.44,True,2025-04-23,Thursday,47,True,1
+EML0165,CRE0322,New Content Alert,Music & Audio Production,1454,1422,0.373,0.065,0.0057,0.0142,0.0,0.0,True,2025-10-12,Wednesday,62,True,4
+EML0166,CRE0335,Product Launch,Science & Space,12718,12003,0.357,0.106,0.0082,0.0014,39897.66,8.29,True,2026-02-24,Monday,43,False,3
+EML0167,CRE0321,Weekly Newsletter,Pet Care,3631,3354,0.245,0.048,0.0052,0.0011,0.0,0.0,True,2026-02-08,Tuesday,70,True,2
+EML0168,CRE0054,Re-engagement,Technology & Software,12583,12542,0.22,0.047,0.0041,0.0057,0.0,0.0,True,2026-02-09,Thursday,49,False,5
+EML0169,CRE0380,Promotional Offer,Parenting & Family,5920,5694,0.207,0.059,0.0061,0.0137,4670.64,6.46,False,2025-12-03,Wednesday,43,False,4
+EML0170,CRE0125,Re-engagement,Science & Space,7261,7230,0.23,0.036,0.0036,0.0012,0.0,0.0,False,2026-02-10,Thursday,63,True,5
+EML0171,CRE0293,Promotional Offer,Finance & Investing,14496,14108,0.229,0.047,0.0038,0.01,13261.74,8.5,True,2025-12-16,Wednesday,33,False,4
+EML0172,CRE0173,Weekly Newsletter,Home Decor & Interior Design,10930,10622,0.236,0.071,0.0077,0.0079,0.0,0.0,False,2026-02-12,Friday,53,True,1
+EML0173,CRE0123,Re-engagement,Photography & Videography,11114,10687,0.13,0.013,0.0016,0.0101,0.0,0.0,True,2025-03-28,Thursday,72,False,1
+EML0174,CRE0480,Abandoned Cart Recovery,Language Learning,8171,7870,0.33,0.053,0.01,0.0059,1486.27,1.04,False,2026-01-02,Friday,61,True,1
+EML0175,CRE0283,Product Launch,Home Decor & Interior Design,5652,5607,0.485,0.137,0.0097,0.006,19753.78,5.26,True,2026-02-28,Tuesday,59,True,5
+EML0176,CRE0312,Re-engagement,Photography & Videography,9316,8824,0.246,0.08,0.0149,0.0041,0.0,0.0,False,2025-06-12,Tuesday,43,False,1
+EML0177,CRE0590,Promotional Offer,Science & Space,3639,3440,0.207,0.048,0.0068,0.0041,1077.48,2.98,True,2025-05-10,Tuesday,40,False,3
+EML0178,CRE0428,New Content Alert,Science & Space,12749,12051,0.419,0.068,0.0109,0.0149,0.0,0.0,True,2025-10-20,Thursday,47,False,5
+EML0179,CRE0425,Abandoned Cart Recovery,Technology & Software,4588,4265,0.416,0.127,0.0223,0.0077,9283.66,3.83,False,2026-01-02,Wednesday,41,True,5
+EML0180,CRE0059,New Content Alert,Education & Online Courses,5426,5261,0.3,0.046,0.0073,0.0097,0.0,0.0,False,2026-02-09,Friday,42,False,5
+EML0181,CRE0376,Weekly Newsletter,Music & Audio Production,1499,1497,0.274,0.059,0.0112,0.0062,0.0,0.0,False,2025-06-10,Friday,62,False,1
+EML0182,CRE0028,Re-engagement,Business & Entrepreneurship,7649,7251,0.204,0.029,0.0022,0.004,0.0,0.0,True,2025-07-07,Tuesday,64,False,1
+EML0183,CRE0262,Weekly Newsletter,Beauty & Fashion,7287,7120,0.324,0.078,0.0068,0.0041,0.0,0.0,False,2025-08-26,Tuesday,37,True,3
+EML0184,CRE0222,Promotional Offer,Parenting & Family,4702,4621,0.342,0.096,0.0052,0.0089,15715.48,10.18,True,2025-06-23,Thursday,71,False,1
+EML0185,CRE0074,Product Launch,Technology & Software,6082,5606,0.38,0.083,0.0079,0.002,20602.14,10.74,True,2025-07-04,Monday,44,False,1
+EML0186,CRE0575,Re-engagement,Personal Development,12450,11780,0.235,0.056,0.0084,0.0082,0.0,0.0,False,2026-03-08,Monday,41,False,4
+EML0187,CRE0158,Promotional Offer,Pet Care,9846,9702,0.208,0.061,0.0034,0.0015,1986.32,1.59,False,2025-09-27,Wednesday,31,False,5
+EML0188,CRE0492,Weekly Newsletter,Pet Care,12556,12429,0.348,0.055,0.0099,0.012,0.0,0.0,True,2025-07-19,Friday,74,True,3
+EML0189,CRE0186,Weekly Newsletter,Beauty & Fashion,2911,2724,0.387,0.044,0.0075,0.0024,0.0,0.0,True,2025-11-11,Friday,38,False,3
+EML0190,CRE0181,Abandoned Cart Recovery,Business & Entrepreneurship,6631,6202,0.542,0.088,0.0071,0.0031,6894.73,2.18,False,2025-07-20,Friday,44,True,2
+EML0191,CRE0550,Re-engagement,Education & Online Courses,14009,13107,0.217,0.073,0.0123,0.0131,0.0,0.0,False,2025-10-02,Friday,49,True,2
+EML0192,CRE0335,Weekly Newsletter,Personal Development,6700,6307,0.234,0.054,0.0072,0.0114,0.0,0.0,True,2025-12-20,Monday,72,False,2
+EML0193,CRE0081,Re-engagement,Gaming & Esports,7609,7261,0.151,0.037,0.0023,0.0087,0.0,0.0,True,2025-11-10,Wednesday,71,True,3
+EML0194,CRE0556,Product Launch,Business & Entrepreneurship,256,237,0.298,0.084,0.0103,0.006,133.29,2.08,True,2025-12-30,Thursday,55,False,3
+EML0195,CRE0192,Weekly Newsletter,Science & Space,5189,4880,0.235,0.075,0.0078,0.0024,0.0,0.0,False,2025-10-15,Thursday,54,False,3
+EML0196,CRE0498,Abandoned Cart Recovery,Gaming & Esports,4024,3753,0.619,0.185,0.013,0.0083,43684.63,9.48,False,2026-03-04,Wednesday,75,False,3
+EML0197,CRE0169,Weekly Newsletter,Science & Space,14824,14706,0.217,0.066,0.011,0.0087,0.0,0.0,True,2025-09-06,Tuesday,71,True,3
+EML0198,CRE0252,New Content Alert,Parenting & Family,11342,10727,0.406,0.1,0.0082,0.0023,0.0,0.0,True,2025-09-24,Wednesday,58,True,5
+EML0199,CRE0127,New Content Alert,Education & Online Courses,7534,7385,0.242,0.045,0.0043,0.0035,0.0,0.0,False,2025-11-18,Tuesday,31,False,3
+EML0200,CRE0320,New Content Alert,Home Decor & Interior Design,10888,10569,0.312,0.063,0.0058,0.014,0.0,0.0,True,2026-01-13,Wednesday,39,False,4
+EML0201,CRE0023,Product Launch,Pet Care,3752,3702,0.467,0.15,0.0231,0.015,9619.49,3.66,False,2025-09-12,Tuesday,67,True,1
+EML0202,CRE0549,Weekly Newsletter,Comedy & Entertainment,4797,4749,0.237,0.044,0.008,0.0117,0.0,0.0,True,2025-11-05,Friday,66,False,1
+EML0203,CRE0583,Promotional Offer,Pet Care,1009,994,0.202,0.035,0.0059,0.009,828.21,11.61,False,2025-04-04,Wednesday,63,True,4
+EML0204,CRE0025,Product Launch,Music & Audio Production,4154,3842,0.482,0.096,0.0124,0.0082,9014.83,4.69,True,2025-06-09,Tuesday,42,False,5
+EML0205,CRE0318,Abandoned Cart Recovery,Music & Audio Production,3602,3401,0.494,0.162,0.0295,0.005,1873.7,0.65,False,2025-03-24,Wednesday,62,False,4
+EML0206,CRE0455,Abandoned Cart Recovery,Finance & Investing,14310,13344,0.403,0.095,0.011,0.0123,11998.1,2.19,False,2025-10-05,Friday,47,False,5
+EML0207,CRE0513,Promotional Offer,Personal Development,1753,1688,0.31,0.098,0.0081,0.0116,3988.88,7.49,False,2026-02-17,Wednesday,40,False,5
+EML0208,CRE0341,Product Launch,Sustainable Living,8639,8161,0.516,0.073,0.0052,0.0096,34331.16,10.55,False,2025-10-05,Wednesday,62,True,4
+EML0209,CRE0244,Abandoned Cart Recovery,Travel & Adventure,3990,3734,0.34,0.074,0.0147,0.0102,7840.33,7.81,False,2025-08-02,Wednesday,46,False,2
+EML0210,CRE0408,Weekly Newsletter,Gaming & Esports,12621,12455,0.305,0.097,0.0132,0.0036,0.0,0.0,False,2026-01-09,Tuesday,56,False,5
+EML0211,CRE0170,Promotional Offer,Photography & Videography,5711,5685,0.285,0.048,0.0057,0.0012,3554.75,4.55,False,2025-12-20,Monday,58,False,4
+EML0212,CRE0338,Abandoned Cart Recovery,Business & Entrepreneurship,8364,8350,0.524,0.182,0.0299,0.0101,82079.0,10.29,True,2026-01-02,Thursday,55,False,2
+EML0213,CRE0569,New Content Alert,Language Learning,5648,5238,0.359,0.067,0.0081,0.0019,0.0,0.0,False,2026-01-30,Monday,36,False,3
+EML0214,CRE0312,Re-engagement,Finance & Investing,11225,10689,0.15,0.027,0.0021,0.0065,0.0,0.0,True,2025-08-03,Thursday,47,True,1
+EML0215,CRE0122,Re-engagement,Finance & Investing,8103,7574,0.197,0.03,0.0039,0.0027,0.0,0.0,False,2025-08-31,Friday,62,False,3
+EML0216,CRE0520,Promotional Offer,Comedy & Entertainment,7553,7250,0.246,0.043,0.0047,0.0121,4170.55,5.22,True,2025-07-14,Tuesday,57,False,2
+EML0217,CRE0589,Promotional Offer,Business & Entrepreneurship,7782,7646,0.231,0.042,0.0038,0.0139,7346.24,9.73,True,2025-08-22,Monday,39,False,5
+EML0218,CRE0314,New Content Alert,Music & Audio Production,3665,3497,0.446,0.074,0.0107,0.003,0.0,0.0,True,2025-04-18,Monday,63,False,4
+EML0219,CRE0594,Weekly Newsletter,Finance & Investing,5471,5194,0.308,0.032,0.004,0.0145,0.0,0.0,False,2026-01-19,Thursday,68,True,2
+EML0220,CRE0331,Weekly Newsletter,Science & Space,258,249,0.226,0.057,0.0048,0.0141,0.0,0.0,False,2026-01-28,Tuesday,48,True,3
+EML0221,CRE0149,Weekly Newsletter,Pet Care,13452,12530,0.356,0.049,0.005,0.0137,0.0,0.0,True,2025-12-08,Tuesday,47,False,4
+EML0222,CRE0094,Re-engagement,Travel & Adventure,13221,12958,0.174,0.057,0.0059,0.0087,0.0,0.0,False,2025-06-22,Tuesday,73,True,3
+EML0223,CRE0279,Promotional Offer,Beauty & Fashion,14126,13388,0.192,0.05,0.0053,0.0061,4325.95,3.19,False,2025-10-04,Monday,60,False,5
+EML0224,CRE0034,Weekly Newsletter,Gaming & Esports,8890,8694,0.246,0.039,0.0039,0.0146,0.0,0.0,False,2025-09-14,Thursday,66,True,5
+EML0225,CRE0257,Weekly Newsletter,Technology & Software,11643,10953,0.28,0.054,0.005,0.0104,0.0,0.0,True,2025-05-16,Wednesday,41,True,3
+EML0226,CRE0051,Weekly Newsletter,Music & Audio Production,4220,4054,0.256,0.06,0.0084,0.0146,0.0,0.0,False,2026-01-17,Friday,47,True,5
+EML0227,CRE0556,New Content Alert,Comedy & Entertainment,7728,7211,0.259,0.055,0.0044,0.0083,0.0,0.0,True,2025-09-21,Thursday,74,False,4
+EML0228,CRE0570,Re-engagement,Gaming & Esports,6925,6390,0.203,0.052,0.0061,0.0018,0.0,0.0,True,2025-06-01,Tuesday,54,False,3
+EML0229,CRE0352,Product Launch,Beauty & Fashion,12552,11794,0.297,0.077,0.0059,0.0019,16649.0,5.8,True,2025-09-14,Thursday,38,False,5
+EML0230,CRE0309,Re-engagement,Education & Online Courses,5439,5176,0.247,0.032,0.0038,0.011,0.0,0.0,False,2025-05-22,Thursday,30,True,4
+EML0231,CRE0518,Promotional Offer,Technology & Software,11438,11418,0.177,0.051,0.0027,0.0079,7217.23,6.99,True,2025-09-06,Monday,47,False,1
+EML0232,CRE0087,Re-engagement,Education & Online Courses,14489,14108,0.13,0.036,0.0038,0.004,0.0,0.0,True,2025-10-08,Wednesday,32,True,4
+EML0233,CRE0392,Weekly Newsletter,Science & Space,14956,14119,0.381,0.104,0.0086,0.0102,0.0,0.0,True,2025-09-07,Wednesday,44,True,1
+EML0234,CRE0315,Abandoned Cart Recovery,Travel & Adventure,10174,9874,0.552,0.094,0.0098,0.0024,19215.87,3.64,True,2025-12-11,Wednesday,42,True,2
+EML0235,CRE0016,Re-engagement,Language Learning,13249,13053,0.156,0.053,0.006,0.0079,0.0,0.0,False,2025-11-20,Friday,63,False,3
+EML0236,CRE0143,Abandoned Cart Recovery,Beauty & Fashion,5726,5270,0.488,0.155,0.0238,0.0148,14032.91,3.24,False,2025-04-07,Monday,35,False,4
+EML0237,CRE0208,Abandoned Cart Recovery,Business & Entrepreneurship,2025,1890,0.484,0.064,0.0045,0.0065,6398.09,10.2,False,2025-05-31,Thursday,51,False,2
+EML0238,CRE0540,Abandoned Cart Recovery,Travel & Adventure,11677,11139,0.511,0.092,0.0137,0.0132,62471.55,11.38,False,2025-11-10,Wednesday,39,False,4
+EML0239,CRE0039,Product Launch,Science & Space,6033,5619,0.515,0.08,0.0074,0.0107,29578.59,11.9,True,2026-01-29,Thursday,70,True,2
+EML0240,CRE0576,New Content Alert,Personal Development,8780,8211,0.241,0.043,0.0082,0.0024,0.0,0.0,True,2025-08-03,Thursday,35,True,5
+EML0241,CRE0074,Weekly Newsletter,Finance & Investing,11077,10285,0.207,0.038,0.0043,0.0149,0.0,0.0,False,2025-11-09,Tuesday,36,False,4
+EML0242,CRE0427,New Content Alert,Photography & Videography,13431,13119,0.359,0.057,0.0074,0.0012,0.0,0.0,False,2025-08-31,Wednesday,31,False,2
+EML0243,CRE0075,New Content Alert,Comedy & Entertainment,7648,7533,0.448,0.08,0.0076,0.0058,0.0,0.0,True,2025-06-10,Monday,53,True,2
+EML0244,CRE0123,New Content Alert,Music & Audio Production,3089,2949,0.274,0.033,0.0023,0.0057,0.0,0.0,False,2025-09-07,Thursday,74,True,1
+EML0245,CRE0031,New Content Alert,Personal Development,2087,2078,0.397,0.047,0.0047,0.0011,0.0,0.0,False,2026-01-05,Monday,60,False,1
+EML0246,CRE0569,Weekly Newsletter,Science & Space,786,740,0.228,0.066,0.0117,0.0143,0.0,0.0,False,2025-08-27,Monday,68,False,1
+EML0247,CRE0494,Weekly Newsletter,Photography & Videography,5557,5213,0.338,0.044,0.0075,0.0061,0.0,0.0,True,2025-05-06,Wednesday,55,False,4
+EML0248,CRE0544,Promotional Offer,Science & Space,7411,6860,0.32,0.056,0.0079,0.0011,4807.55,3.62,True,2025-10-30,Thursday,60,False,3
+EML0249,CRE0494,Re-engagement,Gaming & Esports,3164,3017,0.241,0.05,0.0025,0.0056,0.0,0.0,True,2025-04-20,Wednesday,44,False,1
+EML0250,CRE0285,Promotional Offer,Travel & Adventure,8364,7715,0.344,0.095,0.0161,0.0118,7653.39,2.8,True,2025-06-30,Wednesday,74,True,1
+EML0251,CRE0518,Weekly Newsletter,Pet Care,2413,2366,0.318,0.075,0.0079,0.0114,0.0,0.0,False,2025-03-22,Thursday,41,False,5
+EML0252,CRE0517,Product Launch,Language Learning,4056,3830,0.398,0.103,0.0141,0.0081,9194.82,5.53,True,2025-04-21,Wednesday,44,False,4
+EML0253,CRE0350,New Content Alert,Food & Cooking,8894,8405,0.227,0.062,0.0089,0.0131,0.0,0.0,True,2025-09-19,Tuesday,71,False,2
+EML0254,CRE0547,Abandoned Cart Recovery,Technology & Software,11615,11301,0.466,0.08,0.009,0.0139,23858.7,5.51,False,2026-01-18,Tuesday,67,False,4
+EML0255,CRE0159,Weekly Newsletter,Parenting & Family,8646,8444,0.241,0.038,0.0058,0.002,0.0,0.0,True,2025-05-05,Wednesday,52,True,1
+EML0256,CRE0264,New Content Alert,Finance & Investing,920,897,0.293,0.035,0.0054,0.012,0.0,0.0,True,2026-02-05,Thursday,58,True,3
+EML0257,CRE0434,Weekly Newsletter,Sustainable Living,5465,5117,0.229,0.054,0.006,0.0088,0.0,0.0,True,2026-03-19,Friday,39,False,1
+EML0258,CRE0207,Weekly Newsletter,Home Decor & Interior Design,861,814,0.281,0.095,0.0078,0.0054,0.0,0.0,False,2025-09-16,Thursday,38,False,4
+EML0259,CRE0182,New Content Alert,Music & Audio Production,8911,8229,0.413,0.043,0.0085,0.006,0.0,0.0,True,2025-07-04,Thursday,53,False,4
+EML0260,CRE0193,Abandoned Cart Recovery,Photography & Videography,4886,4793,0.423,0.124,0.0129,0.0094,25858.7,10.09,True,2026-02-03,Wednesday,41,True,2
+EML0261,CRE0123,Abandoned Cart Recovery,Photography & Videography,10567,10447,0.395,0.091,0.011,0.012,35248.3,9.28,True,2025-04-29,Wednesday,66,True,5
+EML0262,CRE0510,Abandoned Cart Recovery,Travel & Adventure,4676,4532,0.43,0.117,0.0227,0.0099,22442.81,9.54,True,2025-06-27,Friday,74,True,5
+EML0263,CRE0439,Promotional Offer,Comedy & Entertainment,2110,2063,0.188,0.064,0.0063,0.0065,2416.89,9.52,False,2026-03-11,Monday,61,True,4
+EML0264,CRE0450,Product Launch,Photography & Videography,3724,3565,0.455,0.083,0.014,0.0106,14246.51,10.13,False,2025-08-05,Wednesday,35,True,4
+EML0265,CRE0264,New Content Alert,Gaming & Esports,4844,4839,0.396,0.054,0.0064,0.0012,0.0,0.0,False,2025-06-25,Monday,68,True,4
+EML0266,CRE0313,New Content Alert,Education & Online Courses,13828,12882,0.438,0.084,0.0149,0.0092,0.0,0.0,True,2025-04-30,Wednesday,50,True,1
+EML0267,CRE0457,Weekly Newsletter,Travel & Adventure,10967,10527,0.265,0.085,0.0157,0.0145,0.0,0.0,False,2026-02-01,Thursday,39,True,1
+EML0268,CRE0593,Product Launch,Home Decor & Interior Design,10767,10303,0.522,0.108,0.0092,0.0094,28346.92,4.67,True,2025-05-09,Monday,40,True,2
+EML0269,CRE0273,Re-engagement,Comedy & Entertainment,11327,11235,0.237,0.044,0.0023,0.0011,0.0,0.0,False,2025-11-28,Monday,64,False,1
+EML0270,CRE0232,Abandoned Cart Recovery,Travel & Adventure,5142,4829,0.606,0.143,0.0183,0.0012,24374.07,5.47,True,2025-09-01,Wednesday,43,True,1
+EML0271,CRE0180,Promotional Offer,Home Decor & Interior Design,6671,6648,0.258,0.08,0.0084,0.0128,15049.46,10.93,False,2025-08-04,Monday,39,False,5
+EML0272,CRE0319,Product Launch,Finance & Investing,1767,1720,0.374,0.066,0.013,0.0053,3650.71,8.37,False,2025-03-19,Thursday,30,False,5
+EML0273,CRE0143,Promotional Offer,Personal Development,9299,8757,0.349,0.038,0.0074,0.0032,11937.7,9.68,False,2025-11-20,Tuesday,69,False,1
+EML0274,CRE0285,New Content Alert,Music & Audio Production,9788,9237,0.295,0.06,0.0067,0.0019,0.0,0.0,True,2025-03-29,Friday,50,False,3
+EML0275,CRE0382,Promotional Offer,Business & Entrepreneurship,2957,2750,0.277,0.064,0.0037,0.0053,2007.75,3.83,True,2026-02-27,Friday,72,False,5
+EML0276,CRE0046,Weekly Newsletter,Business & Entrepreneurship,2744,2558,0.31,0.081,0.0072,0.0091,0.0,0.0,False,2025-10-09,Wednesday,64,False,5
+EML0277,CRE0544,Abandoned Cart Recovery,Pet Care,7726,7373,0.381,0.124,0.0073,0.0149,29018.07,7.95,False,2025-05-22,Thursday,31,False,5
+EML0278,CRE0462,Product Launch,Personal Development,6731,6302,0.33,0.057,0.0112,0.0139,3570.41,2.82,False,2025-12-15,Monday,39,True,3
+EML0279,CRE0519,Re-engagement,Parenting & Family,3897,3888,0.165,0.022,0.0015,0.0102,0.0,0.0,True,2025-09-27,Monday,72,False,1
+EML0280,CRE0018,Weekly Newsletter,Parenting & Family,1972,1817,0.33,0.071,0.0131,0.0104,0.0,0.0,True,2026-01-12,Wednesday,45,True,3
+EML0281,CRE0044,New Content Alert,Education & Online Courses,5930,5638,0.344,0.089,0.017,0.0041,0.0,0.0,False,2026-02-22,Monday,40,True,2
+EML0282,CRE0432,Re-engagement,Business & Entrepreneurship,9006,8540,0.178,0.041,0.0024,0.0065,0.0,0.0,True,2025-04-09,Friday,63,False,4
+EML0283,CRE0198,Weekly Newsletter,Language Learning,5336,4914,0.2,0.046,0.0043,0.0137,0.0,0.0,False,2025-12-14,Friday,30,True,2
+EML0284,CRE0537,Promotional Offer,Finance & Investing,8160,7694,0.341,0.054,0.0082,0.0146,7287.52,4.85,False,2026-02-17,Thursday,42,False,4
+EML0285,CRE0183,Weekly Newsletter,Science & Space,13190,12547,0.25,0.035,0.006,0.0074,0.0,0.0,False,2025-11-25,Monday,36,False,4
+EML0286,CRE0554,Promotional Offer,Language Learning,4981,4844,0.2,0.039,0.0076,0.0107,1604.58,4.13,False,2025-11-29,Friday,60,False,3
+EML0287,CRE0144,Abandoned Cart Recovery,Business & Entrepreneurship,12223,11330,0.594,0.186,0.0183,0.0091,59284.58,4.39,True,2025-12-23,Tuesday,43,True,2
+EML0288,CRE0442,New Content Alert,Language Learning,10920,10172,0.441,0.087,0.0082,0.0071,0.0,0.0,False,2025-05-20,Thursday,51,True,4
+EML0289,CRE0075,Product Launch,Language Learning,5494,5414,0.272,0.056,0.0073,0.0128,3272.07,3.91,True,2025-09-25,Monday,74,True,2
+EML0290,CRE0255,New Content Alert,Personal Development,6658,6655,0.309,0.039,0.0026,0.0147,0.0,0.0,True,2025-06-07,Tuesday,73,False,4
+EML0291,CRE0496,Product Launch,Music & Audio Production,4249,4118,0.46,0.09,0.0056,0.0017,15567.91,8.85,False,2026-02-28,Friday,32,False,4
+EML0292,CRE0148,Re-engagement,Sustainable Living,5365,5350,0.209,0.059,0.0076,0.0125,0.0,0.0,False,2026-01-21,Tuesday,71,True,2
+EML0293,CRE0135,Re-engagement,Language Learning,1722,1631,0.215,0.064,0.0075,0.0095,0.0,0.0,True,2025-12-30,Wednesday,51,False,4
+EML0294,CRE0196,Abandoned Cart Recovery,Business & Entrepreneurship,14186,13396,0.37,0.126,0.0235,0.0072,67722.38,10.24,True,2025-12-12,Monday,61,True,3
+EML0295,CRE0208,Re-engagement,Language Learning,5920,5666,0.164,0.052,0.0067,0.0015,0.0,0.0,False,2026-03-01,Thursday,49,False,5
+EML0296,CRE0384,New Content Alert,Sustainable Living,6667,6347,0.43,0.078,0.0077,0.0014,0.0,0.0,True,2025-05-03,Wednesday,53,True,3
+EML0297,CRE0086,Product Launch,Parenting & Family,2980,2932,0.461,0.062,0.0111,0.0142,5817.41,6.83,False,2025-07-06,Wednesday,60,False,2
+EML0298,CRE0185,New Content Alert,Sustainable Living,14177,13694,0.384,0.059,0.004,0.0091,0.0,0.0,True,2025-06-08,Thursday,37,False,4
+EML0299,CRE0140,New Content Alert,Education & Online Courses,9376,8984,0.288,0.032,0.0017,0.0077,0.0,0.0,True,2025-05-22,Wednesday,38,True,4
+EML0300,CRE0302,Re-engagement,Gaming & Esports,11040,11006,0.176,0.051,0.0091,0.0129,0.0,0.0,True,2025-03-26,Tuesday,54,True,2
+EML0301,CRE0506,Abandoned Cart Recovery,Science & Space,13140,12482,0.596,0.149,0.0277,0.0015,94634.34,8.11,False,2025-06-14,Thursday,47,True,3
+EML0302,CRE0503,Abandoned Cart Recovery,Photography & Videography,5313,5222,0.392,0.129,0.0151,0.0092,12251.25,4.56,False,2025-10-29,Thursday,53,True,4
+EML0303,CRE0588,New Content Alert,Gaming & Esports,3957,3781,0.443,0.144,0.0262,0.0117,0.0,0.0,False,2025-09-11,Tuesday,64,False,4
+EML0304,CRE0103,Promotional Offer,Sustainable Living,10405,10190,0.204,0.036,0.0052,0.0067,3178.84,4.16,True,2025-05-15,Friday,33,False,4
+EML0305,CRE0512,Abandoned Cart Recovery,Pet Care,4870,4647,0.533,0.093,0.0165,0.0128,8690.44,3.6,True,2026-01-15,Wednesday,52,True,1
+EML0306,CRE0058,Abandoned Cart Recovery,Language Learning,508,503,0.455,0.105,0.0055,0.0061,854.29,3.52,True,2025-09-15,Tuesday,40,False,1
+EML0307,CRE0504,Product Launch,Home Decor & Interior Design,371,361,0.352,0.101,0.0131,0.0093,642.34,4.87,False,2026-01-13,Tuesday,32,True,2
+EML0308,CRE0413,Product Launch,Business & Entrepreneurship,10297,9919,0.405,0.047,0.0028,0.0079,16777.89,8.56,True,2025-04-08,Friday,73,True,1
+EML0309,CRE0364,Weekly Newsletter,Comedy & Entertainment,8424,8039,0.36,0.104,0.0171,0.0135,0.0,0.0,True,2025-03-28,Friday,67,True,3
+EML0310,CRE0280,New Content Alert,Technology & Software,7528,7219,0.28,0.082,0.0071,0.0075,0.0,0.0,True,2026-03-04,Thursday,51,True,2
+EML0311,CRE0507,Product Launch,Comedy & Entertainment,6845,6818,0.517,0.097,0.0096,0.0036,38583.54,11.24,True,2025-07-06,Friday,45,False,2
+EML0312,CRE0214,Weekly Newsletter,Language Learning,8080,7548,0.285,0.046,0.0067,0.0134,0.0,0.0,False,2025-06-27,Tuesday,73,True,4
+EML0313,CRE0103,Abandoned Cart Recovery,Travel & Adventure,837,796,0.343,0.112,0.0148,0.0079,347.27,1.08,False,2025-08-10,Friday,33,True,1
+EML0314,CRE0021,Weekly Newsletter,Science & Space,13881,13207,0.288,0.056,0.0042,0.0098,0.0,0.0,True,2026-01-07,Friday,44,False,3
+EML0315,CRE0249,Re-engagement,Home Decor & Interior Design,2092,1992,0.156,0.04,0.0061,0.0052,0.0,0.0,False,2026-01-21,Wednesday,43,True,5
+EML0316,CRE0389,Product Launch,Technology & Software,12269,11453,0.369,0.082,0.0042,0.0065,13290.23,3.58,False,2025-11-22,Thursday,71,False,5
+EML0317,CRE0059,Promotional Offer,Personal Development,11391,10563,0.28,0.065,0.008,0.0016,2549.99,1.23,False,2026-03-17,Wednesday,46,True,1
+EML0318,CRE0152,New Content Alert,Science & Space,9178,9102,0.349,0.087,0.0143,0.0139,0.0,0.0,True,2025-05-30,Tuesday,31,False,2
+EML0319,CRE0406,Abandoned Cart Recovery,Education & Online Courses,10586,10110,0.415,0.094,0.0114,0.0106,17509.5,4.24,True,2025-07-09,Friday,72,True,5
+EML0320,CRE0596,Re-engagement,Sustainable Living,9335,8807,0.208,0.071,0.0061,0.0145,0.0,0.0,False,2025-11-21,Tuesday,67,False,1
+EML0321,CRE0390,Re-engagement,Language Learning,12220,11974,0.209,0.047,0.0034,0.0054,0.0,0.0,False,2025-12-26,Monday,67,False,4
+EML0322,CRE0341,Promotional Offer,Beauty & Fashion,14421,14206,0.269,0.059,0.004,0.012,27075.99,11.83,True,2025-12-23,Wednesday,44,False,2
+EML0323,CRE0194,Abandoned Cart Recovery,Business & Entrepreneurship,12252,12187,0.365,0.103,0.0127,0.0066,26116.81,5.67,False,2025-10-07,Wednesday,45,False,3
+EML0324,CRE0050,Promotional Offer,Finance & Investing,3711,3419,0.349,0.122,0.0126,0.0062,5593.45,3.54,True,2026-03-10,Friday,59,True,5
+EML0325,CRE0364,Product Launch,Education & Online Courses,9560,9130,0.467,0.05,0.0048,0.0011,10424.65,4.67,False,2025-11-25,Wednesday,56,True,2
+EML0326,CRE0278,New Content Alert,Personal Development,9347,8644,0.272,0.059,0.0064,0.0124,0.0,0.0,False,2025-04-16,Thursday,48,True,4
+EML0327,CRE0511,Promotional Offer,Finance & Investing,11571,10788,0.315,0.091,0.0122,0.0147,5008.41,1.51,True,2025-07-31,Monday,53,True,3
+EML0328,CRE0478,Re-engagement,Music & Audio Production,14056,13609,0.13,0.045,0.0029,0.0037,0.0,0.0,False,2026-01-25,Wednesday,36,False,5
+EML0329,CRE0233,Abandoned Cart Recovery,Gaming & Esports,3958,3839,0.438,0.112,0.0189,0.0064,3300.78,1.7,False,2025-04-20,Tuesday,32,False,4
+EML0330,CRE0215,New Content Alert,Science & Space,11454,10639,0.3,0.082,0.01,0.0146,0.0,0.0,True,2025-11-21,Thursday,50,True,3
+EML0331,CRE0472,Product Launch,Business & Entrepreneurship,7558,7065,0.501,0.091,0.018,0.0012,41073.55,11.92,True,2025-03-20,Friday,63,False,4
+EML0332,CRE0573,Weekly Newsletter,Technology & Software,3082,2891,0.358,0.086,0.0071,0.006,0.0,0.0,False,2025-11-19,Wednesday,41,True,4
+EML0333,CRE0279,New Content Alert,Business & Entrepreneurship,11197,10879,0.352,0.103,0.0097,0.0049,0.0,0.0,True,2026-01-03,Friday,66,True,2
+EML0334,CRE0416,New Content Alert,Science & Space,4179,3861,0.341,0.066,0.0124,0.0055,0.0,0.0,True,2026-02-28,Wednesday,56,False,2
+EML0335,CRE0156,Abandoned Cart Recovery,Finance & Investing,13178,13033,0.369,0.038,0.0076,0.0105,10403.22,5.63,False,2026-02-05,Monday,63,False,2
+EML0336,CRE0342,Re-engagement,Gaming & Esports,9367,8802,0.164,0.026,0.0043,0.0076,0.0,0.0,False,2025-10-28,Thursday,39,True,2
+EML0337,CRE0478,Product Launch,Personal Development,3219,3183,0.342,0.083,0.0105,0.01,4915.95,5.38,True,2026-01-25,Friday,53,True,5
+EML0338,CRE0299,Re-engagement,Food & Cooking,14293,13260,0.207,0.052,0.0052,0.0037,0.0,0.0,True,2025-11-13,Wednesday,45,True,3
+EML0339,CRE0096,Product Launch,Home Decor & Interior Design,12769,11881,0.406,0.123,0.0227,0.0081,75626.28,11.86,True,2025-09-26,Monday,44,False,3
+EML0340,CRE0456,Abandoned Cart Recovery,Sustainable Living,5773,5426,0.49,0.06,0.0078,0.0093,8961.54,5.28,True,2025-07-01,Tuesday,75,True,1
+EML0341,CRE0085,Re-engagement,Parenting & Family,2606,2518,0.231,0.063,0.0122,0.0098,0.0,0.0,True,2026-03-07,Tuesday,60,True,3
+EML0342,CRE0310,Product Launch,Language Learning,14794,14642,0.284,0.072,0.0097,0.0129,35937.92,11.88,False,2025-04-14,Monday,54,False,1
+EML0343,CRE0050,Abandoned Cart Recovery,Science & Space,3697,3446,0.41,0.072,0.0128,0.0089,2139.05,1.96,False,2026-03-18,Monday,71,True,5
+EML0344,CRE0163,Promotional Offer,Food & Cooking,14881,13983,0.193,0.054,0.0097,0.0069,4047.84,2.61,True,2026-03-08,Wednesday,41,False,3
+EML0345,CRE0002,Product Launch,Finance & Investing,10023,9776,0.531,0.083,0.0138,0.0046,16123.64,3.65,True,2025-11-18,Thursday,71,False,3
+EML0346,CRE0146,Promotional Offer,Home Decor & Interior Design,14433,14211,0.277,0.083,0.0103,0.0056,4479.69,1.35,False,2026-01-06,Monday,55,False,2
+EML0347,CRE0398,Promotional Offer,Technology & Software,12723,11748,0.186,0.029,0.0034,0.0033,3170.61,4.62,False,2025-06-10,Thursday,56,False,3
+EML0348,CRE0587,Promotional Offer,Pet Care,3007,2899,0.314,0.056,0.0101,0.0129,4298.74,8.13,False,2025-08-10,Tuesday,48,True,3
+EML0349,CRE0178,Product Launch,Gaming & Esports,8325,8210,0.489,0.09,0.0131,0.007,11870.82,3.24,False,2025-05-19,Tuesday,58,False,1
+EML0350,CRE0379,Abandoned Cart Recovery,Language Learning,4704,4603,0.435,0.049,0.0059,0.0029,9465.09,9.44,False,2025-07-22,Friday,56,True,4
+EML0351,CRE0029,New Content Alert,Music & Audio Production,11154,11123,0.236,0.072,0.014,0.0125,0.0,0.0,False,2026-01-20,Thursday,55,False,5
+EML0352,CRE0562,Re-engagement,Home Decor & Interior Design,438,409,0.179,0.018,0.001,0.0135,0.0,0.0,False,2025-11-10,Wednesday,45,False,3
+EML0353,CRE0589,Product Launch,Science & Space,3563,3333,0.395,0.104,0.0127,0.0024,4186.13,2.86,False,2025-05-30,Monday,32,True,4
+EML0354,CRE0107,Promotional Offer,Comedy & Entertainment,5288,4939,0.282,0.096,0.0049,0.0061,8489.19,5.93,True,2025-07-21,Tuesday,48,False,3
+EML0355,CRE0053,New Content Alert,Sustainable Living,5056,4843,0.229,0.073,0.0104,0.0128,0.0,0.0,True,2025-08-17,Thursday,65,True,2
+EML0356,CRE0097,Abandoned Cart Recovery,Beauty & Fashion,8960,8608,0.619,0.141,0.0072,0.0079,11886.7,1.52,False,2025-04-13,Wednesday,75,False,5
+EML0357,CRE0089,New Content Alert,Food & Cooking,11709,11506,0.388,0.051,0.0062,0.0043,0.0,0.0,True,2025-06-16,Thursday,40,False,4
+EML0358,CRE0069,Product Launch,Language Learning,12065,11258,0.313,0.043,0.0071,0.0091,10603.6,6.53,True,2025-08-08,Thursday,36,False,3
+EML0359,CRE0429,Weekly Newsletter,Personal Development,6793,6591,0.335,0.053,0.006,0.0033,0.0,0.0,True,2026-02-15,Tuesday,57,False,5
+EML0360,CRE0194,Re-engagement,Gaming & Esports,946,899,0.168,0.057,0.0072,0.0025,0.0,0.0,True,2025-06-24,Tuesday,50,True,1
+EML0361,CRE0579,Weekly Newsletter,Music & Audio Production,9367,8838,0.306,0.058,0.0086,0.0061,0.0,0.0,True,2025-04-22,Wednesday,52,True,1
+EML0362,CRE0133,Abandoned Cart Recovery,Food & Cooking,4887,4882,0.417,0.043,0.006,0.0066,1559.79,1.78,False,2025-05-22,Monday,52,False,1
+EML0363,CRE0049,Abandoned Cart Recovery,Comedy & Entertainment,3379,3185,0.382,0.107,0.0155,0.0126,10330.87,7.48,False,2025-05-17,Friday,43,True,2
+EML0364,CRE0179,Promotional Offer,Finance & Investing,6164,5678,0.18,0.06,0.0072,0.0057,4253.9,6.39,True,2025-08-12,Thursday,51,False,2
+EML0365,CRE0508,New Content Alert,Technology & Software,1424,1319,0.43,0.073,0.0085,0.0127,0.0,0.0,True,2025-09-26,Wednesday,66,False,2
+EML0366,CRE0149,Re-engagement,Beauty & Fashion,12100,11288,0.238,0.069,0.013,0.0019,0.0,0.0,False,2025-04-16,Tuesday,49,False,2
+EML0367,CRE0570,Abandoned Cart Recovery,Finance & Investing,11403,11248,0.559,0.093,0.0056,0.013,42445.04,7.16,True,2025-11-23,Monday,43,True,5
+EML0368,CRE0379,New Content Alert,Language Learning,4619,4461,0.42,0.091,0.0163,0.0073,0.0,0.0,True,2026-02-04,Thursday,32,False,3
+EML0369,CRE0037,Product Launch,Education & Online Courses,9506,8985,0.306,0.067,0.0101,0.0032,9997.96,5.13,True,2025-04-19,Friday,33,False,4
+EML0370,CRE0517,Re-engagement,Comedy & Entertainment,4432,4279,0.237,0.061,0.0047,0.0012,0.0,0.0,True,2025-12-19,Monday,74,True,1
+EML0371,CRE0442,Promotional Offer,Photography & Videography,5664,5481,0.2,0.054,0.0046,0.0018,2116.52,3.46,False,2025-10-22,Monday,43,True,1
+EML0372,CRE0133,Promotional Offer,Business & Entrepreneurship,4785,4434,0.295,0.1,0.0125,0.0148,16854.21,11.94,False,2025-09-01,Thursday,52,False,1
+EML0373,CRE0405,Abandoned Cart Recovery,Technology & Software,1924,1815,0.361,0.038,0.0072,0.0144,1277.44,4.84,False,2025-09-06,Monday,41,True,2
+EML0374,CRE0555,Abandoned Cart Recovery,Parenting & Family,807,753,0.503,0.081,0.0152,0.0142,384.69,1.17,True,2025-04-28,Wednesday,64,False,4
+EML0375,CRE0306,Product Launch,Travel & Adventure,7734,7313,0.29,0.083,0.0136,0.0024,10033.88,5.39,True,2025-12-13,Wednesday,41,True,2
+EML0376,CRE0476,Abandoned Cart Recovery,Language Learning,5379,5108,0.419,0.074,0.0109,0.0106,6754.64,4.05,False,2025-08-25,Thursday,52,False,4
+EML0377,CRE0371,Weekly Newsletter,Business & Entrepreneurship,3608,3598,0.35,0.084,0.0148,0.0113,0.0,0.0,True,2025-07-16,Friday,32,False,1
+EML0378,CRE0417,Abandoned Cart Recovery,Pet Care,6596,6141,0.475,0.108,0.0083,0.0126,40063.58,11.84,False,2026-01-11,Wednesday,71,True,3
+EML0379,CRE0331,Product Launch,Science & Space,12804,11792,0.468,0.159,0.0297,0.0018,61072.64,6.41,True,2025-04-25,Wednesday,62,True,4
+EML0380,CRE0502,Re-engagement,Parenting & Family,12908,12200,0.18,0.057,0.0063,0.0037,0.0,0.0,True,2025-11-26,Monday,71,True,3
+EML0381,CRE0159,Re-engagement,Beauty & Fashion,13980,12993,0.188,0.046,0.0042,0.0048,0.0,0.0,True,2026-02-19,Monday,51,True,2
+EML0382,CRE0352,Abandoned Cart Recovery,Business & Entrepreneurship,7283,7047,0.34,0.054,0.0063,0.0021,15109.89,11.3,True,2025-04-17,Tuesday,63,True,1
+EML0383,CRE0488,Abandoned Cart Recovery,Music & Audio Production,6123,5819,0.408,0.117,0.0141,0.007,29988.7,10.26,True,2026-02-08,Thursday,64,True,2
+EML0384,CRE0389,Product Launch,Personal Development,7463,6912,0.517,0.141,0.0248,0.0055,46024.96,8.46,True,2025-09-03,Friday,51,True,3
+EML0385,CRE0160,Abandoned Cart Recovery,Gaming & Esports,3407,3293,0.539,0.056,0.0035,0.0148,1974.47,1.92,True,2025-07-07,Friday,55,False,3
+EML0386,CRE0437,New Content Alert,Science & Space,8613,7941,0.301,0.045,0.0038,0.0122,0.0,0.0,False,2025-03-24,Thursday,45,False,5
+EML0387,CRE0006,Product Launch,Photography & Videography,6643,6128,0.287,0.062,0.0094,0.0067,4527.27,3.83,False,2025-06-19,Wednesday,56,True,2
+EML0388,CRE0021,New Content Alert,Business & Entrepreneurship,14569,13580,0.3,0.039,0.0063,0.004,0.0,0.0,True,2026-02-19,Tuesday,54,False,4
+EML0389,CRE0527,New Content Alert,Finance & Investing,13466,13125,0.282,0.052,0.0033,0.0095,0.0,0.0,True,2025-06-21,Wednesday,58,False,4
+EML0390,CRE0561,New Content Alert,Sustainable Living,1373,1279,0.275,0.045,0.0029,0.0054,0.0,0.0,True,2026-03-12,Thursday,59,True,1
+EML0391,CRE0347,New Content Alert,Pet Care,8330,8223,0.415,0.079,0.0094,0.003,0.0,0.0,True,2025-06-26,Tuesday,50,True,4
+EML0392,CRE0334,Weekly Newsletter,Sustainable Living,8204,8114,0.356,0.04,0.0065,0.0069,0.0,0.0,True,2025-07-11,Tuesday,35,True,2
+EML0393,CRE0511,Re-engagement,Science & Space,2699,2548,0.16,0.046,0.0075,0.0051,0.0,0.0,False,2025-06-06,Thursday,30,False,2
+EML0394,CRE0578,Weekly Newsletter,Comedy & Entertainment,10629,10622,0.365,0.069,0.0057,0.0067,0.0,0.0,True,2025-05-20,Tuesday,54,False,3
+EML0395,CRE0069,Weekly Newsletter,Comedy & Entertainment,14031,13693,0.29,0.038,0.005,0.007,0.0,0.0,True,2025-07-12,Friday,35,True,5
+EML0396,CRE0008,Abandoned Cart Recovery,Food & Cooking,6585,6395,0.354,0.113,0.009,0.0027,21178.42,8.04,True,2025-07-22,Friday,45,True,1
+EML0397,CRE0015,New Content Alert,Travel & Adventure,14599,13830,0.237,0.038,0.006,0.0134,0.0,0.0,False,2025-03-21,Wednesday,56,True,5
+EML0398,CRE0035,New Content Alert,Education & Online Courses,12006,11915,0.313,0.055,0.005,0.0057,0.0,0.0,True,2026-02-01,Thursday,47,False,4
+EML0399,CRE0261,Re-engagement,Business & Entrepreneurship,5800,5380,0.181,0.053,0.009,0.0066,0.0,0.0,False,2025-09-17,Thursday,68,True,1
+EML0400,CRE0483,Re-engagement,Sustainable Living,5249,5220,0.25,0.052,0.0033,0.0104,0.0,0.0,True,2025-08-26,Monday,40,False,4
+EML0401,CRE0440,Product Launch,Sustainable Living,274,265,0.398,0.129,0.0092,0.0043,1664.21,11.83,True,2025-03-25,Tuesday,72,True,2
+EML0402,CRE0262,New Content Alert,Science & Space,2288,2276,0.41,0.077,0.0088,0.0125,0.0,0.0,False,2025-09-10,Friday,39,False,2
+EML0403,CRE0372,Weekly Newsletter,Education & Online Courses,4737,4464,0.316,0.091,0.0132,0.0121,0.0,0.0,False,2025-08-14,Tuesday,34,True,5
+EML0404,CRE0067,Abandoned Cart Recovery,Education & Online Courses,780,763,0.498,0.137,0.0249,0.0024,1660.35,3.12,True,2026-02-05,Wednesday,42,False,2
+EML0405,CRE0477,Re-engagement,Science & Space,14334,14110,0.15,0.045,0.0072,0.0081,0.0,0.0,True,2025-06-30,Friday,67,True,4
+EML0406,CRE0214,New Content Alert,Comedy & Entertainment,13233,12777,0.256,0.08,0.0145,0.0108,0.0,0.0,True,2025-10-03,Tuesday,72,True,4
+EML0407,CRE0188,Abandoned Cart Recovery,Gaming & Esports,2301,2286,0.41,0.084,0.0103,0.0142,2504.19,3.16,True,2025-12-22,Tuesday,36,True,4
+EML0408,CRE0523,Re-engagement,Beauty & Fashion,8246,7751,0.225,0.064,0.0079,0.0071,0.0,0.0,False,2025-08-01,Monday,60,True,1
+EML0409,CRE0293,Promotional Offer,Personal Development,12546,11677,0.325,0.044,0.0071,0.0036,4180.2,2.33,True,2025-12-18,Monday,59,False,5
+EML0410,CRE0007,Promotional Offer,Personal Development,1936,1851,0.195,0.029,0.0015,0.0063,1192.25,10.89,True,2025-07-15,Wednesday,64,False,4
+EML0411,CRE0596,Abandoned Cart Recovery,Gaming & Esports,9461,9437,0.588,0.142,0.0114,0.0048,36100.97,4.57,False,2025-09-23,Wednesday,42,True,3
+EML0412,CRE0593,Abandoned Cart Recovery,Parenting & Family,3121,2961,0.548,0.059,0.0038,0.0135,9212.92,9.13,True,2025-11-13,Tuesday,58,False,3
+EML0413,CRE0578,New Content Alert,Sustainable Living,7220,6764,0.306,0.062,0.0092,0.0034,0.0,0.0,True,2026-03-11,Thursday,47,False,1
+EML0414,CRE0070,Promotional Offer,Food & Cooking,5079,4919,0.3,0.087,0.0161,0.0105,6588.33,4.97,False,2026-02-21,Monday,61,True,1
+EML0415,CRE0031,Weekly Newsletter,Business & Entrepreneurship,7308,6962,0.352,0.093,0.0174,0.0145,0.0,0.0,False,2025-08-30,Tuesday,41,True,3
+EML0416,CRE0592,Weekly Newsletter,Education & Online Courses,5718,5539,0.297,0.043,0.0076,0.0135,0.0,0.0,True,2025-05-03,Friday,50,False,3
+EML0417,CRE0541,Re-engagement,Food & Cooking,12033,11847,0.18,0.019,0.0014,0.0138,0.0,0.0,True,2026-01-11,Wednesday,50,False,3
+EML0418,CRE0465,Weekly Newsletter,Education & Online Courses,10273,10166,0.386,0.11,0.0208,0.0117,0.0,0.0,True,2025-07-13,Thursday,51,False,4
+EML0419,CRE0187,Re-engagement,Photography & Videography,3513,3237,0.226,0.036,0.0047,0.0111,0.0,0.0,False,2025-06-17,Friday,39,False,1
+EML0420,CRE0019,Re-engagement,Sustainable Living,14773,14071,0.191,0.036,0.0028,0.0086,0.0,0.0,True,2025-09-29,Wednesday,52,False,3
+EML0421,CRE0599,Abandoned Cart Recovery,Education & Online Courses,3843,3646,0.426,0.067,0.0095,0.0106,7162.55,6.53,True,2025-10-22,Friday,49,False,3
+EML0422,CRE0198,Abandoned Cart Recovery,Sustainable Living,2044,1988,0.505,0.158,0.0308,0.0148,7485.87,4.59,False,2026-01-31,Friday,70,True,3
+EML0423,CRE0334,New Content Alert,Personal Development,5864,5670,0.352,0.114,0.0107,0.007,0.0,0.0,False,2025-09-07,Monday,32,False,3
+EML0424,CRE0060,Product Launch,Language Learning,14230,13229,0.511,0.165,0.0159,0.0012,37913.76,3.16,True,2025-05-07,Wednesday,64,False,4
+EML0425,CRE0060,Weekly Newsletter,Gaming & Esports,689,639,0.23,0.058,0.0092,0.0096,0.0,0.0,True,2025-11-12,Monday,70,True,4
+EML0426,CRE0450,Re-engagement,Home Decor & Interior Design,9043,8842,0.225,0.039,0.0057,0.0074,0.0,0.0,True,2025-07-21,Thursday,61,False,4
+EML0427,CRE0185,New Content Alert,Photography & Videography,1534,1460,0.319,0.094,0.016,0.0137,0.0,0.0,True,2025-12-04,Wednesday,39,True,1
+EML0428,CRE0151,Product Launch,Beauty & Fashion,12388,12386,0.325,0.053,0.0056,0.0101,14168.65,6.64,True,2025-11-26,Thursday,71,True,5
+EML0429,CRE0469,Product Launch,Language Learning,11068,10437,0.358,0.057,0.0056,0.0012,4810.68,2.13,False,2026-01-27,Tuesday,52,True,2
+EML0430,CRE0558,Weekly Newsletter,Music & Audio Production,6495,6409,0.373,0.083,0.013,0.0116,0.0,0.0,True,2025-03-27,Monday,75,False,3
+EML0431,CRE0097,New Content Alert,Personal Development,1628,1614,0.231,0.024,0.0017,0.0044,0.0,0.0,True,2025-03-30,Monday,58,False,5
+EML0432,CRE0463,Product Launch,Food & Cooking,1211,1127,0.463,0.066,0.0102,0.0106,1620.85,4.38,False,2025-10-20,Friday,56,True,1
+EML0433,CRE0430,New Content Alert,Parenting & Family,334,309,0.285,0.09,0.0153,0.0027,0.0,0.0,False,2025-10-22,Thursday,64,True,1
+EML0434,CRE0268,Promotional Offer,Business & Entrepreneurship,12395,11697,0.326,0.047,0.0063,0.0144,11034.13,5.81,True,2026-03-13,Friday,47,True,5
+EML0435,CRE0021,New Content Alert,Beauty & Fashion,11892,11452,0.317,0.1,0.0078,0.0089,0.0,0.0,True,2025-07-23,Tuesday,32,True,2
+EML0436,CRE0143,New Content Alert,Home Decor & Interior Design,10133,10051,0.442,0.141,0.0092,0.014,0.0,0.0,True,2025-09-12,Tuesday,62,True,1
+EML0437,CRE0197,Weekly Newsletter,Food & Cooking,12379,12057,0.364,0.125,0.018,0.0137,0.0,0.0,True,2026-01-26,Tuesday,33,True,3
+EML0438,CRE0518,Re-engagement,Technology & Software,13818,13082,0.171,0.035,0.0054,0.0041,0.0,0.0,False,2025-11-03,Monday,54,False,1
+EML0439,CRE0507,Re-engagement,Food & Cooking,1768,1739,0.149,0.044,0.0024,0.0016,0.0,0.0,False,2025-10-10,Monday,74,True,2
+EML0440,CRE0210,Re-engagement,Finance & Investing,7372,7075,0.24,0.044,0.0032,0.0069,0.0,0.0,True,2025-03-30,Wednesday,60,False,2
+EML0441,CRE0375,Product Launch,Pet Care,11728,11201,0.272,0.03,0.0053,0.014,3828.02,4.0,True,2026-03-06,Wednesday,44,True,5
+EML0442,CRE0143,New Content Alert,Music & Audio Production,12551,12331,0.37,0.077,0.0054,0.0099,0.0,0.0,True,2025-07-14,Monday,39,True,3
+EML0443,CRE0017,Product Launch,Personal Development,3002,2820,0.53,0.102,0.009,0.0011,18971.48,11.69,False,2025-06-16,Monday,56,False,4
+EML0444,CRE0440,Promotional Offer,Food & Cooking,3143,3132,0.25,0.08,0.0068,0.0146,3620.74,5.76,True,2026-03-12,Tuesday,32,False,4
+EML0445,CRE0391,Abandoned Cart Recovery,Travel & Adventure,10694,10406,0.58,0.172,0.0277,0.0092,119698.71,11.22,True,2025-03-30,Wednesday,70,True,1
+EML0446,CRE0380,Abandoned Cart Recovery,Education & Online Courses,14745,13936,0.572,0.076,0.0052,0.0051,65766.05,10.26,False,2025-10-01,Thursday,41,True,1
+EML0447,CRE0028,Weekly Newsletter,Personal Development,6906,6442,0.377,0.059,0.0085,0.0147,0.0,0.0,True,2025-12-07,Wednesday,49,False,1
+EML0448,CRE0412,Re-engagement,Food & Cooking,6018,5805,0.234,0.074,0.0057,0.0031,0.0,0.0,False,2025-09-17,Friday,70,False,2
+EML0449,CRE0024,Weekly Newsletter,Gaming & Esports,670,666,0.318,0.044,0.0048,0.0064,0.0,0.0,True,2026-01-06,Tuesday,44,False,3
+EML0450,CRE0359,New Content Alert,Language Learning,9599,9338,0.43,0.068,0.0083,0.0032,0.0,0.0,False,2025-11-02,Wednesday,70,True,3
+EML0451,CRE0517,New Content Alert,Photography & Videography,6689,6157,0.23,0.043,0.006,0.0108,0.0,0.0,False,2026-01-10,Thursday,73,False,4
+EML0452,CRE0161,Weekly Newsletter,Education & Online Courses,5948,5690,0.332,0.059,0.0054,0.0133,0.0,0.0,True,2025-09-16,Monday,72,False,1
+EML0453,CRE0401,Promotional Offer,Education & Online Courses,8773,8667,0.33,0.069,0.007,0.0078,7251.33,3.63,True,2025-10-06,Wednesday,72,False,3
+EML0454,CRE0587,Re-engagement,Food & Cooking,8330,8307,0.237,0.064,0.0048,0.014,0.0,0.0,False,2026-01-03,Wednesday,40,True,3
+EML0455,CRE0584,Product Launch,Photography & Videography,5739,5311,0.492,0.095,0.0111,0.0023,14914.19,5.56,False,2026-03-05,Monday,58,False,5
+EML0456,CRE0081,Weekly Newsletter,Technology & Software,10850,10558,0.375,0.057,0.0049,0.0115,0.0,0.0,True,2025-05-24,Tuesday,64,False,3
+EML0457,CRE0022,Weekly Newsletter,Comedy & Entertainment,13850,12745,0.249,0.03,0.006,0.0055,0.0,0.0,True,2026-01-24,Friday,42,False,1
+EML0458,CRE0232,Abandoned Cart Recovery,Personal Development,13809,13766,0.432,0.065,0.0097,0.014,24273.57,6.26,False,2025-11-03,Wednesday,35,True,3
+EML0459,CRE0097,New Content Alert,Photography & Videography,1700,1613,0.333,0.084,0.0086,0.0143,0.0,0.0,True,2025-12-30,Monday,47,False,4
+EML0460,CRE0502,New Content Alert,Home Decor & Interior Design,13802,12926,0.365,0.066,0.0097,0.0087,0.0,0.0,True,2026-01-14,Friday,65,True,3
+EML0461,CRE0179,Product Launch,Home Decor & Interior Design,8182,7837,0.332,0.104,0.0063,0.0091,10904.81,3.86,True,2025-10-12,Wednesday,44,True,4
+EML0462,CRE0220,Weekly Newsletter,Food & Cooking,10728,10608,0.326,0.041,0.0063,0.0057,0.0,0.0,False,2025-06-18,Tuesday,55,True,4
+EML0463,CRE0212,Abandoned Cart Recovery,Language Learning,6399,6224,0.611,0.068,0.0065,0.0039,25283.82,9.51,False,2025-05-12,Wednesday,64,False,3
+EML0464,CRE0353,New Content Alert,Music & Audio Production,12489,11994,0.287,0.06,0.011,0.0064,0.0,0.0,True,2026-01-23,Monday,33,False,4
+EML0465,CRE0423,New Content Alert,Finance & Investing,14284,14068,0.334,0.058,0.0049,0.0122,0.0,0.0,False,2025-05-05,Tuesday,55,True,5
+EML0466,CRE0388,Promotional Offer,Finance & Investing,4525,4390,0.318,0.068,0.005,0.0066,4921.78,5.03,False,2025-07-06,Thursday,57,True,4
+EML0467,CRE0036,Product Launch,Comedy & Entertainment,1130,1089,0.489,0.132,0.0081,0.0056,1976.65,2.71,False,2026-03-01,Friday,69,True,4
+EML0468,CRE0175,Product Launch,Parenting & Family,9419,8841,0.272,0.07,0.0035,0.0099,1165.7,0.65,False,2025-05-30,Wednesday,39,True,4
+EML0469,CRE0569,New Content Alert,Comedy & Entertainment,461,460,0.266,0.042,0.0038,0.0076,0.0,0.0,False,2025-06-03,Monday,56,False,3
+EML0470,CRE0036,Weekly Newsletter,Travel & Adventure,12684,11960,0.222,0.033,0.0031,0.0095,0.0,0.0,False,2025-12-05,Friday,42,True,2
+EML0471,CRE0577,New Content Alert,Music & Audio Production,3477,3337,0.321,0.089,0.0156,0.0106,0.0,0.0,True,2025-08-21,Friday,53,True,5
+EML0472,CRE0251,Promotional Offer,Education & Online Courses,1483,1469,0.19,0.037,0.0038,0.0142,724.57,6.95,False,2025-12-06,Thursday,47,True,1
+EML0473,CRE0044,Abandoned Cart Recovery,Music & Audio Production,2057,2047,0.444,0.146,0.0074,0.0133,14201.03,10.65,False,2025-07-09,Monday,49,False,2
+EML0474,CRE0170,Weekly Newsletter,Comedy & Entertainment,3944,3827,0.232,0.049,0.0058,0.0036,0.0,0.0,False,2025-08-16,Thursday,51,True,4
+EML0475,CRE0124,Promotional Offer,Science & Space,1659,1533,0.189,0.042,0.0058,0.0134,1255.02,9.53,True,2025-09-01,Friday,53,True,4
+EML0476,CRE0039,Re-engagement,Language Learning,4897,4526,0.248,0.061,0.0112,0.0094,0.0,0.0,False,2025-07-17,Friday,59,False,1
+EML0477,CRE0469,Product Launch,Pet Care,5395,5337,0.312,0.052,0.0093,0.0089,6634.66,7.58,False,2025-09-05,Wednesday,46,False,2
+EML0478,CRE0237,Abandoned Cart Recovery,Home Decor & Interior Design,8668,8116,0.446,0.118,0.0078,0.0144,20984.26,4.6,False,2026-01-13,Friday,47,True,1
+EML0479,CRE0278,New Content Alert,Home Decor & Interior Design,9079,8480,0.234,0.027,0.0026,0.0115,0.0,0.0,False,2025-05-29,Friday,68,True,4
+EML0480,CRE0549,New Content Alert,Home Decor & Interior Design,13240,12697,0.24,0.047,0.0088,0.0018,0.0,0.0,True,2025-10-28,Tuesday,71,False,5
+EML0481,CRE0151,Promotional Offer,Sustainable Living,13705,13169,0.349,0.102,0.0057,0.0094,24637.46,5.05,False,2025-07-19,Tuesday,57,True,2
+EML0482,CRE0065,Re-engagement,Parenting & Family,12537,11693,0.239,0.058,0.007,0.0109,0.0,0.0,True,2025-06-02,Thursday,33,False,5
+EML0483,CRE0324,Weekly Newsletter,Education & Online Courses,4402,4095,0.275,0.083,0.006,0.0085,0.0,0.0,True,2025-03-25,Friday,63,True,1
+EML0484,CRE0196,Abandoned Cart Recovery,Parenting & Family,8299,7950,0.371,0.056,0.0061,0.0106,15466.08,8.97,True,2025-05-10,Thursday,58,True,4
+EML0485,CRE0232,Product Launch,Science & Space,7353,6865,0.402,0.078,0.0043,0.0091,18283.46,7.93,True,2025-08-26,Monday,36,False,1
+EML0486,CRE0057,New Content Alert,Science & Space,5534,5445,0.256,0.057,0.0095,0.0134,0.0,0.0,False,2026-03-11,Thursday,53,False,3
+EML0487,CRE0285,Re-engagement,Education & Online Courses,1202,1162,0.216,0.044,0.0029,0.0059,0.0,0.0,True,2025-09-29,Monday,61,False,4
+EML0488,CRE0307,Promotional Offer,Education & Online Courses,7303,6933,0.223,0.058,0.0105,0.0026,10276.92,10.88,True,2025-08-13,Tuesday,45,False,2
+EML0489,CRE0599,Promotional Offer,Gaming & Esports,4852,4645,0.327,0.087,0.0165,0.0044,4541.34,3.29,True,2025-07-22,Monday,37,False,4
+EML0490,CRE0482,Weekly Newsletter,Education & Online Courses,6455,6016,0.343,0.05,0.0054,0.0087,0.0,0.0,True,2025-03-21,Tuesday,37,False,3
+EML0491,CRE0451,New Content Alert,Parenting & Family,10466,10090,0.3,0.1,0.0159,0.0031,0.0,0.0,True,2025-09-20,Friday,52,False,5
+EML0492,CRE0104,New Content Alert,Beauty & Fashion,6556,6215,0.299,0.05,0.0049,0.0064,0.0,0.0,False,2025-09-24,Wednesday,42,True,4
+EML0493,CRE0165,Product Launch,Science & Space,2813,2729,0.372,0.107,0.0202,0.013,13133.92,11.73,True,2025-12-18,Tuesday,50,False,4
+EML0494,CRE0513,New Content Alert,Photography & Videography,7268,6825,0.276,0.085,0.0079,0.0021,0.0,0.0,True,2025-06-16,Tuesday,31,True,5
+EML0495,CRE0510,Weekly Newsletter,Music & Audio Production,12615,12024,0.363,0.118,0.0144,0.0088,0.0,0.0,False,2025-06-09,Friday,69,True,3
+EML0496,CRE0443,Re-engagement,Home Decor & Interior Design,1612,1491,0.195,0.048,0.0036,0.0055,0.0,0.0,True,2025-09-27,Wednesday,38,False,2
+EML0497,CRE0152,Re-engagement,Personal Development,9402,9258,0.228,0.04,0.0057,0.0117,0.0,0.0,True,2025-09-16,Monday,37,False,4
+EML0498,CRE0599,Re-engagement,Comedy & Entertainment,11396,10647,0.141,0.044,0.0055,0.0138,0.0,0.0,False,2025-03-30,Tuesday,55,False,2
+EML0499,CRE0230,Weekly Newsletter,Personal Development,9125,8626,0.24,0.043,0.0043,0.0137,0.0,0.0,True,2025-07-03,Tuesday,71,True,5
+EML0500,CRE0530,New Content Alert,Gaming & Esports,12342,12219,0.417,0.063,0.0099,0.0072,0.0,0.0,True,2025-11-07,Thursday,31,True,1
+EML0501,CRE0469,Re-engagement,Science & Space,9228,9132,0.175,0.061,0.0041,0.0148,0.0,0.0,False,2025-12-19,Friday,67,False,5
+EML0502,CRE0483,Product Launch,Science & Space,10914,10120,0.486,0.08,0.0093,0.0043,25629.91,6.04,True,2025-03-19,Thursday,30,True,1
+EML0503,CRE0525,Weekly Newsletter,Sustainable Living,5930,5466,0.218,0.031,0.003,0.0149,0.0,0.0,False,2026-01-29,Tuesday,54,False,3
+EML0504,CRE0459,New Content Alert,Sustainable Living,14923,14860,0.391,0.098,0.0071,0.0131,0.0,0.0,True,2026-01-18,Monday,36,False,2
+EML0505,CRE0238,Weekly Newsletter,Language Learning,10226,9816,0.206,0.049,0.0092,0.0073,0.0,0.0,True,2025-08-15,Monday,58,True,4
+EML0506,CRE0169,Promotional Offer,Business & Entrepreneurship,8300,7856,0.235,0.069,0.0075,0.0038,15046.55,11.18,False,2026-01-05,Monday,71,True,3
+EML0507,CRE0224,Abandoned Cart Recovery,Language Learning,213,204,0.396,0.127,0.0247,0.0118,1240.47,11.58,False,2025-12-08,Tuesday,36,False,4
+EML0508,CRE0500,Weekly Newsletter,Comedy & Entertainment,11322,10522,0.37,0.077,0.0069,0.0134,0.0,0.0,False,2025-10-29,Monday,72,False,3
+EML0509,CRE0301,Abandoned Cart Recovery,Science & Space,11814,11075,0.533,0.121,0.0214,0.0122,61182.2,8.03,False,2025-06-04,Wednesday,50,True,4
+EML0510,CRE0225,Weekly Newsletter,Comedy & Entertainment,7533,7355,0.203,0.03,0.0041,0.0105,0.0,0.0,True,2025-11-04,Wednesday,66,False,4
+EML0511,CRE0001,Promotional Offer,Science & Space,13677,13039,0.217,0.044,0.0049,0.0128,13933.74,10.67,True,2025-06-11,Friday,55,False,1
+EML0512,CRE0072,Re-engagement,Science & Space,10447,10395,0.191,0.065,0.0037,0.001,0.0,0.0,True,2025-09-03,Thursday,69,False,4
+EML0513,CRE0153,Product Launch,Music & Audio Production,455,449,0.517,0.08,0.0112,0.0048,1657.94,8.81,True,2025-06-04,Thursday,34,True,1
+EML0514,CRE0157,New Content Alert,Technology & Software,10036,10027,0.362,0.111,0.0162,0.0141,0.0,0.0,True,2025-10-13,Tuesday,71,True,1
+EML0515,CRE0332,Re-engagement,Business & Entrepreneurship,13399,13313,0.139,0.038,0.0072,0.0125,0.0,0.0,False,2025-08-17,Monday,72,False,1
+EML0516,CRE0025,Promotional Offer,Business & Entrepreneurship,10751,10472,0.249,0.033,0.0046,0.0075,6192.7,7.01,True,2025-09-16,Tuesday,58,True,3
+EML0517,CRE0133,Promotional Offer,Sustainable Living,5068,4935,0.26,0.031,0.002,0.0107,2071.0,5.07,True,2026-01-22,Wednesday,71,True,2
+EML0518,CRE0298,Abandoned Cart Recovery,Business & Entrepreneurship,9473,8842,0.6,0.173,0.0164,0.009,116422.41,11.84,False,2025-10-05,Friday,49,False,2
+EML0519,CRE0448,Abandoned Cart Recovery,Beauty & Fashion,8641,8626,0.613,0.204,0.0121,0.0116,97143.63,8.99,True,2025-08-12,Monday,61,True,5
+EML0520,CRE0350,Promotional Offer,Business & Entrepreneurship,10890,10071,0.194,0.029,0.0026,0.0097,5802.0,9.47,False,2025-09-17,Thursday,42,True,4
+EML0521,CRE0251,Re-engagement,Language Learning,4770,4710,0.248,0.058,0.0068,0.0101,0.0,0.0,False,2025-08-08,Thursday,40,False,5
+EML0522,CRE0176,New Content Alert,Gaming & Esports,14678,14018,0.284,0.085,0.0106,0.0139,0.0,0.0,False,2025-08-17,Friday,36,False,3
+EML0523,CRE0107,Weekly Newsletter,Home Decor & Interior Design,12092,11871,0.323,0.033,0.0048,0.0035,0.0,0.0,False,2025-10-06,Tuesday,71,False,1
+EML0524,CRE0577,Promotional Offer,Science & Space,845,778,0.264,0.029,0.0046,0.0025,538.25,8.32,True,2025-10-20,Tuesday,36,False,5
+EML0525,CRE0577,Promotional Offer,Sustainable Living,1272,1193,0.319,0.068,0.0085,0.0073,1876.27,6.8,True,2025-06-16,Monday,58,False,5
+EML0526,CRE0427,Promotional Offer,Home Decor & Interior Design,7078,6978,0.198,0.05,0.0046,0.0112,2662.74,3.8,False,2025-03-28,Wednesday,33,False,2
+EML0527,CRE0114,Weekly Newsletter,Parenting & Family,2373,2216,0.333,0.071,0.0114,0.0036,0.0,0.0,True,2025-07-10,Thursday,55,False,4
+EML0528,CRE0160,New Content Alert,Personal Development,12570,12190,0.233,0.033,0.003,0.0089,0.0,0.0,False,2026-01-08,Monday,37,True,1
+EML0529,CRE0582,Promotional Offer,Travel & Adventure,13819,13142,0.306,0.054,0.0047,0.0045,13677.87,5.99,True,2025-11-29,Monday,61,False,4
+EML0530,CRE0448,Promotional Offer,Science & Space,10785,10542,0.191,0.022,0.0032,0.0095,3430.62,7.57,False,2025-05-01,Monday,46,False,4
+EML0531,CRE0241,Weekly Newsletter,Personal Development,6309,6195,0.344,0.049,0.0075,0.0013,0.0,0.0,True,2025-08-25,Wednesday,36,True,4
+EML0532,CRE0308,New Content Alert,Education & Online Courses,8767,8394,0.349,0.115,0.0101,0.0066,0.0,0.0,False,2025-07-16,Monday,56,False,4
+EML0533,CRE0212,New Content Alert,Food & Cooking,5982,5570,0.384,0.059,0.0072,0.0146,0.0,0.0,True,2025-07-08,Friday,38,False,3
+EML0534,CRE0006,Product Launch,Photography & Videography,2326,2315,0.418,0.092,0.0168,0.0012,3810.51,4.26,True,2025-12-17,Tuesday,52,False,1
+EML0535,CRE0525,Re-engagement,Business & Entrepreneurship,6710,6207,0.18,0.04,0.0047,0.0143,0.0,0.0,False,2025-03-31,Friday,39,True,5
+EML0536,CRE0003,Re-engagement,Personal Development,12364,11652,0.195,0.042,0.0055,0.0097,0.0,0.0,False,2025-03-22,Monday,31,True,4
+EML0537,CRE0464,Promotional Offer,Technology & Software,4262,4136,0.187,0.054,0.0073,0.003,378.73,0.88,False,2025-10-13,Wednesday,43,True,2
+EML0538,CRE0081,Weekly Newsletter,Education & Online Courses,6583,6416,0.253,0.039,0.0057,0.0055,0.0,0.0,False,2025-04-27,Wednesday,65,True,2
+EML0539,CRE0503,New Content Alert,Education & Online Courses,2556,2504,0.378,0.086,0.0067,0.0129,0.0,0.0,True,2025-12-12,Thursday,59,False,5
+EML0540,CRE0452,Abandoned Cart Recovery,Sustainable Living,7738,7517,0.318,0.073,0.004,0.0077,20729.29,11.54,False,2025-05-24,Thursday,64,False,1
+EML0541,CRE0269,Product Launch,Sustainable Living,1254,1197,0.31,0.043,0.0061,0.0066,1280.43,7.66,True,2025-07-25,Thursday,51,False,4
+EML0542,CRE0113,Abandoned Cart Recovery,Parenting & Family,11606,10915,0.517,0.119,0.0092,0.0145,73045.88,10.23,True,2025-08-07,Tuesday,68,True,4
+EML0543,CRE0139,Abandoned Cart Recovery,Photography & Videography,2072,1976,0.466,0.141,0.0166,0.0084,6984.13,5.13,False,2025-11-06,Tuesday,74,False,3
+EML0544,CRE0405,Abandoned Cart Recovery,Music & Audio Production,14730,13770,0.489,0.154,0.0093,0.004,117692.21,10.61,False,2025-03-30,Friday,52,True,1
+EML0545,CRE0470,Abandoned Cart Recovery,Food & Cooking,3494,3373,0.517,0.096,0.0167,0.0028,19266.32,11.11,True,2026-02-21,Monday,75,True,1
+EML0546,CRE0296,Re-engagement,Music & Audio Production,7000,6955,0.15,0.035,0.0022,0.0136,0.0,0.0,True,2025-10-31,Monday,57,True,5
+EML0547,CRE0064,Abandoned Cart Recovery,Parenting & Family,10805,10291,0.404,0.079,0.0047,0.0118,38692.44,11.22,True,2025-06-25,Thursday,53,False,1
+EML0548,CRE0563,New Content Alert,Music & Audio Production,5459,5403,0.344,0.103,0.0179,0.0103,0.0,0.0,False,2025-07-27,Friday,33,False,1
+EML0549,CRE0464,Promotional Offer,Language Learning,11377,10642,0.339,0.065,0.0042,0.0098,23991.24,9.57,True,2025-04-03,Monday,34,True,1
+EML0550,CRE0494,Product Launch,Beauty & Fashion,11824,11719,0.472,0.06,0.0054,0.005,23372.93,6.98,True,2025-10-02,Friday,47,False,2
+EML0551,CRE0021,Abandoned Cart Recovery,Science & Space,14727,13573,0.619,0.1,0.0192,0.0088,27803.84,3.05,True,2025-09-08,Wednesday,45,True,5
+EML0552,CRE0577,Re-engagement,Music & Audio Production,4259,4189,0.158,0.022,0.0032,0.0134,0.0,0.0,False,2025-09-11,Friday,31,True,5
+EML0553,CRE0255,Re-engagement,Sustainable Living,11286,10808,0.245,0.043,0.0032,0.0109,0.0,0.0,False,2025-08-29,Tuesday,71,False,1
+EML0554,CRE0283,Product Launch,Photography & Videography,7735,7330,0.516,0.161,0.0195,0.0097,62267.25,9.69,False,2025-06-20,Monday,36,True,4
+EML0555,CRE0436,Promotional Offer,Technology & Software,7563,7388,0.225,0.076,0.0066,0.0101,10824.7,8.37,False,2025-12-03,Tuesday,38,True,5
+EML0556,CRE0333,Weekly Newsletter,Food & Cooking,5058,4907,0.321,0.111,0.0087,0.0014,0.0,0.0,False,2025-08-06,Tuesday,46,True,1
+EML0557,CRE0580,Abandoned Cart Recovery,Home Decor & Interior Design,11856,11476,0.541,0.07,0.0138,0.004,38343.47,8.54,False,2026-02-27,Thursday,47,True,2
+EML0558,CRE0499,Promotional Offer,Finance & Investing,9254,8774,0.306,0.099,0.0138,0.0081,27417.32,9.78,True,2025-05-29,Wednesday,50,True,2
+EML0559,CRE0542,Abandoned Cart Recovery,Comedy & Entertainment,3152,2899,0.518,0.078,0.012,0.0095,14760.26,11.59,False,2025-05-26,Wednesday,66,False,1
+EML0560,CRE0321,Promotional Offer,Science & Space,4455,4374,0.18,0.027,0.0036,0.0066,465.5,2.15,False,2025-09-01,Wednesday,31,False,1
+EML0561,CRE0320,Promotional Offer,Pet Care,3738,3699,0.325,0.059,0.0049,0.0023,6716.06,9.37,False,2025-09-15,Thursday,32,True,3
+EML0562,CRE0170,New Content Alert,Science & Space,13520,12885,0.271,0.033,0.0037,0.0108,0.0,0.0,True,2025-11-27,Wednesday,46,False,5
+EML0563,CRE0336,Abandoned Cart Recovery,Education & Online Courses,1803,1743,0.57,0.19,0.0235,0.0016,22338.3,11.44,False,2025-08-05,Wednesday,75,True,4
+EML0564,CRE0068,Re-engagement,Comedy & Entertainment,13701,12811,0.187,0.041,0.0029,0.0024,0.0,0.0,False,2026-01-26,Tuesday,70,False,1
+EML0565,CRE0107,Re-engagement,Education & Online Courses,863,809,0.211,0.064,0.0047,0.0108,0.0,0.0,False,2025-11-10,Wednesday,68,True,1
+EML0566,CRE0567,New Content Alert,Photography & Videography,12323,12034,0.335,0.056,0.0094,0.0033,0.0,0.0,False,2025-04-10,Wednesday,52,True,3
+EML0567,CRE0407,New Content Alert,Travel & Adventure,11535,11531,0.35,0.093,0.0088,0.0063,0.0,0.0,False,2025-07-11,Friday,48,False,4
+EML0568,CRE0568,Abandoned Cart Recovery,Finance & Investing,11413,10839,0.531,0.169,0.0128,0.0039,24785.43,2.42,False,2025-05-18,Thursday,47,False,4
+EML0569,CRE0146,Abandoned Cart Recovery,Pet Care,9185,8536,0.61,0.121,0.0182,0.0099,70641.85,10.42,False,2025-06-15,Friday,40,True,5
+EML0570,CRE0029,Abandoned Cart Recovery,Comedy & Entertainment,3718,3554,0.429,0.124,0.0221,0.0133,8840.89,4.47,False,2025-11-17,Friday,47,False,4
+EML0571,CRE0218,Weekly Newsletter,Education & Online Courses,6036,6035,0.336,0.117,0.0096,0.0139,0.0,0.0,False,2025-09-04,Friday,39,True,5
+EML0572,CRE0291,Product Launch,Science & Space,5097,4948,0.388,0.053,0.0072,0.0041,10733.03,10.24,False,2025-03-20,Tuesday,38,True,3
+EML0573,CRE0463,Product Launch,Language Learning,474,439,0.42,0.062,0.0086,0.004,153.05,1.24,False,2025-06-24,Thursday,66,False,1
+EML0574,CRE0489,New Content Alert,Education & Online Courses,7716,7153,0.317,0.059,0.0056,0.0018,0.0,0.0,False,2025-09-18,Friday,74,True,4
+EML0575,CRE0140,Weekly Newsletter,Pet Care,8431,8205,0.383,0.104,0.01,0.0113,0.0,0.0,True,2025-10-18,Monday,55,True,3
+EML0576,CRE0222,Product Launch,Photography & Videography,3737,3728,0.427,0.081,0.0161,0.0051,10430.61,8.07,True,2026-03-02,Thursday,55,False,4
+EML0577,CRE0352,Product Launch,Travel & Adventure,7513,7502,0.462,0.08,0.0127,0.0093,18743.43,6.75,False,2026-03-11,Thursday,59,True,5
+EML0578,CRE0359,New Content Alert,Technology & Software,5496,5061,0.409,0.104,0.0092,0.0125,0.0,0.0,False,2026-02-04,Wednesday,30,True,3
+EML0579,CRE0423,Re-engagement,Pet Care,8617,8385,0.218,0.063,0.0056,0.0058,0.0,0.0,True,2025-07-14,Monday,55,False,5
+EML0580,CRE0038,Promotional Offer,Food & Cooking,5034,4823,0.176,0.052,0.009,0.0019,1663.17,3.61,True,2025-03-24,Thursday,45,False,3
+EML0581,CRE0565,New Content Alert,Education & Online Courses,8928,8701,0.381,0.102,0.0164,0.0099,0.0,0.0,True,2026-03-16,Monday,69,True,1
+EML0582,CRE0097,Product Launch,Travel & Adventure,4118,3996,0.438,0.141,0.0166,0.0088,10071.05,3.96,True,2025-07-21,Wednesday,32,True,4
+EML0583,CRE0166,New Content Alert,Home Decor & Interior Design,14310,13764,0.286,0.053,0.0053,0.0073,0.0,0.0,True,2025-12-18,Friday,36,False,4
+EML0584,CRE0558,Product Launch,Education & Online Courses,2421,2280,0.275,0.03,0.0036,0.0113,511.32,2.56,True,2026-01-02,Tuesday,46,True,1
+EML0585,CRE0274,Product Launch,Business & Entrepreneurship,3794,3764,0.369,0.079,0.0043,0.0094,5098.61,4.61,True,2025-10-14,Wednesday,55,False,4
+EML0586,CRE0503,Product Launch,Personal Development,6410,6053,0.525,0.112,0.0059,0.0085,42967.51,11.4,True,2026-02-19,Monday,46,False,3
+EML0587,CRE0481,Weekly Newsletter,Business & Entrepreneurship,3223,3056,0.34,0.07,0.0065,0.0091,0.0,0.0,False,2026-02-11,Monday,43,True,2
+EML0588,CRE0322,Abandoned Cart Recovery,Science & Space,7577,7490,0.334,0.034,0.0058,0.0106,1454.15,1.69,True,2026-01-01,Monday,63,True,5
+EML0589,CRE0029,New Content Alert,Comedy & Entertainment,13912,13170,0.382,0.049,0.0094,0.0112,0.0,0.0,True,2025-04-01,Friday,35,False,2
+EML0590,CRE0241,Abandoned Cart Recovery,Pet Care,11424,10947,0.384,0.092,0.007,0.0032,30067.24,7.45,True,2025-04-19,Tuesday,71,True,3
+EML0591,CRE0363,Promotional Offer,Technology & Software,5817,5436,0.348,0.116,0.0141,0.0135,22261.0,9.48,True,2025-06-18,Wednesday,54,True,3
+EML0592,CRE0555,Promotional Offer,Sustainable Living,10344,9827,0.288,0.076,0.0138,0.0038,11750.65,5.19,False,2025-04-22,Tuesday,66,True,2
+EML0593,CRE0245,Abandoned Cart Recovery,Parenting & Family,12231,12099,0.626,0.104,0.0107,0.002,15368.34,1.93,True,2025-09-19,Wednesday,65,True,2
+EML0594,CRE0483,Promotional Offer,Music & Audio Production,8874,8452,0.181,0.035,0.0047,0.0023,3564.14,6.34,False,2025-04-05,Tuesday,39,False,2
+EML0595,CRE0313,Product Launch,Gaming & Esports,12340,12181,0.445,0.073,0.007,0.0077,2806.05,0.7,False,2026-01-18,Tuesday,75,True,1
+EML0596,CRE0491,Weekly Newsletter,Parenting & Family,12727,12427,0.293,0.083,0.0043,0.0032,0.0,0.0,False,2025-08-15,Friday,33,False,2
+EML0597,CRE0121,Weekly Newsletter,Technology & Software,552,549,0.253,0.037,0.0035,0.0124,0.0,0.0,False,2025-04-18,Monday,59,True,1
+EML0598,CRE0270,Weekly Newsletter,Comedy & Entertainment,1061,1050,0.277,0.029,0.0025,0.0034,0.0,0.0,False,2025-04-10,Friday,43,False,2
+EML0599,CRE0163,New Content Alert,Technology & Software,11486,10785,0.32,0.072,0.0135,0.0128,0.0,0.0,False,2025-11-27,Thursday,43,False,4
+EML0600,CRE0267,New Content Alert,Personal Development,5079,4715,0.408,0.089,0.0162,0.0073,0.0,0.0,False,2025-08-30,Tuesday,48,True,5
+EML0601,CRE0260,Abandoned Cart Recovery,Travel & Adventure,3428,3352,0.576,0.2,0.0131,0.0098,8648.43,2.19,False,2025-06-24,Wednesday,32,True,1
+EML0602,CRE0448,Abandoned Cart Recovery,Gaming & Esports,10988,10353,0.619,0.175,0.0157,0.0089,107600.87,9.04,True,2025-09-25,Friday,53,True,5
+EML0603,CRE0152,Promotional Offer,Travel & Adventure,5481,5079,0.234,0.027,0.0024,0.0145,1592.93,4.6,True,2026-02-23,Tuesday,57,True,2
+EML0604,CRE0190,Promotional Offer,Travel & Adventure,7587,7203,0.234,0.067,0.0046,0.004,6387.56,5.37,True,2025-04-28,Monday,41,False,4
+EML0605,CRE0182,Promotional Offer,Photography & Videography,629,597,0.189,0.056,0.01,0.0149,459.36,6.9,True,2025-10-12,Tuesday,74,False,1
+EML0606,CRE0400,Weekly Newsletter,Technology & Software,6681,6248,0.345,0.102,0.0125,0.0019,0.0,0.0,False,2025-09-17,Thursday,65,False,5
+EML0607,CRE0555,Promotional Offer,Travel & Adventure,14324,13925,0.278,0.096,0.0155,0.0065,14947.11,3.91,True,2025-07-18,Monday,53,True,2
+EML0608,CRE0161,Weekly Newsletter,Photography & Videography,6625,6367,0.39,0.053,0.0091,0.0039,0.0,0.0,True,2026-01-02,Thursday,39,False,2
+EML0609,CRE0523,Weekly Newsletter,Sustainable Living,14143,14079,0.212,0.035,0.0034,0.0083,0.0,0.0,True,2026-02-01,Friday,53,False,1
+EML0610,CRE0026,Re-engagement,Technology & Software,6088,5653,0.181,0.052,0.0082,0.0113,0.0,0.0,False,2026-01-27,Tuesday,45,True,3
+EML0611,CRE0548,Abandoned Cart Recovery,Parenting & Family,3847,3742,0.601,0.119,0.0226,0.0049,25394.83,9.23,True,2025-09-07,Wednesday,44,False,5
+EML0612,CRE0439,Product Launch,Travel & Adventure,12162,11271,0.525,0.06,0.0095,0.0025,9002.92,2.35,False,2025-07-29,Monday,60,True,1
+EML0613,CRE0421,New Content Alert,Business & Entrepreneurship,8690,8528,0.294,0.093,0.0115,0.0125,0.0,0.0,True,2025-05-29,Wednesday,55,False,1
+EML0614,CRE0537,Product Launch,Gaming & Esports,11496,10769,0.527,0.165,0.0124,0.0038,46982.83,4.7,True,2025-11-08,Wednesday,69,True,2
+EML0615,CRE0532,Product Launch,Sustainable Living,5703,5299,0.48,0.068,0.0051,0.0064,16995.12,9.13,True,2025-07-01,Friday,65,True,1
+EML0616,CRE0127,Product Launch,Language Learning,2730,2590,0.313,0.065,0.0081,0.0117,455.44,0.82,False,2026-02-21,Wednesday,62,True,3
+EML0617,CRE0108,Promotional Offer,Technology & Software,11148,10626,0.336,0.081,0.0161,0.0095,35164.52,11.59,True,2026-02-02,Wednesday,66,False,5
+EML0618,CRE0091,Abandoned Cart Recovery,Finance & Investing,14293,14279,0.463,0.085,0.0118,0.0022,46518.83,8.27,False,2025-08-26,Tuesday,56,False,5
+EML0619,CRE0448,Abandoned Cart Recovery,Science & Space,11312,11122,0.459,0.117,0.0111,0.0077,52426.24,8.63,True,2025-05-11,Wednesday,61,True,4
+EML0620,CRE0486,Abandoned Cart Recovery,Finance & Investing,10617,10550,0.372,0.108,0.0167,0.0038,12967.08,3.04,False,2026-02-21,Tuesday,31,True,3
+EML0621,CRE0493,Weekly Newsletter,Music & Audio Production,5794,5454,0.261,0.059,0.0104,0.0103,0.0,0.0,True,2025-10-08,Thursday,31,True,2
+EML0622,CRE0437,Weekly Newsletter,Business & Entrepreneurship,4870,4567,0.284,0.044,0.0068,0.0078,0.0,0.0,True,2025-05-17,Friday,50,True,5
+EML0623,CRE0287,Promotional Offer,Science & Space,8025,7527,0.186,0.053,0.0079,0.0085,6463.32,8.17,True,2025-11-22,Tuesday,54,True,3
+EML0624,CRE0334,Abandoned Cart Recovery,Travel & Adventure,1773,1712,0.492,0.121,0.0126,0.0132,10227.82,9.69,True,2025-07-24,Thursday,51,False,5
+EML0625,CRE0154,Re-engagement,Education & Online Courses,3099,3092,0.184,0.055,0.0099,0.01,0.0,0.0,True,2025-10-17,Thursday,54,True,5
+EML0626,CRE0391,Promotional Offer,Food & Cooking,5276,4877,0.213,0.059,0.0103,0.0013,5960.68,8.99,False,2025-10-14,Thursday,31,False,2
+EML0627,CRE0108,Weekly Newsletter,Language Learning,9793,9312,0.237,0.077,0.0079,0.0031,0.0,0.0,False,2026-01-06,Tuesday,33,False,1
+EML0628,CRE0464,Re-engagement,Sustainable Living,10079,9920,0.204,0.027,0.0044,0.0053,0.0,0.0,True,2025-12-09,Monday,65,False,5
+EML0629,CRE0040,Weekly Newsletter,Gaming & Esports,642,628,0.271,0.067,0.0034,0.0074,0.0,0.0,True,2025-09-28,Tuesday,56,True,4
+EML0630,CRE0019,Weekly Newsletter,Home Decor & Interior Design,1124,1076,0.327,0.041,0.0045,0.0047,0.0,0.0,False,2025-03-20,Monday,54,False,3
+EML0631,CRE0196,Product Launch,Finance & Investing,12900,12716,0.478,0.063,0.0084,0.0128,6914.78,1.78,False,2025-06-01,Friday,64,False,2
+EML0632,CRE0280,Product Launch,Travel & Adventure,14914,14602,0.461,0.098,0.0193,0.0035,25334.3,3.76,False,2025-12-02,Tuesday,38,True,1
+EML0633,CRE0105,Re-engagement,Technology & Software,4812,4621,0.246,0.077,0.0128,0.0023,0.0,0.0,True,2026-02-11,Tuesday,55,False,4
+EML0634,CRE0507,Product Launch,Parenting & Family,7070,6934,0.478,0.132,0.0173,0.0133,52147.77,11.69,True,2026-03-17,Friday,75,False,2
+EML0635,CRE0293,Abandoned Cart Recovery,Science & Space,2661,2490,0.404,0.089,0.0116,0.0067,2631.17,2.75,True,2026-02-13,Tuesday,69,True,1
+EML0636,CRE0084,Promotional Offer,Language Learning,4193,4033,0.309,0.031,0.0042,0.0077,3289.49,8.19,True,2026-01-30,Friday,63,False,2
+EML0637,CRE0411,Weekly Newsletter,Technology & Software,7967,7830,0.227,0.075,0.0124,0.0144,0.0,0.0,False,2025-07-25,Monday,51,False,3
+EML0638,CRE0239,Product Launch,Finance & Investing,10802,10423,0.52,0.092,0.0073,0.0036,54312.28,10.51,False,2026-02-04,Wednesday,39,False,2
+EML0639,CRE0303,Re-engagement,Travel & Adventure,368,355,0.137,0.021,0.0019,0.0038,0.0,0.0,True,2026-03-01,Wednesday,71,False,3
+EML0640,CRE0511,Weekly Newsletter,Food & Cooking,5683,5235,0.243,0.051,0.0039,0.0023,0.0,0.0,False,2025-12-31,Thursday,70,False,1
+EML0641,CRE0223,Re-engagement,Finance & Investing,12458,12125,0.144,0.034,0.0025,0.0073,0.0,0.0,True,2025-04-21,Wednesday,52,True,2
+EML0642,CRE0172,Promotional Offer,Food & Cooking,10394,10162,0.247,0.086,0.0076,0.0142,13821.41,6.26,False,2025-04-24,Monday,32,True,2
+EML0643,CRE0422,Product Launch,Home Decor & Interior Design,10911,10823,0.465,0.144,0.0091,0.0016,6794.59,0.93,False,2025-11-22,Tuesday,66,True,1
+EML0644,CRE0385,Re-engagement,Finance & Investing,6245,5966,0.129,0.037,0.0026,0.007,0.0,0.0,False,2025-06-15,Wednesday,33,True,1
+EML0645,CRE0083,Weekly Newsletter,Personal Development,5053,4882,0.336,0.11,0.0092,0.0126,0.0,0.0,False,2025-11-22,Wednesday,52,False,4
+EML0646,CRE0356,Re-engagement,Technology & Software,7657,7194,0.237,0.028,0.0022,0.0055,0.0,0.0,False,2025-03-19,Thursday,40,False,3
+EML0647,CRE0455,New Content Alert,Food & Cooking,13810,13372,0.361,0.102,0.0072,0.0069,0.0,0.0,True,2025-04-12,Wednesday,54,True,1
+EML0648,CRE0059,Promotional Offer,Personal Development,7316,7303,0.266,0.054,0.0086,0.005,4350.6,4.14,True,2026-02-08,Tuesday,42,False,5
+EML0649,CRE0251,Weekly Newsletter,Food & Cooking,10806,9953,0.237,0.038,0.005,0.0083,0.0,0.0,False,2025-08-21,Monday,40,True,4
+EML0650,CRE0522,Re-engagement,Technology & Software,3804,3793,0.142,0.032,0.0061,0.0052,0.0,0.0,False,2025-07-24,Monday,73,False,2
+EML0651,CRE0223,Weekly Newsletter,Pet Care,9117,8750,0.218,0.032,0.002,0.0106,0.0,0.0,True,2025-08-01,Thursday,55,False,4
+EML0652,CRE0086,New Content Alert,Sustainable Living,13250,13190,0.355,0.111,0.0198,0.0105,0.0,0.0,True,2025-08-29,Wednesday,75,False,2
+EML0653,CRE0356,Product Launch,Language Learning,12043,11099,0.362,0.064,0.0082,0.005,15764.19,5.65,False,2025-04-24,Thursday,68,True,2
+EML0654,CRE0500,Product Launch,Personal Development,4685,4560,0.269,0.064,0.0123,0.0033,2750.4,3.41,True,2026-01-29,Tuesday,37,False,1
+EML0655,CRE0508,Promotional Offer,Travel & Adventure,11444,10579,0.327,0.047,0.008,0.0114,3675.95,2.09,False,2026-01-18,Friday,43,False,3
+EML0656,CRE0278,New Content Alert,Music & Audio Production,8556,8007,0.396,0.099,0.0132,0.0125,0.0,0.0,True,2025-10-11,Friday,30,False,4
+EML0657,CRE0387,Abandoned Cart Recovery,Personal Development,3475,3250,0.333,0.073,0.0099,0.0094,946.11,1.12,True,2025-06-01,Friday,48,False,5
+EML0658,CRE0172,Promotional Offer,Pet Care,7578,7130,0.202,0.021,0.0033,0.0088,829.36,2.58,True,2025-07-31,Friday,56,True,1
+EML0659,CRE0297,Weekly Newsletter,Gaming & Esports,933,859,0.233,0.074,0.0064,0.0102,0.0,0.0,True,2025-05-01,Thursday,48,False,2
+EML0660,CRE0208,New Content Alert,Photography & Videography,14688,14267,0.294,0.098,0.014,0.01,0.0,0.0,False,2026-02-22,Friday,48,False,1
+EML0661,CRE0358,Weekly Newsletter,Photography & Videography,5382,5108,0.309,0.047,0.0082,0.0076,0.0,0.0,False,2025-06-25,Monday,59,True,3
+EML0662,CRE0317,Product Launch,Sustainable Living,4964,4670,0.452,0.133,0.0146,0.0126,27424.41,9.19,True,2025-07-02,Wednesday,51,False,5
+EML0663,CRE0562,Promotional Offer,Language Learning,1872,1867,0.304,0.079,0.0084,0.0073,4895.92,10.89,False,2025-11-03,Wednesday,38,True,3
+EML0664,CRE0390,New Content Alert,Gaming & Esports,5973,5788,0.304,0.086,0.0061,0.0049,0.0,0.0,False,2025-07-20,Thursday,48,False,3
+EML0665,CRE0577,Weekly Newsletter,Personal Development,9295,9183,0.25,0.067,0.0088,0.0127,0.0,0.0,True,2026-03-17,Wednesday,47,False,1
+EML0666,CRE0347,Abandoned Cart Recovery,Music & Audio Production,4702,4593,0.54,0.167,0.0279,0.0112,20353.27,4.8,False,2025-11-24,Thursday,74,False,5
+EML0667,CRE0328,Re-engagement,Travel & Adventure,5371,5214,0.216,0.074,0.0132,0.0053,0.0,0.0,True,2025-09-12,Monday,66,True,5
+EML0668,CRE0291,Re-engagement,Technology & Software,5347,5000,0.186,0.051,0.0061,0.0109,0.0,0.0,False,2026-02-11,Wednesday,46,False,4
+EML0669,CRE0021,Promotional Offer,Business & Entrepreneurship,12016,11534,0.263,0.051,0.0044,0.0082,3674.69,2.28,True,2025-11-10,Tuesday,56,True,1
+EML0670,CRE0101,Re-engagement,Gaming & Esports,13194,12582,0.194,0.039,0.0032,0.0098,0.0,0.0,False,2025-09-23,Thursday,67,True,5
+EML0671,CRE0065,Promotional Offer,Personal Development,1806,1771,0.216,0.057,0.004,0.0029,1431.96,6.44,False,2025-07-08,Monday,50,True,1
+EML0672,CRE0203,Re-engagement,Pet Care,9561,8978,0.134,0.028,0.0032,0.0012,0.0,0.0,True,2026-02-26,Tuesday,67,True,4
+EML0673,CRE0104,Weekly Newsletter,Language Learning,6556,6149,0.279,0.066,0.0043,0.0093,0.0,0.0,True,2025-12-01,Tuesday,61,False,4
+EML0674,CRE0155,New Content Alert,Technology & Software,1872,1847,0.388,0.113,0.0084,0.0149,0.0,0.0,True,2025-10-27,Monday,73,True,5
+EML0675,CRE0559,New Content Alert,Gaming & Esports,914,885,0.278,0.072,0.0085,0.0091,0.0,0.0,False,2026-01-12,Thursday,35,True,1
+EML0676,CRE0058,Promotional Offer,Parenting & Family,11492,10749,0.186,0.03,0.0021,0.006,1442.82,2.25,True,2026-01-05,Friday,70,True,4
+EML0677,CRE0518,Product Launch,Beauty & Fashion,5439,5426,0.514,0.158,0.0221,0.0036,6669.85,1.51,True,2025-03-28,Monday,58,True,1
+EML0678,CRE0439,New Content Alert,Music & Audio Production,7241,6715,0.298,0.039,0.006,0.0096,0.0,0.0,True,2025-08-17,Friday,65,False,3
+EML0679,CRE0422,Abandoned Cart Recovery,Finance & Investing,1649,1578,0.465,0.14,0.0217,0.0017,2018.18,1.88,True,2025-06-18,Thursday,55,True,4
+EML0680,CRE0474,Re-engagement,Science & Space,4235,4019,0.242,0.063,0.0108,0.0142,0.0,0.0,True,2025-06-22,Thursday,73,True,5
+EML0681,CRE0021,Abandoned Cart Recovery,Home Decor & Interior Design,5491,5296,0.41,0.071,0.0121,0.0122,7352.78,4.6,False,2025-09-30,Wednesday,41,False,2
+EML0682,CRE0044,Re-engagement,Personal Development,14652,14306,0.19,0.062,0.0098,0.0099,0.0,0.0,True,2025-09-23,Friday,71,False,4
+EML0683,CRE0390,Abandoned Cart Recovery,Comedy & Entertainment,13068,12079,0.395,0.123,0.0121,0.0108,44570.6,7.02,False,2025-11-16,Friday,55,False,1
+EML0684,CRE0028,Product Launch,Science & Space,11557,11349,0.494,0.115,0.0112,0.0071,36307.39,5.53,True,2025-05-07,Monday,40,False,4
+EML0685,CRE0395,New Content Alert,Parenting & Family,11480,11270,0.341,0.04,0.0062,0.0081,0.0,0.0,False,2025-09-01,Tuesday,45,True,5
+EML0686,CRE0545,New Content Alert,Sustainable Living,548,512,0.374,0.121,0.0209,0.0072,0.0,0.0,True,2025-07-27,Wednesday,52,True,5
+EML0687,CRE0206,Weekly Newsletter,Music & Audio Production,2871,2818,0.252,0.033,0.0042,0.0038,0.0,0.0,True,2025-07-29,Monday,58,True,1
+EML0688,CRE0230,Product Launch,Travel & Adventure,5043,4692,0.316,0.085,0.0169,0.0128,4090.74,3.02,True,2025-04-24,Friday,41,True,5
+EML0689,CRE0553,Re-engagement,Photography & Videography,6109,6040,0.162,0.054,0.0059,0.0133,0.0,0.0,True,2025-12-30,Thursday,46,True,1
+EML0690,CRE0201,Re-engagement,Finance & Investing,4073,4008,0.202,0.042,0.0028,0.0129,0.0,0.0,True,2025-03-19,Thursday,75,True,3
+EML0691,CRE0518,Re-engagement,Pet Care,4349,4239,0.24,0.048,0.0096,0.0064,0.0,0.0,True,2025-08-11,Thursday,46,False,1
+EML0692,CRE0447,Abandoned Cart Recovery,Travel & Adventure,8782,8362,0.613,0.087,0.0111,0.0138,5620.23,1.2,False,2025-07-25,Friday,45,False,3
+EML0693,CRE0203,Abandoned Cart Recovery,Sustainable Living,654,627,0.341,0.087,0.0091,0.0063,638.33,3.29,True,2025-12-03,Tuesday,36,False,5
+EML0694,CRE0341,Re-engagement,Technology & Software,5439,5383,0.206,0.021,0.0029,0.0088,0.0,0.0,False,2026-02-04,Thursday,39,False,5
+EML0695,CRE0088,Product Launch,Pet Care,470,439,0.341,0.036,0.0043,0.0081,162.13,2.81,False,2026-03-06,Thursday,69,True,2
+EML0696,CRE0339,Weekly Newsletter,Beauty & Fashion,14083,13793,0.328,0.046,0.0041,0.0027,0.0,0.0,True,2025-04-12,Monday,31,False,5
+EML0697,CRE0599,Product Launch,Home Decor & Interior Design,10388,10167,0.333,0.044,0.005,0.0059,11856.77,7.79,True,2026-02-04,Monday,38,False,4
+EML0698,CRE0032,Weekly Newsletter,Pet Care,12504,12071,0.302,0.068,0.0133,0.0142,0.0,0.0,True,2025-07-27,Monday,52,False,4
+EML0699,CRE0492,New Content Alert,Beauty & Fashion,1442,1424,0.27,0.061,0.0055,0.014,0.0,0.0,False,2025-07-27,Thursday,75,True,1
+EML0700,CRE0418,Promotional Offer,Pet Care,2846,2730,0.302,0.084,0.0088,0.0103,8107.76,11.23,True,2025-07-06,Monday,60,True,2
+EML0701,CRE0050,Re-engagement,Parenting & Family,7922,7838,0.248,0.082,0.0146,0.0038,0.0,0.0,True,2025-06-09,Monday,43,False,5
+EML0702,CRE0205,Promotional Offer,Business & Entrepreneurship,10482,10384,0.335,0.039,0.0065,0.0043,8025.11,5.86,False,2025-03-24,Wednesday,53,False,5
+EML0703,CRE0072,Promotional Offer,Beauty & Fashion,13303,12470,0.202,0.033,0.0021,0.0085,9364.38,10.56,True,2025-06-05,Tuesday,57,True,3
+EML0704,CRE0476,Promotional Offer,Comedy & Entertainment,10801,10279,0.264,0.027,0.0029,0.0065,3680.1,4.78,False,2025-09-12,Wednesday,71,False,1
+EML0705,CRE0363,New Content Alert,Music & Audio Production,10439,9684,0.247,0.031,0.0038,0.0145,0.0,0.0,False,2026-03-19,Friday,71,True,5
+EML0706,CRE0020,Weekly Newsletter,Travel & Adventure,12861,12211,0.21,0.039,0.0021,0.0109,0.0,0.0,False,2025-08-13,Thursday,48,True,5
+EML0707,CRE0518,Product Launch,Sustainable Living,9183,9112,0.46,0.146,0.0098,0.0086,73514.25,11.92,True,2025-05-29,Thursday,46,True,3
+EML0708,CRE0006,Re-engagement,Sustainable Living,9959,9674,0.175,0.046,0.0092,0.0073,0.0,0.0,True,2025-08-22,Monday,56,False,3
+EML0709,CRE0377,Abandoned Cart Recovery,Business & Entrepreneurship,3498,3254,0.432,0.134,0.0188,0.009,7856.7,3.88,True,2026-02-25,Friday,73,True,5
+EML0710,CRE0107,Abandoned Cart Recovery,Travel & Adventure,2594,2524,0.42,0.062,0.0091,0.0056,7193.84,10.65,False,2025-06-26,Friday,40,True,2
+EML0711,CRE0220,Re-engagement,Music & Audio Production,5829,5617,0.211,0.074,0.0048,0.0031,0.0,0.0,True,2025-10-12,Friday,62,True,1
+EML0712,CRE0438,Re-engagement,Language Learning,5314,5087,0.171,0.042,0.0032,0.0149,0.0,0.0,False,2025-11-23,Tuesday,45,False,1
+EML0713,CRE0448,Abandoned Cart Recovery,Personal Development,13556,13255,0.397,0.082,0.0111,0.0066,3706.94,0.84,True,2025-10-17,Friday,62,False,1
+EML0714,CRE0285,Promotional Offer,Education & Online Courses,4734,4409,0.333,0.1,0.009,0.0106,5028.79,3.19,True,2025-06-30,Tuesday,70,True,1
+EML0715,CRE0432,New Content Alert,Business & Entrepreneurship,1996,1951,0.438,0.115,0.0165,0.0132,0.0,0.0,True,2025-07-16,Tuesday,65,True,4
+EML0716,CRE0135,Product Launch,Business & Entrepreneurship,3677,3450,0.403,0.117,0.0223,0.0045,11390.69,6.57,False,2025-04-23,Thursday,56,False,4
+EML0717,CRE0493,Weekly Newsletter,Education & Online Courses,2891,2824,0.369,0.044,0.0028,0.0035,0.0,0.0,False,2026-01-05,Monday,65,True,4
+EML0718,CRE0397,Abandoned Cart Recovery,Pet Care,2128,1974,0.411,0.08,0.009,0.0034,1658.26,2.37,False,2025-05-28,Thursday,30,True,1
+EML0719,CRE0514,Re-engagement,Pet Care,14028,13969,0.214,0.052,0.008,0.005,0.0,0.0,False,2025-08-19,Friday,52,True,1
+EML0720,CRE0419,Product Launch,Travel & Adventure,10790,10271,0.475,0.154,0.0299,0.0078,81375.64,10.31,False,2026-01-24,Tuesday,37,True,3
+EML0721,CRE0156,New Content Alert,Finance & Investing,14498,14097,0.413,0.111,0.0113,0.0024,0.0,0.0,True,2026-01-10,Thursday,40,True,5
+EML0722,CRE0425,Re-engagement,Technology & Software,10920,10388,0.141,0.018,0.0011,0.0147,0.0,0.0,True,2025-07-10,Wednesday,51,False,3
+EML0723,CRE0039,Weekly Newsletter,Pet Care,11216,11118,0.369,0.042,0.0024,0.0095,0.0,0.0,False,2025-04-02,Monday,34,False,5
+EML0724,CRE0193,Product Launch,Comedy & Entertainment,5727,5681,0.53,0.083,0.0087,0.0136,11210.92,4.45,False,2025-05-19,Friday,53,True,5
+EML0725,CRE0277,Weekly Newsletter,Comedy & Entertainment,1061,985,0.368,0.089,0.0128,0.0088,0.0,0.0,True,2025-09-27,Monday,72,True,5
+EML0726,CRE0334,Weekly Newsletter,Technology & Software,9761,9374,0.202,0.045,0.0065,0.0146,0.0,0.0,True,2025-08-22,Friday,55,True,5
+EML0727,CRE0537,New Content Alert,Education & Online Courses,13865,13066,0.428,0.052,0.0064,0.0122,0.0,0.0,True,2025-11-11,Wednesday,53,True,4
+EML0728,CRE0053,Product Launch,Language Learning,10767,10192,0.527,0.063,0.0049,0.0064,22520.94,6.3,True,2026-02-13,Friday,60,True,4
+EML0729,CRE0116,Weekly Newsletter,Music & Audio Production,9620,9213,0.338,0.06,0.0082,0.0148,0.0,0.0,True,2025-04-05,Thursday,71,False,1
+EML0730,CRE0090,Abandoned Cart Recovery,Home Decor & Interior Design,10984,10702,0.566,0.197,0.0357,0.0133,28168.97,2.3,True,2025-06-12,Monday,35,True,1
+EML0731,CRE0020,Abandoned Cart Recovery,Travel & Adventure,5527,5120,0.501,0.138,0.009,0.006,42759.87,11.19,False,2025-08-01,Monday,65,True,5
+EML0732,CRE0221,Weekly Newsletter,Pet Care,5981,5750,0.217,0.031,0.0043,0.0141,0.0,0.0,True,2025-06-07,Thursday,59,True,3
+EML0733,CRE0151,Promotional Offer,Comedy & Entertainment,12315,12287,0.345,0.108,0.0122,0.0133,29183.3,6.36,True,2025-06-13,Thursday,65,True,2
+EML0734,CRE0275,Abandoned Cart Recovery,Gaming & Esports,2279,2178,0.482,0.11,0.0208,0.0062,4507.06,3.73,False,2025-05-16,Tuesday,75,True,4
+EML0735,CRE0226,Product Launch,Pet Care,10730,10639,0.389,0.092,0.0047,0.0142,16857.83,4.39,False,2025-09-29,Friday,32,True,2
+EML0736,CRE0325,Product Launch,Travel & Adventure,1852,1774,0.314,0.077,0.0131,0.0069,3949.39,8.82,False,2025-11-11,Thursday,36,False,2
+EML0737,CRE0020,Promotional Offer,Music & Audio Production,13206,12834,0.284,0.083,0.0156,0.0108,15533.46,4.99,True,2026-01-12,Tuesday,59,False,4
+EML0738,CRE0405,Weekly Newsletter,Parenting & Family,3543,3305,0.234,0.071,0.0098,0.0088,0.0,0.0,True,2026-02-14,Tuesday,36,True,4
+EML0739,CRE0517,Promotional Offer,Food & Cooking,6066,6014,0.18,0.031,0.005,0.0136,3774.08,11.15,True,2026-03-16,Wednesday,45,True,4
+EML0740,CRE0481,Weekly Newsletter,Finance & Investing,5949,5850,0.207,0.023,0.0023,0.0089,0.0,0.0,False,2025-07-04,Wednesday,73,False,4
+EML0741,CRE0515,Weekly Newsletter,Education & Online Courses,2328,2318,0.211,0.032,0.005,0.0072,0.0,0.0,True,2025-10-15,Monday,42,True,4
+EML0742,CRE0454,Abandoned Cart Recovery,Sustainable Living,6727,6535,0.383,0.103,0.0118,0.0068,14807.84,5.58,True,2025-09-12,Thursday,52,True,3
+EML0743,CRE0165,Abandoned Cart Recovery,Pet Care,3134,2895,0.425,0.08,0.0104,0.0087,8599.07,8.07,True,2025-09-13,Thursday,44,True,4
+EML0744,CRE0581,Weekly Newsletter,Home Decor & Interior Design,9209,8576,0.293,0.071,0.006,0.0062,0.0,0.0,True,2026-03-05,Thursday,62,False,2
+EML0745,CRE0479,Abandoned Cart Recovery,Travel & Adventure,10421,10038,0.416,0.109,0.0167,0.0023,46496.93,9.84,False,2025-10-07,Monday,65,False,5
+EML0746,CRE0170,Re-engagement,Pet Care,6396,5891,0.163,0.025,0.0024,0.0094,0.0,0.0,True,2025-07-25,Tuesday,63,True,2
+EML0747,CRE0216,New Content Alert,Gaming & Esports,7861,7732,0.252,0.081,0.0046,0.0075,0.0,0.0,True,2025-06-08,Monday,59,True,4
+EML0748,CRE0359,Promotional Offer,Sustainable Living,4394,4046,0.344,0.062,0.0113,0.0051,4039.13,4.31,False,2025-11-05,Friday,58,False,2
+EML0749,CRE0473,Abandoned Cart Recovery,Parenting & Family,10475,10445,0.437,0.056,0.0073,0.0068,22942.81,8.95,False,2025-07-27,Friday,64,True,3
+EML0750,CRE0495,Weekly Newsletter,Gaming & Esports,10537,9952,0.217,0.034,0.0043,0.0102,0.0,0.0,False,2025-09-17,Tuesday,43,False,4
+EML0751,CRE0486,New Content Alert,Music & Audio Production,6881,6396,0.275,0.063,0.0042,0.0135,0.0,0.0,False,2025-11-15,Tuesday,32,False,1
+EML0752,CRE0422,Product Launch,Travel & Adventure,8906,8619,0.277,0.06,0.0038,0.003,7312.08,4.94,False,2025-08-28,Tuesday,57,False,2
+EML0753,CRE0085,Re-engagement,Travel & Adventure,7279,7013,0.128,0.02,0.0018,0.002,0.0,0.0,False,2025-12-11,Thursday,36,True,5
+EML0754,CRE0428,Weekly Newsletter,Beauty & Fashion,8980,8822,0.255,0.045,0.0032,0.009,0.0,0.0,False,2025-07-03,Thursday,50,False,5
+EML0755,CRE0246,Abandoned Cart Recovery,Education & Online Courses,8713,8471,0.346,0.035,0.0068,0.0126,11691.0,11.08,True,2025-05-20,Monday,44,False,1
+EML0756,CRE0545,Weekly Newsletter,Beauty & Fashion,14971,14556,0.268,0.059,0.0062,0.0103,0.0,0.0,True,2025-04-22,Tuesday,38,False,4
+EML0757,CRE0181,Weekly Newsletter,Beauty & Fashion,6190,6069,0.342,0.093,0.014,0.0055,0.0,0.0,False,2026-01-05,Monday,35,False,2
+EML0758,CRE0585,Weekly Newsletter,Technology & Software,6837,6833,0.306,0.075,0.0046,0.0046,0.0,0.0,False,2025-05-21,Monday,45,False,5
+EML0759,CRE0343,Product Launch,Sustainable Living,3180,3078,0.452,0.107,0.0084,0.0055,17778.99,11.56,True,2025-09-24,Friday,59,False,5
+EML0760,CRE0343,Promotional Offer,Finance & Investing,1001,998,0.233,0.07,0.0067,0.0016,1036.72,6.35,True,2025-08-19,Wednesday,57,False,1
+EML0761,CRE0597,Promotional Offer,Comedy & Entertainment,2995,2955,0.289,0.093,0.0175,0.01,9152.47,11.37,False,2025-11-09,Monday,37,True,3
+EML0762,CRE0284,Promotional Offer,Language Learning,3939,3696,0.288,0.092,0.0099,0.0079,8954.75,8.58,False,2025-12-27,Friday,32,True,2
+EML0763,CRE0321,Weekly Newsletter,Sustainable Living,12291,11437,0.279,0.079,0.0103,0.0068,0.0,0.0,False,2025-10-14,Friday,41,False,3
+EML0764,CRE0363,Promotional Offer,Comedy & Entertainment,5029,4933,0.216,0.035,0.0031,0.0139,767.99,2.02,False,2025-09-17,Friday,44,True,1
+EML0765,CRE0540,Abandoned Cart Recovery,Sustainable Living,10500,9751,0.54,0.092,0.0101,0.0118,23578.13,4.52,False,2025-11-04,Friday,55,True,5
+EML0766,CRE0566,Abandoned Cart Recovery,Gaming & Esports,4429,4288,0.483,0.094,0.0106,0.0118,8928.19,4.44,False,2025-10-08,Thursday,59,False,4
+EML0767,CRE0580,Product Launch,Education & Online Courses,4662,4607,0.465,0.145,0.0205,0.0052,33948.22,10.8,False,2025-08-30,Thursday,53,True,5
+EML0768,CRE0283,Abandoned Cart Recovery,Personal Development,14051,14040,0.393,0.096,0.0169,0.0099,32602.14,6.15,False,2025-03-26,Thursday,65,False,3
+EML0769,CRE0133,Promotional Offer,Technology & Software,5497,5408,0.319,0.1,0.0174,0.0078,13151.57,7.5,True,2025-11-04,Monday,34,True,2
+EML0770,CRE0083,Abandoned Cart Recovery,Personal Development,5645,5395,0.435,0.062,0.0119,0.0117,6470.44,4.25,False,2026-02-22,Friday,61,False,4
+EML0771,CRE0022,Re-engagement,Education & Online Courses,11721,11521,0.163,0.043,0.0026,0.0066,0.0,0.0,True,2025-11-04,Friday,47,False,2
+EML0772,CRE0440,Promotional Offer,Language Learning,5823,5411,0.277,0.055,0.0069,0.0111,9820.57,11.07,True,2025-04-28,Tuesday,30,False,5
+EML0773,CRE0114,Promotional Offer,Education & Online Courses,14568,14238,0.325,0.107,0.0145,0.0096,27305.86,5.39,False,2025-06-20,Thursday,40,True,4
+EML0774,CRE0402,Re-engagement,Travel & Adventure,237,230,0.17,0.046,0.0045,0.0022,0.0,0.0,False,2025-11-09,Friday,66,False,4
+EML0775,CRE0537,Abandoned Cart Recovery,Gaming & Esports,9042,8911,0.517,0.088,0.0096,0.0036,10325.51,2.51,False,2025-04-18,Monday,43,True,5
+EML0776,CRE0311,New Content Alert,Photography & Videography,10781,10461,0.392,0.118,0.0087,0.0118,0.0,0.0,True,2025-08-27,Friday,48,False,5
+EML0777,CRE0335,New Content Alert,Science & Space,12828,11880,0.316,0.087,0.0157,0.0096,0.0,0.0,True,2025-11-29,Thursday,70,True,5
+EML0778,CRE0231,Abandoned Cart Recovery,Sustainable Living,3343,3213,0.387,0.109,0.016,0.0072,10477.62,7.43,True,2025-06-01,Monday,53,False,2
+EML0779,CRE0457,Re-engagement,Personal Development,3364,3211,0.241,0.056,0.0065,0.004,0.0,0.0,True,2025-10-08,Thursday,55,True,4
+EML0780,CRE0284,Promotional Offer,Pet Care,13902,13708,0.215,0.049,0.0057,0.0094,4964.91,3.39,True,2025-12-05,Tuesday,70,True,1
+EML0781,CRE0266,Abandoned Cart Recovery,Sustainable Living,8258,7907,0.619,0.074,0.0144,0.0135,44332.77,11.72,False,2025-05-10,Friday,38,False,2
+EML0782,CRE0428,Re-engagement,Travel & Adventure,5181,5166,0.212,0.034,0.0031,0.0037,0.0,0.0,True,2025-06-09,Thursday,41,False,4
+EML0783,CRE0533,Product Launch,Parenting & Family,9138,8676,0.387,0.12,0.0148,0.0031,22364.23,5.27,True,2025-12-06,Wednesday,69,True,2
+EML0784,CRE0118,Abandoned Cart Recovery,Food & Cooking,6252,5985,0.352,0.1,0.0087,0.0102,13204.22,6.0,False,2025-04-09,Tuesday,40,True,1
+EML0785,CRE0559,Promotional Offer,Sustainable Living,2154,2063,0.338,0.084,0.0085,0.0068,1773.53,2.9,True,2025-08-19,Friday,34,False,4
+EML0786,CRE0199,Abandoned Cart Recovery,Beauty & Fashion,10160,9688,0.574,0.103,0.011,0.0083,59707.54,9.94,True,2026-01-24,Monday,75,True,1
+EML0787,CRE0006,Product Launch,Home Decor & Interior Design,9287,8604,0.519,0.14,0.0213,0.0088,27734.01,4.11,True,2025-10-07,Monday,69,False,4
+EML0788,CRE0069,Abandoned Cart Recovery,Technology & Software,11901,11257,0.545,0.122,0.0088,0.0079,79208.88,10.01,True,2025-11-04,Tuesday,68,True,1
+EML0789,CRE0330,Promotional Offer,Parenting & Family,9499,8894,0.287,0.081,0.0113,0.0097,2362.81,1.07,False,2025-06-30,Monday,40,False,3
+EML0790,CRE0522,New Content Alert,Education & Online Courses,5663,5297,0.381,0.114,0.0113,0.0085,0.0,0.0,False,2026-01-03,Thursday,71,False,2
+EML0791,CRE0314,Re-engagement,Travel & Adventure,14062,13491,0.186,0.02,0.0031,0.0068,0.0,0.0,False,2025-04-30,Tuesday,50,True,3
+EML0792,CRE0551,New Content Alert,Music & Audio Production,9877,9335,0.302,0.033,0.0028,0.006,0.0,0.0,True,2025-07-12,Wednesday,72,False,3
+EML0793,CRE0379,Abandoned Cart Recovery,Home Decor & Interior Design,5620,5229,0.622,0.184,0.0148,0.0141,43930.41,6.83,False,2026-01-19,Monday,41,True,3
+EML0794,CRE0333,Abandoned Cart Recovery,Science & Space,9006,8884,0.469,0.059,0.0055,0.0032,19363.23,7.77,True,2025-09-04,Monday,49,False,2
+EML0795,CRE0259,New Content Alert,Photography & Videography,12243,11583,0.443,0.085,0.0047,0.013,0.0,0.0,False,2026-02-21,Wednesday,75,False,1
+EML0796,CRE0080,New Content Alert,Pet Care,3364,3196,0.41,0.099,0.0139,0.0121,0.0,0.0,True,2026-02-26,Tuesday,30,False,5
+EML0797,CRE0273,Re-engagement,Personal Development,6025,5941,0.146,0.031,0.0061,0.0133,0.0,0.0,True,2025-08-03,Thursday,33,True,2
+EML0798,CRE0024,Product Launch,Beauty & Fashion,14753,14249,0.503,0.083,0.0162,0.0147,34676.46,5.63,False,2025-10-25,Monday,38,False,1
+EML0799,CRE0299,New Content Alert,Science & Space,10641,10533,0.303,0.071,0.0116,0.0052,0.0,0.0,True,2025-06-25,Thursday,55,False,1
+EML0800,CRE0338,Weekly Newsletter,Music & Audio Production,9381,9328,0.355,0.099,0.0126,0.0059,0.0,0.0,True,2025-06-06,Friday,71,False,4
+EML0801,CRE0379,Re-engagement,Music & Audio Production,14951,14950,0.147,0.021,0.0037,0.0106,0.0,0.0,True,2025-08-15,Tuesday,49,False,5
+EML0802,CRE0169,Promotional Offer,Photography & Videography,2413,2412,0.327,0.066,0.0116,0.0013,6223.25,11.95,False,2026-01-23,Friday,59,False,5
+EML0803,CRE0073,Promotional Offer,Photography & Videography,2871,2812,0.31,0.092,0.0052,0.0074,9768.39,11.93,True,2025-09-07,Monday,46,False,3
+EML0804,CRE0119,Weekly Newsletter,Beauty & Fashion,3399,3355,0.255,0.05,0.0092,0.004,0.0,0.0,False,2026-03-18,Monday,46,False,3
+EML0805,CRE0557,Abandoned Cart Recovery,Parenting & Family,9280,9116,0.625,0.107,0.0099,0.0062,4033.9,0.65,True,2025-08-28,Monday,36,False,3
+EML0806,CRE0500,Re-engagement,Personal Development,14993,14035,0.178,0.019,0.0021,0.0102,0.0,0.0,False,2025-06-13,Monday,72,True,1
+EML0807,CRE0480,New Content Alert,Business & Entrepreneurship,3820,3678,0.382,0.13,0.0108,0.004,0.0,0.0,True,2026-01-03,Thursday,65,False,3
+EML0808,CRE0197,Re-engagement,Beauty & Fashion,8597,8478,0.134,0.034,0.0062,0.011,0.0,0.0,False,2025-05-22,Thursday,64,False,3
+EML0809,CRE0039,Re-engagement,Pet Care,238,221,0.246,0.069,0.0119,0.0111,0.0,0.0,False,2026-02-26,Thursday,46,False,1
+EML0810,CRE0058,Product Launch,Food & Cooking,2113,1977,0.37,0.047,0.0052,0.0107,2513.36,6.84,False,2025-12-04,Wednesday,53,False,4
+EML0811,CRE0336,Re-engagement,Technology & Software,1624,1494,0.247,0.08,0.0096,0.0038,0.0,0.0,False,2025-03-23,Tuesday,52,False,4
+EML0812,CRE0057,Abandoned Cart Recovery,Technology & Software,8861,8464,0.553,0.12,0.0187,0.0093,7350.2,1.25,False,2026-01-25,Thursday,57,False,1
+EML0813,CRE0141,New Content Alert,Education & Online Courses,8763,8278,0.3,0.098,0.0141,0.0076,0.0,0.0,False,2025-06-05,Friday,66,True,5
+EML0814,CRE0342,Product Launch,Gaming & Esports,3170,2920,0.504,0.095,0.0115,0.0107,17135.92,11.29,False,2025-10-13,Thursday,46,False,1
+EML0815,CRE0085,Abandoned Cart Recovery,Technology & Software,8004,7579,0.481,0.094,0.0174,0.0069,17189.91,4.75,False,2025-11-09,Monday,68,True,2
+EML0816,CRE0166,New Content Alert,Travel & Adventure,5452,5105,0.311,0.047,0.004,0.0077,0.0,0.0,False,2025-06-25,Monday,66,True,3
+EML0817,CRE0457,New Content Alert,Parenting & Family,4296,4157,0.289,0.034,0.0067,0.0011,0.0,0.0,True,2025-11-01,Friday,30,True,1
+EML0818,CRE0081,Weekly Newsletter,Education & Online Courses,6929,6652,0.375,0.105,0.0086,0.0038,0.0,0.0,False,2025-11-06,Wednesday,46,False,5
+EML0819,CRE0546,Re-engagement,Science & Space,7947,7669,0.145,0.018,0.0014,0.0087,0.0,0.0,True,2025-11-12,Monday,50,False,2
+EML0820,CRE0597,Promotional Offer,Technology & Software,2971,2915,0.317,0.099,0.0054,0.0021,6992.92,7.5,True,2025-12-25,Friday,36,False,2
+EML0821,CRE0337,Weekly Newsletter,Sustainable Living,1456,1452,0.373,0.104,0.0198,0.0105,0.0,0.0,True,2025-12-11,Monday,60,True,5
+EML0822,CRE0346,Abandoned Cart Recovery,Travel & Adventure,10052,9879,0.448,0.138,0.0135,0.012,38157.33,6.14,True,2025-07-15,Friday,43,False,5
+EML0823,CRE0454,Promotional Offer,Finance & Investing,819,755,0.183,0.029,0.0056,0.0082,178.2,4.1,False,2025-06-13,Wednesday,39,True,4
+EML0824,CRE0316,Re-engagement,Travel & Adventure,13328,12644,0.167,0.017,0.0022,0.0076,0.0,0.0,False,2025-11-11,Tuesday,36,True,1
+EML0825,CRE0056,New Content Alert,Personal Development,3377,3138,0.345,0.052,0.0072,0.0037,0.0,0.0,False,2025-05-13,Friday,64,True,2
+EML0826,CRE0142,Weekly Newsletter,Pet Care,10749,10550,0.349,0.078,0.0051,0.0044,0.0,0.0,False,2025-10-30,Friday,49,False,5
+EML0827,CRE0322,Abandoned Cart Recovery,Beauty & Fashion,9163,8536,0.435,0.062,0.0091,0.0122,2965.51,1.2,False,2025-05-25,Tuesday,30,True,5
+EML0828,CRE0405,Product Launch,Language Learning,9723,9395,0.305,0.032,0.0016,0.011,2913.32,3.07,False,2026-01-01,Thursday,65,True,4
+EML0829,CRE0537,New Content Alert,Travel & Adventure,1209,1172,0.432,0.059,0.0063,0.005,0.0,0.0,False,2025-10-03,Friday,60,True,2
+EML0830,CRE0510,Re-engagement,Technology & Software,4681,4537,0.213,0.027,0.0021,0.0131,0.0,0.0,True,2026-01-22,Thursday,43,True,2
+EML0831,CRE0505,Weekly Newsletter,Travel & Adventure,5442,5079,0.278,0.042,0.0022,0.0038,0.0,0.0,True,2026-03-17,Friday,32,False,5
+EML0832,CRE0094,Weekly Newsletter,Photography & Videography,2916,2875,0.364,0.095,0.0084,0.0014,0.0,0.0,True,2026-02-20,Monday,34,True,5
+EML0833,CRE0003,Abandoned Cart Recovery,Food & Cooking,14639,14000,0.476,0.124,0.0143,0.0132,57891.51,6.7,False,2025-12-25,Friday,44,True,1
+EML0834,CRE0481,Promotional Offer,Finance & Investing,13563,13559,0.282,0.097,0.0049,0.0014,16509.6,4.45,True,2025-12-24,Monday,51,False,5
+EML0835,CRE0393,Re-engagement,Parenting & Family,9948,9511,0.227,0.038,0.0048,0.006,0.0,0.0,True,2025-04-17,Wednesday,60,False,2
+EML0836,CRE0584,Product Launch,Personal Development,6528,6110,0.361,0.053,0.0039,0.006,8343.33,6.68,False,2025-10-04,Thursday,73,False,3
+EML0837,CRE0185,Product Launch,Sustainable Living,5992,5801,0.318,0.086,0.0141,0.0133,1130.7,0.69,False,2026-03-09,Tuesday,66,False,2
+EML0838,CRE0254,Abandoned Cart Recovery,Beauty & Fashion,2562,2369,0.452,0.149,0.0076,0.0087,15943.21,9.24,True,2025-03-20,Tuesday,37,True,4
+EML0839,CRE0406,Product Launch,Parenting & Family,3540,3531,0.31,0.078,0.0097,0.0144,9167.46,10.71,False,2025-12-12,Wednesday,70,False,2
+EML0840,CRE0514,Product Launch,Pet Care,9443,8980,0.443,0.046,0.0043,0.0069,19242.95,10.0,False,2025-03-25,Friday,73,True,2
+EML0841,CRE0066,Promotional Offer,Home Decor & Interior Design,523,494,0.255,0.082,0.0151,0.0032,971.11,8.88,True,2025-10-14,Monday,40,False,4
+EML0842,CRE0342,New Content Alert,Business & Entrepreneurship,7472,7198,0.307,0.035,0.0048,0.0063,0.0,0.0,True,2025-04-17,Tuesday,64,True,5
+EML0843,CRE0159,Abandoned Cart Recovery,Comedy & Entertainment,14471,14075,0.504,0.175,0.0272,0.0077,48628.64,3.81,False,2025-06-12,Tuesday,52,False,4
+EML0844,CRE0129,Re-engagement,Food & Cooking,3184,3065,0.16,0.032,0.0051,0.006,0.0,0.0,False,2025-06-21,Monday,31,True,3
+EML0845,CRE0501,New Content Alert,Technology & Software,5074,4905,0.353,0.112,0.013,0.0053,0.0,0.0,True,2025-06-04,Tuesday,46,False,2
+EML0846,CRE0017,Product Launch,Comedy & Entertainment,3743,3609,0.373,0.057,0.0096,0.0114,7225.86,9.08,False,2026-02-06,Monday,39,True,5
+EML0847,CRE0259,Promotional Offer,Business & Entrepreneurship,9296,9197,0.213,0.054,0.0088,0.011,7559.43,7.07,True,2025-09-24,Thursday,56,False,1
+EML0848,CRE0155,Re-engagement,Technology & Software,8799,8727,0.152,0.047,0.0072,0.0046,0.0,0.0,False,2025-06-08,Thursday,53,False,3
+EML0849,CRE0573,Re-engagement,Comedy & Entertainment,1541,1459,0.16,0.041,0.0032,0.0033,0.0,0.0,True,2026-01-18,Monday,40,True,4
+EML0850,CRE0030,Promotional Offer,Technology & Software,2364,2279,0.189,0.039,0.0023,0.0012,236.98,1.36,True,2025-11-19,Wednesday,35,False,1
+EML0851,CRE0199,New Content Alert,Music & Audio Production,5897,5642,0.303,0.062,0.0085,0.003,0.0,0.0,False,2026-02-22,Monday,48,False,4
+EML0852,CRE0239,Product Launch,Language Learning,9490,9311,0.431,0.108,0.0086,0.005,39182.38,8.87,False,2025-06-15,Wednesday,62,False,1
+EML0853,CRE0117,New Content Alert,Finance & Investing,8329,7881,0.373,0.119,0.0131,0.0057,0.0,0.0,True,2026-01-19,Friday,36,True,3
+EML0854,CRE0274,Promotional Offer,Business & Entrepreneurship,3331,3112,0.239,0.042,0.0032,0.0126,2253.63,6.74,False,2025-06-22,Thursday,63,True,5
+EML0855,CRE0030,Weekly Newsletter,Parenting & Family,8869,8742,0.264,0.057,0.0108,0.0017,0.0,0.0,True,2025-04-20,Monday,36,False,3
+EML0856,CRE0489,Weekly Newsletter,Finance & Investing,13132,12334,0.212,0.038,0.0038,0.0032,0.0,0.0,False,2025-08-07,Wednesday,72,False,3
+EML0857,CRE0250,New Content Alert,Personal Development,14891,13962,0.285,0.035,0.0065,0.0049,0.0,0.0,True,2025-05-16,Thursday,62,True,4
+EML0858,CRE0585,Product Launch,Comedy & Entertainment,3831,3656,0.479,0.099,0.0135,0.0115,15678.11,8.63,True,2026-02-13,Tuesday,73,True,2
+EML0859,CRE0033,Weekly Newsletter,Travel & Adventure,825,760,0.309,0.083,0.0081,0.0089,0.0,0.0,False,2026-02-12,Tuesday,58,True,3
+EML0860,CRE0069,Weekly Newsletter,Finance & Investing,12849,12250,0.326,0.08,0.0097,0.009,0.0,0.0,True,2025-06-24,Monday,45,False,5
+EML0861,CRE0030,Abandoned Cart Recovery,Science & Space,10009,9265,0.343,0.035,0.0053,0.0037,6116.04,5.09,True,2025-07-25,Wednesday,61,True,5
+EML0862,CRE0519,New Content Alert,Education & Online Courses,12483,11934,0.249,0.082,0.0063,0.0091,0.0,0.0,True,2025-05-05,Thursday,58,True,3
+EML0863,CRE0552,Product Launch,Travel & Adventure,5829,5745,0.39,0.12,0.0167,0.0014,12712.35,4.66,True,2026-03-17,Wednesday,53,False,1
+EML0864,CRE0351,Re-engagement,Gaming & Esports,14589,13833,0.197,0.046,0.0034,0.0088,0.0,0.0,True,2025-05-31,Wednesday,33,True,5
+EML0865,CRE0598,New Content Alert,Home Decor & Interior Design,3816,3602,0.323,0.076,0.0095,0.0077,0.0,0.0,True,2026-03-13,Monday,46,False,2
+EML0866,CRE0217,Product Launch,Finance & Investing,12482,12054,0.304,0.065,0.005,0.0059,21310.07,8.64,False,2025-03-30,Tuesday,68,True,3
+EML0867,CRE0212,Promotional Offer,Home Decor & Interior Design,9757,9571,0.293,0.056,0.007,0.0112,9317.4,5.82,False,2025-11-03,Monday,75,False,1
+EML0868,CRE0153,New Content Alert,Gaming & Esports,13895,12836,0.286,0.092,0.017,0.0141,0.0,0.0,False,2025-06-26,Monday,38,False,4
+EML0869,CRE0463,Re-engagement,Travel & Adventure,8361,8211,0.224,0.029,0.0042,0.0141,0.0,0.0,False,2025-05-09,Wednesday,45,False,4
+EML0870,CRE0389,Promotional Offer,Home Decor & Interior Design,6811,6405,0.253,0.067,0.0077,0.0036,13196.31,11.43,False,2025-08-19,Friday,71,False,1
+EML0871,CRE0060,Weekly Newsletter,Sustainable Living,1988,1987,0.26,0.072,0.0082,0.0039,0.0,0.0,False,2025-06-11,Thursday,36,False,2
+EML0872,CRE0392,Re-engagement,Science & Space,8475,8156,0.128,0.022,0.004,0.0037,0.0,0.0,False,2026-03-05,Wednesday,38,True,2
+EML0873,CRE0066,Weekly Newsletter,Language Learning,14846,14262,0.2,0.066,0.0097,0.0095,0.0,0.0,True,2025-05-07,Friday,51,False,1
+EML0874,CRE0322,Promotional Offer,Parenting & Family,8824,8181,0.313,0.091,0.0154,0.0118,19126.52,7.61,False,2025-11-24,Thursday,53,True,5
+EML0875,CRE0308,New Content Alert,Science & Space,8604,8486,0.396,0.071,0.0048,0.0015,0.0,0.0,True,2025-05-16,Tuesday,57,False,3
+EML0876,CRE0173,Promotional Offer,Home Decor & Interior Design,9970,9735,0.197,0.063,0.008,0.0031,8884.36,7.18,True,2025-04-17,Tuesday,62,True,3
+EML0877,CRE0240,Weekly Newsletter,Comedy & Entertainment,4944,4914,0.36,0.109,0.0067,0.0015,0.0,0.0,True,2025-08-01,Wednesday,65,True,2
+EML0878,CRE0567,Promotional Offer,Home Decor & Interior Design,1249,1172,0.251,0.087,0.012,0.0125,1865.57,6.84,True,2025-10-21,Monday,35,False,4
+EML0879,CRE0051,Abandoned Cart Recovery,Music & Audio Production,14140,13012,0.335,0.052,0.0054,0.0067,26577.8,10.79,False,2025-09-13,Monday,68,False,4
+EML0880,CRE0118,New Content Alert,Pet Care,13899,13862,0.369,0.055,0.008,0.0054,0.0,0.0,True,2026-03-07,Thursday,38,True,5
+EML0881,CRE0487,Weekly Newsletter,Parenting & Family,9763,9309,0.379,0.039,0.0022,0.0103,0.0,0.0,False,2025-10-21,Thursday,53,False,4
+EML0882,CRE0212,Re-engagement,Personal Development,5908,5810,0.19,0.038,0.0032,0.0104,0.0,0.0,True,2025-11-12,Monday,74,False,5
+EML0883,CRE0298,Re-engagement,Home Decor & Interior Design,3398,3361,0.205,0.044,0.0061,0.0111,0.0,0.0,True,2025-04-25,Thursday,62,True,1
+EML0884,CRE0503,Weekly Newsletter,Pet Care,6139,5864,0.222,0.055,0.0035,0.0058,0.0,0.0,False,2025-11-06,Thursday,56,True,5
+EML0885,CRE0047,Weekly Newsletter,Finance & Investing,7818,7427,0.285,0.083,0.0163,0.0115,0.0,0.0,False,2025-05-19,Friday,69,True,4
+EML0886,CRE0481,Re-engagement,Music & Audio Production,3165,2936,0.144,0.025,0.0047,0.0017,0.0,0.0,True,2025-04-08,Monday,42,False,5
+EML0887,CRE0424,Abandoned Cart Recovery,Comedy & Entertainment,614,581,0.618,0.109,0.0199,0.0062,2448.53,5.92,False,2025-06-28,Thursday,74,True,1
+EML0888,CRE0038,Weekly Newsletter,Technology & Software,2581,2468,0.312,0.062,0.0039,0.0037,0.0,0.0,True,2025-07-10,Friday,61,False,1
+EML0889,CRE0571,Re-engagement,Beauty & Fashion,9426,9185,0.235,0.027,0.0022,0.0026,0.0,0.0,False,2025-07-05,Wednesday,62,True,3
+EML0890,CRE0009,Promotional Offer,Parenting & Family,14334,13865,0.225,0.023,0.0027,0.013,6327.42,8.53,True,2025-04-01,Friday,61,False,1
+EML0891,CRE0215,New Content Alert,Sustainable Living,8006,7366,0.34,0.053,0.0087,0.0045,0.0,0.0,False,2025-03-22,Tuesday,44,True,5
+EML0892,CRE0114,Re-engagement,Home Decor & Interior Design,3121,3025,0.131,0.041,0.0061,0.0116,0.0,0.0,False,2025-09-10,Tuesday,39,False,4
+EML0893,CRE0485,Re-engagement,Language Learning,3153,2924,0.189,0.043,0.0034,0.0031,0.0,0.0,True,2025-11-17,Monday,40,False,4
+EML0894,CRE0493,Promotional Offer,Parenting & Family,14823,14133,0.308,0.064,0.0042,0.0064,21388.38,7.32,False,2026-01-27,Wednesday,64,True,1
+EML0895,CRE0136,Product Launch,Personal Development,7199,6822,0.517,0.055,0.0082,0.0032,15700.76,7.67,False,2025-11-25,Friday,50,True,1
+EML0896,CRE0468,Weekly Newsletter,Parenting & Family,3535,3502,0.259,0.031,0.006,0.0099,0.0,0.0,True,2025-05-16,Tuesday,72,True,5
+EML0897,CRE0425,Weekly Newsletter,Gaming & Esports,10202,10131,0.288,0.044,0.0059,0.0022,0.0,0.0,True,2026-02-01,Tuesday,66,True,4
+EML0898,CRE0234,Abandoned Cart Recovery,Personal Development,3322,3108,0.624,0.167,0.0287,0.0042,20216.85,5.84,True,2025-06-22,Wednesday,37,False,4
+EML0899,CRE0509,Re-engagement,Science & Space,13146,12108,0.131,0.031,0.0059,0.0089,0.0,0.0,True,2025-06-22,Friday,32,False,5
+EML0900,CRE0136,Re-engagement,Gaming & Esports,1940,1801,0.183,0.044,0.0035,0.0142,0.0,0.0,True,2025-05-23,Wednesday,69,True,5
+EML0901,CRE0252,Weekly Newsletter,Sustainable Living,11764,11096,0.309,0.068,0.01,0.0057,0.0,0.0,False,2025-08-08,Wednesday,70,False,1
+EML0902,CRE0045,Abandoned Cart Recovery,Music & Audio Production,12371,12171,0.562,0.073,0.0114,0.0137,21367.12,4.21,True,2025-12-05,Friday,51,False,1
+EML0903,CRE0234,Weekly Newsletter,Gaming & Esports,1383,1346,0.359,0.069,0.0115,0.0136,0.0,0.0,False,2025-04-20,Tuesday,40,False,5
+EML0904,CRE0377,Weekly Newsletter,Education & Online Courses,1963,1931,0.297,0.031,0.0019,0.0025,0.0,0.0,False,2025-10-03,Monday,51,True,3
+EML0905,CRE0369,Weekly Newsletter,Comedy & Entertainment,13702,12972,0.337,0.116,0.0186,0.0118,0.0,0.0,True,2025-06-15,Tuesday,48,False,2
+EML0906,CRE0334,Product Launch,Personal Development,826,771,0.321,0.102,0.0186,0.0043,1417.15,5.24,False,2026-02-19,Thursday,68,True,2
+EML0907,CRE0108,Re-engagement,Technology & Software,9257,8638,0.149,0.021,0.0017,0.0135,0.0,0.0,True,2025-07-09,Thursday,69,True,2
+EML0908,CRE0252,Promotional Offer,Home Decor & Interior Design,6748,6541,0.212,0.038,0.0024,0.0136,3837.95,7.06,True,2025-04-01,Thursday,43,False,1
+EML0909,CRE0291,New Content Alert,Language Learning,2288,2193,0.238,0.031,0.0018,0.0129,0.0,0.0,True,2025-05-05,Monday,74,True,3
+EML0910,CRE0560,Promotional Offer,Finance & Investing,12164,11621,0.311,0.092,0.0183,0.0127,38492.82,11.06,True,2025-11-29,Friday,52,True,1
+EML0911,CRE0561,Weekly Newsletter,Music & Audio Production,7348,7308,0.286,0.062,0.0049,0.0085,0.0,0.0,True,2025-04-21,Monday,68,True,4
+EML0912,CRE0386,Re-engagement,Business & Entrepreneurship,5776,5772,0.172,0.045,0.0059,0.0081,0.0,0.0,True,2026-02-16,Tuesday,35,False,3
+EML0913,CRE0235,New Content Alert,Finance & Investing,1538,1425,0.295,0.087,0.0128,0.0117,0.0,0.0,True,2025-06-13,Friday,45,True,3
+EML0914,CRE0491,Abandoned Cart Recovery,Science & Space,12261,12234,0.506,0.087,0.0051,0.0102,54083.32,10.02,True,2025-10-12,Wednesday,50,False,5
+EML0915,CRE0466,Product Launch,Photography & Videography,4476,4210,0.414,0.136,0.0219,0.013,6476.83,2.57,False,2025-12-21,Thursday,64,False,1
+EML0916,CRE0259,Product Launch,Home Decor & Interior Design,4925,4532,0.422,0.128,0.015,0.0137,17584.5,6.61,True,2026-03-01,Wednesday,39,False,2
+EML0917,CRE0585,Weekly Newsletter,Parenting & Family,233,216,0.311,0.078,0.0056,0.0132,0.0,0.0,False,2025-03-27,Friday,33,True,2
+EML0918,CRE0580,Re-engagement,Personal Development,7071,6687,0.129,0.025,0.0037,0.0041,0.0,0.0,True,2025-09-03,Thursday,43,True,4
+EML0919,CRE0587,Product Launch,Science & Space,13424,12900,0.442,0.099,0.0092,0.013,7636.3,1.3,False,2025-08-19,Thursday,66,True,4
+EML0920,CRE0110,Promotional Offer,Finance & Investing,2118,1959,0.223,0.076,0.0052,0.0135,3115.76,8.68,True,2025-12-16,Tuesday,65,False,4
+EML0921,CRE0438,New Content Alert,Science & Space,3763,3725,0.282,0.067,0.0089,0.0016,0.0,0.0,True,2025-09-24,Friday,58,True,5
+EML0922,CRE0539,Promotional Offer,Finance & Investing,13948,13468,0.179,0.045,0.0086,0.004,6572.54,5.85,True,2025-09-04,Thursday,33,False,3
+EML0923,CRE0542,New Content Alert,Technology & Software,7879,7829,0.417,0.085,0.012,0.0081,0.0,0.0,False,2025-05-24,Thursday,51,False,4
+EML0924,CRE0118,Promotional Offer,Beauty & Fashion,7943,7463,0.302,0.05,0.007,0.0042,3826.06,3.19,False,2025-09-20,Tuesday,66,False,5
+EML0925,CRE0118,Product Launch,Personal Development,4447,4359,0.291,0.081,0.0095,0.0048,8312.24,7.93,True,2025-09-24,Tuesday,66,False,1
+EML0926,CRE0240,New Content Alert,Travel & Adventure,7275,7262,0.34,0.103,0.0084,0.0131,0.0,0.0,False,2026-01-03,Wednesday,31,False,1
+EML0927,CRE0396,Product Launch,Music & Audio Production,1477,1419,0.326,0.04,0.0063,0.0021,2203.35,11.44,False,2025-09-20,Tuesday,37,True,2
+EML0928,CRE0276,Re-engagement,Education & Online Courses,12630,12168,0.18,0.032,0.006,0.0146,0.0,0.0,False,2025-05-21,Monday,49,True,1
+EML0929,CRE0410,Re-engagement,Sustainable Living,8099,7880,0.17,0.057,0.0077,0.0116,0.0,0.0,False,2025-03-19,Friday,52,False,5
+EML0930,CRE0109,Re-engagement,Language Learning,12297,11552,0.205,0.066,0.0053,0.003,0.0,0.0,False,2025-09-01,Monday,73,True,3
+EML0931,CRE0447,Re-engagement,Comedy & Entertainment,14945,14370,0.169,0.046,0.0036,0.0094,0.0,0.0,True,2025-07-04,Tuesday,66,True,4
+EML0932,CRE0474,Product Launch,Comedy & Entertainment,4937,4928,0.521,0.119,0.0169,0.0032,8172.58,2.67,True,2025-10-24,Thursday,64,False,4
+EML0933,CRE0027,Re-engagement,Science & Space,14458,14172,0.185,0.022,0.0023,0.0124,0.0,0.0,True,2026-02-06,Monday,73,False,5
+EML0934,CRE0276,Re-engagement,Business & Entrepreneurship,1500,1407,0.226,0.055,0.0073,0.0139,0.0,0.0,False,2025-03-31,Friday,60,True,2
+EML0935,CRE0263,Product Launch,Home Decor & Interior Design,5415,5157,0.287,0.06,0.0076,0.0038,3729.85,4.0,False,2025-12-06,Monday,59,False,3
+EML0936,CRE0036,Weekly Newsletter,Travel & Adventure,10923,10357,0.35,0.037,0.0053,0.0145,0.0,0.0,False,2025-11-23,Friday,67,False,5
+EML0937,CRE0169,New Content Alert,Sustainable Living,12938,12356,0.411,0.143,0.0179,0.0041,0.0,0.0,True,2025-05-10,Friday,68,False,4
+EML0938,CRE0099,New Content Alert,Education & Online Courses,8677,8640,0.413,0.069,0.0057,0.0096,0.0,0.0,True,2026-03-11,Friday,43,False,3
+EML0939,CRE0226,Product Launch,Parenting & Family,12502,11960,0.438,0.058,0.0062,0.0043,19087.81,6.01,True,2026-03-16,Monday,66,False,4
+EML0940,CRE0295,New Content Alert,Science & Space,8230,8037,0.367,0.072,0.0129,0.0047,0.0,0.0,False,2026-03-11,Friday,34,True,1
+EML0941,CRE0415,New Content Alert,Technology & Software,9327,9300,0.357,0.076,0.0048,0.0133,0.0,0.0,False,2026-01-09,Friday,53,True,4
+EML0942,CRE0590,Abandoned Cart Recovery,Photography & Videography,11156,10768,0.583,0.196,0.0251,0.0087,117279.19,9.2,False,2026-01-19,Thursday,61,True,4
+EML0943,CRE0595,Abandoned Cart Recovery,Photography & Videography,5855,5837,0.488,0.141,0.0216,0.0138,2900.67,0.72,False,2025-06-07,Tuesday,56,False,5
+EML0944,CRE0401,Promotional Offer,Gaming & Esports,7091,6643,0.218,0.046,0.0029,0.0056,1749.27,2.46,False,2025-06-09,Monday,49,True,5
+EML0945,CRE0477,Product Launch,Education & Online Courses,3638,3438,0.334,0.082,0.0043,0.0142,10621.36,10.66,False,2025-08-22,Friday,49,True,4
+EML0946,CRE0332,Abandoned Cart Recovery,Technology & Software,13674,13395,0.506,0.093,0.0164,0.0073,40924.76,6.36,True,2025-08-13,Wednesday,75,True,1
+EML0947,CRE0015,Re-engagement,Gaming & Esports,14903,13759,0.158,0.023,0.0026,0.0147,0.0,0.0,True,2026-02-26,Thursday,38,True,5
+EML0948,CRE0500,Weekly Newsletter,Food & Cooking,1954,1836,0.345,0.104,0.0058,0.0141,0.0,0.0,False,2026-02-21,Friday,58,True,5
+EML0949,CRE0099,Abandoned Cart Recovery,Beauty & Fashion,8555,8554,0.36,0.091,0.0124,0.0128,3475.25,1.24,False,2025-08-25,Friday,70,True,4
+EML0950,CRE0012,Abandoned Cart Recovery,Home Decor & Interior Design,9097,9048,0.63,0.16,0.0264,0.0135,92981.53,10.14,False,2026-03-18,Monday,67,True,1
+EML0951,CRE0364,Re-engagement,Language Learning,12708,12178,0.144,0.044,0.0023,0.0142,0.0,0.0,True,2025-07-09,Monday,74,True,4
+EML0952,CRE0188,Promotional Offer,Photography & Videography,5537,5520,0.264,0.032,0.0047,0.0088,5337.21,11.41,False,2025-12-31,Friday,48,True,2
+EML0953,CRE0041,Weekly Newsletter,Language Learning,1163,1141,0.293,0.03,0.0036,0.0138,0.0,0.0,True,2025-06-23,Monday,31,False,4
+EML0954,CRE0367,Weekly Newsletter,Travel & Adventure,10854,10684,0.265,0.036,0.0046,0.0015,0.0,0.0,True,2025-04-03,Monday,30,True,4
+EML0955,CRE0361,Product Launch,Sustainable Living,14149,13639,0.269,0.057,0.0052,0.0029,17030.31,7.85,False,2025-08-22,Monday,74,False,5
+EML0956,CRE0110,Weekly Newsletter,Language Learning,3189,2994,0.203,0.034,0.0023,0.0083,0.0,0.0,True,2025-12-22,Wednesday,65,False,5
+EML0957,CRE0291,Weekly Newsletter,Personal Development,6554,6442,0.245,0.055,0.0029,0.0106,0.0,0.0,True,2026-01-10,Wednesday,46,False,5
+EML0958,CRE0503,Promotional Offer,Beauty & Fashion,6932,6828,0.281,0.066,0.0068,0.0028,7250.83,5.64,True,2025-09-29,Tuesday,40,True,2
+EML0959,CRE0271,Product Launch,Sustainable Living,1154,1110,0.486,0.08,0.0077,0.0034,3813.74,8.5,False,2025-04-16,Friday,52,True,5
+EML0960,CRE0592,Weekly Newsletter,Business & Entrepreneurship,1029,957,0.321,0.049,0.0075,0.0149,0.0,0.0,False,2025-12-02,Monday,70,False,2
+EML0961,CRE0143,Weekly Newsletter,Gaming & Esports,4187,3869,0.256,0.027,0.0027,0.0051,0.0,0.0,False,2025-05-19,Wednesday,33,True,5
+EML0962,CRE0572,Weekly Newsletter,Sustainable Living,11846,11368,0.268,0.073,0.0115,0.0047,0.0,0.0,False,2025-05-22,Thursday,41,True,5
+EML0963,CRE0251,Product Launch,Photography & Videography,2109,2003,0.345,0.117,0.0127,0.007,9951.67,11.69,True,2025-12-19,Monday,42,True,5
+EML0964,CRE0545,New Content Alert,Food & Cooking,12135,11913,0.365,0.079,0.0109,0.0024,0.0,0.0,False,2026-03-12,Tuesday,66,False,1
+EML0965,CRE0120,Weekly Newsletter,Science & Space,10199,9971,0.29,0.048,0.0076,0.0119,0.0,0.0,False,2025-11-20,Thursday,56,False,2
+EML0966,CRE0332,Promotional Offer,Beauty & Fashion,4157,3952,0.334,0.082,0.007,0.0127,8015.17,7.04,True,2026-03-17,Monday,41,True,5
+EML0967,CRE0595,New Content Alert,Comedy & Entertainment,6070,5731,0.436,0.055,0.0061,0.0134,0.0,0.0,True,2025-04-26,Monday,39,False,2
+EML0968,CRE0385,Promotional Offer,Gaming & Esports,2021,1867,0.321,0.045,0.0038,0.0024,1097.67,3.76,True,2025-04-17,Tuesday,59,True,3
+EML0969,CRE0374,Abandoned Cart Recovery,Pet Care,12186,11789,0.585,0.166,0.0318,0.0063,110291.25,9.32,True,2025-10-29,Wednesday,52,False,4
+EML0970,CRE0287,Promotional Offer,Technology & Software,8103,7815,0.2,0.031,0.0027,0.0128,1070.08,2.13,True,2025-11-30,Monday,72,True,3
+EML0971,CRE0280,Weekly Newsletter,Comedy & Entertainment,11910,11484,0.376,0.052,0.0079,0.0072,0.0,0.0,False,2026-02-07,Tuesday,41,True,3
+EML0972,CRE0154,Abandoned Cart Recovery,Comedy & Entertainment,2389,2288,0.506,0.079,0.0096,0.003,4727.15,4.95,True,2025-03-30,Friday,35,True,4
+EML0973,CRE0144,Re-engagement,Education & Online Courses,2978,2912,0.176,0.022,0.004,0.0097,0.0,0.0,False,2026-01-24,Friday,48,False,1
+EML0974,CRE0292,Weekly Newsletter,Comedy & Entertainment,4103,3896,0.252,0.036,0.004,0.0148,0.0,0.0,True,2025-11-26,Tuesday,36,True,5
+EML0975,CRE0340,New Content Alert,Finance & Investing,14110,14011,0.349,0.102,0.0087,0.003,0.0,0.0,False,2025-11-12,Tuesday,44,False,5
+EML0976,CRE0534,Product Launch,Home Decor & Interior Design,6608,6287,0.382,0.133,0.0105,0.0114,17524.9,5.22,True,2025-05-30,Wednesday,69,False,4
+EML0977,CRE0439,Abandoned Cart Recovery,Education & Online Courses,10535,10328,0.575,0.094,0.0048,0.0059,32001.22,5.62,True,2025-12-01,Thursday,41,True,5
+EML0978,CRE0411,Weekly Newsletter,Home Decor & Interior Design,2629,2444,0.268,0.085,0.0155,0.011,0.0,0.0,True,2025-06-21,Friday,43,False,1
+EML0979,CRE0465,Promotional Offer,Finance & Investing,1380,1365,0.274,0.062,0.0041,0.0119,138.32,0.59,False,2026-01-29,Wednesday,65,True,3
+EML0980,CRE0131,Promotional Offer,Travel & Adventure,6907,6790,0.231,0.06,0.011,0.008,9889.01,10.33,True,2025-05-24,Thursday,67,True,5
+EML0981,CRE0541,Product Launch,Science & Space,2922,2737,0.411,0.14,0.0119,0.0132,8457.03,5.03,False,2025-12-26,Tuesday,36,True,3
+EML0982,CRE0514,Promotional Offer,Comedy & Entertainment,6066,5596,0.285,0.032,0.0039,0.0099,885.15,1.6,True,2025-06-27,Friday,71,False,4
+EML0983,CRE0355,New Content Alert,Business & Entrepreneurship,9969,9927,0.332,0.115,0.0147,0.013,0.0,0.0,False,2025-11-01,Wednesday,51,False,4
+EML0984,CRE0123,Weekly Newsletter,Business & Entrepreneurship,4101,3866,0.344,0.088,0.0061,0.0073,0.0,0.0,False,2025-11-14,Monday,36,False,3
+EML0985,CRE0451,Product Launch,Food & Cooking,12353,11555,0.384,0.06,0.0089,0.0105,31933.59,11.22,False,2025-07-26,Monday,46,False,2
+EML0986,CRE0484,Product Launch,Finance & Investing,4421,4114,0.355,0.056,0.008,0.0054,1731.42,1.97,True,2025-12-24,Friday,64,True,1
+EML0987,CRE0035,Re-engagement,Food & Cooking,3196,3054,0.182,0.038,0.0023,0.0114,0.0,0.0,True,2026-02-20,Thursday,31,False,4
+EML0988,CRE0175,New Content Alert,Parenting & Family,3042,2856,0.331,0.104,0.0189,0.0029,0.0,0.0,False,2025-06-26,Wednesday,46,True,1
+EML0989,CRE0180,Re-engagement,Comedy & Entertainment,13633,12703,0.237,0.037,0.0069,0.0077,0.0,0.0,False,2026-02-06,Thursday,71,False,3
+EML0990,CRE0192,Product Launch,Photography & Videography,9102,8663,0.322,0.106,0.0175,0.0068,14477.2,4.66,False,2026-02-06,Friday,65,False,5
+EML0991,CRE0031,Product Launch,Finance & Investing,479,442,0.531,0.114,0.0064,0.0142,1432.39,4.94,True,2026-01-15,Monday,43,True,5
+EML0992,CRE0440,Re-engagement,Science & Space,10527,9834,0.218,0.052,0.0053,0.0081,0.0,0.0,False,2026-03-04,Wednesday,66,True,4
+EML0993,CRE0386,Weekly Newsletter,Photography & Videography,11650,11579,0.292,0.042,0.0039,0.0091,0.0,0.0,True,2025-10-21,Thursday,72,False,1
+EML0994,CRE0482,Promotional Offer,Home Decor & Interior Design,3995,3951,0.291,0.074,0.0043,0.0113,8921.14,10.37,False,2025-12-16,Friday,67,False,3
+EML0995,CRE0248,Promotional Offer,Pet Care,9516,9090,0.314,0.107,0.0157,0.0109,33058.9,10.34,False,2026-02-02,Tuesday,56,True,4
+EML0996,CRE0321,Product Launch,Comedy & Entertainment,1189,1173,0.487,0.141,0.0222,0.0039,8482.92,10.39,True,2025-07-14,Thursday,46,False,5
+EML0997,CRE0271,Weekly Newsletter,Sustainable Living,5881,5812,0.279,0.057,0.0041,0.015,0.0,0.0,False,2026-02-12,Thursday,48,False,1
+EML0998,CRE0187,Re-engagement,Education & Online Courses,5436,5264,0.227,0.023,0.0019,0.0079,0.0,0.0,True,2026-02-18,Thursday,67,True,5
+EML0999,CRE0377,Abandoned Cart Recovery,Travel & Adventure,6429,5917,0.468,0.089,0.0114,0.0055,31357.12,11.71,False,2025-10-31,Wednesday,67,False,2
+EML1000,CRE0154,Product Launch,Comedy & Entertainment,4489,4466,0.499,0.105,0.0057,0.0021,1458.25,0.62,False,2025-04-27,Thursday,62,True,4
+EML1001,CRE0170,Re-engagement,Science & Space,11343,11148,0.184,0.036,0.0071,0.0147,0.0,0.0,True,2025-12-21,Thursday,63,True,2
+EML1002,CRE0389,Re-engagement,Sustainable Living,11423,11414,0.166,0.03,0.0038,0.0019,0.0,0.0,False,2026-01-01,Friday,64,False,1
+EML1003,CRE0103,Abandoned Cart Recovery,Finance & Investing,12349,11714,0.444,0.139,0.0273,0.0049,80404.81,10.55,False,2025-10-22,Tuesday,31,True,3
+EML1004,CRE0494,Weekly Newsletter,Education & Online Courses,14980,14328,0.251,0.039,0.0052,0.0018,0.0,0.0,False,2025-12-20,Friday,49,False,1
+EML1005,CRE0446,Promotional Offer,Education & Online Courses,4591,4547,0.181,0.023,0.0015,0.0082,97.47,0.51,True,2026-01-17,Thursday,74,False,1
+EML1006,CRE0547,Re-engagement,Science & Space,4490,4445,0.173,0.051,0.0086,0.0093,0.0,0.0,False,2025-05-29,Wednesday,57,False,2
+EML1007,CRE0378,Promotional Offer,Science & Space,3450,3256,0.248,0.038,0.0038,0.0043,2786.35,8.57,True,2026-03-05,Thursday,64,True,5
+EML1008,CRE0168,Product Launch,Finance & Investing,12721,11874,0.335,0.085,0.0098,0.0111,22639.4,6.25,True,2025-12-22,Friday,66,True,5
+EML1009,CRE0464,Product Launch,Food & Cooking,6867,6338,0.413,0.065,0.0054,0.0047,16517.28,8.96,False,2025-12-20,Friday,48,False,5
+EML1010,CRE0120,New Content Alert,Parenting & Family,2307,2257,0.299,0.061,0.0097,0.0021,0.0,0.0,False,2025-10-18,Wednesday,69,False,5
+EML1011,CRE0564,Weekly Newsletter,Personal Development,12945,12081,0.215,0.048,0.0074,0.0068,0.0,0.0,False,2026-03-04,Wednesday,45,True,5
+EML1012,CRE0395,New Content Alert,Photography & Videography,6617,6470,0.264,0.092,0.0173,0.0015,0.0,0.0,True,2026-01-09,Friday,75,True,4
+EML1013,CRE0214,Weekly Newsletter,Travel & Adventure,14978,14093,0.223,0.036,0.0067,0.0045,0.0,0.0,False,2025-12-11,Monday,65,True,5
+EML1014,CRE0177,Weekly Newsletter,Sustainable Living,10766,10496,0.254,0.047,0.0065,0.0092,0.0,0.0,True,2025-08-22,Monday,50,False,4
+EML1015,CRE0264,Abandoned Cart Recovery,Photography & Videography,13617,12613,0.529,0.134,0.0073,0.0045,33783.91,3.5,False,2025-06-30,Thursday,32,False,1
+EML1016,CRE0499,Abandoned Cart Recovery,Pet Care,7305,7219,0.615,0.187,0.0247,0.0129,69897.28,8.32,True,2025-10-18,Tuesday,42,False,5
+EML1017,CRE0237,Product Launch,Home Decor & Interior Design,3695,3538,0.509,0.111,0.0187,0.0074,24842.89,11.9,True,2025-07-13,Thursday,43,True,1
+EML1018,CRE0445,Weekly Newsletter,Science & Space,10048,9698,0.31,0.049,0.0031,0.0113,0.0,0.0,False,2025-10-03,Thursday,50,False,2
+EML1019,CRE0475,Re-engagement,Finance & Investing,3613,3610,0.17,0.055,0.0047,0.0032,0.0,0.0,True,2025-08-29,Monday,50,False,1
+EML1020,CRE0017,Abandoned Cart Recovery,Photography & Videography,7245,7154,0.612,0.191,0.0161,0.0073,59874.6,7.07,False,2025-08-30,Tuesday,66,False,1
+EML1021,CRE0224,Product Launch,Comedy & Entertainment,2685,2553,0.408,0.059,0.0065,0.0014,6902.84,10.68,False,2025-05-28,Wednesday,62,False,5
+EML1022,CRE0262,Promotional Offer,Beauty & Fashion,9354,8799,0.309,0.059,0.0088,0.0053,3427.71,2.01,False,2026-02-09,Thursday,48,False,3
+EML1023,CRE0120,Promotional Offer,Pet Care,9259,8765,0.313,0.049,0.0075,0.0145,8704.92,6.13,True,2025-11-08,Tuesday,48,False,4
+EML1024,CRE0120,Product Launch,Parenting & Family,12361,12304,0.526,0.183,0.0189,0.0089,53899.98,4.53,True,2025-09-21,Thursday,73,True,2
+EML1025,CRE0126,Weekly Newsletter,Science & Space,882,830,0.386,0.108,0.0197,0.0102,0.0,0.0,True,2026-01-15,Friday,63,True,5
+EML1026,CRE0216,Re-engagement,Personal Development,1011,940,0.215,0.046,0.0044,0.0045,0.0,0.0,True,2025-06-28,Monday,47,False,2
+EML1027,CRE0458,New Content Alert,Language Learning,7931,7841,0.322,0.097,0.0143,0.0109,0.0,0.0,False,2025-07-19,Thursday,36,True,5
+EML1028,CRE0129,Weekly Newsletter,Comedy & Entertainment,1296,1237,0.346,0.109,0.0193,0.002,0.0,0.0,True,2025-08-23,Monday,42,True,1
+EML1029,CRE0044,Abandoned Cart Recovery,Home Decor & Interior Design,7556,7027,0.548,0.162,0.0171,0.0078,71036.82,10.59,False,2025-04-18,Thursday,37,True,4
+EML1030,CRE0491,New Content Alert,Music & Audio Production,8488,8202,0.343,0.037,0.0021,0.0083,0.0,0.0,True,2026-01-12,Tuesday,49,True,3
+EML1031,CRE0041,Abandoned Cart Recovery,Beauty & Fashion,14859,13783,0.326,0.102,0.0063,0.0109,2816.32,0.57,False,2025-11-19,Thursday,66,False,2
+EML1032,CRE0466,Weekly Newsletter,Gaming & Esports,1099,1027,0.247,0.045,0.0071,0.007,0.0,0.0,True,2025-10-21,Monday,38,False,1
+EML1033,CRE0482,Abandoned Cart Recovery,Sustainable Living,13130,12201,0.541,0.152,0.0175,0.0097,126649.53,11.73,False,2026-02-04,Wednesday,39,False,1
+EML1034,CRE0303,Abandoned Cart Recovery,Technology & Software,10500,10386,0.484,0.128,0.0208,0.0048,57829.09,8.89,True,2025-05-24,Wednesday,32,False,2
+EML1035,CRE0397,Re-engagement,Comedy & Entertainment,11051,10189,0.222,0.035,0.0023,0.015,0.0,0.0,True,2025-11-02,Tuesday,73,False,5
+EML1036,CRE0551,Promotional Offer,Pet Care,11369,11045,0.274,0.036,0.0069,0.0066,6908.06,6.16,False,2025-10-26,Friday,39,True,4
+EML1037,CRE0021,Re-engagement,Music & Audio Production,12053,11988,0.224,0.063,0.0062,0.0149,0.0,0.0,False,2025-07-12,Tuesday,64,True,5
+EML1038,CRE0284,Product Launch,Technology & Software,14942,14114,0.464,0.058,0.0049,0.0027,6273.06,1.56,True,2026-02-01,Wednesday,62,False,4
+EML1039,CRE0172,Product Launch,Food & Cooking,14417,13436,0.53,0.08,0.0059,0.009,69074.73,11.3,False,2025-07-23,Friday,53,False,1
+EML1040,CRE0466,New Content Alert,Photography & Videography,1561,1466,0.231,0.047,0.0056,0.0017,0.0,0.0,True,2025-10-13,Monday,50,False,2
+EML1041,CRE0465,Weekly Newsletter,Comedy & Entertainment,9204,8532,0.256,0.031,0.0061,0.0091,0.0,0.0,True,2026-01-29,Thursday,66,True,5
+EML1042,CRE0428,New Content Alert,Technology & Software,2226,2152,0.442,0.079,0.0046,0.0071,0.0,0.0,True,2026-03-10,Wednesday,35,False,2
+EML1043,CRE0552,Weekly Newsletter,Language Learning,10135,10024,0.377,0.062,0.0088,0.0112,0.0,0.0,True,2025-10-05,Friday,60,False,2
+EML1044,CRE0339,Product Launch,Gaming & Esports,7746,7690,0.354,0.046,0.0063,0.0058,7164.52,5.68,True,2025-09-27,Wednesday,47,False,4
+EML1045,CRE0260,Product Launch,Comedy & Entertainment,1207,1186,0.337,0.098,0.0114,0.007,1594.5,4.0,False,2025-06-22,Monday,54,True,3
+EML1046,CRE0553,Promotional Offer,Gaming & Esports,8176,8121,0.228,0.035,0.0019,0.0143,1030.86,1.58,True,2025-12-31,Tuesday,30,True,1
+EML1047,CRE0515,New Content Alert,Parenting & Family,14800,13935,0.322,0.112,0.0123,0.0078,0.0,0.0,True,2025-12-09,Friday,64,False,1
+EML1048,CRE0333,Abandoned Cart Recovery,Pet Care,13095,12197,0.404,0.106,0.0202,0.0135,3476.84,0.62,False,2025-07-16,Tuesday,73,True,3
+EML1049,CRE0079,Re-engagement,Travel & Adventure,3553,3528,0.14,0.026,0.0023,0.006,0.0,0.0,False,2025-08-06,Friday,62,True,1
+EML1050,CRE0272,New Content Alert,Gaming & Esports,11434,11246,0.445,0.08,0.0114,0.0079,0.0,0.0,False,2025-06-19,Friday,67,False,1
+EML1051,CRE0534,Abandoned Cart Recovery,Business & Entrepreneurship,13488,12584,0.492,0.063,0.0077,0.0126,12667.64,3.03,True,2025-07-08,Monday,75,True,4
+EML1052,CRE0081,Weekly Newsletter,Technology & Software,7433,7126,0.248,0.037,0.003,0.0138,0.0,0.0,True,2025-10-09,Tuesday,67,True,2
+EML1053,CRE0522,Abandoned Cart Recovery,Home Decor & Interior Design,1199,1183,0.443,0.049,0.0069,0.009,1592.83,6.12,True,2025-08-18,Friday,37,False,4
+EML1054,CRE0204,Weekly Newsletter,Home Decor & Interior Design,12703,11875,0.303,0.091,0.0077,0.006,0.0,0.0,True,2025-06-16,Tuesday,32,True,4
+EML1055,CRE0151,Re-engagement,Travel & Adventure,996,979,0.189,0.042,0.0063,0.0131,0.0,0.0,True,2025-11-12,Tuesday,52,True,4
+EML1056,CRE0030,Abandoned Cart Recovery,Gaming & Esports,3657,3587,0.573,0.192,0.0262,0.006,42043.33,10.45,False,2026-03-18,Tuesday,40,False,4
+EML1057,CRE0358,New Content Alert,Science & Space,8495,8212,0.298,0.04,0.0068,0.0103,0.0,0.0,True,2025-09-10,Friday,64,True,3
+EML1058,CRE0363,Weekly Newsletter,Sustainable Living,3086,2904,0.317,0.073,0.0074,0.0031,0.0,0.0,False,2026-01-29,Wednesday,46,True,2
+EML1059,CRE0037,Promotional Offer,Photography & Videography,4301,3993,0.236,0.069,0.0065,0.0045,2395.28,3.42,True,2026-01-02,Thursday,73,True,1
+EML1060,CRE0232,Weekly Newsletter,Science & Space,5548,5348,0.339,0.104,0.0208,0.0019,0.0,0.0,True,2025-04-11,Wednesday,43,True,1
+EML1061,CRE0445,Weekly Newsletter,Finance & Investing,1441,1360,0.226,0.06,0.0041,0.0048,0.0,0.0,True,2026-01-23,Monday,33,True,2
+EML1062,CRE0392,Promotional Offer,Science & Space,2250,2146,0.181,0.035,0.0019,0.009,1429.65,10.03,False,2025-11-02,Thursday,57,False,2
+EML1063,CRE0508,New Content Alert,Sustainable Living,5742,5587,0.246,0.059,0.005,0.0132,0.0,0.0,False,2025-06-03,Friday,33,True,3
+EML1064,CRE0185,Abandoned Cart Recovery,Home Decor & Interior Design,9584,9086,0.437,0.049,0.0065,0.0114,11964.45,5.83,False,2025-12-13,Thursday,58,True,1
+EML1065,CRE0081,Re-engagement,Business & Entrepreneurship,7267,7003,0.213,0.064,0.0049,0.0048,0.0,0.0,False,2025-05-23,Tuesday,67,False,4
+EML1066,CRE0127,Abandoned Cart Recovery,Technology & Software,6883,6732,0.358,0.078,0.0064,0.0098,10398.07,5.41,False,2026-01-10,Thursday,62,False,5
+EML1067,CRE0190,Promotional Offer,Technology & Software,10130,9453,0.282,0.029,0.0028,0.0019,4374.12,5.28,True,2025-08-11,Wednesday,70,True,2
+EML1068,CRE0331,Weekly Newsletter,Finance & Investing,3446,3206,0.274,0.077,0.0055,0.0144,0.0,0.0,True,2025-09-28,Thursday,63,False,5
+EML1069,CRE0017,Weekly Newsletter,Language Learning,9381,8874,0.382,0.099,0.0181,0.0119,0.0,0.0,False,2025-05-09,Tuesday,52,True,5
+EML1070,CRE0172,Weekly Newsletter,Photography & Videography,8476,8030,0.223,0.047,0.0084,0.0023,0.0,0.0,True,2025-06-05,Wednesday,52,True,4
+EML1071,CRE0333,Re-engagement,Music & Audio Production,7626,7210,0.193,0.049,0.0032,0.0037,0.0,0.0,False,2026-01-16,Thursday,60,True,1
+EML1072,CRE0558,Re-engagement,Music & Audio Production,10031,9564,0.248,0.078,0.0103,0.0081,0.0,0.0,False,2025-05-25,Wednesday,35,False,3
+EML1073,CRE0345,Product Launch,Comedy & Entertainment,404,389,0.489,0.139,0.0259,0.0146,2839.39,10.34,True,2025-07-19,Wednesday,55,False,4
+EML1074,CRE0392,Weekly Newsletter,Science & Space,7515,7296,0.219,0.023,0.0016,0.0082,0.0,0.0,True,2025-12-03,Thursday,53,True,2
+EML1075,CRE0115,Product Launch,Home Decor & Interior Design,6567,6299,0.345,0.077,0.008,0.0044,7396.78,4.24,False,2025-05-21,Monday,65,True,2
+EML1076,CRE0379,Weekly Newsletter,Education & Online Courses,7301,7281,0.37,0.104,0.0086,0.0129,0.0,0.0,False,2025-11-01,Monday,55,False,5
+EML1077,CRE0480,Product Launch,Gaming & Esports,2722,2511,0.441,0.114,0.0119,0.0087,6418.07,4.69,True,2025-10-31,Friday,56,False,2
+EML1078,CRE0369,Re-engagement,Music & Audio Production,10531,9829,0.23,0.066,0.0119,0.0015,0.0,0.0,True,2025-09-29,Friday,63,False,3
+EML1079,CRE0287,Re-engagement,Technology & Software,14628,14210,0.193,0.05,0.0048,0.006,0.0,0.0,True,2025-09-04,Friday,37,True,5
+EML1080,CRE0421,Abandoned Cart Recovery,Photography & Videography,11608,10891,0.471,0.137,0.0153,0.0036,42919.39,5.73,True,2025-09-05,Monday,64,False,3
+EML1081,CRE0593,Weekly Newsletter,Travel & Adventure,12668,12483,0.313,0.105,0.0123,0.0102,0.0,0.0,True,2025-05-30,Thursday,52,True,3
+EML1082,CRE0209,Re-engagement,Music & Audio Production,11239,10750,0.134,0.018,0.0009,0.0096,0.0,0.0,True,2025-04-08,Wednesday,57,False,3
+EML1083,CRE0068,New Content Alert,Technology & Software,5448,5210,0.271,0.088,0.0057,0.0127,0.0,0.0,True,2025-08-21,Friday,55,True,2
+EML1084,CRE0506,Promotional Offer,Education & Online Courses,12519,11838,0.223,0.046,0.0031,0.0046,2940.82,2.29,False,2025-07-01,Wednesday,75,True,1
+EML1085,CRE0034,Weekly Newsletter,Travel & Adventure,10793,10444,0.233,0.024,0.0035,0.0048,0.0,0.0,True,2025-05-31,Tuesday,37,False,5
+EML1086,CRE0325,Weekly Newsletter,Beauty & Fashion,11389,10511,0.223,0.045,0.0081,0.0089,0.0,0.0,True,2025-12-02,Tuesday,67,False,1
+EML1087,CRE0100,Abandoned Cart Recovery,Photography & Videography,5687,5481,0.555,0.08,0.0146,0.003,23710.01,9.39,False,2026-03-10,Wednesday,40,False,2
+EML1088,CRE0591,New Content Alert,Comedy & Entertainment,9502,8879,0.437,0.081,0.0102,0.006,0.0,0.0,False,2025-11-09,Wednesday,54,True,3
+EML1089,CRE0303,New Content Alert,Home Decor & Interior Design,14938,14801,0.415,0.141,0.0251,0.007,0.0,0.0,True,2025-07-14,Tuesday,30,True,1
+EML1090,CRE0322,Product Launch,Language Learning,1915,1895,0.347,0.053,0.0037,0.0016,3359.87,9.54,False,2025-07-14,Monday,37,False,3
+EML1091,CRE0474,Re-engagement,Photography & Videography,11118,10805,0.165,0.04,0.0068,0.01,0.0,0.0,False,2025-06-08,Wednesday,36,False,3
+EML1092,CRE0485,Promotional Offer,Gaming & Esports,11267,10925,0.221,0.037,0.0054,0.0141,7149.31,7.76,False,2025-06-19,Friday,35,False,1
+EML1093,CRE0529,New Content Alert,Travel & Adventure,4025,3716,0.278,0.09,0.0082,0.0073,0.0,0.0,False,2025-05-22,Friday,71,True,4
+EML1094,CRE0457,Promotional Offer,Business & Entrepreneurship,4964,4956,0.239,0.065,0.0071,0.0122,1542.31,2.0,False,2025-12-23,Monday,73,True,3
+EML1095,CRE0045,Abandoned Cart Recovery,Travel & Adventure,8844,8277,0.617,0.167,0.0173,0.001,7290.22,0.8,False,2025-09-15,Thursday,60,True,3
+EML1096,CRE0212,Promotional Offer,Language Learning,4254,3981,0.267,0.035,0.004,0.0019,1514.61,3.81,True,2025-11-18,Friday,55,True,5
+EML1097,CRE0119,Weekly Newsletter,Music & Audio Production,7807,7786,0.221,0.074,0.0072,0.0137,0.0,0.0,False,2025-09-07,Monday,44,False,2
+EML1098,CRE0322,Weekly Newsletter,Gaming & Esports,9243,9095,0.368,0.042,0.0032,0.0034,0.0,0.0,True,2025-03-26,Tuesday,64,False,5
+EML1099,CRE0269,Re-engagement,Language Learning,4524,4227,0.247,0.047,0.0036,0.0133,0.0,0.0,False,2025-12-31,Wednesday,61,True,4
+EML1100,CRE0258,Re-engagement,Beauty & Fashion,2019,1871,0.156,0.053,0.0054,0.0012,0.0,0.0,True,2025-10-06,Wednesday,60,False,5
+EML1101,CRE0531,Product Launch,Pet Care,231,213,0.345,0.102,0.0077,0.0059,390.19,4.8,True,2025-10-20,Monday,32,True,4
+EML1102,CRE0357,Abandoned Cart Recovery,Sustainable Living,12572,12360,0.408,0.116,0.0144,0.0041,51884.66,8.72,False,2025-09-06,Tuesday,48,False,1
+EML1103,CRE0558,Re-engagement,Home Decor & Interior Design,1255,1240,0.235,0.028,0.0032,0.0051,0.0,0.0,True,2025-09-28,Thursday,59,True,3
+EML1104,CRE0279,Weekly Newsletter,Language Learning,4451,4344,0.202,0.055,0.0042,0.0095,0.0,0.0,False,2025-08-30,Tuesday,59,True,2
+EML1105,CRE0444,Abandoned Cart Recovery,Parenting & Family,11568,11213,0.602,0.16,0.0291,0.0053,101060.64,9.07,True,2025-09-11,Tuesday,38,True,2
+EML1106,CRE0083,Abandoned Cart Recovery,Photography & Videography,10383,9786,0.33,0.107,0.0058,0.003,12685.18,3.46,False,2025-10-22,Monday,38,True,4
+EML1107,CRE0168,New Content Alert,Pet Care,13822,13229,0.331,0.094,0.0078,0.0138,0.0,0.0,True,2025-09-22,Wednesday,66,False,1
+EML1108,CRE0140,Product Launch,Pet Care,3818,3559,0.317,0.091,0.0073,0.0056,4152.2,3.77,True,2025-11-21,Tuesday,46,True,5
+EML1109,CRE0103,New Content Alert,Pet Care,6358,5875,0.349,0.065,0.0033,0.0057,0.0,0.0,False,2025-09-28,Monday,64,True,5
+EML1110,CRE0246,Weekly Newsletter,Home Decor & Interior Design,376,372,0.372,0.058,0.0095,0.0094,0.0,0.0,False,2025-09-29,Friday,69,False,3
+EML1111,CRE0120,Weekly Newsletter,Comedy & Entertainment,11438,11362,0.369,0.078,0.0046,0.0094,0.0,0.0,True,2025-05-30,Thursday,54,True,3
+EML1112,CRE0543,Weekly Newsletter,Business & Entrepreneurship,1066,1041,0.348,0.07,0.0085,0.0014,0.0,0.0,False,2025-11-29,Monday,48,False,2
+EML1113,CRE0473,Weekly Newsletter,Gaming & Esports,14354,14109,0.292,0.035,0.0069,0.0086,0.0,0.0,True,2025-04-18,Monday,33,False,1
+EML1114,CRE0224,Re-engagement,Parenting & Family,721,720,0.231,0.041,0.0055,0.0039,0.0,0.0,True,2025-09-01,Friday,68,True,2
+EML1115,CRE0386,New Content Alert,Sustainable Living,13976,12988,0.414,0.121,0.0181,0.009,0.0,0.0,True,2025-05-06,Tuesday,63,True,1
+EML1116,CRE0557,Product Launch,Music & Audio Production,10386,9744,0.342,0.096,0.0156,0.0109,33724.22,9.89,True,2025-08-21,Monday,31,True,4
+EML1117,CRE0436,Weekly Newsletter,Technology & Software,7786,7207,0.389,0.047,0.0025,0.0071,0.0,0.0,True,2025-10-28,Tuesday,53,True,1
+EML1118,CRE0586,Re-engagement,Education & Online Courses,11877,11140,0.249,0.039,0.0022,0.0145,0.0,0.0,True,2025-10-19,Monday,42,False,5
+EML1119,CRE0389,Weekly Newsletter,Travel & Adventure,1290,1257,0.32,0.058,0.0046,0.0059,0.0,0.0,True,2025-10-30,Monday,52,True,4
+EML1120,CRE0176,Re-engagement,Finance & Investing,13227,12497,0.147,0.051,0.0098,0.0139,0.0,0.0,True,2025-05-31,Tuesday,59,False,2
+EML1121,CRE0459,Weekly Newsletter,Pet Care,1430,1398,0.226,0.053,0.0092,0.0094,0.0,0.0,False,2025-08-03,Thursday,36,False,1
+EML1122,CRE0215,Product Launch,Personal Development,9208,8845,0.288,0.062,0.0065,0.0072,13613.81,8.28,True,2025-11-12,Monday,51,False,4
+EML1123,CRE0515,New Content Alert,Travel & Adventure,3970,3669,0.304,0.062,0.0084,0.011,0.0,0.0,True,2025-11-03,Friday,45,False,1
+EML1124,CRE0294,Weekly Newsletter,Parenting & Family,3786,3730,0.233,0.044,0.0078,0.0058,0.0,0.0,False,2026-02-02,Tuesday,41,False,1
+EML1125,CRE0051,Promotional Offer,Comedy & Entertainment,4157,4120,0.346,0.037,0.0044,0.0048,5162.14,9.7,False,2026-01-15,Thursday,63,False,4
+EML1126,CRE0165,New Content Alert,Technology & Software,9736,9314,0.392,0.049,0.0064,0.0121,0.0,0.0,False,2025-11-07,Monday,67,True,2
+EML1127,CRE0372,Product Launch,Gaming & Esports,12578,12069,0.446,0.145,0.0243,0.0074,7239.43,0.89,False,2025-07-28,Wednesday,37,False,1
+EML1128,CRE0317,Re-engagement,Music & Audio Production,2036,1880,0.167,0.047,0.0077,0.0022,0.0,0.0,True,2025-12-07,Monday,56,True,1
+EML1129,CRE0460,Product Launch,Travel & Adventure,7335,7209,0.451,0.064,0.0056,0.0133,6817.3,3.22,True,2025-07-18,Tuesday,63,False,5
+EML1130,CRE0476,Promotional Offer,Photography & Videography,2211,2184,0.229,0.053,0.0046,0.0139,2865.97,10.68,True,2025-09-11,Friday,67,False,5
+EML1131,CRE0514,Abandoned Cart Recovery,Music & Audio Production,3172,2995,0.347,0.048,0.0041,0.0122,1928.4,3.65,False,2026-02-12,Monday,51,False,3
+EML1132,CRE0146,Abandoned Cart Recovery,Comedy & Entertainment,9336,8813,0.402,0.074,0.0086,0.0046,7970.77,2.87,True,2025-09-23,Friday,43,False,1
+EML1133,CRE0153,Abandoned Cart Recovery,Science & Space,4823,4631,0.323,0.037,0.0041,0.0039,3487.2,6.05,False,2025-11-23,Thursday,57,False,3
+EML1134,CRE0004,Product Launch,Food & Cooking,429,420,0.443,0.128,0.0213,0.0054,2858.31,11.75,True,2025-10-29,Friday,38,False,5
+EML1135,CRE0394,Weekly Newsletter,Education & Online Courses,6602,6249,0.38,0.114,0.0088,0.0139,0.0,0.0,False,2025-10-06,Monday,40,False,1
+EML1136,CRE0529,Weekly Newsletter,Technology & Software,2259,2232,0.242,0.038,0.0055,0.0085,0.0,0.0,True,2025-12-08,Wednesday,57,False,3
+EML1137,CRE0148,New Content Alert,Pet Care,13159,12533,0.247,0.06,0.0116,0.0035,0.0,0.0,True,2025-06-02,Thursday,70,False,3
+EML1138,CRE0538,New Content Alert,Pet Care,3039,2976,0.312,0.077,0.0061,0.0076,0.0,0.0,True,2025-05-28,Tuesday,37,False,2
+EML1139,CRE0178,Product Launch,Finance & Investing,5974,5599,0.514,0.164,0.022,0.0016,52876.35,10.5,True,2025-11-29,Monday,32,True,1
+EML1140,CRE0469,Weekly Newsletter,Home Decor & Interior Design,6723,6330,0.286,0.069,0.0057,0.0092,0.0,0.0,False,2025-09-30,Tuesday,62,True,5
+EML1141,CRE0557,Weekly Newsletter,Photography & Videography,3887,3714,0.255,0.085,0.0132,0.0061,0.0,0.0,True,2025-05-21,Monday,56,False,2
+EML1142,CRE0095,Promotional Offer,Music & Audio Production,14708,13989,0.219,0.054,0.0028,0.0038,3513.52,2.02,False,2026-01-19,Monday,45,False,3
+EML1143,CRE0040,Promotional Offer,Language Learning,10218,10065,0.213,0.049,0.0061,0.0103,1023.79,0.96,True,2025-07-12,Tuesday,73,True,3
+EML1144,CRE0476,Abandoned Cart Recovery,Music & Audio Production,12841,11824,0.58,0.105,0.02,0.0132,41055.89,5.25,True,2025-10-25,Thursday,51,True,4
+EML1145,CRE0388,Weekly Newsletter,Sustainable Living,11353,11063,0.207,0.067,0.0034,0.0087,0.0,0.0,False,2025-11-04,Wednesday,50,False,5
+EML1146,CRE0292,New Content Alert,Science & Space,4934,4845,0.368,0.115,0.0089,0.0037,0.0,0.0,True,2026-01-19,Monday,31,False,5
+EML1147,CRE0205,Weekly Newsletter,Business & Entrepreneurship,12543,12181,0.304,0.064,0.0085,0.0051,0.0,0.0,False,2025-07-04,Tuesday,70,True,4
+EML1148,CRE0592,New Content Alert,Technology & Software,8398,8129,0.268,0.047,0.0057,0.0021,0.0,0.0,True,2025-12-06,Wednesday,43,True,4
+EML1149,CRE0229,Weekly Newsletter,Finance & Investing,9206,9189,0.35,0.047,0.0025,0.012,0.0,0.0,True,2025-09-12,Tuesday,36,True,2
+EML1150,CRE0298,Weekly Newsletter,Beauty & Fashion,11565,11255,0.326,0.059,0.0057,0.0149,0.0,0.0,True,2025-12-06,Tuesday,73,False,2
+EML1151,CRE0524,Promotional Offer,Finance & Investing,11147,10985,0.245,0.026,0.0019,0.0113,3365.7,4.74,True,2025-05-31,Wednesday,62,True,4
+EML1152,CRE0356,Re-engagement,Education & Online Courses,6184,6092,0.134,0.039,0.0048,0.0137,0.0,0.0,False,2025-06-26,Monday,52,True,2
+EML1153,CRE0185,Re-engagement,Food & Cooking,14865,14857,0.222,0.073,0.01,0.0047,0.0,0.0,True,2025-06-21,Monday,35,True,3
+EML1154,CRE0395,Re-engagement,Pet Care,5857,5426,0.217,0.041,0.0066,0.0027,0.0,0.0,True,2025-07-15,Friday,58,True,3
+EML1155,CRE0377,Weekly Newsletter,Parenting & Family,6233,6011,0.264,0.032,0.0032,0.0023,0.0,0.0,True,2025-06-21,Wednesday,41,False,3
+EML1156,CRE0051,Abandoned Cart Recovery,Language Learning,13966,13153,0.408,0.125,0.0245,0.0095,41168.97,5.78,True,2025-12-09,Wednesday,74,True,2
+EML1157,CRE0111,Weekly Newsletter,Science & Space,14982,14064,0.234,0.069,0.0104,0.0093,0.0,0.0,True,2025-10-26,Wednesday,56,False,3
+EML1158,CRE0151,Promotional Offer,Personal Development,12080,11733,0.312,0.065,0.0095,0.0104,16585.31,6.77,True,2025-09-08,Friday,56,False,2
+EML1159,CRE0205,Weekly Newsletter,Comedy & Entertainment,14952,14596,0.257,0.054,0.0073,0.0128,0.0,0.0,False,2025-09-11,Thursday,67,True,5
+EML1160,CRE0260,Re-engagement,Sustainable Living,6238,5889,0.232,0.038,0.0028,0.0017,0.0,0.0,True,2025-06-30,Tuesday,63,True,2
+EML1161,CRE0163,Weekly Newsletter,Science & Space,12011,11829,0.225,0.075,0.0055,0.0039,0.0,0.0,True,2025-10-09,Tuesday,66,False,2
+EML1162,CRE0437,Re-engagement,Home Decor & Interior Design,596,569,0.204,0.037,0.0053,0.0024,0.0,0.0,False,2026-01-08,Wednesday,52,True,2
+EML1163,CRE0113,New Content Alert,Language Learning,8846,8323,0.317,0.092,0.0113,0.0106,0.0,0.0,True,2025-05-16,Wednesday,61,True,4
+EML1164,CRE0301,New Content Alert,Food & Cooking,14513,14177,0.283,0.092,0.0069,0.0071,0.0,0.0,False,2025-10-12,Friday,67,True,5
+EML1165,CRE0483,Re-engagement,Photography & Videography,6606,6137,0.219,0.068,0.0111,0.0067,0.0,0.0,True,2025-08-31,Wednesday,53,True,4
+EML1166,CRE0437,Promotional Offer,Language Learning,2934,2870,0.282,0.055,0.0059,0.0127,3085.33,6.78,True,2026-01-03,Friday,57,True,1
+EML1167,CRE0430,New Content Alert,Technology & Software,3799,3507,0.347,0.045,0.0086,0.0049,0.0,0.0,False,2026-03-07,Monday,41,True,4
+EML1168,CRE0460,Re-engagement,Photography & Videography,14635,13988,0.21,0.045,0.0033,0.0026,0.0,0.0,True,2025-09-13,Thursday,62,True,5
+EML1169,CRE0056,Promotional Offer,Science & Space,5585,5532,0.331,0.048,0.0033,0.0132,6246.91,7.04,True,2026-03-17,Thursday,47,True,5
+EML1170,CRE0569,Abandoned Cart Recovery,Business & Entrepreneurship,12924,12565,0.381,0.052,0.0071,0.0103,17078.55,6.67,True,2025-08-10,Thursday,75,False,1
+EML1171,CRE0541,Re-engagement,Food & Cooking,3897,3714,0.206,0.066,0.0128,0.0108,0.0,0.0,False,2025-05-24,Tuesday,68,True,5
+EML1172,CRE0337,Re-engagement,Food & Cooking,6110,5906,0.187,0.037,0.0055,0.0016,0.0,0.0,True,2025-05-16,Thursday,43,True,5
+EML1173,CRE0007,New Content Alert,Education & Online Courses,2004,1848,0.424,0.146,0.0253,0.0064,0.0,0.0,True,2026-01-06,Tuesday,64,True,5
+EML1174,CRE0267,New Content Alert,Language Learning,3806,3730,0.337,0.052,0.0069,0.0076,0.0,0.0,False,2025-12-09,Friday,47,False,5
+EML1175,CRE0144,Product Launch,Education & Online Courses,4065,3946,0.446,0.115,0.0109,0.0066,23330.46,11.19,False,2025-07-17,Thursday,41,True,5
+EML1176,CRE0544,New Content Alert,Finance & Investing,9678,9116,0.427,0.127,0.0206,0.0018,0.0,0.0,False,2026-03-15,Thursday,56,False,1
+EML1177,CRE0045,Abandoned Cart Recovery,Comedy & Entertainment,7150,6731,0.367,0.105,0.0106,0.0011,24714.61,8.97,False,2025-12-12,Friday,39,False,2
+EML1178,CRE0562,Re-engagement,Education & Online Courses,4934,4642,0.134,0.022,0.0042,0.014,0.0,0.0,True,2026-01-15,Wednesday,46,False,4
+EML1179,CRE0247,Abandoned Cart Recovery,Beauty & Fashion,9767,9554,0.366,0.11,0.0079,0.0135,45259.56,11.51,False,2026-02-17,Friday,64,True,2
+EML1180,CRE0145,Promotional Offer,Finance & Investing,5263,5108,0.253,0.077,0.006,0.0038,7740.9,7.55,True,2026-01-11,Wednesday,30,False,4
+EML1181,CRE0414,Weekly Newsletter,Personal Development,10762,10324,0.277,0.053,0.0051,0.0067,0.0,0.0,False,2025-03-19,Tuesday,55,True,2
+EML1182,CRE0392,Abandoned Cart Recovery,Sustainable Living,6827,6756,0.323,0.042,0.0026,0.0091,564.95,0.61,False,2025-11-22,Thursday,64,False,5
+EML1183,CRE0190,Re-engagement,Music & Audio Production,4199,4029,0.145,0.016,0.0023,0.0116,0.0,0.0,True,2026-02-21,Monday,37,True,5
+EML1184,CRE0363,New Content Alert,Language Learning,7289,7117,0.281,0.075,0.014,0.0068,0.0,0.0,False,2025-12-14,Wednesday,30,False,1
+EML1185,CRE0538,Promotional Offer,Home Decor & Interior Design,5242,5070,0.298,0.098,0.0179,0.0129,13287.98,8.68,False,2025-11-03,Wednesday,75,True,3
+EML1186,CRE0370,New Content Alert,Personal Development,7708,7554,0.252,0.08,0.0157,0.0062,0.0,0.0,False,2025-05-08,Wednesday,34,True,1
+EML1187,CRE0499,Abandoned Cart Recovery,Business & Entrepreneurship,2748,2629,0.542,0.16,0.0099,0.0112,10723.8,4.5,True,2025-05-17,Tuesday,30,False,5
+EML1188,CRE0256,New Content Alert,Photography & Videography,5585,5148,0.286,0.041,0.0049,0.0079,0.0,0.0,False,2025-05-02,Wednesday,45,True,5
+EML1189,CRE0319,New Content Alert,Language Learning,6912,6593,0.264,0.08,0.0078,0.004,0.0,0.0,False,2025-11-02,Tuesday,38,False,1
+EML1190,CRE0388,New Content Alert,Beauty & Fashion,1757,1693,0.433,0.113,0.0078,0.0032,0.0,0.0,True,2025-11-03,Monday,63,False,4
+EML1191,CRE0309,Product Launch,Technology & Software,4319,4186,0.467,0.062,0.0058,0.0047,5527.31,4.42,False,2025-12-07,Thursday,49,True,2
+EML1192,CRE0135,Weekly Newsletter,Science & Space,4590,4295,0.211,0.053,0.0039,0.002,0.0,0.0,False,2025-08-07,Tuesday,50,True,3
+EML1193,CRE0106,Re-engagement,Sustainable Living,10576,10484,0.231,0.063,0.0085,0.0119,0.0,0.0,False,2025-10-03,Monday,70,True,2
+EML1194,CRE0012,New Content Alert,Travel & Adventure,2813,2742,0.301,0.053,0.009,0.0038,0.0,0.0,True,2026-02-19,Monday,39,False,5
+EML1195,CRE0289,Product Launch,Technology & Software,444,413,0.359,0.083,0.0088,0.0039,168.02,1.27,True,2025-08-22,Thursday,32,False,3
+EML1196,CRE0251,Promotional Offer,Personal Development,12276,11641,0.297,0.067,0.0061,0.0039,26650.96,10.91,False,2025-09-07,Monday,34,True,1
+EML1197,CRE0149,Weekly Newsletter,Comedy & Entertainment,2583,2419,0.391,0.136,0.0117,0.0141,0.0,0.0,False,2025-11-17,Tuesday,52,True,3
+EML1198,CRE0142,Promotional Offer,Parenting & Family,9835,9435,0.272,0.038,0.0028,0.0069,5072.56,4.99,False,2025-12-13,Friday,31,True,4
+EML1199,CRE0409,New Content Alert,Finance & Investing,13789,13719,0.271,0.072,0.008,0.0064,0.0,0.0,True,2026-02-19,Wednesday,60,True,5
+EML1200,CRE0001,Re-engagement,Business & Entrepreneurship,6632,6458,0.247,0.085,0.0154,0.0143,0.0,0.0,False,2025-04-02,Friday,37,True,4

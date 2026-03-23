@@ -1,0 +1,787 @@
+---
+title: ""
+format:
+  typst:
+    template: template.typ
+    keep-typ: false
+---
+
+```{=typst}
+// ─────────────────────────────────────────────
+//  GLOBAL STYLES
+// ─────────────────────────────────────────────
+#set text(font: "Arial", size: 11pt, fill: rgb("#374151"))
+#set par(justify: true, leading: 0.75em)
+#set block(spacing: 1.2em)
+
+// ─── COLOR PALETTE ───
+#let dark    = rgb("#0F172A")
+#let card    = rgb("#1E293B")
+#let green   = rgb("#10B981")
+#let blue    = rgb("#3B82F6")
+#let purple  = rgb("#8B5CF6")
+#let amber   = rgb("#F59E0B")
+#let red     = rgb("#EF4444")
+#let muted   = rgb("#64748B")
+#let light   = rgb("#F1F5F9")
+#let border  = rgb("#E2E8F0")
+#let bglight = rgb("#F8FAFC")
+
+// ─── HELPER FUNCTIONS ───
+#let divider(color: rgb("#10B981")) = {
+  v(0.4em)
+  line(length: 100%, stroke: 2.5pt + color)
+  v(0.6em)
+}
+
+#let badge(content, color: rgb("#10B981")) = box(
+  fill: color.lighten(85%),
+  stroke: 0.5pt + color,
+  radius: 3pt,
+  inset: (x: 8pt, y: 4pt),
+  text(size: 8.5pt, weight: "bold", fill: color, content)
+)
+
+#let kpi(value, label, color: rgb("#10B981")) = rect(
+  fill: bglight,
+  stroke: 0.5pt + border,
+  radius: 6pt,
+  inset: 14pt,
+  width: 100%,
+  align(center)[
+    #text(size: 26pt, weight: "bold", fill: color, value)
+    #v(0.1em)
+    #text(size: 8.5pt, fill: muted, label)
+  ]
+)
+
+#let section-heading(n, title, color: rgb("#10B981")) = {
+  v(0.8em)
+  grid(
+    columns: (auto, 1fr),
+    gutter: 12pt,
+    align: horizon,
+    rect(fill: color, radius: 4pt, inset: (x: 10pt, y: 6pt),
+      text(weight: "bold", size: 10pt, fill: white, n)
+    ),
+    text(size: 17pt, weight: "bold", fill: dark, title)
+  )
+  divider(color: color)
+}
+
+#let callout(content, color: rgb("#10B981"), icon: "→") = rect(
+  fill: color.lighten(92%),
+  stroke: (left: 3pt + color),
+  radius: (right: 6pt),
+  inset: (x: 14pt, y: 12pt),
+  width: 100%,
+  text(size: 10.5pt, fill: dark, content)
+)
+
+#let trow(cells, fill: white) = {
+  for c in cells {
+    table.cell(fill: fill, c)
+  }
+}
+
+// ══════════════════════════════════════════════
+//  COVER PAGE — no extra blank page before it
+// ══════════════════════════════════════════════
+#set page(margin: 0cm, header: none, footer: none)
+
+// Dark top band
+#rect(fill: dark, width: 100%, height: 42%)[
+    #pad(left: 2.5cm, right: 2.5cm, top: 2.5cm)[
+      #text(size: 9pt, weight: "bold", fill: green, tracking: 3pt)[AI CONSULTING PROPOSAL — MARCH 2026]
+      #v(1.8em)
+      #text(size: 46pt, weight: "black", fill: white)[CreatorIQ]
+      #v(0.3em)
+      #text(size: 16pt, fill: rgb("#94A3B8"))[AI-Powered Creator Intelligence Platform]
+      #v(2em)
+      #grid(
+        columns: (auto, auto, auto, auto),
+        gutter: 12pt,
+        badge("52,000+ Real Deals", color: green),
+        badge("4 AI Workflows", color: blue),
+        badge("18 Niches · 6 Platforms", color: purple),
+        badge("Live Demo Ready", color: amber),
+      )
+    ]
+  ]
+
+// White bottom section
+#pad(left: 2.5cm, right: 2.5cm, top: 1.8cm)[
+  #grid(
+    columns: (1fr, auto),
+    gutter: 20pt,
+    [
+      #text(size: 14pt, weight: "bold", fill: dark)[Prepared for]
+      #v(0.3em)
+      #text(size: 22pt, weight: "black", fill: dark)[Chleo, CEO]
+      #v(0.4em)
+      #text(size: 11pt, fill: muted)[Creator Economy & Media Technology]
+      #v(1.5em)
+      #text(size: 10pt, fill: muted, style: "italic")[Confidential — Not for Distribution]
+    ],
+    rect(fill: bglight, stroke: 0.5pt + border, radius: 8pt, inset: 16pt)[
+      #text(size: 9pt, fill: muted)[DOCUMENT OVERVIEW]
+      #v(0.5em)
+      #set text(size: 10pt, fill: dark)
+      #list(
+        [Problem & Opportunity],
+        [Current Demo — What Works],
+        [Complete Solution Design],
+        [6-Month Roadmap],
+        [Investment & Cost Plan],
+        [Why Act Now],
+      )
+    ]
+  )
+
+  #v(2em)
+  #line(length: 100%, stroke: 0.5pt + border)
+  #v(0.6em)
+  #text(size: 9pt, fill: muted, style: "italic")[
+    "The intelligence every creator deserves — backed by 52,000+ real brand deals and built with explainable AI at its core."
+  ]
+]
+
+// Restore proper page settings after cover
+#set page(
+  paper: "us-letter",
+  margin: (top: 2.5cm, bottom: 2.5cm, left: 2.5cm, right: 2.5cm),
+  header: context {
+    if counter(page).get().first() > 1 [
+      #set text(size: 8pt, fill: rgb("#94A3B8"))
+      #grid(
+        columns: (1fr, auto),
+        [CreatorIQ — AI Consulting Proposal #h(1fr) Confidential],
+        [Page #counter(page).display()]
+      )
+      #line(length: 100%, stroke: 0.5pt + rgb("#E2E8F0"))
+    ]
+  },
+  footer: context {
+    if counter(page).get().first() > 1 [
+      #line(length: 100%, stroke: 0.5pt + rgb("#E2E8F0"))
+      #set text(size: 8pt, fill: rgb("#94A3B8"))
+      #grid(
+        columns: (1fr, auto),
+        [Prepared for Chleo, CEO — AI Creator Intelligence Platform],
+        [March 2026]
+      )
+    ]
+  }
+)
+
+// ══════════════════════════════════════════════
+//  EXECUTIVE SUMMARY
+// ══════════════════════════════════════════════
+#pagebreak()
+
+#section-heading("01", "Executive Summary", color: green)
+
+#text(size: 11pt)[
+  Chleo, thank you for making time. I know the word *AI* raises immediate questions — about trust, transparency, and whether it actually helps real people. Those are the right questions, and this proposal answers every one of them.
+]
+
+#v(0.8em)
+
+#text(size: 11pt)[
+  I have built a working platform called *CreatorIQ* — an AI-powered deal intelligence tool for content creators. Part of it is already live. This document outlines what exists today, what it will become, and a clear 6-month plan with full cost breakdown to get it there.
+]
+
+#v(1em)
+
+#grid(
+  columns: (1fr, 1fr, 1fr, 1fr),
+  gutter: 10pt,
+  kpi("52K+", "Real deal records in benchmark engine", color: green),
+  kpi("2", "Tools fully live today", color: blue),
+  kpi("6 mo", "Full platform go-live timeline", color: purple),
+  kpi("100%", "Uptime via AI fallback engine", color: amber),
+)
+
+#v(1.2em)
+
+#callout[
+  *This is not a pitch for a product that might exist one day.* The Deal Analyzer is running right now. The Market Dashboard is live. I will show you both during our meeting — no slides, no mockups, just the real working product.
+]
+
+// ══════════════════════════════════════════════
+//  THE PROBLEM
+// ══════════════════════════════════════════════
+#pagebreak()
+
+#section-heading("02", "The Problem We Are Solving", color: red)
+
+#text(size: 11pt)[
+  Content creators generate billions of dollars of brand value every year. Yet most of them sign deals with no idea whether they are being paid fairly — because the data that brands use to set rates has never been available to creators.
+]
+
+#v(1em)
+
+#table(
+  columns: (1.4fr, 2.6fr, 2fr),
+  fill: (col, row) => if row == 0 { dark } else if calc.odd(row) { bglight } else { white },
+  stroke: 0.5pt + border,
+  inset: 11pt,
+  table.header(
+    text(weight: "bold", fill: white, size: 9pt)[PROBLEM],
+    text(weight: "bold", fill: white, size: 9pt)[WHAT CREATORS EXPERIENCE],
+    text(weight: "bold", fill: white, size: 9pt)[REAL COST],
+  ),
+  text(weight: "bold", fill: red)[No Market Data],
+  [Creators have zero visibility into what others in their niche charge. Brands have internal spreadsheets of accepted rates. Creators have nothing.],
+  [Accept 20–40% below market rate],
+
+  text(weight: "bold", fill: red)[Contract Traps],
+  [Buried clauses give brands unlimited usage rights forever, exclusivity for years, and zero kill fees. Most creators never notice until it's too late.],
+  [Legal liability + lost future income],
+
+  text(weight: "bold", fill: red)[No Negotiation Power],
+  [Without data, creators cannot push back. They accept the first offer — or worse, turn it down entirely out of uncertainty.],
+  [\$18,000 lost per creator per year],
+)
+
+#v(1em)
+
+#grid(
+  columns: (1fr, 1fr, 1fr),
+  gutter: 10pt,
+  rect(fill: red.lighten(90%), stroke: 0.5pt + red, radius: 6pt, inset: 14pt, width: 100%,
+    align(center)[
+      #text(size: 28pt, weight: "bold", fill: red)[73%]
+      #v(0.2em)
+      #text(size: 9pt, fill: rgb("#374151"))[of micro-creators are underpaid on brand deals]
+    ]
+  ),
+  rect(fill: amber.lighten(90%), stroke: 0.5pt + amber, radius: 6pt, inset: 14pt, width: 100%,
+    align(center)[
+      #text(size: 28pt, weight: "bold", fill: amber)[40%]
+      #v(0.2em)
+      #text(size: 9pt, fill: rgb("#374151"))[below market — the typical opening offer from brands]
+    ]
+  ),
+  rect(fill: blue.lighten(90%), stroke: 0.5pt + blue, radius: 6pt, inset: 14pt, width: 100%,
+    align(center)[
+      #text(size: 28pt, weight: "bold", fill: blue)[600M+]
+      #v(0.2em)
+      #text(size: 9pt, fill: rgb("#374151"))[creators globally with zero access to deal intelligence]
+    ]
+  ),
+)
+
+#v(1em)
+
+#callout(color: red)[
+  *This is not a motivation problem.* The creator who accepted \$800 for a post worth \$3,000 was not lazy — they had no data. CreatorIQ gives them the data.
+]
+
+// ══════════════════════════════════════════════
+//  THE SOLUTION + WHAT'S LIVE NOW
+// ══════════════════════════════════════════════
+#pagebreak()
+
+#section-heading("03", "The Solution — What We Have Built", color: blue)
+
+#text(size: 11pt)[
+  CreatorIQ is a platform with four tools. *Two are fully live and working right now.* The other two exist as working placeholders — functional scaffolding ready to be powered up as part of the 6-month plan.
+]
+
+#v(1em)
+
+#table(
+  columns: (1.3fr, 1fr, 2.7fr, 1fr),
+  fill: (col, row) => if row == 0 { dark } else if calc.odd(row) { bglight } else { white },
+  stroke: 0.5pt + border,
+  inset: 10pt,
+  table.header(
+    text(weight: "bold", fill: white, size: 9pt)[TOOL],
+    text(weight: "bold", fill: white, size: 9pt)[STATUS],
+    text(weight: "bold", fill: white, size: 9pt)[WHAT IT DOES],
+    text(weight: "bold", fill: white, size: 9pt)[AI MODEL],
+  ),
+
+  text(weight: "bold")[Deal Analyzer],
+  badge("LIVE", color: green),
+  [Enter niche, platform, follower count and offer → get real market rate, gap analysis, counter-offer, and negotiation talking points in under 3 seconds.],
+  text(size: 9pt)[GPT-O4 + 52K benchmark fallback],
+
+  text(weight: "bold")[Market Dashboard],
+  badge("LIVE", color: green),
+  [Visual intelligence across 18 niches and 6 platforms — rate ranges, deal health scores, content format benchmarks, and platform revenue breakdown.],
+  text(size: 9pt)[52K real deal dataset],
+
+  text(weight: "bold")[Contract Scanner],
+  badge("PLACEHOLDER", color: amber),
+  [UI and routing are built. Will flag dangerous clauses in brand contracts — unlimited usage rights, exclusivity traps, missing kill fees — before signing.],
+  text(size: 9pt)[GPT-O3 — to be activated],
+
+  text(weight: "bold")[Campaign Builder],
+  badge("PLACEHOLDER", color: amber),
+  [UI and routing are built. Will generate complete product launch email sequences — subject lines, send schedule, and audience-tailored copy — ready to send.],
+  text(size: 9pt)[GPT-O1 — to be activated],
+)
+
+#v(1.2em)
+
+#section-heading("", "Addressing Your AI Concerns Directly", color: blue)
+
+#text(size: 10.5pt, style: "italic", fill: muted)[
+  You said AI is not transparent. You were right to raise that. Here is how CreatorIQ handles it.
+]
+
+#v(0.6em)
+
+#table(
+  columns: (1.8fr, 3.2fr),
+  fill: (col, row) => if row == 0 { dark } else if col == 0 { rgb("#FFF7ED") } else if calc.odd(row) { bglight } else { white },
+  stroke: 0.5pt + border,
+  inset: 11pt,
+  table.header(
+    text(weight: "bold", fill: white, size: 9pt)[CLEO'S CONCERN],
+    text(weight: "bold", fill: white, size: 9pt)[HOW CREATORIQ ADDRESSES IT],
+  ),
+  text(style: "italic")[_"How does it decide what the rate should be?"_],
+  [Every result shows the source: "median of 350 comparable deals in fitness on Instagram". The percentile your offer sits at. The gap in dollars. No black boxes.],
+
+  text(style: "italic")[_"What if the AI is wrong?"_],
+  [The AI informs — the creator decides. The system always shows a confidence indicator. If the AI engine is unavailable, a local benchmark calculator using the full 52K dataset takes over automatically.],
+
+  text(style: "italic")[_"Where does my data go?"_],
+  [The AI orchestration engine (n8n) runs self-hosted inside Docker on your infrastructure. No deal data is sent to third-party servers. Every API call is logged and auditable.],
+
+  text(style: "italic")[_"How do I sign up? Which AI is this?"_],
+  [Phase 1 of the roadmap introduces user accounts with social media login. The AI models used are OpenAI GPT-O4, O3, and O1 — the same models powering enterprise tools globally.],
+)
+
+// ══════════════════════════════════════════════
+//  LIVE DEMO PLAN
+// ══════════════════════════════════════════════
+#pagebreak()
+
+#section-heading("04", "The Live Demo — What You Will See", color: purple)
+
+#text(size: 11pt)[
+  The meeting I am proposing is not a presentation. It is a live demonstration of working software. Here is the plan for our 35-minute session.
+]
+
+#v(1em)
+
+#table(
+  columns: (0.4fr, 1.6fr, 3fr, 0.8fr),
+  fill: (col, row) => if row == 0 { dark } else if calc.odd(row) { bglight } else { white },
+  stroke: 0.5pt + border,
+  inset: 11pt,
+  table.header(
+    text(weight: "bold", fill: white, size: 9pt)[\#],
+    text(weight: "bold", fill: white, size: 9pt)[DEMO STEP],
+    text(weight: "bold", fill: white, size: 9pt)[WHAT YOU WILL SEE],
+    text(weight: "bold", fill: white, size: 9pt)[TIME],
+  ),
+  // ── LIVE TODAY ──
+  table.cell(colspan: 4, fill: green.lighten(85%),
+    text(weight: "bold", size: 9pt, fill: green)[✓  LIVE NOW — Fully working. Will be demonstrated live in the meeting]
+  ),
+
+  align(center)[#text(weight: "bold", fill: green)[1]],
+  text(weight: "bold")[Market Dashboard],
+  [Live charts across 18 niches and 6 platforms — every number traceable to the 52K source dataset. You interact directly with the charts.],
+  align(center)[#text(fill: green)[5 min]],
+
+  align(center)[#text(weight: "bold", fill: green)[2]],
+  text(weight: "bold")[Deal Analyzer],
+  [We enter a real brand deal together — your choice of niche and offer. AI returns market rate, gap, counter-offer, and talking points in under 3 seconds. Live.],
+  align(center)[#text(fill: green)[8 min]],
+
+  align(center)[#text(weight: "bold", fill: green)[3]],
+  text(weight: "bold")[AI Transparency Audit],
+  [Open LangSmith — see every AI call logged in real time: inputs, outputs, latency, token cost. The full audit trail. Nothing is hidden.],
+  align(center)[#text(fill: green)[7 min]],
+
+  // ── TO BE BUILT ──
+  table.cell(colspan: 4, fill: amber.lighten(85%),
+    text(weight: "bold", size: 9pt, fill: amber)[→  ROADMAP PREVIEW — UI exists, AI not yet activated. Shown briefly to set context for the 6-month build plan]
+  ),
+
+  align(center)[#text(weight: "bold", fill: amber)[4]],
+  text(weight: "bold", fill: rgb("#92400E"))[Contract Scanner],
+  [UI is built. No AI yet. Walk through the interface — shows what it will do: flag dangerous contract clauses before signing. Planned for Month 1–2.],
+  align(center)[#text(fill: amber)[3 min]],
+
+  align(center)[#text(weight: "bold", fill: amber)[5]],
+  text(weight: "bold", fill: rgb("#92400E"))[Campaign Builder],
+  [UI is built. No AI yet. Shows the interface for generating email launch sequences. Planned for Month 3. Preview only — not functional.],
+  align(center)[#text(fill: amber)[2 min]],
+
+  align(center)[#text(weight: "bold", fill: blue)[6]],
+  text(weight: "bold")[Q&A + Next Steps],
+  [Open discussion — your concerns, roadmap priorities, and what happens after this meeting.],
+  align(center)[#text(fill: blue)[10 min]],
+)
+
+#v(1.2em)
+
+#callout(color: purple)[
+  *No mockups. No Figma prototypes. No "coming soon" slides.* The Deal Analyzer and Dashboard are running at localhost:3000 right now. I will share screen or bring my laptop. You will interact with the actual product.
+]
+
+// ══════════════════════════════════════════════
+//  6-MONTH ROADMAP
+// ══════════════════════════════════════════════
+#pagebreak()
+
+#section-heading("05", "6-Month Product Roadmap", color: purple)
+
+#text(size: 11pt)[
+  The platform foundation is built. The 6-month plan takes it from a working demo to a fully-launched, commercially-ready product — in three clear phases.
+]
+
+#v(1em)
+
+// PHASE 1
+#rect(fill: green.lighten(90%), stroke: (left: 4pt + green), radius: (right: 6pt), inset: 14pt, width: 100%)[
+  #grid(
+    columns: (auto, 1fr),
+    gutter: 16pt,
+    align: top,
+    rect(fill: green, radius: 4pt, inset: (x: 10pt, y: 6pt))[
+      #text(size: 9pt, weight: "bold", fill: white)[PHASE 1 · Month 1–2]
+    ],
+    [
+      #text(size: 13pt, weight: "bold", fill: dark)[Foundation & User Identity]
+      #v(0.4em)
+      #grid(
+        columns: (1fr, 1fr),
+        gutter: 8pt,
+        text(size: 9.5pt)[✓ User authentication — social login (Instagram, YouTube, TikTok)],
+        text(size: 9.5pt)[✓ Personalised dashboard per creator and niche],
+        text(size: 9.5pt)[✓ Deal history saved per user account],
+        text(size: 9.5pt)[✓ Profile setup — niche, platform, follower tier],
+        text(size: 9.5pt)[✓ Activate Contract Scanner with GPT-O3],
+        text(size: 9.5pt)[✓ Database migration to PostgreSQL for production],
+      )
+    ]
+  )
+]
+
+#v(0.8em)
+
+// PHASE 2
+#rect(fill: blue.lighten(90%), stroke: (left: 4pt + blue), radius: (right: 6pt), inset: 14pt, width: 100%)[
+  #grid(
+    columns: (auto, 1fr),
+    gutter: 16pt,
+    align: top,
+    rect(fill: blue, radius: 4pt, inset: (x: 10pt, y: 6pt))[
+      #text(size: 9pt, weight: "bold", fill: white)[PHASE 2 · Month 3–4]
+    ],
+    [
+      #text(size: 13pt, weight: "bold", fill: dark)[Intelligence Expansion & Feature Completion]
+      #v(0.4em)
+      #grid(
+        columns: (1fr, 1fr),
+        gutter: 8pt,
+        text(size: 9.5pt)[→ Activate Campaign Builder with GPT-O1],
+        text(size: 9.5pt)[→ PDF export — deal analysis and contract reports],
+        text(size: 9.5pt)[→ Market rate alert notifications by email],
+        text(size: 9.5pt)[→ Bulk deal analysis — CSV upload for agencies],
+        text(size: 9.5pt)[→ Mobile-responsive UI across all 10 pages],
+        text(size: 9.5pt)[→ Expand benchmark data — 25+ niches],
+        text(size: 9.5pt)[→ Contract red-flag scoring (0–100 risk score)],
+        text(size: 9.5pt)[→ RAG-powered content topic matching tool],
+      )
+    ]
+  )
+]
+
+#v(0.8em)
+
+// PHASE 3
+#rect(fill: purple.lighten(90%), stroke: (left: 4pt + purple), radius: (right: 6pt), inset: 14pt, width: 100%)[
+  #grid(
+    columns: (auto, 1fr),
+    gutter: 16pt,
+    align: top,
+    rect(fill: purple, radius: 4pt, inset: (x: 10pt, y: 6pt))[
+      #text(size: 9pt, weight: "bold", fill: white)[PHASE 3 · Month 5–6]
+    ],
+    [
+      #text(size: 13pt, weight: "bold", fill: dark)[Scale, Launch & Agency Features]
+      #v(0.4em)
+      #grid(
+        columns: (1fr, 1fr),
+        gutter: 8pt,
+        text(size: 9.5pt)[→ Cloud deployment — Railway / AWS (full CI/CD)],
+        text(size: 9.5pt)[→ Multi-creator agency dashboard],
+        text(size: 9.5pt)[→ White-label option for talent agencies],
+        text(size: 9.5pt)[→ AI chat interface — free-form deal Q&A],
+        text(size: 9.5pt)[→ Performance analytics and ROI tracking],
+        text(size: 9.5pt)[→ Admin dashboard — usage, costs, errors],
+        text(size: 9.5pt)[→ Full security audit and penetration test],
+        text(size: 9.5pt)[→ Public launch — marketing and onboarding],
+      )
+    ]
+  )
+]
+
+#v(1.2em)
+
+// Visual timeline
+#rect(fill: bglight, stroke: 0.5pt + border, radius: 6pt, inset: 14pt, width: 100%)[
+  #text(size: 9pt, weight: "bold", fill: muted, tracking: 1pt)[6-MONTH TIMELINE AT A GLANCE]
+  #v(0.6em)
+  #grid(
+    columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+    gutter: 4pt,
+    ..for (m, label, color) in (
+      ("Month 1", "Auth & Identity", green),
+      ("Month 2", "Contract Scanner", green),
+      ("Month 3", "Campaign Builder", blue),
+      ("Month 4", "PDF · Alerts · Mobile", blue),
+      ("Month 5", "Cloud Deploy · Agency", purple),
+      ("Month 6", "Launch · AI Chat", purple),
+    ) {
+      (rect(fill: color, radius: 4pt, inset: (x: 6pt, y: 8pt), width: 100%,
+        align(center)[
+          #text(size: 8pt, weight: "bold", fill: white, m)
+          #v(0.2em)
+          #text(size: 7.5pt, fill: white.darken(10%), label)
+        ]
+      ),)
+    }
+  )
+]
+
+// ══════════════════════════════════════════════
+//  INVESTMENT & COST PLAN
+// ══════════════════════════════════════════════
+#pagebreak()
+
+#section-heading("06", "Investment & Cost Plan", color: amber)
+
+#text(size: 11pt)[
+  The following cost plan covers a realistic 6-month engagement — from activating the placeholders to a fully-launched commercial platform. All figures are based on actual market rates for senior AI development.
+]
+
+#v(1em)
+
+// Development cost table
+#text(size: 12pt, weight: "bold", fill: dark)[Development Investment]
+#v(0.5em)
+
+#table(
+  columns: (0.8fr, 2fr, 3.2fr, 0.8fr, 0.8fr, 1fr),
+  fill: (col, row) => if row == 0 { dark } else if calc.odd(row) { bglight } else { white },
+  stroke: 0.5pt + border,
+  inset: 10pt,
+  table.header(
+    text(weight: "bold", fill: white, size: 9pt)[PHASE],
+    text(weight: "bold", fill: white, size: 9pt)[PERIOD],
+    text(weight: "bold", fill: white, size: 9pt)[DELIVERABLES],
+    text(weight: "bold", fill: white, size: 9pt)[HOURS],
+    text(weight: "bold", fill: white, size: 9pt)[RATE],
+    text(weight: "bold", fill: white, size: 9pt)[COST],
+  ),
+
+  text(weight: "bold", fill: green)[Phase 1],
+  [Month 1–2],
+  [Auth, social login, personalised dashboard, deal history, Contract Scanner activation, PostgreSQL migration],
+  align(center)[64 hrs],
+  align(center)[\$65/hr],
+  align(center)[#text(weight: "bold")[\$4,160]],
+
+  text(weight: "bold", fill: blue)[Phase 2],
+  [Month 3–4],
+  [Campaign Builder activation, PDF export, market alerts, bulk CSV analysis, mobile UI, RAG expansion],
+  align(center)[72 hrs],
+  align(center)[\$65/hr],
+  align(center)[#text(weight: "bold")[\$4,680]],
+
+  text(weight: "bold", fill: purple)[Phase 3],
+  [Month 5–6],
+  [Cloud deployment, agency dashboard, white-label, AI chat interface, security audit, public launch],
+  align(center)[80 hrs],
+  align(center)[\$65/hr],
+  align(center)[#text(weight: "bold")[\$5,200]],
+
+  text(weight: "bold", fill: amber)[Discovery],
+  [Week 1],
+  [Technical architecture review, requirements alignment, infrastructure planning],
+  align(center)[8 hrs],
+  align(center)[\$65/hr],
+  align(center)[#text(weight: "bold")[\$520]],
+
+  table.cell(colspan: 5, fill: dark,
+    text(weight: "bold", fill: white)[TOTAL DEVELOPMENT INVESTMENT]
+  ),
+  table.cell(fill: dark,
+    align(center)[#text(weight: "bold", fill: green, size: 12pt)[\$14,560]]
+  ),
+)
+
+#v(1.2em)
+
+// Monthly infrastructure
+#text(size: 12pt, weight: "bold", fill: dark)[Monthly Infrastructure (Post-Launch)]
+#v(0.5em)
+
+#table(
+  columns: (2.5fr, 1.5fr, 1.5fr, 2.5fr),
+  fill: (col, row) => if row == 0 { dark } else if calc.odd(row) { bglight } else { white },
+  stroke: 0.5pt + border,
+  inset: 10pt,
+  table.header(
+    text(weight: "bold", fill: white, size: 9pt)[SERVICE],
+    text(weight: "bold", fill: white, size: 9pt)[STARTER],
+    text(weight: "bold", fill: white, size: 9pt)[GROWTH],
+    text(weight: "bold", fill: white, size: 9pt)[NOTES],
+  ),
+  [Cloud Hosting (Railway/AWS)], align(center)[\$25/mo], align(center)[\$80/mo], [Scales with users],
+  [OpenAI API (usage-based)], align(center)[\$40/mo], align(center)[\$150/mo], [Pay per analysis],
+  [n8n AI Orchestration], align(center)[\$0 self-hosted], align(center)[\$50/mo cloud], [Already running],
+  [LangSmith Monitoring], align(center)[\$0 free tier], align(center)[\$39/mo], [Full AI observability],
+  [Domain + SSL + CDN], align(center)[\$15/mo], align(center)[\$15/mo], [Fixed],
+  [PostgreSQL (managed)], align(center)[\$10/mo], align(center)[\$29/mo], [Replaces SQLite],
+  table.cell(colspan: 1, fill: dark, text(weight: "bold", fill: white)[MONTHLY TOTAL]),
+  table.cell(fill: green.lighten(85%), text(weight: "bold", fill: green)[\$90/mo]),
+  table.cell(fill: blue.lighten(85%), text(weight: "bold", fill: blue)[\$363/mo]),
+  table.cell(fill: bglight, text(size: 9pt, fill: muted)[Starter = up to 500 users/mo]),
+)
+
+#v(1.2em)
+
+// ROI section
+#rect(fill: bglight, stroke: 0.5pt + border, radius: 6pt, inset: 16pt, width: 100%)[
+  #text(size: 11pt, weight: "bold", fill: dark)[Return on Investment — The Business Case]
+  #v(0.6em)
+  #grid(
+    columns: (1fr, 1fr, 1fr),
+    gutter: 12pt,
+    rect(fill: white, stroke: 0.5pt + border, radius: 4pt, inset: 12pt)[
+      #text(size: 9pt, fill: muted)[IF 100 CREATORS RECOVER]
+      #v(0.3em)
+      #text(size: 20pt, weight: "bold", fill: green)[\$1.8M]
+      #v(0.2em)
+      #text(size: 9pt, fill: rgb("#374151"))[in underpaid deals using CreatorIQ (\$18K avg × 100 users)]
+    ],
+    rect(fill: white, stroke: 0.5pt + border, radius: 4pt, inset: 12pt)[
+      #text(size: 9pt, fill: muted)[PLATFORM COST AT 100 USERS]
+      #v(0.3em)
+      #text(size: 20pt, weight: "bold", fill: blue)[\$363/mo]
+      #v(0.2em)
+      #text(size: 9pt, fill: rgb("#374151"))[total infrastructure running the platform for all 100 users]
+    ],
+    rect(fill: white, stroke: 0.5pt + border, radius: 4pt, inset: 12pt)[
+      #text(size: 9pt, fill: muted)[REVENUE POTENTIAL (\$29/mo SaaS)]
+      #v(0.3em)
+      #text(size: 20pt, weight: "bold", fill: purple)[\$2,900/mo]
+      #v(0.2em)
+      #text(size: 9pt, fill: rgb("#374151"))[monthly recurring revenue from 100 paying subscribers]
+    ],
+  )
+]
+
+// ══════════════════════════════════════════════
+//  WHY NOW + NEXT STEPS
+// ══════════════════════════════════════════════
+#pagebreak()
+
+#section-heading("07", "Why Now — The Market Opportunity", color: blue)
+
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 16pt,
+  rect(fill: amber.lighten(90%), stroke: 0.5pt + amber, radius: 6pt, inset: 14pt)[
+    #text(size: 11pt, weight: "bold", fill: dark)[The Creator Economy Right Now]
+    #v(0.6em)
+    #list(
+      text(size: 10pt)[\$250 billion global creator economy — growing 22% per year],
+      text(size: 10pt)[600M+ active content creators globally],
+      text(size: 10pt)[Brand spending on creator partnerships up 35% since 2023],
+      text(size: 10pt)[Most creator tools focus on content scheduling — not money],
+      text(size: 10pt)[No competitor combines real deal data + AI + contract scanning in one platform],
+    )
+  ],
+  rect(fill: green.lighten(90%), stroke: 0.5pt + green, radius: 6pt, inset: 14pt)[
+    #text(size: 11pt, weight: "bold", fill: dark)[Why CreatorIQ Wins]
+    #v(0.6em)
+    #list(
+      text(size: 10pt)[*Real data* — 52,000+ actual brand deals, not estimates or surveys],
+      text(size: 10pt)[*Explainable AI* — every result shows its source and reasoning],
+      text(size: 10pt)[*Already built* — two tools live, zero development risk on the foundation],
+      text(size: 10pt)[*Self-hosted* — creator data never leaves your infrastructure],
+      text(size: 10pt)[*Fallback engine* — works even when AI is unavailable, 100% uptime],
+    )
+  ]
+)
+
+#v(1.2em)
+
+#section-heading("08", "Proposed Next Steps", color: green)
+
+#table(
+  columns: (0.4fr, 1.4fr, 3.2fr, 1fr),
+  fill: (col, row) => if row == 0 { dark } else if calc.odd(row) { bglight } else { white },
+  stroke: 0.5pt + border,
+  inset: 11pt,
+  table.header(
+    text(weight: "bold", fill: white, size: 9pt)[\#],
+    text(weight: "bold", fill: white, size: 9pt)[ACTION],
+    text(weight: "bold", fill: white, size: 9pt)[DESCRIPTION],
+    text(weight: "bold", fill: white, size: 9pt)[WHEN],
+  ),
+  align(center)[#text(weight: "bold", fill: green)[1]],
+  text(weight: "bold")[Live Demo Meeting],
+  [35-minute session. *Live*: Deal Analyzer + Market Dashboard + LangSmith audit. *Preview only*: Contract Scanner and Campaign Builder UI (placeholders — AI not yet active). Full Q&A.],
+  [This week],
+
+  align(center)[#text(weight: "bold", fill: green)[2]],
+  text(weight: "bold")[Letter of Intent],
+  [A simple, one-page agreement to formalise the engagement. No complex legal terms at this stage — just clarity and commitment.],
+  [Within 3 days],
+
+  align(center)[#text(weight: "bold", fill: blue)[3]],
+  text(weight: "bold")[Discovery Session],
+  [8-hour technical session: review architecture, align on priorities, confirm infrastructure decisions. Billed at standard rate.],
+  [Week 1],
+
+  align(center)[#text(weight: "bold", fill: blue)[4]],
+  text(weight: "bold")[Phase 1 Kick-off],
+  [Begin authentication system and Contract Scanner activation — the two highest-value Phase 1 deliverables.],
+  [Week 2],
+
+  align(center)[#text(weight: "bold", fill: purple)[5]],
+  text(weight: "bold")[Monthly Reviews],
+  [End of each phase — a 30-minute review session to demonstrate deliverables, gather feedback, and confirm Phase 2 priorities.],
+  [Monthly],
+
+  align(center)[#text(weight: "bold", fill: purple)[6]],
+  text(weight: "bold")[Public Launch],
+  [Full cloud deployment, domain live, onboarding flow complete. CreatorIQ is open to real users.],
+  [Month 6],
+)
+
+#v(1.5em)
+
+#callout(color: green)[
+  *Chleo, you raised the right concern.* AI that no one understands is a liability — not an asset. CreatorIQ was designed from day one to be the opposite of that: every recommendation is sourced, every decision is yours, every AI call is logged. \
+  \
+  I am not asking you to trust AI. I am asking you to come to a meeting and watch it work. The platform is ready.
+]
+
+#v(1.5em)
+#line(length: 100%, stroke: 0.5pt + border)
+#v(0.6em)
+
+#align(center)[
+  #text(size: 13pt, weight: "bold", fill: dark)[CreatorIQ — AI Creator Intelligence]
+  #v(0.3em)
+  #text(size: 10pt, fill: muted)[
+    Built with FastAPI · React · n8n (Docker) · OpenAI GPT-O4/O3/O1 · LangSmith · 52,000+ real brand deals
+  ]
+  #v(0.3em)
+  #text(size: 10pt, style: "italic", fill: muted)[March 2026 · Confidential]
+]
+```

@@ -1,0 +1,601 @@
+creator_id,username,niche,primary_platform,secondary_platform,follower_count,follower_tier,engagement_rate,monthly_revenue_usd,years_active,email_list_size,country,audience_age_group,audience_gender_primary,posts_per_week,joined_date
+CRE0001,sean20,Food & Cooking,YouTube,Substack,228393,Mid,0.0433,2869.32,1.2,17095,Sweden,18-24,Female,2.3,2023-11-19
+CRE0002,sarah75,Finance & Investing,Twitter/X,LinkedIn,95181,Micro,0.0297,1112.68,2.2,9194,Ghana,18-24,Female,5.2,2022-01-12
+CRE0003,csmith,Business & Entrepreneurship,Instagram,LinkedIn,54118,Micro,0.0432,433.19,5.0,6760,Palestinian Territory,45+,Mixed,1.7,2022-06-18
+CRE0004,john89,Travel & Adventure,Twitter/X,TikTok,92397,Micro,0.0235,934.02,4.8,10310,Greenland,18-24,Mixed,2.4,2021-06-18
+CRE0005,friedmankatelyn,Travel & Adventure,Instagram,LinkedIn,699295,Macro,0.0324,5229.59,3.2,74910,Guinea-Bissau,18-24,Mixed,4.8,2024-03-16
+CRE0006,rossethan,Photography & Videography,Instagram,Substack,241530,Mid,0.0497,4300.96,2.1,15012,Russian Federation,18-24,Female,5.9,2021-10-03
+CRE0007,perezjack,Comedy & Entertainment,TikTok,Twitter/X,84341,Micro,0.0712,1235.18,7.1,8735,Burkina Faso,25-34,Male,1.8,2024-07-06
+CRE0008,paul78,Pet Care,TikTok,Twitter/X,324622,Mid,0.049,5310.02,3.2,48580,Macao,25-34,Mixed,4.0,2018-09-29
+CRE0009,wongjacob,Food & Cooking,Instagram,Twitter/X,456768,Mid,0.0316,3496.15,4.5,66797,Sao Tome and Principe,18-24,Mixed,5.3,2024-03-28
+CRE0010,hherrera,Business & Entrepreneurship,Substack,LinkedIn,48469,Micro,0.473,1762.92,0.5,5519,Greece,35-44,Mixed,5.6,2023-11-29
+CRE0011,wcurry,Food & Cooking,Substack,Instagram,93748,Micro,0.3602,2476.03,4.5,11364,Mayotte,18-24,Mixed,2.9,2018-06-08
+CRE0012,xwhite,Food & Cooking,TikTok,Instagram,936032,Macro,0.0594,15021.43,0.9,125560,Israel,18-24,Female,5.4,2018-12-29
+CRE0013,ezhang,Pet Care,Instagram,Substack,72296,Micro,0.041,741.77,3.7,3436,South Africa,25-34,Mixed,2.9,2025-07-03
+CRE0014,adam22,Music & Audio Production,LinkedIn,Instagram,736708,Macro,0.0235,2920.61,1.0,16748,French Polynesia,25-34,Mixed,2.3,2019-01-05
+CRE0015,joshuawilliams,Technology & Software,Instagram,Twitter/X,14117,Micro,0.0376,85.08,2.1,525,Togo,45+,Female,5.7,2022-10-13
+CRE0016,jacksonoscar,Education & Online Courses,YouTube,Twitter/X,66498,Micro,0.0364,502.77,4.0,7632,British Indian Ocean Territory (Chagos Archipelago),18-24,Female,3.4,2022-01-08
+CRE0017,blaketimothy,Food & Cooking,Instagram,TikTok,80292,Micro,0.0246,478.75,7.1,2392,Russian Federation,18-24,Female,4.9,2024-04-12
+CRE0018,gabrieltaylor,Finance & Investing,YouTube,Twitter/X,944960,Macro,0.044,5938.0,4.1,45156,Switzerland,45+,Female,2.0,2018-03-29
+CRE0019,hstone,Comedy & Entertainment,TikTok,Substack,911633,Macro,0.0419,14971.14,5.5,75909,Indonesia,25-34,Male,2.3,2018-11-15
+CRE0020,newmananita,Pet Care,YouTube,Twitter/X,129971,Mid,0.0435,466.54,4.3,17007,Central African Republic,25-34,Female,6.8,2019-02-12
+CRE0021,jenniferwalker,Gaming & Esports,YouTube,Substack,454005,Mid,0.0479,7665.51,2.3,44169,Qatar,18-24,Male,4.9,2024-07-22
+CRE0022,megan18,Personal Development,TikTok,LinkedIn,607090,Macro,0.046,7708.83,2.3,43377,Antigua and Barbuda,35-44,Male,2.9,2019-01-12
+CRE0023,wvalenzuela,Finance & Investing,LinkedIn,TikTok,395170,Mid,0.0279,2088.17,1.5,25832,Sierra Leone,18-24,Female,3.2,2019-12-27
+CRE0024,brownmariah,Language Learning,Twitter/X,Substack,420695,Mid,0.0199,5971.51,0.6,53101,Russian Federation,35-44,Mixed,1.6,2019-09-22
+CRE0025,zbarnett,Business & Entrepreneurship,YouTube,LinkedIn,889240,Macro,0.031,9375.5,2.0,91103,Macao,35-44,Mixed,3.9,2018-10-15
+CRE0026,racheljohnson,Travel & Adventure,Substack,TikTok,245060,Mid,0.4147,3078.72,6.3,25198,France,35-44,Female,5.4,2024-05-27
+CRE0027,tyleryoung,Science & Space,Twitter/X,YouTube,2232,Nano,0.0287,10.03,6.8,213,Cape Verde,25-34,Male,1.8,2021-09-03
+CRE0028,stevenpruitt,Music & Audio Production,YouTube,Instagram,610140,Macro,0.0338,7200.9,3.2,56611,Gambia,45+,Mixed,5.5,2020-11-14
+CRE0029,jenningsabigail,Gaming & Esports,Instagram,Twitter/X,512995,Macro,0.0452,7317.49,6.5,67883,Guyana,25-34,Male,2.0,2019-06-06
+CRE0030,calebsmith,Comedy & Entertainment,YouTube,Twitter/X,616619,Macro,0.0646,4055.48,3.1,78106,Austria,25-34,Female,1.1,2020-05-20
+CRE0031,tylerday,Comedy & Entertainment,TikTok,Twitter/X,19099,Micro,0.0742,279.96,5.6,2476,Argentina,35-44,Female,1.7,2021-02-22
+CRE0032,laura34,Gaming & Esports,Twitter/X,Substack,2113446,Mega,0.019,5992.17,3.8,242435,American Samoa,35-44,Male,4.6,2023-12-14
+CRE0033,xwalter,Food & Cooking,LinkedIn,Substack,599656,Macro,0.0247,1508.19,5.7,85291,Equatorial Guinea,25-34,Male,3.6,2025-08-31
+CRE0034,williamsjohn,Parenting & Family,Twitter/X,TikTok,26334,Micro,0.0294,313.42,4.3,2809,New Zealand,35-44,Male,5.2,2024-06-07
+CRE0035,vsingleton,Beauty & Fashion,Instagram,LinkedIn,298781,Mid,0.025,3045.75,3.5,38358,Haiti,35-44,Male,2.3,2024-09-20
+CRE0036,armstrongelizabeth,Parenting & Family,LinkedIn,Twitter/X,454223,Mid,0.0105,2076.44,6.5,65761,Monaco,25-34,Mixed,1.5,2023-12-31
+CRE0037,tmiller,Parenting & Family,YouTube,TikTok,893812,Macro,0.041,12685.46,0.7,46325,Uruguay,45+,Mixed,6.1,2019-01-13
+CRE0038,alyssa88,Language Learning,LinkedIn,Twitter/X,801817,Macro,0.0314,4155.72,4.2,41468,Moldova,18-24,Female,5.7,2020-09-02
+CRE0039,dpierce,Gaming & Esports,Substack,Instagram,126328,Mid,0.1679,1087.58,6.5,13489,Djibouti,35-44,Male,4.7,2023-11-17
+CRE0040,bradleystacy,Science & Space,Twitter/X,LinkedIn,183444,Mid,0.0153,1995.93,3.9,21597,Sweden,35-44,Mixed,3.9,2020-11-24
+CRE0041,yjackson,Business & Entrepreneurship,LinkedIn,YouTube,47450,Micro,0.0257,651.93,1.5,2375,Lao People's Democratic Republic,25-34,Mixed,2.3,2022-11-14
+CRE0042,hopkinstroy,Science & Space,TikTok,Twitter/X,317985,Mid,0.0762,1469.45,3.4,38181,Sri Lanka,18-24,Mixed,3.3,2018-04-14
+CRE0043,morganmorgan,Music & Audio Production,TikTok,Instagram,319687,Mid,0.0315,4203.33,4.2,17736,Norway,45+,Female,3.3,2025-09-19
+CRE0044,diane89,Comedy & Entertainment,Substack,Twitter/X,71261,Micro,0.3977,3970.63,4.5,9826,El Salvador,18-24,Female,4.9,2019-09-27
+CRE0045,pamelacontreras,Language Learning,Instagram,Twitter/X,59689,Micro,0.0296,415.79,2.6,8574,Cook Islands,45+,Male,6.0,2023-06-29
+CRE0046,alyssawalker,Finance & Investing,Substack,YouTube,283480,Mid,0.5815,8195.62,6.4,29688,Chile,18-24,Female,2.2,2018-06-12
+CRE0047,rossbruce,Beauty & Fashion,Instagram,LinkedIn,97747,Micro,0.0542,1002.38,6.3,4087,Korea,18-24,Female,6.8,2019-06-06
+CRE0048,rachel81,Finance & Investing,TikTok,Instagram,296768,Mid,0.0888,3343.04,1.1,32579,British Virgin Islands,25-34,Female,5.2,2021-08-07
+CRE0049,zcrane,Food & Cooking,Twitter/X,TikTok,282034,Mid,0.0114,845.02,0.6,21041,Grenada,45+,Female,3.6,2022-04-12
+CRE0050,rhodges,Language Learning,Substack,TikTok,33086,Micro,0.4094,1573.82,5.1,4617,United States Minor Outlying Islands,45+,Male,3.6,2024-11-10
+CRE0051,lharrell,Business & Entrepreneurship,TikTok,Twitter/X,935542,Macro,0.0733,10551.42,4.8,99976,Marshall Islands,35-44,Female,4.0,2021-11-11
+CRE0052,johnhart,Gaming & Esports,LinkedIn,Substack,43862,Micro,0.0226,290.57,5.8,2452,American Samoa,18-24,Mixed,6.7,2019-03-06
+CRE0053,collinpatrick,Photography & Videography,Substack,LinkedIn,391072,Mid,0.4606,18545.15,3.9,8698,Cote d'Ivoire,35-44,Female,3.4,2020-12-11
+CRE0054,raymond73,Home Decor & Interior Design,Substack,TikTok,348124,Mid,0.2435,9010.07,3.7,40720,Ukraine,35-44,Male,5.2,2021-04-03
+CRE0055,gpayne,Home Decor & Interior Design,TikTok,Instagram,35242,Micro,0.0481,600.68,1.9,4088,Brazil,35-44,Mixed,4.5,2024-02-06
+CRE0056,xlewis,Home Decor & Interior Design,YouTube,TikTok,655318,Macro,0.0581,4428.97,2.8,73423,Ukraine,25-34,Male,1.3,2018-10-30
+CRE0057,austincompton,Pet Care,TikTok,YouTube,166206,Mid,0.0405,706.6,4.8,13466,Saint Lucia,45+,Male,2.1,2018-10-17
+CRE0058,tflynn,Business & Entrepreneurship,LinkedIn,YouTube,18564,Micro,0.0154,128.69,4.8,2027,Guinea-Bissau,25-34,Female,5.9,2021-08-16
+CRE0059,xmorales,Travel & Adventure,Instagram,Substack,64548,Micro,0.0204,330.83,3.4,8914,Malaysia,35-44,Mixed,6.9,2021-08-22
+CRE0060,adamrichardson,Technology & Software,Twitter/X,Instagram,1416215,Mega,0.0134,18430.16,5.2,77047,France,18-24,Female,2.4,2024-05-28
+CRE0061,wramos,Travel & Adventure,Instagram,LinkedIn,8381,Nano,0.0306,25.46,5.8,933,Tonga,45+,Female,5.1,2021-03-08
+CRE0062,jeremy07,Education & Online Courses,LinkedIn,TikTok,39466,Micro,0.0172,392.07,6.7,1155,Maldives,25-34,Male,4.6,2024-08-07
+CRE0063,blacknicolas,Home Decor & Interior Design,LinkedIn,Twitter/X,49857,Micro,0.0194,416.99,3.8,4873,Swaziland,45+,Mixed,2.9,2021-01-09
+CRE0064,myersjames,Finance & Investing,YouTube,Substack,98381,Micro,0.0127,1148.62,4.9,2232,Antarctica (the territory South of 60 deg S),35-44,Mixed,1.2,2020-03-07
+CRE0065,nicolecampbell,Sustainable Living,Twitter/X,LinkedIn,245834,Mid,0.0233,2530.34,7.8,19937,Estonia,45+,Male,2.9,2019-05-23
+CRE0066,bsanders,Gaming & Esports,TikTok,Twitter/X,359768,Mid,0.0817,3191.47,6.6,32923,Korea,45+,Female,2.9,2021-11-04
+CRE0067,roseford,Food & Cooking,LinkedIn,Twitter/X,932499,Macro,0.036,9417.56,0.9,81497,Bulgaria,45+,Mixed,3.7,2018-10-18
+CRE0068,zhayes,Education & Online Courses,TikTok,Twitter/X,251010,Mid,0.058,2530.74,1.4,36775,Costa Rica,25-34,Mixed,2.0,2024-05-24
+CRE0069,sherylwalker,Finance & Investing,Twitter/X,YouTube,217807,Mid,0.0332,1918.99,5.4,8715,Cook Islands,35-44,Mixed,5.2,2022-11-16
+CRE0070,charris,Sustainable Living,LinkedIn,Instagram,82255,Micro,0.0242,352.09,7.4,7079,Falkland Islands (Malvinas),25-34,Female,2.7,2022-11-14
+CRE0071,larrycampos,Parenting & Family,Twitter/X,LinkedIn,10336,Micro,0.019,96.79,7.0,806,Mongolia,45+,Male,3.0,2024-04-23
+CRE0072,william60,Comedy & Entertainment,LinkedIn,Instagram,955921,Macro,0.0312,4874.36,4.8,48143,French Polynesia,45+,Female,2.9,2023-07-10
+CRE0073,karen09,Comedy & Entertainment,LinkedIn,YouTube,4323539,Mega,0.0341,40314.22,1.4,629057,Argentina,35-44,Female,6.2,2023-02-26
+CRE0074,kfleming,Food & Cooking,Twitter/X,LinkedIn,508046,Macro,0.005,4920.76,7.0,74222,British Indian Ocean Territory (Chagos Archipelago),18-24,Male,5.7,2021-03-10
+CRE0075,tracystout,Parenting & Family,Twitter/X,Substack,440701,Mid,0.0247,4805.07,3.4,26955,Liechtenstein,45+,Mixed,1.2,2018-12-26
+CRE0076,williamssteve,Photography & Videography,Substack,YouTube,250669,Mid,0.5083,18258.58,3.8,8221,Cyprus,18-24,Male,2.0,2021-07-29
+CRE0077,wrighttodd,Finance & Investing,YouTube,Substack,17355,Micro,0.0369,82.1,3.6,1885,Egypt,25-34,Female,2.1,2025-01-19
+CRE0078,ingramvicki,Comedy & Entertainment,Twitter/X,Instagram,360920,Mid,0.0256,5044.63,2.2,37148,Colombia,45+,Male,5.0,2023-06-08
+CRE0079,mendozaerik,Home Decor & Interior Design,Substack,LinkedIn,138724,Mid,0.3339,4740.58,5.7,11013,Macao,35-44,Female,7.0,2023-08-21
+CRE0080,christinajames,Food & Cooking,Instagram,LinkedIn,57049,Micro,0.0385,612.2,0.7,7296,Bhutan,45+,Male,1.0,2018-10-07
+CRE0081,brussell,Sustainable Living,TikTok,Substack,220648,Mid,0.0469,2711.75,2.4,26086,Algeria,25-34,Mixed,1.6,2025-04-03
+CRE0082,tinaeaton,Technology & Software,TikTok,Instagram,117492,Mid,0.0495,1369.33,1.2,6857,Libyan Arab Jamahiriya,45+,Female,2.2,2024-04-07
+CRE0083,dawn55,Music & Audio Production,Twitter/X,LinkedIn,242882,Mid,0.0222,3041.3,7.8,14176,New Caledonia,35-44,Female,3.8,2019-01-23
+CRE0084,kathryn96,Beauty & Fashion,Instagram,Twitter/X,879698,Macro,0.0279,9838.24,7.8,109607,Aruba,35-44,Female,5.7,2018-05-17
+CRE0085,jessicasingleton,Business & Entrepreneurship,Twitter/X,TikTok,58311,Micro,0.0158,529.77,1.3,2938,Indonesia,18-24,Mixed,6.3,2024-07-06
+CRE0086,jamesromero,Parenting & Family,Twitter/X,LinkedIn,18285,Micro,0.0121,171.24,7.3,1084,Nigeria,45+,Female,1.8,2018-08-20
+CRE0087,robert55,Home Decor & Interior Design,LinkedIn,Substack,40775,Micro,0.0281,341.42,3.6,4750,Cook Islands,25-34,Male,4.9,2023-09-15
+CRE0088,nwilson,Science & Space,TikTok,Twitter/X,7070,Nano,0.0537,45.34,7.6,927,Burundi,18-24,Mixed,3.2,2025-06-13
+CRE0089,amymartin,Music & Audio Production,YouTube,Instagram,34878,Micro,0.0687,602.63,5.5,3607,Saudi Arabia,18-24,Female,5.7,2020-12-12
+CRE0090,hkramer,Beauty & Fashion,Twitter/X,Instagram,82641,Micro,0.0171,394.02,6.6,4156,Moldova,25-34,Mixed,1.0,2019-11-03
+CRE0091,john32,Beauty & Fashion,Twitter/X,TikTok,32871,Micro,0.0293,141.02,6.4,1674,Puerto Rico,35-44,Female,2.0,2018-10-21
+CRE0092,angela17,Beauty & Fashion,Substack,LinkedIn,159584,Mid,0.6226,10904.98,3.9,10702,Cayman Islands,18-24,Male,4.0,2025-02-11
+CRE0093,barrybrandon,Technology & Software,Substack,YouTube,445454,Mid,0.3019,20839.32,8.0,57975,French Polynesia,45+,Mixed,1.6,2023-03-11
+CRE0094,rachel64,Travel & Adventure,YouTube,LinkedIn,29442,Micro,0.0382,108.1,5.2,2829,Falkland Islands (Malvinas),35-44,Male,7.0,2024-03-02
+CRE0095,vparker,Home Decor & Interior Design,LinkedIn,Substack,325548,Mid,0.0345,4609.78,5.9,15611,Kiribati,45+,Female,3.5,2023-04-21
+CRE0096,shannon42,Comedy & Entertainment,LinkedIn,TikTok,263865,Mid,0.0318,2179.72,3.3,10513,El Salvador,45+,Female,1.5,2019-03-05
+CRE0097,robin99,Travel & Adventure,LinkedIn,Substack,58843,Micro,0.0286,595.13,4.7,6302,Cocos (Keeling) Islands,45+,Male,6.2,2022-12-17
+CRE0098,ian53,Technology & Software,TikTok,Substack,284363,Mid,0.0388,1198.3,2.1,29964,Turks and Caicos Islands,25-34,Female,3.1,2024-06-15
+CRE0099,connieparker,Music & Audio Production,YouTube,Substack,400993,Mid,0.0419,4329.96,5.1,41523,Azerbaijan,18-24,Mixed,6.6,2021-03-20
+CRE0100,ashleyboone,Finance & Investing,Instagram,LinkedIn,50499,Micro,0.046,826.89,0.5,6720,Guatemala,45+,Female,1.9,2025-04-26
+CRE0101,ryanmorales,Finance & Investing,YouTube,LinkedIn,212791,Mid,0.0306,993.26,5.9,25745,San Marino,18-24,Female,1.9,2025-02-22
+CRE0102,vargasjustin,Technology & Software,Substack,LinkedIn,68079,Micro,0.5542,3838.84,5.1,5027,New Caledonia,25-34,Mixed,1.7,2023-01-14
+CRE0103,amandawilliams,Food & Cooking,TikTok,Twitter/X,410973,Mid,0.0334,1345.47,7.9,11146,Belarus,25-34,Male,6.7,2019-10-04
+CRE0104,ili,Business & Entrepreneurship,TikTok,Twitter/X,11013,Micro,0.0622,124.57,1.8,764,Latvia,25-34,Mixed,4.4,2025-09-16
+CRE0105,anthony23,Music & Audio Production,YouTube,LinkedIn,15544,Micro,0.0277,55.15,4.8,1469,Uzbekistan,45+,Male,1.7,2018-06-14
+CRE0106,jacksonbrad,Parenting & Family,Instagram,LinkedIn,824075,Macro,0.0395,7588.37,1.2,106950,Cyprus,25-34,Male,4.5,2024-02-04
+CRE0107,cmontgomery,Travel & Adventure,LinkedIn,Substack,891016,Macro,0.0214,3982.07,5.2,79281,Kiribati,25-34,Male,3.1,2025-06-15
+CRE0108,justin92,Beauty & Fashion,Instagram,Substack,43550,Micro,0.043,247.41,1.6,5168,Rwanda,18-24,Female,6.7,2025-04-05
+CRE0109,kayla28,Sustainable Living,LinkedIn,Substack,498394,Mid,0.015,6201.79,2.9,72878,French Guiana,35-44,Female,3.6,2023-06-23
+CRE0110,friedmancollin,Language Learning,Substack,TikTok,46002,Micro,0.3523,1646.68,4.3,2776,Egypt,45+,Female,1.3,2021-06-08
+CRE0111,aaron55,Travel & Adventure,Substack,Twitter/X,948420,Macro,0.6029,38964.2,4.7,116595,Cayman Islands,18-24,Male,6.5,2024-08-17
+CRE0112,hurleyjeffrey,Education & Online Courses,TikTok,YouTube,362860,Mid,0.073,2202.52,3.9,45511,Lao People's Democratic Republic,35-44,Mixed,1.5,2025-06-18
+CRE0113,djohnson,Gaming & Esports,YouTube,LinkedIn,67377,Micro,0.0546,843.53,3.3,3825,Martinique,45+,Male,5.1,2018-10-21
+CRE0114,popebrittany,Parenting & Family,YouTube,LinkedIn,83133,Micro,0.0392,1016.47,2.4,10865,Afghanistan,25-34,Male,1.5,2025-08-29
+CRE0115,dcampbell,Beauty & Fashion,TikTok,YouTube,95990,Micro,0.0543,1177.56,2.8,6620,Isle of Man,35-44,Female,5.0,2024-02-14
+CRE0116,elijah29,Travel & Adventure,Substack,TikTok,366594,Mid,0.3223,8697.81,2.8,52661,United States Minor Outlying Islands,35-44,Male,2.2,2019-10-05
+CRE0117,sjohnson,Beauty & Fashion,YouTube,Substack,23256,Micro,0.0251,273.08,0.8,1483,Tuvalu,25-34,Mixed,3.3,2020-01-14
+CRE0118,fjohnson,Gaming & Esports,Substack,YouTube,186790,Mid,0.4419,9324.35,3.6,20159,Czech Republic,25-34,Male,4.7,2023-04-02
+CRE0119,pettyjason,Photography & Videography,Twitter/X,Substack,71474,Micro,0.0232,773.4,7.9,5719,Malaysia,35-44,Male,4.0,2022-11-29
+CRE0120,wongjeremy,Gaming & Esports,Instagram,YouTube,572560,Macro,0.0311,8054.23,5.3,76514,Lithuania,18-24,Mixed,6.1,2019-08-13
+CRE0121,lindsaywright,Home Decor & Interior Design,YouTube,Instagram,243021,Mid,0.0263,3164.65,7.6,11875,Philippines,45+,Male,6.6,2022-11-14
+CRE0122,voneill,Technology & Software,LinkedIn,YouTube,223615,Mid,0.0278,1675.15,3.3,5291,Central African Republic,18-24,Mixed,4.9,2019-11-09
+CRE0123,anna46,Beauty & Fashion,YouTube,Twitter/X,71925,Micro,0.0378,897.5,5.1,9908,Sri Lanka,18-24,Male,2.3,2019-11-23
+CRE0124,andrewhicks,Pet Care,Substack,TikTok,321907,Mid,0.3804,4812.32,2.3,11537,Vanuatu,25-34,Male,4.8,2025-03-15
+CRE0125,patricia45,Language Learning,YouTube,TikTok,75513,Micro,0.0382,746.56,5.9,4369,Armenia,18-24,Mixed,3.1,2024-08-13
+CRE0126,bobbythomas,Science & Space,Instagram,LinkedIn,144886,Mid,0.0339,1403.58,1.0,12806,Belize,18-24,Male,6.2,2018-09-15
+CRE0127,danderson,Comedy & Entertainment,TikTok,YouTube,12128,Micro,0.0558,83.35,6.3,1401,Madagascar,35-44,Female,1.3,2024-05-04
+CRE0128,christine24,Parenting & Family,Substack,LinkedIn,99742,Micro,0.4895,3907.84,5.2,12517,United States of America,18-24,Mixed,5.7,2023-05-08
+CRE0129,madelinehorne,Technology & Software,TikTok,Twitter/X,36144,Micro,0.0718,316.73,7.9,3274,Sao Tome and Principe,35-44,Female,5.5,2020-05-11
+CRE0130,jose42,Home Decor & Interior Design,TikTok,LinkedIn,525063,Macro,0.0497,8377.38,2.5,65062,Barbados,45+,Male,5.5,2022-07-21
+CRE0131,julian58,Parenting & Family,Instagram,YouTube,360845,Mid,0.0224,2061.39,6.0,10919,Cook Islands,25-34,Mixed,2.8,2019-05-15
+CRE0132,vdaniels,Travel & Adventure,TikTok,Twitter/X,260692,Mid,0.0838,3094.92,1.7,20257,Croatia,45+,Female,5.4,2022-03-04
+CRE0133,uwilson,Science & Space,TikTok,Instagram,130072,Mid,0.0828,1339.39,7.6,5015,Micronesia,45+,Female,1.8,2020-11-11
+CRE0134,elewis,Music & Audio Production,TikTok,Instagram,84349,Micro,0.0716,336.36,5.6,12091,Bangladesh,35-44,Male,5.6,2024-08-26
+CRE0135,jessica55,Beauty & Fashion,Twitter/X,Instagram,51207,Micro,0.0173,188.28,4.2,3600,Libyan Arab Jamahiriya,18-24,Male,5.6,2023-03-22
+CRE0136,ytanner,Education & Online Courses,Twitter/X,Instagram,74382,Micro,0.0163,346.18,6.9,5858,Mauritius,45+,Female,5.9,2021-10-20
+CRE0137,isabel86,Music & Audio Production,Substack,Instagram,81063,Micro,0.4214,1511.04,6.5,6982,Comoros,18-24,Female,5.8,2020-11-14
+CRE0138,perryjodi,Sustainable Living,YouTube,Substack,85009,Micro,0.0498,724.47,1.5,11472,Hungary,18-24,Male,3.4,2023-08-02
+CRE0139,kingbrandon,Personal Development,LinkedIn,Twitter/X,401413,Mid,0.043,4835.2,4.0,35026,Vanuatu,25-34,Mixed,4.8,2020-04-04
+CRE0140,robert70,Beauty & Fashion,LinkedIn,Substack,129052,Mid,0.034,1783.58,1.6,5343,Czech Republic,35-44,Mixed,2.4,2024-01-14
+CRE0141,isabellabeasley,Home Decor & Interior Design,YouTube,Substack,93238,Micro,0.0493,1148.47,4.5,7956,Japan,25-34,Mixed,6.6,2019-12-12
+CRE0142,mroth,Gaming & Esports,Substack,Twitter/X,417267,Mid,0.4207,11680.91,0.8,55200,Qatar,18-24,Female,6.7,2024-09-07
+CRE0143,gutierrezjohn,Business & Entrepreneurship,Substack,Twitter/X,84991,Micro,0.2832,2273.41,2.7,12269,Thailand,45+,Female,5.8,2022-10-09
+CRE0144,mmullen,Home Decor & Interior Design,LinkedIn,Twitter/X,17852,Micro,0.0304,83.36,4.1,830,Fiji,25-34,Male,6.2,2021-10-18
+CRE0145,catherine90,Music & Audio Production,LinkedIn,YouTube,58567,Micro,0.0215,314.34,2.5,3058,Cameroon,18-24,Female,2.7,2022-07-11
+CRE0146,mariamoreno,Science & Space,Instagram,LinkedIn,4784565,Mega,0.0345,23147.54,7.5,544228,American Samoa,25-34,Female,4.0,2023-12-28
+CRE0147,amccarthy,Language Learning,LinkedIn,Instagram,760765,Macro,0.0429,7669.12,2.1,50116,Zimbabwe,18-24,Male,4.0,2025-07-21
+CRE0148,jasmine73,Sustainable Living,TikTok,LinkedIn,156359,Mid,0.0663,1640.57,6.0,18653,Saint Martin,35-44,Female,3.4,2024-08-11
+CRE0149,jeremybenitez,Pet Care,Instagram,LinkedIn,47827,Micro,0.0461,673.88,6.7,4831,Zimbabwe,18-24,Female,6.9,2022-08-20
+CRE0150,theresa22,Music & Audio Production,TikTok,Instagram,291683,Mid,0.0695,4721.37,5.0,21053,China,18-24,Female,1.2,2021-12-14
+CRE0151,teresacooper,Sustainable Living,Twitter/X,TikTok,417855,Mid,0.0226,5795.89,1.7,62168,Tonga,35-44,Mixed,3.0,2023-12-07
+CRE0152,bherring,Pet Care,LinkedIn,YouTube,257176,Mid,0.0224,2124.45,3.3,27670,Niger,45+,Mixed,2.8,2025-04-10
+CRE0153,beth41,Finance & Investing,Twitter/X,YouTube,443718,Mid,0.0221,4213.07,4.9,18710,Germany,45+,Female,5.9,2020-12-07
+CRE0154,brittanyhamilton,Technology & Software,Twitter/X,LinkedIn,557616,Macro,0.0098,2392.63,2.9,22129,Mauritius,25-34,Male,4.0,2025-01-27
+CRE0155,tiffany36,Sustainable Living,Substack,LinkedIn,470029,Mid,0.5095,15041.76,4.4,28572,Czech Republic,25-34,Male,6.5,2022-01-21
+CRE0156,obarnes,Pet Care,TikTok,LinkedIn,477972,Mid,0.0694,7131.26,5.1,21506,Turks and Caicos Islands,25-34,Male,4.3,2020-09-27
+CRE0157,bonniehicks,Home Decor & Interior Design,TikTok,LinkedIn,461884,Mid,0.0556,3944.2,2.7,43672,Iran,45+,Male,5.9,2019-11-10
+CRE0158,htucker,Home Decor & Interior Design,YouTube,Twitter/X,20358,Micro,0.0299,144.49,5.4,2385,Timor-Leste,25-34,Female,6.0,2021-04-04
+CRE0159,adamboyer,Pet Care,Substack,Twitter/X,24316,Micro,0.3159,447.46,2.2,1222,Mali,18-24,Male,3.0,2023-07-07
+CRE0160,wmoore,Food & Cooking,Substack,Instagram,102716,Mid,0.3307,5151.81,3.6,14539,Timor-Leste,45+,Male,4.9,2021-06-09
+CRE0161,smithrebecca,Parenting & Family,TikTok,YouTube,146903,Mid,0.0525,2102.91,7.3,6281,Montenegro,25-34,Female,7.0,2022-09-02
+CRE0162,rothbrendan,Sustainable Living,Instagram,YouTube,957331,Macro,0.0288,13884.55,0.6,89831,Cocos (Keeling) Islands,18-24,Male,2.7,2025-05-29
+CRE0163,cporter,Pet Care,Twitter/X,YouTube,170359,Mid,0.024,829.8,3.0,19599,Taiwan,35-44,Mixed,2.1,2021-12-30
+CRE0164,parkskatie,Home Decor & Interior Design,Twitter/X,LinkedIn,201272,Mid,0.0146,866.11,6.7,17507,Botswana,18-24,Male,5.0,2020-04-15
+CRE0165,benjaminwebster,Beauty & Fashion,LinkedIn,TikTok,42512,Micro,0.0324,364.02,7.7,2518,Bouvet Island (Bouvetoya),18-24,Male,4.9,2020-11-12
+CRE0166,harristony,Technology & Software,Substack,Twitter/X,50213,Micro,0.4557,1003.73,7.4,6799,Afghanistan,35-44,Mixed,1.7,2021-07-11
+CRE0167,dawngarcia,Music & Audio Production,Twitter/X,TikTok,27507,Micro,0.0135,371.16,3.6,2514,Benin,45+,Mixed,5.8,2020-08-31
+CRE0168,owalker,Photography & Videography,Substack,Twitter/X,142923,Mid,0.4703,5913.53,5.8,4309,Yemen,18-24,Female,6.0,2023-11-20
+CRE0169,chungmark,Education & Online Courses,Twitter/X,Instagram,186264,Mid,0.0166,686.82,5.9,15561,Mongolia,45+,Female,3.7,2023-12-22
+CRE0170,calvin50,Science & Space,LinkedIn,TikTok,392970,Mid,0.033,3461.92,5.9,28086,Sudan,18-24,Mixed,2.3,2019-01-14
+CRE0171,jessicataylor,Technology & Software,LinkedIn,Twitter/X,18357,Micro,0.0224,245.86,0.7,1342,Cyprus,25-34,Mixed,6.9,2025-06-17
+CRE0172,floresjoshua,Science & Space,TikTok,Twitter/X,2604235,Mega,0.0584,26752.86,3.3,283223,Togo,25-34,Mixed,6.2,2019-07-19
+CRE0173,owendylan,Gaming & Esports,Twitter/X,YouTube,26691,Micro,0.0194,64.85,7.8,2140,Poland,45+,Mixed,3.3,2020-10-16
+CRE0174,michael35,Photography & Videography,LinkedIn,YouTube,46129,Micro,0.0197,214.5,0.7,4881,British Virgin Islands,18-24,Female,2.2,2019-05-08
+CRE0175,shaunclark,Technology & Software,LinkedIn,Twitter/X,468724,Mid,0.0289,1475.64,2.3,22613,Saint Helena,18-24,Female,4.0,2021-06-17
+CRE0176,ashleyhays,Photography & Videography,Substack,TikTok,402763,Mid,0.3772,15335.86,2.3,53935,Panama,25-34,Male,2.8,2018-11-25
+CRE0177,penamorgan,Pet Care,Twitter/X,YouTube,977929,Macro,0.0241,9173.08,7.8,139263,Uganda,45+,Mixed,2.9,2022-11-20
+CRE0178,kharris,Science & Space,Instagram,Twitter/X,34101,Micro,0.0491,485.27,2.3,1681,Honduras,25-34,Male,6.5,2024-07-10
+CRE0179,jennadoyle,Science & Space,LinkedIn,YouTube,170303,Mid,0.0206,1089.08,7.4,22161,France,18-24,Mixed,5.3,2020-05-09
+CRE0180,piercelaura,Technology & Software,TikTok,YouTube,89294,Micro,0.0689,1210.95,1.9,10627,Nigeria,25-34,Male,2.3,2021-12-13
+CRE0181,uvincent,Home Decor & Interior Design,YouTube,Twitter/X,34906,Micro,0.0458,610.5,7.4,3854,Central African Republic,25-34,Male,6.5,2024-05-29
+CRE0182,ocastro,Parenting & Family,TikTok,LinkedIn,79946,Micro,0.0579,1071.38,2.5,6928,Saint Lucia,45+,Male,1.6,2023-06-26
+CRE0183,gdominguez,Parenting & Family,Instagram,YouTube,64254,Micro,0.0551,938.03,2.5,9093,Albania,45+,Male,1.9,2021-12-01
+CRE0184,nelsonyolanda,Photography & Videography,LinkedIn,TikTok,228833,Mid,0.0292,2067.5,2.4,29017,United Arab Emirates,45+,Male,2.0,2022-03-02
+CRE0185,garciaheather,Gaming & Esports,Instagram,YouTube,356018,Mid,0.0439,6098.15,4.4,45954,Saint Helena,18-24,Mixed,1.3,2018-04-16
+CRE0186,vanessa46,Science & Space,Instagram,TikTok,621337,Macro,0.0552,2584.06,0.6,53276,Romania,35-44,Female,4.7,2025-09-11
+CRE0187,fshields,Sustainable Living,Substack,TikTok,103466,Mid,0.3139,928.12,4.5,5925,Malaysia,45+,Female,1.6,2019-04-19
+CRE0188,stephanie59,Personal Development,Instagram,LinkedIn,91235,Micro,0.0328,880.17,2.5,6532,United Kingdom,35-44,Male,3.8,2020-12-11
+CRE0189,cwright,Photography & Videography,TikTok,YouTube,142266,Mid,0.0398,1908.5,3.5,9820,Uganda,45+,Female,4.8,2020-02-20
+CRE0190,devinfowler,Travel & Adventure,LinkedIn,Substack,838117,Macro,0.0128,9306.25,7.8,122867,Moldova,18-24,Female,2.3,2024-07-28
+CRE0191,qwaller,Sustainable Living,TikTok,YouTube,2218,Nano,0.0542,25.41,1.8,289,Benin,18-24,Female,4.5,2022-09-07
+CRE0192,zhorton,Travel & Adventure,TikTok,Twitter/X,41519,Micro,0.0466,466.66,5.6,3748,Panama,45+,Mixed,1.8,2019-02-05
+CRE0193,velasquezbeverly,Personal Development,Substack,Twitter/X,1225219,Mega,0.5302,21312.28,6.3,176592,China,45+,Male,1.2,2021-04-13
+CRE0194,sanchezgilbert,Language Learning,LinkedIn,Twitter/X,82487,Micro,0.0281,1205.8,1.9,7932,Saudi Arabia,45+,Female,5.6,2021-07-12
+CRE0195,nelsonshannon,Photography & Videography,Substack,LinkedIn,45123,Micro,0.5705,2522.96,2.9,1527,Denmark,18-24,Male,3.7,2021-03-29
+CRE0196,jacob20,Food & Cooking,Instagram,Substack,66489,Micro,0.0487,641.51,4.3,2222,Spain,18-24,Male,4.3,2024-11-29
+CRE0197,tinascott,Parenting & Family,LinkedIn,Instagram,7779,Nano,0.0226,105.02,4.8,327,Faroe Islands,45+,Female,1.8,2021-08-05
+CRE0198,khanjonathan,Business & Entrepreneurship,LinkedIn,Twitter/X,31916,Micro,0.027,257.26,2.7,3885,Romania,35-44,Male,6.7,2025-03-24
+CRE0199,john71,Sustainable Living,Twitter/X,TikTok,340051,Mid,0.024,4844.17,6.8,23594,American Samoa,35-44,Male,3.0,2025-07-08
+CRE0200,wilsonalicia,Beauty & Fashion,TikTok,Instagram,36326,Micro,0.0696,418.33,7.7,5301,Central African Republic,35-44,Mixed,5.2,2023-09-22
+CRE0201,cardenasteresa,Photography & Videography,TikTok,Substack,61502,Micro,0.0324,325.55,1.8,7367,Korea,18-24,Mixed,3.8,2020-07-26
+CRE0202,roberttucker,Language Learning,TikTok,Twitter/X,536259,Macro,0.0913,10453.2,5.5,20427,Syrian Arab Republic,35-44,Female,2.5,2019-12-12
+CRE0203,rgreen,Science & Space,LinkedIn,Twitter/X,88372,Micro,0.0175,733.73,4.6,10851,El Salvador,35-44,Mixed,6.4,2024-03-28
+CRE0204,mauricewebster,Travel & Adventure,YouTube,TikTok,444772,Mid,0.0416,5445.82,5.4,11456,Congo,45+,Male,6.8,2023-01-17
+CRE0205,fcooper,Food & Cooking,YouTube,Substack,39098,Micro,0.0255,382.98,2.2,2683,British Virgin Islands,45+,Mixed,4.5,2023-10-30
+CRE0206,leah41,Beauty & Fashion,TikTok,Twitter/X,3024888,Mega,0.0585,14601.46,7.4,94258,Isle of Man,25-34,Male,2.9,2023-04-29
+CRE0207,jasminedelgado,Education & Online Courses,Twitter/X,YouTube,349646,Mid,0.0279,2917.73,2.8,43819,Western Sahara,18-24,Female,6.1,2025-06-26
+CRE0208,daltonbell,Food & Cooking,Substack,Instagram,987547,Macro,0.5743,78836.28,4.4,90605,Saudi Arabia,35-44,Mixed,3.6,2023-05-26
+CRE0209,thomasian,Photography & Videography,LinkedIn,Substack,197720,Mid,0.0199,543.34,7.1,15510,Bhutan,45+,Male,1.0,2020-08-16
+CRE0210,felicia89,Education & Online Courses,TikTok,Substack,132801,Mid,0.0452,1498.94,1.9,8283,Brazil,45+,Female,2.6,2023-09-15
+CRE0211,deborahstanley,Personal Development,Substack,LinkedIn,60939,Micro,0.3126,1377.67,5.1,7665,Iraq,35-44,Mixed,4.5,2019-09-20
+CRE0212,jamesmiller,Parenting & Family,YouTube,TikTok,25328,Micro,0.0297,125.83,4.3,1883,Georgia,25-34,Mixed,3.3,2020-04-19
+CRE0213,tvillarreal,Sustainable Living,Substack,TikTok,438302,Mid,0.5255,10057.91,1.6,26690,Heard Island and McDonald Islands,45+,Mixed,1.3,2022-03-30
+CRE0214,nicholasjohnson,Finance & Investing,LinkedIn,Substack,60324,Micro,0.023,863.54,5.4,4414,Cyprus,45+,Male,5.3,2023-03-13
+CRE0215,micheal01,Sustainable Living,Instagram,TikTok,14044,Micro,0.0371,44.8,4.5,587,Myanmar,45+,Mixed,5.5,2023-10-09
+CRE0216,banksamber,Pet Care,Twitter/X,Substack,24969,Micro,0.0159,135.4,6.7,1690,Germany,18-24,Mixed,3.6,2020-09-01
+CRE0217,jenniferleonard,Science & Space,YouTube,Twitter/X,442712,Mid,0.0401,7438.61,2.5,58476,Peru,18-24,Male,6.2,2019-07-14
+CRE0218,underwoodcory,Photography & Videography,Instagram,Substack,808241,Macro,0.0262,9069.16,5.2,33604,French Southern Territories,25-34,Female,5.9,2018-11-19
+CRE0219,coffeyseth,Music & Audio Production,Twitter/X,Substack,80617,Micro,0.0282,509.14,2.5,10604,Monaco,18-24,Female,6.8,2022-10-31
+CRE0220,pbates,Technology & Software,TikTok,Instagram,566525,Macro,0.1036,10397.46,2.4,63723,Rwanda,25-34,Mixed,3.4,2019-10-24
+CRE0221,hortonann,Business & Entrepreneurship,Substack,LinkedIn,336973,Mid,0.6637,24933.88,4.4,18927,Pakistan,35-44,Male,6.7,2021-11-20
+CRE0222,jbrown,Finance & Investing,Substack,TikTok,70089,Micro,0.5597,3860.11,6.9,8651,Trinidad and Tobago,45+,Female,6.8,2020-08-04
+CRE0223,melissa08,Sustainable Living,TikTok,Twitter/X,47171,Micro,0.0476,533.42,6.4,6426,Chile,18-24,Female,1.6,2023-05-16
+CRE0224,fharris,Finance & Investing,YouTube,Instagram,582828,Macro,0.0534,5733.47,7.9,44069,Papua New Guinea,25-34,Mixed,2.8,2021-04-16
+CRE0225,cartermelissa,Travel & Adventure,Substack,LinkedIn,20803,Micro,0.2476,264.32,5.2,2379,Botswana,25-34,Male,4.9,2019-04-14
+CRE0226,jonesdavid,Finance & Investing,Instagram,Substack,169572,Mid,0.0514,2037.63,5.6,3596,Turks and Caicos Islands,35-44,Female,6.9,2022-12-14
+CRE0227,deborah13,Beauty & Fashion,LinkedIn,TikTok,60209,Micro,0.0365,249.19,7.1,2277,Greenland,25-34,Mixed,7.0,2019-10-27
+CRE0228,iburch,Travel & Adventure,Twitter/X,LinkedIn,419983,Mid,0.0258,4490.99,3.1,20032,Mozambique,25-34,Male,4.7,2023-03-07
+CRE0229,ischneider,Education & Online Courses,YouTube,Twitter/X,573407,Macro,0.0402,4695.13,2.9,21891,Slovakia (Slovak Republic),35-44,Mixed,1.5,2024-06-03
+CRE0230,cassandra12,Home Decor & Interior Design,Substack,Twitter/X,5942,Nano,0.2699,89.11,4.3,696,Niue,35-44,Mixed,1.3,2020-11-25
+CRE0231,katiejohnson,Sustainable Living,LinkedIn,YouTube,75481,Micro,0.0231,1011.61,7.9,10673,Brazil,25-34,Male,6.2,2024-08-04
+CRE0232,ajones,Science & Space,TikTok,YouTube,190581,Mid,0.0547,2838.39,0.6,5484,Tunisia,35-44,Female,1.2,2018-11-23
+CRE0233,rogersstephanie,Comedy & Entertainment,Twitter/X,Substack,75673,Micro,0.0207,550.1,4.5,3015,Germany,18-24,Male,1.5,2020-06-30
+CRE0234,debracampbell,Beauty & Fashion,Twitter/X,YouTube,86865,Micro,0.0137,823.99,2.8,6677,Korea,25-34,Female,2.5,2023-02-02
+CRE0235,amybutler,Food & Cooking,LinkedIn,YouTube,128850,Mid,0.0205,1460.51,0.6,4875,Somalia,18-24,Female,4.0,2022-02-08
+CRE0236,kevinwallace,Personal Development,Twitter/X,TikTok,477888,Mid,0.0292,2835.53,1.5,58085,Liechtenstein,35-44,Mixed,6.3,2018-07-19
+CRE0237,dukeelizabeth,Parenting & Family,LinkedIn,Twitter/X,18371,Micro,0.0233,187.45,3.9,1227,Martinique,45+,Mixed,2.0,2019-12-25
+CRE0238,robertmayer,Business & Entrepreneurship,YouTube,TikTok,853433,Macro,0.0725,13584.88,6.1,17353,Guinea-Bissau,18-24,Female,1.3,2022-04-19
+CRE0239,emmapeterson,Comedy & Entertainment,Instagram,Twitter/X,14635,Micro,0.013,155.56,2.2,765,Philippines,35-44,Male,6.0,2024-08-17
+CRE0240,odonnellalexis,Music & Audio Production,YouTube,Substack,127615,Mid,0.0313,635.62,7.9,18380,United States of America,18-24,Male,6.2,2021-09-13
+CRE0241,charlene39,Parenting & Family,YouTube,Substack,104178,Mid,0.0332,1366.15,2.3,7071,Kiribati,45+,Female,5.4,2024-05-06
+CRE0242,alexandramcmahon,Photography & Videography,Instagram,Substack,7718,Nano,0.0414,24.44,3.1,996,British Virgin Islands,18-24,Male,1.0,2025-08-03
+CRE0243,elizabeth57,Comedy & Entertainment,Substack,YouTube,154499,Mid,0.5572,6293.41,7.8,5949,Tajikistan,35-44,Female,1.3,2020-10-24
+CRE0244,ghughes,Personal Development,LinkedIn,YouTube,295293,Mid,0.0456,2831.02,4.9,25308,Pakistan,45+,Female,4.6,2018-12-01
+CRE0245,mistygriffin,Science & Space,Substack,LinkedIn,1993092,Mega,0.3818,108130.62,5.8,230393,Peru,35-44,Male,2.6,2019-01-20
+CRE0246,daniel50,Education & Online Courses,Instagram,YouTube,406555,Mid,0.0548,1944.51,1.7,32763,Romania,45+,Female,4.2,2020-07-18
+CRE0247,phamandrew,Language Learning,TikTok,Substack,162869,Mid,0.0875,1539.77,0.8,20956,Kyrgyz Republic,35-44,Female,1.5,2020-12-31
+CRE0248,ljones,Music & Audio Production,LinkedIn,Instagram,455039,Mid,0.0323,3003.1,0.7,33022,Burkina Faso,45+,Mixed,5.5,2021-01-07
+CRE0249,pbooth,Food & Cooking,LinkedIn,Instagram,28322,Micro,0.0269,352.56,1.5,3599,Japan,35-44,Mixed,4.8,2025-06-12
+CRE0250,patricia33,Travel & Adventure,Twitter/X,YouTube,139314,Mid,0.0215,375.43,2.0,14485,France,25-34,Female,6.4,2021-12-08
+CRE0251,huffmanlogan,Food & Cooking,YouTube,Twitter/X,526548,Macro,0.0477,7945.76,4.2,36729,Cambodia,45+,Female,3.1,2020-04-25
+CRE0252,jesusowens,Business & Entrepreneurship,TikTok,Substack,177925,Mid,0.0805,753.59,5.1,18530,Monaco,45+,Male,6.3,2023-08-04
+CRE0253,sarah31,Technology & Software,YouTube,TikTok,27987,Micro,0.025,348.86,5.2,3478,Isle of Man,18-24,Male,5.7,2022-03-30
+CRE0254,pcortez,Sustainable Living,Twitter/X,Substack,280372,Mid,0.0242,3874.59,2.9,15464,Algeria,18-24,Male,4.6,2018-07-19
+CRE0255,chill,Business & Entrepreneurship,YouTube,TikTok,747298,Macro,0.0199,10748.59,1.3,78759,Bulgaria,35-44,Mixed,5.9,2018-11-05
+CRE0256,edwinvaughn,Photography & Videography,Twitter/X,Instagram,918062,Macro,0.0181,6379.86,1.8,89077,Ethiopia,35-44,Mixed,1.2,2022-02-28
+CRE0257,john86,Beauty & Fashion,Twitter/X,TikTok,938670,Macro,0.0324,8602.99,1.8,23406,China,18-24,Female,4.6,2018-06-10
+CRE0258,valeriewalker,Personal Development,LinkedIn,TikTok,4300,Nano,0.0238,53.58,5.9,599,Bermuda,35-44,Female,1.1,2024-10-17
+CRE0259,shawphillip,Beauty & Fashion,YouTube,Twitter/X,951238,Macro,0.0369,11779.3,4.9,60644,New Caledonia,35-44,Female,6.9,2023-02-12
+CRE0260,uhanson,Sustainable Living,Substack,Twitter/X,83659,Micro,0.4893,4405.27,6.4,4101,French Guiana,25-34,Male,2.8,2021-07-09
+CRE0261,brett27,Beauty & Fashion,Instagram,Substack,468054,Mid,0.0449,8099.75,0.7,46014,Saint Lucia,25-34,Mixed,4.4,2023-10-13
+CRE0262,isaiah64,Beauty & Fashion,TikTok,LinkedIn,224778,Mid,0.0543,1896.51,1.8,30365,Nepal,18-24,Mixed,5.0,2021-12-25
+CRE0263,michael27,Language Learning,YouTube,Instagram,42707,Micro,0.0361,573.7,0.9,3287,Palau,45+,Female,6.3,2023-09-30
+CRE0264,amber79,Comedy & Entertainment,TikTok,Substack,153177,Mid,0.0443,2274.02,5.4,16746,Lebanon,25-34,Male,1.4,2018-08-04
+CRE0265,richardosborn,Home Decor & Interior Design,YouTube,Instagram,23726,Micro,0.0465,200.02,4.6,3244,Japan,18-24,Male,4.6,2025-02-05
+CRE0266,sbeck,Sustainable Living,Substack,LinkedIn,3703,Nano,0.4871,175.51,1.7,122,Panama,25-34,Female,3.5,2024-06-06
+CRE0267,griffinhannah,Pet Care,TikTok,Twitter/X,255923,Mid,0.0604,3168.12,1.7,17123,Venezuela,45+,Female,2.8,2025-08-22
+CRE0268,matthewhess,Sustainable Living,Instagram,LinkedIn,37125,Micro,0.0383,190.4,7.8,3028,Israel,18-24,Male,5.7,2023-07-01
+CRE0269,alvaradojenna,Sustainable Living,Substack,TikTok,94130,Micro,0.367,4771.69,1.9,2428,Malaysia,45+,Male,2.6,2021-03-25
+CRE0270,christina70,Technology & Software,Instagram,LinkedIn,449945,Mid,0.0332,1778.22,6.6,33214,Uruguay,25-34,Mixed,1.4,2022-07-23
+CRE0271,morgankathleen,Personal Development,LinkedIn,Twitter/X,3881771,Mega,0.0307,54877.44,2.7,276865,Cambodia,18-24,Mixed,4.4,2024-01-05
+CRE0272,blackwelldavid,Beauty & Fashion,YouTube,TikTok,735426,Macro,0.0299,3562.18,7.8,92001,Niue,25-34,Female,3.5,2023-02-06
+CRE0273,jamesrivera,Education & Online Courses,Substack,YouTube,87994,Micro,0.4353,5248.11,1.2,8124,Svalbard & Jan Mayen Islands,35-44,Male,4.1,2018-05-10
+CRE0274,daviskelly,Personal Development,LinkedIn,Substack,29613,Micro,0.0415,145.9,4.9,4306,Uruguay,18-24,Female,4.4,2019-05-08
+CRE0275,hillkristen,Home Decor & Interior Design,Twitter/X,Substack,960269,Macro,0.015,7570.98,4.0,40701,Iceland,45+,Female,4.7,2022-09-21
+CRE0276,devinjones,Technology & Software,LinkedIn,YouTube,673798,Macro,0.0289,7734.34,6.1,94135,Korea,35-44,Female,3.0,2021-08-13
+CRE0277,bholt,Home Decor & Interior Design,TikTok,Instagram,949962,Macro,0.0573,15972.47,2.8,110845,Kenya,35-44,Male,5.4,2024-12-31
+CRE0278,esanchez,Travel & Adventure,Instagram,Substack,313474,Mid,0.0305,3849.25,7.0,39727,Ghana,25-34,Female,2.9,2023-11-25
+CRE0279,stacey82,Comedy & Entertainment,Instagram,TikTok,374876,Mid,0.0368,2014.21,6.8,19656,Hungary,45+,Female,6.5,2020-06-13
+CRE0280,adamsmark,Business & Entrepreneurship,TikTok,YouTube,764831,Macro,0.057,7167.99,5.6,39352,Mexico,45+,Mixed,3.7,2023-07-16
+CRE0281,heather41,Pet Care,TikTok,Twitter/X,43903,Micro,0.0598,340.31,0.9,5751,Guatemala,25-34,Female,4.9,2020-07-14
+CRE0282,figueroadaniel,Business & Entrepreneurship,Substack,YouTube,110513,Mid,0.2437,4043.82,4.1,4111,Mongolia,25-34,Mixed,5.8,2020-09-22
+CRE0283,andre02,Business & Entrepreneurship,Twitter/X,LinkedIn,660148,Macro,0.0178,3696.8,6.9,52593,Egypt,25-34,Male,2.8,2024-01-21
+CRE0284,joshua33,Comedy & Entertainment,Twitter/X,TikTok,77045,Micro,0.0108,1023.9,4.7,7488,Japan,35-44,Male,5.1,2023-08-15
+CRE0285,jose67,Travel & Adventure,TikTok,LinkedIn,3686849,Mega,0.0534,48418.93,1.9,321670,Denmark,25-34,Female,5.8,2024-12-11
+CRE0286,ischwartz,Comedy & Entertainment,Substack,LinkedIn,28340,Micro,0.5468,1688.74,8.0,1522,Falkland Islands (Malvinas),45+,Male,3.3,2018-08-12
+CRE0287,alexandernicole,Education & Online Courses,TikTok,LinkedIn,216582,Mid,0.05,2195.28,4.3,28134,Greenland,25-34,Male,1.6,2019-08-27
+CRE0288,campbelltimothy,Business & Entrepreneurship,Substack,TikTok,899988,Macro,0.2727,37320.27,5.4,44003,Tokelau,25-34,Mixed,6.2,2022-12-07
+CRE0289,maryanderson,Parenting & Family,TikTok,Substack,48541,Micro,0.0512,186.18,4.9,4887,Spain,45+,Female,4.0,2022-07-01
+CRE0290,danielthompson,Personal Development,TikTok,Instagram,179051,Mid,0.062,978.57,3.1,26559,Montenegro,45+,Female,2.9,2020-03-28
+CRE0291,stephaniemartin,Travel & Adventure,LinkedIn,Instagram,33176,Micro,0.024,268.24,6.2,1390,Lao People's Democratic Republic,25-34,Male,5.7,2019-03-16
+CRE0292,brenda12,Beauty & Fashion,Twitter/X,LinkedIn,325134,Mid,0.0219,2391.48,3.4,8097,Hungary,25-34,Mixed,3.2,2018-05-17
+CRE0293,lewistina,Parenting & Family,Twitter/X,TikTok,98702,Micro,0.0298,546.11,2.8,3291,Panama,35-44,Female,1.4,2018-09-24
+CRE0294,cindy28,Home Decor & Interior Design,TikTok,LinkedIn,372780,Mid,0.0608,4773.68,3.8,40737,Tajikistan,25-34,Male,7.0,2023-09-18
+CRE0295,phall,Music & Audio Production,Instagram,TikTok,62873,Micro,0.0424,1060.84,6.0,6077,Uganda,25-34,Female,3.2,2025-07-06
+CRE0296,petersmichael,Technology & Software,LinkedIn,Substack,634107,Macro,0.0256,7735.41,0.9,94677,Martinique,18-24,Mixed,6.0,2018-10-04
+CRE0297,xellis,Food & Cooking,LinkedIn,YouTube,164799,Mid,0.0169,680.3,2.8,17471,Turks and Caicos Islands,35-44,Mixed,4.6,2019-10-03
+CRE0298,david24,Science & Space,YouTube,Instagram,423851,Mid,0.036,1831.54,6.4,35902,Colombia,25-34,Male,6.0,2020-06-24
+CRE0299,jamiefrey,Music & Audio Production,Substack,LinkedIn,184081,Mid,0.6033,5278.18,3.0,3747,North Macedonia,18-24,Female,6.0,2025-09-20
+CRE0300,qvargas,Sustainable Living,Instagram,YouTube,908696,Macro,0.038,8924.79,7.3,94289,New Caledonia,45+,Male,2.6,2018-10-12
+CRE0301,timothymurray,Food & Cooking,Instagram,YouTube,946823,Macro,0.0302,6320.47,1.2,112261,Suriname,18-24,Female,6.1,2025-08-28
+CRE0302,wwilson,Gaming & Esports,TikTok,LinkedIn,67372,Micro,0.0913,1488.71,7.1,2161,Equatorial Guinea,35-44,Female,1.7,2022-09-15
+CRE0303,carolinebrown,Language Learning,TikTok,Instagram,861707,Macro,0.0791,13100.39,1.3,95220,South Georgia and the South Sandwich Islands,18-24,Female,1.6,2024-11-03
+CRE0304,heather61,Sustainable Living,Twitter/X,TikTok,195032,Mid,0.0113,1761.14,5.1,25770,Romania,25-34,Male,6.5,2019-06-26
+CRE0305,seanmartinez,Science & Space,LinkedIn,Substack,5286,Nano,0.0243,70.19,6.3,501,Equatorial Guinea,25-34,Mixed,6.2,2024-01-15
+CRE0306,jwalsh,Personal Development,Substack,Instagram,149934,Mid,0.4324,5051.7,4.1,15935,Monaco,45+,Female,6.0,2024-06-23
+CRE0307,adamcordova,Technology & Software,YouTube,TikTok,182275,Mid,0.0265,1604.44,1.1,15295,Iraq,25-34,Male,6.8,2018-10-13
+CRE0308,blake67,Personal Development,Instagram,TikTok,298515,Mid,0.0346,2423.97,1.1,23207,Jordan,45+,Female,6.1,2023-03-26
+CRE0309,stephaniekidd,Parenting & Family,YouTube,Substack,4125758,Mega,0.0368,34560.61,4.6,525490,Burkina Faso,35-44,Mixed,4.4,2025-07-23
+CRE0310,colleensherman,Language Learning,TikTok,Twitter/X,17113,Micro,0.0531,266.35,3.0,2049,Vietnam,45+,Mixed,4.9,2023-04-17
+CRE0311,robinlawrence,Food & Cooking,YouTube,LinkedIn,216259,Mid,0.0512,2725.94,4.6,14836,Sao Tome and Principe,18-24,Female,6.4,2023-09-27
+CRE0312,amyfarley,Beauty & Fashion,Substack,Twitter/X,314544,Mid,0.4517,5326.82,2.0,11228,Tunisia,45+,Female,3.7,2020-05-09
+CRE0313,timothydunn,Parenting & Family,YouTube,Twitter/X,124379,Mid,0.0605,1574.69,3.9,12016,Cote d'Ivoire,25-34,Male,1.0,2018-10-05
+CRE0314,hilljohn,Pet Care,LinkedIn,Instagram,753195,Macro,0.0186,10043.88,5.7,32066,Greenland,25-34,Female,3.3,2024-12-13
+CRE0315,jeffreyjohnson,Parenting & Family,Twitter/X,TikTok,719500,Macro,0.0332,9223.15,3.5,46459,Taiwan,35-44,Male,5.8,2019-10-07
+CRE0316,amy42,Science & Space,Twitter/X,Substack,492391,Mid,0.0183,4149.11,7.0,55415,Argentina,25-34,Female,2.3,2021-06-23
+CRE0317,xmills,Music & Audio Production,Substack,TikTok,95208,Micro,0.5335,4478.28,5.8,11320,Iceland,45+,Mixed,4.4,2025-09-12
+CRE0318,duartekatie,Science & Space,Substack,LinkedIn,379918,Mid,0.4369,9911.86,6.6,33415,Jamaica,18-24,Male,1.9,2018-11-07
+CRE0319,brian95,Education & Online Courses,TikTok,YouTube,184376,Mid,0.0872,1195.7,5.7,10761,Kyrgyz Republic,18-24,Male,5.9,2019-05-14
+CRE0320,miranda17,Pet Care,Instagram,Substack,394267,Mid,0.0334,3097.26,6.4,48828,Switzerland,35-44,Mixed,5.0,2022-06-30
+CRE0321,steven79,Comedy & Entertainment,LinkedIn,TikTok,3873722,Mega,0.0214,10015.11,2.0,515013,Albania,45+,Female,6.5,2025-06-24
+CRE0322,christopherware,Music & Audio Production,Twitter/X,Instagram,416348,Mid,0.027,2096.38,2.7,17930,Sierra Leone,18-24,Female,6.8,2023-12-24
+CRE0323,fsnyder,Food & Cooking,LinkedIn,TikTok,5572,Nano,0.0213,52.99,0.5,449,Hong Kong,25-34,Female,1.9,2021-11-01
+CRE0324,jacobbenjamin,Technology & Software,Substack,Twitter/X,447021,Mid,0.4252,11765.88,4.6,13175,Liechtenstein,35-44,Mixed,2.3,2020-04-12
+CRE0325,seanyoung,Personal Development,YouTube,TikTok,183556,Mid,0.0271,681.11,7.1,19499,Guadeloupe,35-44,Male,2.8,2025-02-24
+CRE0326,powellerica,Personal Development,LinkedIn,YouTube,4454799,Mega,0.0297,55013.09,1.4,289477,United States of America,25-34,Mixed,4.7,2025-03-08
+CRE0327,vasquezadam,Photography & Videography,YouTube,LinkedIn,268263,Mid,0.0243,1044.95,4.6,15228,Saint Barthelemy,35-44,Mixed,5.8,2023-03-20
+CRE0328,wmorris,Sustainable Living,YouTube,Substack,95397,Micro,0.0545,578.52,1.1,3097,Tokelau,18-24,Mixed,1.4,2025-04-11
+CRE0329,colonmichael,Education & Online Courses,Substack,LinkedIn,154487,Mid,0.5199,10329.73,5.3,21963,Romania,25-34,Female,3.8,2021-12-08
+CRE0330,mnunez,Technology & Software,YouTube,Substack,33329,Micro,0.0617,535.81,1.0,4226,Malawi,35-44,Male,3.3,2025-04-14
+CRE0331,william26,Comedy & Entertainment,LinkedIn,Substack,61052,Micro,0.0207,620.04,1.0,7141,Peru,18-24,Mixed,6.1,2022-03-25
+CRE0332,cody43,Personal Development,YouTube,Instagram,99899,Micro,0.0268,635.07,2.6,14032,Brunei Darussalam,45+,Male,5.9,2018-07-25
+CRE0333,rmorgan,Sustainable Living,Instagram,LinkedIn,171503,Mid,0.0346,2422.62,7.7,6642,India,35-44,Female,4.3,2024-06-10
+CRE0334,lewissandra,Beauty & Fashion,YouTube,Instagram,7456,Nano,0.0186,65.18,2.8,874,Moldova,35-44,Female,3.5,2025-06-17
+CRE0335,jake83,Personal Development,Instagram,Substack,38939,Micro,0.0291,158.16,6.9,5088,Burkina Faso,45+,Mixed,4.3,2021-06-23
+CRE0336,jessica46,Travel & Adventure,TikTok,LinkedIn,86099,Micro,0.0508,892.23,3.2,9235,British Virgin Islands,25-34,Female,2.7,2018-12-31
+CRE0337,danielapril,Education & Online Courses,TikTok,Substack,272147,Mid,0.0486,3171.27,4.8,34018,Saint Martin,45+,Female,1.0,2020-12-23
+CRE0338,williamsdaniel,Photography & Videography,Substack,TikTok,328654,Mid,0.373,7410.15,1.5,37889,Panama,45+,Male,3.7,2021-08-23
+CRE0339,jsanchez,Sustainable Living,Twitter/X,Instagram,94613,Micro,0.011,1111.87,7.2,4308,Congo,18-24,Mixed,1.5,2018-06-05
+CRE0340,mark91,Personal Development,Substack,Instagram,7637,Nano,0.289,287.93,7.3,700,Lao People's Democratic Republic,45+,Mixed,5.7,2022-04-27
+CRE0341,danielbrown,Comedy & Entertainment,Instagram,Substack,809120,Macro,0.0341,7212.21,1.2,54455,Peru,18-24,Mixed,2.4,2025-02-07
+CRE0342,weaverashley,Gaming & Esports,Twitter/X,Substack,30869,Micro,0.0151,134.71,5.4,4500,Nauru,45+,Male,1.2,2023-09-08
+CRE0343,blankenshipjonathan,Photography & Videography,YouTube,LinkedIn,40673,Micro,0.0479,666.36,3.4,5666,Saint Pierre and Miquelon,18-24,Female,6.9,2021-11-07
+CRE0344,hmitchell,Food & Cooking,Substack,TikTok,3657372,Mega,0.4744,216307.71,4.8,344234,Nepal,45+,Mixed,3.3,2024-10-22
+CRE0345,tyler68,Travel & Adventure,Twitter/X,LinkedIn,39215,Micro,0.0144,479.0,6.4,5307,Croatia,18-24,Mixed,6.3,2023-02-24
+CRE0346,qdennis,Gaming & Esports,Instagram,TikTok,94341,Micro,0.034,607.82,1.9,6329,Myanmar,18-24,Mixed,2.4,2021-12-02
+CRE0347,jessica62,Food & Cooking,LinkedIn,YouTube,351145,Mid,0.0261,4575.68,2.3,12860,Hong Kong,25-34,Female,4.8,2018-08-28
+CRE0348,darrell28,Beauty & Fashion,YouTube,Twitter/X,33597,Micro,0.0469,353.69,5.0,3133,Canada,18-24,Mixed,5.4,2021-05-25
+CRE0349,brian69,Travel & Adventure,Instagram,Substack,347156,Mid,0.0393,4982.72,1.6,33238,Latvia,25-34,Mixed,5.0,2021-03-08
+CRE0350,amy95,Gaming & Esports,Substack,YouTube,337748,Mid,0.3889,13152.76,2.2,23679,Ghana,18-24,Female,2.2,2023-11-15
+CRE0351,warrenheidi,Science & Space,Instagram,Substack,193020,Mid,0.0207,556.9,4.3,6809,Honduras,45+,Mixed,1.8,2024-12-25
+CRE0352,sotomitchell,Pet Care,YouTube,Twitter/X,906255,Macro,0.0425,11345.83,4.4,61760,New Caledonia,18-24,Mixed,4.2,2020-10-15
+CRE0353,gmora,Sustainable Living,LinkedIn,Instagram,85513,Micro,0.0283,742.91,7.3,2642,Montserrat,45+,Male,2.1,2018-04-19
+CRE0354,lisa06,Personal Development,YouTube,LinkedIn,296623,Mid,0.0437,3642.48,3.6,10042,Lesotho,45+,Mixed,4.5,2021-02-23
+CRE0355,pgreen,Pet Care,LinkedIn,Twitter/X,420801,Mid,0.0232,4950.83,4.6,38917,Angola,25-34,Male,4.4,2023-08-23
+CRE0356,markashley,Business & Entrepreneurship,TikTok,Instagram,469882,Mid,0.0868,5250.02,6.9,49669,Hong Kong,25-34,Male,5.7,2020-01-12
+CRE0357,john42,Food & Cooking,Instagram,YouTube,277438,Mid,0.0396,3425.95,1.7,40337,Panama,18-24,Female,5.9,2023-07-04
+CRE0358,agonzalez,Science & Space,YouTube,Substack,39067,Micro,0.0243,277.2,0.8,2733,Taiwan,45+,Mixed,4.9,2021-06-06
+CRE0359,tapiastephen,Technology & Software,Instagram,Substack,330147,Mid,0.0554,5801.34,2.6,8045,Estonia,25-34,Mixed,2.0,2018-08-15
+CRE0360,danielkelley,Music & Audio Production,Instagram,LinkedIn,182546,Mid,0.0364,714.22,6.3,12030,Slovenia,45+,Male,4.5,2024-01-09
+CRE0361,phillipsdaniel,Finance & Investing,Substack,Twitter/X,147272,Mid,0.2432,3836.85,3.1,21387,Hong Kong,35-44,Female,4.6,2020-05-25
+CRE0362,samanthajackson,Language Learning,LinkedIn,Substack,236895,Mid,0.0213,1077.68,1.3,6967,Vanuatu,35-44,Male,6.7,2023-12-22
+CRE0363,coleandrew,Business & Entrepreneurship,Twitter/X,LinkedIn,801409,Macro,0.02,5549.73,6.3,94944,Tanzania,45+,Mixed,3.8,2024-10-18
+CRE0364,patrick34,Finance & Investing,LinkedIn,Instagram,18854,Micro,0.0331,146.22,5.6,940,Congo,35-44,Male,6.7,2024-01-04
+CRE0365,tjohnson,Pet Care,YouTube,LinkedIn,238071,Mid,0.0401,2914.11,1.1,33587,Northern Mariana Islands,45+,Male,3.1,2024-08-25
+CRE0366,chad42,Business & Entrepreneurship,Instagram,TikTok,858144,Macro,0.0396,13540.11,4.2,39437,Italy,25-34,Male,2.2,2020-06-28
+CRE0367,howard39,Photography & Videography,Twitter/X,LinkedIn,23983,Micro,0.0218,337.62,5.1,2862,Kazakhstan,18-24,Male,3.2,2021-10-02
+CRE0368,theresaknight,Sustainable Living,Twitter/X,Substack,757323,Macro,0.0217,3528.78,2.6,37011,Ecuador,25-34,Female,4.2,2022-12-18
+CRE0369,amanda39,Sustainable Living,Twitter/X,YouTube,6689,Nano,0.0128,28.28,5.7,533,Fiji,18-24,Female,5.0,2022-06-22
+CRE0370,xmerritt,Food & Cooking,TikTok,LinkedIn,44039,Micro,0.077,301.78,2.3,3579,Guatemala,35-44,Male,2.1,2022-12-21
+CRE0371,zharvey,Education & Online Courses,LinkedIn,Substack,295197,Mid,0.02,2305.12,1.5,28004,Guatemala,25-34,Female,5.3,2020-11-10
+CRE0372,ruth65,Pet Care,LinkedIn,Instagram,602793,Macro,0.0307,2724.73,4.0,12819,Albania,45+,Male,1.8,2025-04-16
+CRE0373,misty57,Personal Development,Twitter/X,LinkedIn,355129,Mid,0.0176,3206.72,1.2,14643,Panama,25-34,Male,3.9,2025-04-12
+CRE0374,daniel51,Food & Cooking,LinkedIn,Substack,236193,Mid,0.0342,1778.09,4.7,29595,Spain,35-44,Female,3.5,2022-02-26
+CRE0375,amandaklein,Education & Online Courses,Twitter/X,TikTok,440331,Mid,0.005,2240.58,5.5,36712,Liechtenstein,45+,Female,3.3,2021-06-06
+CRE0376,allensean,Language Learning,Substack,TikTok,4641736,Mega,0.36,78484.68,3.7,462318,Ireland,45+,Female,1.5,2022-01-26
+CRE0377,oking,Photography & Videography,TikTok,Twitter/X,48188,Micro,0.054,441.88,6.4,6844,Guinea-Bissau,45+,Male,2.0,2018-06-23
+CRE0378,espinozajohnny,Beauty & Fashion,Substack,YouTube,42983,Micro,0.2716,1821.56,2.1,3078,India,18-24,Female,6.6,2023-07-11
+CRE0379,melissataylor,Pet Care,YouTube,Substack,7504,Nano,0.005,23.95,1.7,788,Barbados,45+,Male,2.4,2021-05-27
+CRE0380,brandon14,Language Learning,Substack,YouTube,79041,Micro,0.3826,3961.45,0.8,5247,Tunisia,35-44,Male,3.8,2024-04-12
+CRE0381,andrew08,Business & Entrepreneurship,Twitter/X,Substack,465755,Mid,0.0122,3430.95,3.8,48052,Korea,35-44,Male,3.9,2020-10-06
+CRE0382,dawnmerritt,Travel & Adventure,LinkedIn,TikTok,64028,Micro,0.0225,360.65,0.6,5636,Trinidad and Tobago,25-34,Male,2.7,2024-03-20
+CRE0383,josephchavez,Finance & Investing,Substack,TikTok,996478,Macro,0.4539,53311.07,5.0,123144,Guatemala,35-44,Female,3.5,2024-07-03
+CRE0384,rgray,Science & Space,LinkedIn,Twitter/X,94671,Micro,0.0187,662.7,2.2,2868,Estonia,25-34,Mixed,5.6,2025-02-03
+CRE0385,ycarter,Business & Entrepreneurship,TikTok,Instagram,378891,Mid,0.0667,6653.91,1.5,13013,Holy See (Vatican City State),45+,Mixed,3.7,2025-03-14
+CRE0386,alicia88,Sustainable Living,Instagram,Substack,29942,Micro,0.0249,93.36,0.7,4383,Congo,35-44,Male,1.8,2023-02-18
+CRE0387,debra49,Finance & Investing,Instagram,Twitter/X,11930,Micro,0.0254,76.53,8.0,957,Guyana,18-24,Male,1.5,2019-11-09
+CRE0388,ywalton,Technology & Software,TikTok,Instagram,137426,Mid,0.0607,1641.29,1.9,17782,Antigua and Barbuda,45+,Female,1.7,2021-01-03
+CRE0389,jbaker,Comedy & Entertainment,LinkedIn,Instagram,14392,Micro,0.0288,54.49,4.0,1562,Korea,35-44,Male,2.0,2018-09-09
+CRE0390,mpineda,Pet Care,Twitter/X,Instagram,73075,Micro,0.0293,792.28,3.2,1956,Niger,25-34,Female,2.4,2023-02-01
+CRE0391,fward,Parenting & Family,YouTube,Instagram,46188,Micro,0.0296,265.23,4.9,5071,Cyprus,25-34,Male,5.6,2021-01-02
+CRE0392,josephbaker,Gaming & Esports,LinkedIn,YouTube,91087,Micro,0.0212,594.4,0.9,9454,Cambodia,18-24,Female,3.9,2021-10-08
+CRE0393,changaaron,Pet Care,Substack,Instagram,330015,Mid,0.447,10429.78,2.4,8294,Bangladesh,45+,Mixed,2.8,2023-09-18
+CRE0394,lukepark,Education & Online Courses,Twitter/X,LinkedIn,55569,Micro,0.0188,345.71,2.6,7117,Serbia,25-34,Female,4.2,2023-04-04
+CRE0395,matthewkrueger,Home Decor & Interior Design,TikTok,Instagram,338068,Mid,0.0857,3635.19,7.1,33997,Ethiopia,35-44,Mixed,2.4,2018-12-05
+CRE0396,griley,Pet Care,LinkedIn,Substack,99551,Micro,0.025,868.02,1.7,5655,Austria,45+,Mixed,2.9,2019-04-19
+CRE0397,charles97,Personal Development,Substack,Instagram,27009,Micro,0.4648,468.4,1.2,2545,Romania,45+,Mixed,3.9,2025-03-19
+CRE0398,gwelch,Business & Entrepreneurship,YouTube,Instagram,89423,Micro,0.0427,1171.23,7.5,4215,Paraguay,45+,Female,3.8,2025-05-20
+CRE0399,dwayne54,Technology & Software,TikTok,Substack,318079,Mid,0.074,1429.58,2.5,8042,Trinidad and Tobago,18-24,Male,1.5,2020-08-21
+CRE0400,juan43,Personal Development,YouTube,TikTok,40279,Micro,0.0208,356.0,1.9,4245,Saint Kitts and Nevis,25-34,Mixed,5.5,2022-11-15
+CRE0401,christopher85,Food & Cooking,Substack,Instagram,453628,Mid,0.257,17535.81,6.4,41504,Venezuela,35-44,Mixed,1.9,2024-12-11
+CRE0402,tparker,Language Learning,TikTok,LinkedIn,788401,Macro,0.0668,15668.37,6.8,58029,Slovakia (Slovak Republic),45+,Mixed,2.9,2020-11-30
+CRE0403,eddie64,Pet Care,Instagram,Twitter/X,82120,Micro,0.0422,1356.51,7.7,1644,Brazil,18-24,Male,4.6,2024-01-09
+CRE0404,brittanyhardy,Beauty & Fashion,TikTok,LinkedIn,4635,Nano,0.0538,29.57,0.7,587,Lebanon,35-44,Mixed,4.1,2024-08-13
+CRE0405,karen29,Beauty & Fashion,YouTube,TikTok,6827,Nano,0.0452,108.01,2.2,856,Andorra,18-24,Mixed,3.4,2020-08-27
+CRE0406,gonzalezmark,Travel & Adventure,Substack,Twitter/X,73246,Micro,0.538,1742.61,6.6,2372,Holy See (Vatican City State),35-44,Female,5.4,2024-09-05
+CRE0407,ngreen,Comedy & Entertainment,YouTube,Instagram,275316,Mid,0.0272,2159.07,7.0,13620,Latvia,18-24,Mixed,5.7,2022-07-04
+CRE0408,wardamy,Technology & Software,TikTok,Instagram,267413,Mid,0.0871,3702.09,3.0,29605,Tuvalu,25-34,Female,5.0,2022-08-16
+CRE0409,david99,Language Learning,Twitter/X,Instagram,147229,Mid,0.0209,1057.89,3.0,12052,Chad,18-24,Mixed,3.4,2019-03-04
+CRE0410,brenda88,Comedy & Entertainment,Twitter/X,Instagram,465885,Mid,0.0249,1922.42,4.1,21316,Guinea-Bissau,45+,Mixed,4.4,2024-07-05
+CRE0411,thomasandrew,Personal Development,Instagram,YouTube,44898,Micro,0.0366,689.44,1.3,3311,Cyprus,35-44,Male,2.1,2022-01-30
+CRE0412,hmejia,Finance & Investing,TikTok,Twitter/X,55838,Micro,0.0443,657.66,5.2,4314,North Macedonia,25-34,Female,5.1,2019-12-19
+CRE0413,ashleywhite,Travel & Adventure,YouTube,LinkedIn,227427,Mid,0.066,4034.85,0.6,25060,Andorra,18-24,Male,3.7,2018-06-22
+CRE0414,fguzman,Parenting & Family,Instagram,Substack,211083,Mid,0.0274,1085.9,6.1,19281,Zambia,25-34,Mixed,5.2,2018-06-04
+CRE0415,joseph96,Comedy & Entertainment,Twitter/X,Substack,776194,Macro,0.0235,4639.75,2.5,62440,Solomon Islands,18-24,Female,3.3,2021-04-05
+CRE0416,joseph82,Music & Audio Production,YouTube,Twitter/X,7332,Nano,0.042,44.89,4.3,823,Guernsey,35-44,Male,6.2,2024-03-06
+CRE0417,garzaricardo,Travel & Adventure,Instagram,Substack,70029,Micro,0.0196,200.8,2.8,5860,Kuwait,25-34,Female,3.1,2022-03-01
+CRE0418,nicholas44,Music & Audio Production,Substack,YouTube,75700,Micro,0.3707,1695.65,5.2,10161,Ethiopia,18-24,Mixed,6.7,2020-09-29
+CRE0419,juan36,Beauty & Fashion,TikTok,Substack,844421,Macro,0.0789,10887.66,7.0,92251,Chile,45+,Female,4.4,2022-12-31
+CRE0420,burkeholly,Home Decor & Interior Design,Twitter/X,Instagram,81071,Micro,0.0274,342.67,4.9,8830,Ethiopia,25-34,Female,2.9,2024-02-03
+CRE0421,csmith,Beauty & Fashion,LinkedIn,TikTok,4229823,Mega,0.0357,64120.78,1.0,377659,Malawi,18-24,Female,2.9,2019-11-07
+CRE0422,contrerasrobert,Finance & Investing,TikTok,LinkedIn,717076,Macro,0.0931,16078.78,3.8,101387,Mali,35-44,Female,5.7,2019-06-01
+CRE0423,stephencalhoun,Beauty & Fashion,Instagram,TikTok,5372,Nano,0.0236,52.88,5.7,358,Serbia,45+,Female,4.0,2024-12-30
+CRE0424,jennifersmith,Sustainable Living,Substack,LinkedIn,196456,Mid,0.3355,9001.66,4.1,8112,Swaziland,25-34,Female,3.5,2018-05-21
+CRE0425,wlara,Business & Entrepreneurship,LinkedIn,Twitter/X,97993,Micro,0.0376,358.85,7.0,8201,Afghanistan,35-44,Male,6.3,2023-01-05
+CRE0426,serranomanuel,Comedy & Entertainment,YouTube,Twitter/X,299425,Mid,0.0385,3816.11,5.1,34889,Albania,18-24,Mixed,1.7,2023-05-05
+CRE0427,wheelerchristine,Technology & Software,Instagram,YouTube,307414,Mid,0.038,2491.93,1.9,23714,Malaysia,35-44,Male,3.8,2022-12-15
+CRE0428,judybennett,Home Decor & Interior Design,Twitter/X,Instagram,861734,Macro,0.0198,7401.69,4.0,89614,Cape Verde,18-24,Mixed,4.0,2020-03-26
+CRE0429,kroberts,Pet Care,Instagram,TikTok,52396,Micro,0.0287,532.94,7.1,1662,Isle of Man,35-44,Mixed,4.9,2020-01-21
+CRE0430,cruzsarah,Food & Cooking,YouTube,Instagram,68903,Micro,0.0423,817.8,4.4,4818,Montenegro,25-34,Male,4.3,2018-09-16
+CRE0431,terrynatalie,Gaming & Esports,TikTok,YouTube,445783,Mid,0.067,2565.46,3.6,26852,Singapore,45+,Male,4.8,2019-07-15
+CRE0432,jessicabrown,Beauty & Fashion,Instagram,Twitter/X,5146,Nano,0.0303,14.23,6.9,466,Cote d'Ivoire,18-24,Mixed,6.3,2020-11-19
+CRE0433,cwells,Education & Online Courses,Twitter/X,Instagram,337889,Mid,0.0179,3187.38,7.1,18974,Bermuda,25-34,Female,2.1,2018-11-01
+CRE0434,tjohnson,Music & Audio Production,YouTube,Substack,14250,Micro,0.0426,176.18,2.7,1990,Iraq,18-24,Female,3.5,2020-03-20
+CRE0435,shannon21,Gaming & Esports,Substack,Instagram,96628,Micro,0.3848,4625.07,7.7,11345,Paraguay,35-44,Female,1.6,2021-07-28
+CRE0436,kempdonald,Parenting & Family,TikTok,Twitter/X,930054,Macro,0.0374,3420.5,6.8,26451,Korea,45+,Female,1.7,2021-04-18
+CRE0437,elizabeth32,Parenting & Family,Twitter/X,Substack,210019,Mid,0.0172,761.32,7.9,17405,Colombia,35-44,Male,4.7,2021-10-07
+CRE0438,levyleslie,Business & Entrepreneurship,Twitter/X,Instagram,426759,Mid,0.0122,2651.98,5.1,36074,Paraguay,45+,Male,5.8,2025-01-19
+CRE0439,karenramos,Photography & Videography,Substack,YouTube,35369,Micro,0.4797,1692.48,6.0,1660,Gabon,45+,Male,1.3,2022-02-20
+CRE0440,chad92,Pet Care,Substack,TikTok,93967,Micro,0.4503,2074.54,2.4,2708,Tajikistan,35-44,Mixed,4.3,2018-04-15
+CRE0441,christopher74,Food & Cooking,Substack,Instagram,61910,Micro,0.4201,737.74,2.0,7949,France,45+,Male,5.8,2025-06-16
+CRE0442,delgadoeric,Beauty & Fashion,LinkedIn,Substack,70374,Micro,0.0148,882.27,7.2,5638,Vietnam,45+,Mixed,1.3,2024-01-23
+CRE0443,danieljacobson,Home Decor & Interior Design,Twitter/X,TikTok,265414,Mid,0.0189,2453.29,6.5,35948,Pakistan,35-44,Female,6.8,2021-05-12
+CRE0444,joshuamorse,Finance & Investing,TikTok,Instagram,3627776,Mega,0.0588,42300.8,4.8,256279,United States Minor Outlying Islands,18-24,Male,5.2,2021-09-29
+CRE0445,petersenmatthew,Technology & Software,TikTok,LinkedIn,360599,Mid,0.0724,6399.86,2.1,21384,Oman,18-24,Male,5.7,2020-06-25
+CRE0446,ashley74,Travel & Adventure,LinkedIn,Instagram,353054,Mid,0.02,4681.31,1.9,49453,Poland,35-44,Male,1.9,2019-04-27
+CRE0447,stephanie49,Personal Development,Substack,Twitter/X,1860617,Mega,0.4262,89454.19,1.4,112432,Kiribati,18-24,Mixed,6.1,2019-03-12
+CRE0448,robertkline,Parenting & Family,LinkedIn,TikTok,554055,Macro,0.0168,4663.12,0.7,65713,Bhutan,25-34,Male,2.2,2021-06-06
+CRE0449,aandrews,Business & Entrepreneurship,Twitter/X,YouTube,67817,Micro,0.0177,285.36,0.6,6848,Libyan Arab Jamahiriya,18-24,Female,4.3,2024-05-18
+CRE0450,moorebrenda,Parenting & Family,TikTok,Instagram,47128,Micro,0.0474,537.73,1.0,4699,American Samoa,35-44,Mixed,3.7,2019-09-04
+CRE0451,sandovalsara,Finance & Investing,LinkedIn,Instagram,526453,Macro,0.027,4188.52,5.8,71526,British Indian Ocean Territory (Chagos Archipelago),45+,Mixed,3.1,2021-12-11
+CRE0452,ethan89,Education & Online Courses,Substack,LinkedIn,379699,Mid,0.4777,6109.96,4.8,12180,Haiti,45+,Female,3.7,2025-06-11
+CRE0453,cterry,Language Learning,LinkedIn,TikTok,39333,Micro,0.0349,243.04,3.4,4363,North Macedonia,35-44,Male,3.7,2018-07-22
+CRE0454,ashley55,Travel & Adventure,LinkedIn,Instagram,72737,Micro,0.0375,661.33,2.6,4751,Bolivia,25-34,Mixed,1.6,2019-06-02
+CRE0455,matthew87,Parenting & Family,Twitter/X,Substack,258396,Mid,0.0141,1808.61,2.3,10509,American Samoa,45+,Male,1.4,2020-07-20
+CRE0456,angelaknight,Science & Space,LinkedIn,Instagram,279411,Mid,0.0234,2567.08,1.8,29910,Monaco,45+,Female,4.6,2023-05-30
+CRE0457,elizabethbrandt,Parenting & Family,Twitter/X,YouTube,68355,Micro,0.0267,233.5,5.6,6666,Falkland Islands (Malvinas),45+,Male,4.0,2025-08-15
+CRE0458,robinsonkeith,Technology & Software,YouTube,Instagram,28208,Micro,0.0668,511.57,6.2,2987,Burundi,45+,Mixed,2.7,2025-02-13
+CRE0459,ashley44,Language Learning,Instagram,Twitter/X,51497,Micro,0.0293,585.66,5.9,7156,United States of America,18-24,Mixed,1.0,2023-12-10
+CRE0460,hodgesjeffrey,Comedy & Entertainment,Instagram,Substack,532721,Macro,0.0528,4633.46,7.8,10712,Angola,35-44,Female,6.2,2018-07-26
+CRE0461,margaret07,Photography & Videography,LinkedIn,Twitter/X,306710,Mid,0.0166,2167.32,4.6,32549,Honduras,45+,Female,2.1,2022-07-13
+CRE0462,michele58,Music & Audio Production,LinkedIn,YouTube,97826,Micro,0.0166,371.34,1.0,2156,Cyprus,45+,Mixed,3.6,2019-09-28
+CRE0463,christine29,Travel & Adventure,Instagram,Twitter/X,318028,Mid,0.0492,4248.61,5.2,25146,Svalbard & Jan Mayen Islands,45+,Mixed,5.9,2022-07-13
+CRE0464,bradybrianna,Music & Audio Production,Instagram,Twitter/X,89242,Micro,0.0179,218.25,6.9,4531,Mexico,35-44,Male,6.6,2024-09-05
+CRE0465,dawsontonya,Music & Audio Production,YouTube,Instagram,3382992,Mega,0.0286,33945.81,1.6,389274,Dominican Republic,35-44,Male,4.1,2024-02-01
+CRE0466,michelle91,Travel & Adventure,Instagram,YouTube,488857,Mid,0.0361,5746.74,5.6,44043,Anguilla,35-44,Mixed,1.3,2022-01-26
+CRE0467,longjose,Pet Care,YouTube,LinkedIn,368783,Mid,0.053,2999.0,7.7,45643,Sudan,35-44,Female,1.2,2024-12-01
+CRE0468,richard75,Home Decor & Interior Design,Substack,LinkedIn,236547,Mid,0.3518,2793.82,4.8,22347,Ghana,35-44,Mixed,4.7,2021-06-07
+CRE0469,claytonweaver,Sustainable Living,YouTube,LinkedIn,20074,Micro,0.0458,97.33,2.6,1072,United States of America,18-24,Mixed,2.0,2024-11-07
+CRE0470,steven84,Beauty & Fashion,Substack,Instagram,191959,Mid,0.3625,4095.05,4.1,23787,Guyana,18-24,Male,6.9,2019-11-05
+CRE0471,lisa82,Beauty & Fashion,LinkedIn,Instagram,316503,Mid,0.0257,2546.94,2.1,36545,Bulgaria,35-44,Female,4.9,2019-07-09
+CRE0472,brooke61,Technology & Software,Instagram,Substack,349682,Mid,0.0273,2231.81,2.3,38065,Colombia,45+,Male,2.6,2024-03-01
+CRE0473,wilsonsteve,Science & Space,YouTube,Instagram,68827,Micro,0.0323,664.96,1.2,6130,Madagascar,35-44,Male,4.7,2025-07-12
+CRE0474,angelasmith,Business & Entrepreneurship,TikTok,Substack,22881,Micro,0.0706,177.74,3.4,2757,Marshall Islands,25-34,Mixed,5.0,2020-05-27
+CRE0475,mhowell,Personal Development,TikTok,YouTube,194328,Mid,0.059,644.15,0.6,6354,Western Sahara,18-24,Mixed,3.7,2020-09-04
+CRE0476,imartin,Home Decor & Interior Design,TikTok,YouTube,13106,Micro,0.0624,174.4,7.5,1380,Liberia,25-34,Mixed,4.8,2019-07-25
+CRE0477,fcastro,Travel & Adventure,Twitter/X,Instagram,96034,Micro,0.0208,1163.8,7.2,10605,Suriname,35-44,Male,3.8,2019-01-25
+CRE0478,castillolori,Language Learning,TikTok,LinkedIn,462923,Mid,0.0341,6849.63,2.4,56242,Bouvet Island (Bouvetoya),35-44,Female,3.3,2021-12-12
+CRE0479,tiffanyjohnson,Technology & Software,TikTok,Instagram,2110084,Mega,0.063,40565.48,5.1,91150,Iceland,45+,Female,1.9,2023-01-20
+CRE0480,mcarlson,Education & Online Courses,Twitter/X,YouTube,331515,Mid,0.022,3702.32,0.8,9664,Kenya,35-44,Male,1.1,2023-10-19
+CRE0481,francolacey,Beauty & Fashion,Substack,LinkedIn,119836,Mid,0.3957,5346.57,4.8,10425,Serbia,45+,Male,3.6,2019-01-02
+CRE0482,kenneth78,Pet Care,Instagram,Substack,8898,Nano,0.0279,36.55,7.5,593,Kazakhstan,35-44,Male,1.3,2025-06-22
+CRE0483,lrodriguez,Travel & Adventure,TikTok,Instagram,278290,Mid,0.0775,4774.21,1.8,6988,Uzbekistan,45+,Mixed,2.1,2022-08-04
+CRE0484,rkoch,Food & Cooking,Substack,LinkedIn,355067,Mid,0.5225,6296.29,6.0,13560,Afghanistan,25-34,Female,5.3,2024-11-12
+CRE0485,ralvarado,Photography & Videography,LinkedIn,Twitter/X,80851,Micro,0.0195,1125.54,7.7,1789,Slovenia,35-44,Female,3.0,2018-09-12
+CRE0486,vroberts,Comedy & Entertainment,YouTube,Twitter/X,95701,Micro,0.0289,1069.91,7.6,12740,Turkey,25-34,Mixed,4.5,2019-01-10
+CRE0487,osimmons,Technology & Software,Substack,Instagram,95699,Micro,0.7422,6595.89,5.8,3537,Saint Barthelemy,25-34,Mixed,1.3,2021-08-30
+CRE0488,kristi82,Food & Cooking,LinkedIn,YouTube,409876,Mid,0.027,1374.01,1.4,39900,Tuvalu,25-34,Female,5.8,2022-12-30
+CRE0489,lisadavenport,Parenting & Family,Substack,TikTok,269992,Mid,0.5987,14070.63,6.8,33236,Brunei Darussalam,18-24,Mixed,2.0,2018-12-04
+CRE0490,annawatson,Food & Cooking,TikTok,LinkedIn,64415,Micro,0.0788,423.9,4.7,4961,Greenland,18-24,Female,1.6,2025-04-22
+CRE0491,joseph71,Comedy & Entertainment,Instagram,Substack,8978,Nano,0.0361,137.6,7.2,665,French Guiana,45+,Mixed,1.8,2019-10-28
+CRE0492,diazdavid,Business & Entrepreneurship,Twitter/X,Substack,225437,Mid,0.0204,3089.07,5.7,21983,Benin,45+,Mixed,6.7,2025-04-01
+CRE0493,sanderserin,Home Decor & Interior Design,TikTok,YouTube,392400,Mid,0.0608,4607.4,5.1,51857,United States Virgin Islands,25-34,Male,5.6,2025-08-11
+CRE0494,sharon38,Education & Online Courses,TikTok,Twitter/X,24769,Micro,0.069,417.18,4.2,1009,Trinidad and Tobago,18-24,Female,4.9,2021-05-31
+CRE0495,mscott,Education & Online Courses,LinkedIn,YouTube,90847,Micro,0.0293,285.81,7.4,3894,Sudan,18-24,Male,4.1,2019-01-05
+CRE0496,maryknight,Photography & Videography,Substack,Instagram,403962,Mid,0.236,7139.09,6.1,55257,Egypt,25-34,Female,3.0,2019-04-26
+CRE0497,dyoung,Photography & Videography,Substack,LinkedIn,204834,Mid,0.3824,6630.18,0.9,15703,Turks and Caicos Islands,25-34,Mixed,3.7,2022-07-24
+CRE0498,campbelltim,Music & Audio Production,Instagram,LinkedIn,201793,Mid,0.0402,2353.9,2.0,7373,Montenegro,18-24,Male,1.8,2023-06-09
+CRE0499,karen40,Language Learning,LinkedIn,Substack,55033,Micro,0.0262,247.8,7.3,5236,Lao People's Democratic Republic,25-34,Female,3.5,2024-01-26
+CRE0500,xanderson,Sustainable Living,Instagram,Twitter/X,342621,Mid,0.0436,2357.54,6.0,17838,Heard Island and McDonald Islands,35-44,Male,4.5,2024-11-07
+CRE0501,morenohunter,Beauty & Fashion,Twitter/X,Substack,719032,Macro,0.0217,5868.63,0.8,64026,Bahamas,45+,Mixed,5.9,2023-04-17
+CRE0502,meyerscharles,Sustainable Living,Instagram,Twitter/X,11628,Micro,0.0346,139.79,7.6,433,Cote d'Ivoire,35-44,Female,4.9,2019-03-27
+CRE0503,estradatina,Finance & Investing,LinkedIn,YouTube,184831,Mid,0.0207,2113.31,7.8,14839,Guadeloupe,25-34,Mixed,3.4,2022-05-16
+CRE0504,charlesparker,Language Learning,Substack,TikTok,428888,Mid,0.1947,3421.45,4.5,25114,Nicaragua,35-44,Mixed,6.7,2024-04-19
+CRE0505,conleyleah,Education & Online Courses,Substack,TikTok,54000,Micro,0.4459,3376.25,7.2,1858,Belize,35-44,Male,4.7,2022-04-26
+CRE0506,antoniodickerson,Music & Audio Production,Instagram,TikTok,469556,Mid,0.0315,1648.67,1.5,29835,Qatar,18-24,Mixed,3.9,2024-09-21
+CRE0507,danielle40,Education & Online Courses,Substack,TikTok,268015,Mid,0.3859,11463.06,0.9,18349,Bouvet Island (Bouvetoya),45+,Male,4.0,2019-08-05
+CRE0508,nicole14,Sustainable Living,Substack,LinkedIn,379369,Mid,0.5351,26489.88,5.2,47037,Central African Republic,18-24,Female,6.4,2023-05-09
+CRE0509,terri27,Travel & Adventure,YouTube,LinkedIn,33437,Micro,0.0328,137.37,1.3,1311,Angola,25-34,Female,4.1,2025-04-02
+CRE0510,lisa84,Finance & Investing,TikTok,Instagram,457775,Mid,0.1038,6917.18,4.1,34157,Central African Republic,18-24,Male,2.1,2018-06-19
+CRE0511,robertharris,Photography & Videography,Twitter/X,LinkedIn,315845,Mid,0.0123,3500.21,5.0,34930,Isle of Man,45+,Male,2.8,2019-09-12
+CRE0512,daniel53,Home Decor & Interior Design,Instagram,LinkedIn,218899,Mid,0.0277,1912.69,6.3,5724,Algeria,35-44,Male,3.7,2020-01-31
+CRE0513,georgeallen,Gaming & Esports,Substack,Instagram,195567,Mid,0.7045,14047.68,1.7,6883,Uruguay,35-44,Mixed,1.8,2021-02-19
+CRE0514,brookslauren,Music & Audio Production,Instagram,LinkedIn,14546,Micro,0.0316,165.69,1.6,1138,Holy See (Vatican City State),25-34,Mixed,2.8,2018-07-01
+CRE0515,javier69,Comedy & Entertainment,LinkedIn,Substack,340145,Mid,0.0289,5130.49,7.8,21451,Guatemala,35-44,Male,6.4,2024-08-25
+CRE0516,jacobsterri,Beauty & Fashion,Twitter/X,YouTube,331790,Mid,0.0185,2117.95,6.0,45462,Norway,25-34,Mixed,4.3,2021-09-02
+CRE0517,millerandrew,Finance & Investing,LinkedIn,Instagram,215534,Mid,0.0219,670.07,4.9,10535,American Samoa,35-44,Female,1.1,2024-04-03
+CRE0518,kaitlynsweeney,Language Learning,Substack,LinkedIn,145810,Mid,0.4698,9769.17,2.0,8939,Trinidad and Tobago,18-24,Mixed,3.2,2019-11-16
+CRE0519,summerslaura,Science & Space,TikTok,Substack,11597,Micro,0.0564,213.58,1.2,1329,Ghana,45+,Mixed,7.0,2023-03-07
+CRE0520,michael21,Home Decor & Interior Design,Instagram,Twitter/X,970665,Macro,0.0445,8749.94,1.5,93507,Aruba,18-24,Female,2.2,2023-07-17
+CRE0521,lindsay29,Personal Development,TikTok,LinkedIn,87421,Micro,0.0603,854.07,3.6,8065,Cuba,25-34,Female,2.1,2022-07-01
+CRE0522,thawkins,Home Decor & Interior Design,Twitter/X,TikTok,258331,Mid,0.0174,3137.7,4.2,30013,Switzerland,25-34,Female,5.7,2019-12-11
+CRE0523,kbrown,Business & Entrepreneurship,TikTok,LinkedIn,4499069,Mega,0.0539,59956.43,3.6,377675,Reunion,25-34,Female,1.7,2021-04-29
+CRE0524,nicholas13,Sustainable Living,YouTube,Substack,289666,Mid,0.0353,3061.14,3.8,15505,Libyan Arab Jamahiriya,45+,Mixed,5.9,2022-05-27
+CRE0525,david93,Personal Development,Substack,Instagram,236072,Mid,0.4744,7046.86,3.2,6344,Martinique,35-44,Male,4.8,2022-03-18
+CRE0526,qbell,Technology & Software,TikTok,Substack,93747,Micro,0.0653,1760.88,2.0,9528,Turkmenistan,18-24,Mixed,5.5,2024-04-25
+CRE0527,figueroaemily,Parenting & Family,TikTok,LinkedIn,859120,Macro,0.0644,12682.83,1.2,81965,Swaziland,25-34,Female,1.8,2021-05-16
+CRE0528,rachelhampton,Music & Audio Production,LinkedIn,Instagram,185474,Mid,0.0193,669.16,4.3,23760,Venezuela,18-24,Male,3.8,2019-01-27
+CRE0529,fowlerrobert,Food & Cooking,Instagram,Twitter/X,751405,Macro,0.0257,3202.04,7.2,73408,Armenia,35-44,Female,5.3,2018-07-16
+CRE0530,meganchandler,Food & Cooking,Instagram,LinkedIn,28659,Micro,0.0481,376.92,1.4,1058,Germany,18-24,Male,5.1,2019-06-21
+CRE0531,perezmichael,Travel & Adventure,YouTube,Substack,497061,Mid,0.0328,1536.66,4.9,40252,Northern Mariana Islands,35-44,Female,1.4,2025-09-14
+CRE0532,april03,Finance & Investing,YouTube,TikTok,415512,Mid,0.0433,2413.87,1.9,27298,Montenegro,18-24,Female,6.1,2021-04-30
+CRE0533,joseph15,Music & Audio Production,TikTok,YouTube,75619,Micro,0.0648,878.46,1.2,7195,Panama,18-24,Mixed,2.3,2020-05-13
+CRE0534,carlossingleton,Home Decor & Interior Design,Instagram,YouTube,781608,Macro,0.0208,1929.24,7.4,109160,Malaysia,45+,Male,5.2,2020-04-17
+CRE0535,rachelrose,Language Learning,Substack,Twitter/X,1758533,Mega,0.6433,81576.14,2.2,60968,Chad,35-44,Female,3.8,2024-01-17
+CRE0536,hansonjason,Beauty & Fashion,LinkedIn,YouTube,469481,Mid,0.0068,2448.22,1.1,39522,Mayotte,45+,Male,3.7,2021-09-18
+CRE0537,daviskathleen,Language Learning,Instagram,Twitter/X,252352,Mid,0.046,3893.51,7.5,17101,Palau,18-24,Mixed,3.9,2019-05-25
+CRE0538,nprice,Comedy & Entertainment,LinkedIn,Instagram,454690,Mid,0.0243,1610.8,3.5,50177,Costa Rica,18-24,Mixed,6.6,2020-02-10
+CRE0539,jacksonjoshua,Travel & Adventure,TikTok,Instagram,2420324,Mega,0.0707,24966.16,6.8,276585,Montserrat,35-44,Mixed,5.6,2024-11-15
+CRE0540,huntermichael,Business & Entrepreneurship,Substack,Twitter/X,686697,Macro,0.6976,37015.65,7.6,101890,North Macedonia,35-44,Female,5.6,2019-06-06
+CRE0541,ssnow,Food & Cooking,TikTok,YouTube,221017,Mid,0.0533,1015.11,6.7,18732,Iraq,18-24,Female,3.3,2021-11-19
+CRE0542,janice34,Beauty & Fashion,TikTok,Substack,150506,Mid,0.053,2211.03,6.3,18520,Bhutan,25-34,Male,5.0,2023-09-19
+CRE0543,williamlawrence,Personal Development,TikTok,Twitter/X,383392,Mid,0.0174,1042.43,7.1,13605,Austria,45+,Male,6.1,2023-03-07
+CRE0544,newmanmichael,Language Learning,YouTube,TikTok,5965,Nano,0.0314,85.02,4.2,223,Cape Verde,45+,Male,5.6,2024-08-06
+CRE0545,johnsonvictoria,Sustainable Living,Substack,Twitter/X,382796,Mid,0.3121,16632.42,0.9,20763,French Southern Territories,45+,Mixed,5.1,2021-05-29
+CRE0546,iacosta,Parenting & Family,YouTube,LinkedIn,1739,Nano,0.034,7.65,3.1,202,Saint Lucia,18-24,Mixed,3.0,2019-04-23
+CRE0547,wmckenzie,Science & Space,TikTok,LinkedIn,2727757,Mega,0.0443,17618.77,4.9,377386,Faroe Islands,18-24,Male,1.7,2020-02-14
+CRE0548,paul25,Finance & Investing,Twitter/X,LinkedIn,70412,Micro,0.0271,767.65,4.8,9659,Macao,35-44,Female,5.2,2024-10-23
+CRE0549,daniellematthews,Finance & Investing,TikTok,Instagram,61157,Micro,0.0564,658.41,3.0,5220,Suriname,35-44,Female,4.7,2022-04-17
+CRE0550,marie53,Science & Space,Instagram,Substack,139489,Mid,0.0393,2021.54,2.1,7597,Azerbaijan,35-44,Mixed,3.4,2020-10-01
+CRE0551,projas,Travel & Adventure,Substack,Twitter/X,549667,Macro,0.3596,19362.04,4.1,25980,Dominican Republic,18-24,Mixed,5.9,2023-11-17
+CRE0552,beverlyclark,Home Decor & Interior Design,LinkedIn,Twitter/X,264287,Mid,0.0217,1286.8,2.4,22992,Malta,25-34,Female,4.8,2024-01-03
+CRE0553,tannerkimberly,Gaming & Esports,Twitter/X,Substack,446452,Mid,0.0296,3860.98,6.6,58423,Honduras,45+,Mixed,5.4,2018-11-21
+CRE0554,ltyler,Personal Development,Instagram,LinkedIn,29365,Micro,0.0309,169.27,6.8,2153,Montserrat,18-24,Mixed,2.2,2022-11-04
+CRE0555,emorton,Business & Entrepreneurship,TikTok,Instagram,234451,Mid,0.0549,1592.42,1.9,12174,Saint Martin,35-44,Male,3.9,2023-02-09
+CRE0556,knightdawn,Science & Space,Substack,Instagram,605901,Macro,0.3586,9985.36,0.7,74318,Wallis and Futuna,35-44,Mixed,4.3,2025-06-11
+CRE0557,jrichardson,Technology & Software,Substack,TikTok,110437,Mid,0.7203,4655.54,7.0,15138,Hong Kong,45+,Male,5.0,2019-03-25
+CRE0558,piercejulie,Comedy & Entertainment,Substack,Twitter/X,623753,Macro,0.548,12608.05,7.5,54799,Latvia,35-44,Male,6.3,2020-11-20
+CRE0559,amoore,Food & Cooking,TikTok,Twitter/X,86588,Micro,0.0574,1286.52,2.1,2934,Zambia,25-34,Male,3.6,2021-01-25
+CRE0560,christopher07,Technology & Software,LinkedIn,TikTok,466801,Mid,0.0115,5978.85,4.6,38152,Slovakia (Slovak Republic),25-34,Male,6.3,2019-11-04
+CRE0561,denise61,Music & Audio Production,LinkedIn,YouTube,261570,Mid,0.0444,3043.62,5.7,32053,Swaziland,25-34,Male,4.3,2021-09-07
+CRE0562,lwilliams,Music & Audio Production,Substack,LinkedIn,40983,Micro,0.4965,2585.56,0.6,5938,Niger,35-44,Male,1.5,2020-11-09
+CRE0563,claudia48,Home Decor & Interior Design,Instagram,Twitter/X,584005,Macro,0.0478,9317.52,6.4,32485,Antarctica (the territory South of 60 deg S),18-24,Male,3.8,2022-11-06
+CRE0564,elizabethmiller,Parenting & Family,Substack,TikTok,152636,Mid,0.3538,7095.64,4.3,10034,Lebanon,35-44,Male,5.2,2018-10-20
+CRE0565,boydscott,Gaming & Esports,Substack,TikTok,436120,Mid,0.5396,23104.69,4.8,15005,Algeria,25-34,Mixed,5.3,2025-07-01
+CRE0566,michellewatson,Beauty & Fashion,Twitter/X,Instagram,267457,Mid,0.0246,2171.1,2.5,29251,India,35-44,Male,2.2,2022-11-12
+CRE0567,sherriphillips,Music & Audio Production,Instagram,YouTube,59456,Micro,0.0555,392.46,7.4,6190,France,25-34,Female,6.8,2020-06-10
+CRE0568,cynthia35,Business & Entrepreneurship,Substack,LinkedIn,526100,Macro,0.3546,14374.66,5.0,20729,Dominica,35-44,Female,6.7,2019-07-14
+CRE0569,blackleah,Finance & Investing,Substack,Instagram,337873,Mid,0.5235,8942.34,1.9,44616,Sri Lanka,35-44,Male,5.5,2022-07-02
+CRE0570,colearthur,Beauty & Fashion,LinkedIn,TikTok,814616,Macro,0.0173,3970.92,6.0,36345,Panama,25-34,Male,5.8,2018-07-16
+CRE0571,hcraig,Home Decor & Interior Design,TikTok,Twitter/X,69110,Micro,0.0744,1065.79,1.1,5594,Holy See (Vatican City State),35-44,Mixed,3.4,2020-08-06
+CRE0572,carol98,Comedy & Entertainment,Substack,YouTube,413102,Mid,0.3787,9021.95,4.7,11060,Saudi Arabia,25-34,Male,6.4,2025-01-06
+CRE0573,georgejohn,Technology & Software,YouTube,TikTok,91219,Micro,0.0158,920.33,7.8,8459,Cook Islands,25-34,Male,2.0,2023-09-29
+CRE0574,judithjames,Parenting & Family,LinkedIn,Twitter/X,51591,Micro,0.0391,653.23,1.6,1815,Hungary,18-24,Female,4.0,2021-05-14
+CRE0575,thompsonjulie,Music & Audio Production,LinkedIn,TikTok,44500,Micro,0.0154,238.15,3.8,1844,Ghana,45+,Female,4.3,2025-08-03
+CRE0576,powersashley,Language Learning,YouTube,Instagram,17152,Micro,0.0268,93.49,4.0,707,Tonga,45+,Male,1.7,2023-10-08
+CRE0577,bowmanalbert,Technology & Software,LinkedIn,Instagram,83512,Micro,0.0163,1015.76,1.4,2686,Zimbabwe,35-44,Female,6.0,2023-12-03
+CRE0578,davidjones,Business & Entrepreneurship,Twitter/X,YouTube,807063,Macro,0.0206,4013.93,4.4,76027,Slovakia (Slovak Republic),45+,Female,2.5,2023-10-21
+CRE0579,vdixon,Food & Cooking,TikTok,LinkedIn,2998,Nano,0.0411,48.7,1.7,91,Saudi Arabia,45+,Male,4.8,2021-03-28
+CRE0580,robinsonmatthew,Finance & Investing,TikTok,Twitter/X,3752188,Mega,0.0748,53937.47,2.9,431880,Austria,25-34,Female,6.2,2025-06-08
+CRE0581,james84,Home Decor & Interior Design,TikTok,Twitter/X,489965,Mid,0.1,5697.22,2.4,25091,Bahamas,45+,Female,1.1,2020-07-20
+CRE0582,elizabeth34,Gaming & Esports,LinkedIn,Instagram,249388,Mid,0.0329,2807.83,1.4,20901,Eritrea,45+,Mixed,5.8,2021-09-11
+CRE0583,hodgesderek,Beauty & Fashion,TikTok,Twitter/X,292653,Mid,0.0392,4421.68,2.5,28692,Niue,18-24,Male,5.9,2025-02-06
+CRE0584,chadsoto,Gaming & Esports,LinkedIn,TikTok,148731,Mid,0.0243,444.5,7.8,16053,Cameroon,25-34,Male,4.2,2025-06-23
+CRE0585,edwardskatie,Personal Development,YouTube,TikTok,67325,Micro,0.059,535.65,5.6,3975,Cape Verde,25-34,Mixed,3.6,2024-08-04
+CRE0586,mitchellcheryl,Technology & Software,Twitter/X,Substack,15910,Micro,0.0251,141.99,3.7,513,Suriname,35-44,Male,2.5,2019-02-18
+CRE0587,elizabethdiaz,Personal Development,YouTube,Instagram,96714,Micro,0.0195,1205.32,1.1,12957,Bahamas,35-44,Male,4.5,2023-04-27
+CRE0588,amy33,Language Learning,Twitter/X,Instagram,678957,Macro,0.0224,9695.95,2.1,20483,Kiribati,35-44,Mixed,1.6,2024-03-17
+CRE0589,amygarcia,Finance & Investing,YouTube,Substack,11743,Micro,0.0465,153.42,5.9,697,Germany,35-44,Mixed,5.0,2022-08-24
+CRE0590,estephenson,Home Decor & Interior Design,YouTube,Instagram,11818,Micro,0.052,70.2,5.7,525,Northern Mariana Islands,18-24,Female,3.9,2019-11-05
+CRE0591,arnoldjohn,Photography & Videography,LinkedIn,Twitter/X,949938,Macro,0.0262,6005.11,1.6,71097,France,18-24,Female,6.4,2023-03-18
+CRE0592,washingtonmichael,Sustainable Living,LinkedIn,Instagram,8364,Nano,0.0203,79.01,2.7,1069,Cameroon,45+,Female,3.0,2019-05-15
+CRE0593,patrickcheryl,Science & Space,LinkedIn,YouTube,886441,Macro,0.0143,12148.56,4.2,73745,Bahrain,45+,Female,5.3,2024-02-21
+CRE0594,estestyler,Finance & Investing,LinkedIn,Twitter/X,390065,Mid,0.0192,1225.21,7.2,13731,Seychelles,35-44,Male,5.2,2018-06-14
+CRE0595,oroman,Gaming & Esports,TikTok,LinkedIn,346017,Mid,0.0527,2217.57,7.4,45310,Estonia,45+,Female,6.3,2022-08-05
+CRE0596,wdoyle,Science & Space,Substack,Instagram,288877,Mid,0.5315,18169.11,5.2,16384,Ireland,18-24,Mixed,3.9,2020-02-28
+CRE0597,qlutz,Education & Online Courses,Instagram,TikTok,152902,Mid,0.0418,1504.1,2.1,3993,Burkina Faso,18-24,Male,6.3,2022-03-22
+CRE0598,annagarcia,Gaming & Esports,Instagram,YouTube,968953,Macro,0.0108,7552.55,3.0,33735,Guam,25-34,Female,4.4,2023-09-03
+CRE0599,ukramer,Business & Entrepreneurship,TikTok,Substack,124471,Mid,0.0629,2222.93,5.0,4174,Mayotte,18-24,Male,5.8,2019-06-18
+CRE0600,zgarcia,Food & Cooking,Twitter/X,YouTube,153408,Mid,0.0124,1765.02,4.3,6399,Congo,18-24,Female,6.5,2019-12-24

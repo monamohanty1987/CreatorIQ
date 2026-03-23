@@ -1,0 +1,801 @@
+contract_id,creator_id,brand,niche,total_clauses,red_flag_count,compliant_clause_count,missing_kill_fee,missing_ftc_disclosure,has_perpetual_exclusivity,has_uncompensated_usage_rights,payment_terms_days,revision_rounds_stated,estimated_hidden_value_usd,risk_rating,contract_date,analysed_by_ai
+CON0001,CRE0539,Squarespace,Parenting & Family,7,3,4,True,False,False,True,90,2,982.37,Critical,2026-01-25,False
+CON0002,CRE0129,Codecademy,Beauty & Fashion,7,0,7,False,False,False,False,90,2,0.0,Low,2025-03-22,False
+CON0003,CRE0242,Dollar Shave Club,Gaming & Esports,7,1,6,False,False,False,False,30,2,884.23,Medium,2025-11-04,True
+CON0004,CRE0470,Magic Spoon,Technology & Software,7,1,6,False,False,False,False,90,2,475.52,Medium,2026-03-11,True
+CON0005,CRE0004,Betterment,Sustainable Living,7,4,3,False,True,False,True,30,2,5910.63,Critical,2025-03-27,True
+CON0006,CRE0093,MasterClass,Parenting & Family,7,2,5,True,False,False,False,60,Unlimited,4186.05,High,2025-12-14,False
+CON0007,CRE0453,Hubspot,Sustainable Living,7,1,6,True,False,False,False,90,Unlimited,421.45,Medium,2025-12-05,True
+CON0008,CRE0430,Hubspot,Parenting & Family,7,0,7,True,False,False,False,90,1,0.0,Low,2025-11-09,False
+CON0009,CRE0514,Squarespace,Language Learning,7,1,6,False,False,False,False,60,Unlimited,2088.99,Medium,2025-04-24,True
+CON0010,CRE0570,Brilliant,Beauty & Fashion,7,4,3,False,False,False,False,30,3,8857.34,Critical,2026-01-25,True
+CON0011,CRE0223,Headspace,Pet Care,7,1,6,True,False,False,False,30,Unlimited,743.54,Medium,2025-12-22,False
+CON0012,CRE0338,Shopify,Music & Audio Production,7,1,6,True,False,False,True,90,Unlimited,774.5,Medium,2025-08-01,False
+CON0013,CRE0577,MasterClass,Science & Space,7,1,6,False,False,False,False,60,2,620.16,Medium,2025-11-08,True
+CON0014,CRE0159,Athletic Greens,Business & Entrepreneurship,7,2,5,False,False,False,False,90,2,4347.92,High,2025-08-10,False
+CON0015,CRE0041,Hover,Parenting & Family,7,1,6,False,False,False,True,30,Unlimited,1619.89,Medium,2025-11-18,False
+CON0016,CRE0438,Raycon,Travel & Adventure,7,1,6,True,False,False,False,90,Unlimited,1299.02,Medium,2026-03-06,False
+CON0017,CRE0013,Betterment,Parenting & Family,7,1,6,False,False,False,True,45,1,2103.95,Medium,2025-11-02,True
+CON0018,CRE0542,Skillshare,Food & Cooking,7,1,6,False,False,False,False,60,2,2241.83,Medium,2025-03-21,True
+CON0019,CRE0385,ExpressVPN,Language Learning,7,1,6,False,False,False,False,90,2,342.6,Medium,2025-08-04,True
+CON0020,CRE0508,Canva,Education & Online Courses,7,1,6,False,False,False,False,60,2,1926.28,Medium,2025-12-19,False
+CON0021,CRE0392,Magic Spoon,Finance & Investing,7,4,3,True,False,False,True,90,2,5903.07,Critical,2025-06-07,False
+CON0022,CRE0458,Morning Brew,Science & Space,7,4,3,False,False,False,False,30,2,8272.97,Critical,2025-10-31,False
+CON0023,CRE0177,Asana,Finance & Investing,7,0,7,True,False,False,False,90,Unlimited,0.0,Low,2025-03-19,True
+CON0024,CRE0523,LastPass,Business & Entrepreneurship,7,1,6,False,False,False,False,90,2,1694.03,Medium,2025-10-22,False
+CON0025,CRE0033,Brilliant,Science & Space,7,1,6,False,False,False,False,90,Unlimited,2096.43,Medium,2026-02-18,False
+CON0026,CRE0169,Robinhood,Comedy & Entertainment,7,1,6,False,False,False,False,30,Unlimited,457.12,Medium,2025-09-16,True
+CON0027,CRE0108,Fiverr,Business & Entrepreneurship,7,2,5,True,False,False,False,30,1,1452.48,High,2025-09-23,False
+CON0028,CRE0101,Audible,Home Decor & Interior Design,7,3,4,False,True,False,False,30,Unlimited,5779.66,Critical,2026-03-05,True
+CON0029,CRE0156,Skillshare,Photography & Videography,7,2,5,True,False,False,True,45,1,703.52,High,2025-07-16,True
+CON0030,CRE0131,Brilliant,Pet Care,7,1,6,True,False,False,False,30,2,963.57,Medium,2025-12-31,False
+CON0031,CRE0104,Shopify,Science & Space,7,1,6,False,False,False,False,90,Unlimited,484.94,Medium,2025-07-11,False
+CON0032,CRE0483,Asana,Food & Cooking,7,0,7,True,False,False,False,90,Unlimited,0.0,Low,2025-08-10,False
+CON0033,CRE0355,MasterClass,Language Learning,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2025-06-11,False
+CON0034,CRE0563,Athletic Greens,Personal Development,7,2,5,True,False,False,False,90,2,2529.2,High,2025-12-09,False
+CON0035,CRE0157,Dollar Shave Club,Finance & Investing,7,0,7,False,False,False,False,60,Unlimited,0.0,Low,2025-06-17,True
+CON0036,CRE0216,Noom,Business & Entrepreneurship,7,3,4,False,False,False,True,30,Unlimited,1504.67,Critical,2026-01-30,True
+CON0037,CRE0296,Morning Brew,Pet Care,7,2,5,False,False,False,False,30,2,3329.0,High,2025-03-22,False
+CON0038,CRE0415,Skillshare,Beauty & Fashion,7,1,6,True,False,False,False,45,3,642.86,Medium,2025-11-25,False
+CON0039,CRE0574,Calm,Travel & Adventure,7,1,6,True,False,False,False,30,2,2391.64,Medium,2025-09-18,False
+CON0040,CRE0377,MVMT Watches,Home Decor & Interior Design,7,0,7,False,False,False,False,90,1,0.0,Low,2026-02-09,True
+CON0041,CRE0227,Brilliant,Personal Development,7,1,6,True,False,False,False,90,3,562.52,Medium,2025-04-22,False
+CON0042,CRE0582,Monday.com,Technology & Software,7,1,6,True,False,False,False,60,Unlimited,439.99,Medium,2025-05-13,True
+CON0043,CRE0332,Codecademy,Pet Care,7,2,5,False,False,False,True,30,Unlimited,4214.04,High,2026-03-15,False
+CON0044,CRE0353,Codecademy,Education & Online Courses,7,3,4,False,False,False,True,90,2,6393.77,Critical,2026-03-01,False
+CON0045,CRE0566,Airtable,Comedy & Entertainment,7,4,3,False,False,False,True,90,2,3359.17,Critical,2025-06-26,True
+CON0046,CRE0015,Asana,Travel & Adventure,7,3,4,True,True,False,False,45,2,7097.28,Critical,2025-12-18,False
+CON0047,CRE0570,Robinhood,Food & Cooking,7,1,6,False,False,False,False,30,2,647.67,Medium,2025-06-30,False
+CON0048,CRE0053,Magic Spoon,Travel & Adventure,7,1,6,True,False,False,False,45,Unlimited,1894.95,Medium,2026-02-06,False
+CON0049,CRE0179,Audible,Personal Development,7,1,6,False,False,False,True,90,Unlimited,1139.78,Medium,2025-03-30,False
+CON0050,CRE0473,ExpressVPN,Photography & Videography,7,3,4,True,True,False,False,45,Unlimited,2424.77,Critical,2025-04-23,True
+CON0051,CRE0066,HelloFresh,Food & Cooking,7,2,5,True,False,False,False,30,1,4018.65,High,2025-09-19,True
+CON0052,CRE0600,HelloFresh,Parenting & Family,7,1,6,True,False,False,False,60,2,1453.13,Medium,2025-05-31,True
+CON0053,CRE0038,Manscaped,Science & Space,7,1,6,False,False,False,True,60,2,2111.23,Medium,2025-10-02,True
+CON0054,CRE0463,Airtable,Gaming & Esports,7,1,6,True,False,False,False,30,2,337.35,Medium,2025-09-03,False
+CON0055,CRE0526,Calm,Photography & Videography,7,4,3,False,False,False,False,90,Unlimited,3948.64,Critical,2025-10-26,False
+CON0056,CRE0508,Wix,Technology & Software,7,0,7,False,False,False,False,60,3,0.0,Low,2025-03-21,True
+CON0057,CRE0038,HelloFresh,Photography & Videography,7,2,5,False,False,False,False,30,Unlimited,3318.65,High,2025-12-05,False
+CON0058,CRE0173,ExpressVPN,Music & Audio Production,7,2,5,False,False,False,False,90,2,4698.73,High,2026-01-06,True
+CON0059,CRE0157,Brilliant,Beauty & Fashion,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2025-10-19,True
+CON0060,CRE0470,Factor Meals,Personal Development,7,1,6,True,False,False,False,90,Unlimited,1755.86,Medium,2026-03-13,True
+CON0061,CRE0373,HelloFresh,Gaming & Esports,7,1,6,False,False,False,True,30,2,847.82,Medium,2025-11-11,False
+CON0062,CRE0122,Dollar Shave Club,Photography & Videography,7,3,4,False,False,False,False,60,2,6879.57,Critical,2025-08-01,False
+CON0063,CRE0051,Manscaped,Gaming & Esports,7,3,4,True,True,False,False,45,2,2268.92,Critical,2026-03-10,True
+CON0064,CRE0188,Fiverr,Science & Space,7,0,7,False,False,False,False,30,3,0.0,Low,2025-04-01,True
+CON0065,CRE0415,MasterClass,Pet Care,7,3,4,False,False,False,False,30,2,4556.25,Critical,2025-09-06,False
+CON0066,CRE0550,MVMT Watches,Technology & Software,7,2,5,True,False,False,True,30,1,2740.13,High,2025-05-22,True
+CON0067,CRE0425,LastPass,Language Learning,7,1,6,True,False,False,True,30,1,2092.2,Medium,2026-01-06,True
+CON0068,CRE0540,Squarespace,Language Learning,7,2,5,False,False,False,True,30,1,958.23,High,2025-07-09,True
+CON0069,CRE0422,Magic Spoon,Education & Online Courses,7,2,5,True,False,False,True,60,3,1468.65,High,2025-06-12,False
+CON0070,CRE0505,Hover,Comedy & Entertainment,7,0,7,True,False,False,False,45,1,0.0,Low,2025-08-24,False
+CON0071,CRE0416,Athletic Greens,Personal Development,7,3,4,True,False,False,False,30,2,1755.35,Critical,2025-07-21,False
+CON0072,CRE0045,Wix,Science & Space,7,2,5,True,False,False,False,30,3,3895.44,High,2025-10-05,False
+CON0073,CRE0573,Asana,Photography & Videography,7,3,4,False,True,False,False,45,2,4685.41,Critical,2025-09-06,False
+CON0074,CRE0028,Hover,Language Learning,7,0,7,False,False,False,False,90,Unlimited,0.0,Low,2025-07-18,True
+CON0075,CRE0567,Morning Brew,Business & Entrepreneurship,7,1,6,False,False,False,False,60,Unlimited,330.86,Medium,2026-01-28,True
+CON0076,CRE0447,Acorns,Parenting & Family,7,1,6,False,False,False,False,90,Unlimited,1696.29,Medium,2025-10-21,True
+CON0077,CRE0568,Squarespace,Comedy & Entertainment,7,3,4,False,False,False,True,60,Unlimited,6290.8,Critical,2025-08-25,True
+CON0078,CRE0589,Noom,Finance & Investing,7,3,4,False,True,False,False,45,Unlimited,2861.06,Critical,2025-11-20,True
+CON0079,CRE0323,Public,Personal Development,7,1,6,True,False,False,False,30,3,632.3,Medium,2026-03-12,False
+CON0080,CRE0093,Manscaped,Personal Development,7,2,5,False,False,False,True,90,1,1738.83,High,2025-09-30,False
+CON0081,CRE0130,Notion,Gaming & Esports,7,1,6,True,False,False,False,30,1,2408.5,Medium,2025-11-24,True
+CON0082,CRE0023,NordVPN,Gaming & Esports,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2026-01-31,False
+CON0083,CRE0450,Squarespace,Sustainable Living,7,2,5,True,False,False,True,30,1,3199.43,High,2026-02-19,False
+CON0084,CRE0340,Ridge Wallet,Parenting & Family,7,0,7,False,False,False,False,60,2,0.0,Low,2026-02-11,False
+CON0085,CRE0058,Codecademy,Technology & Software,7,3,4,False,True,False,True,90,Unlimited,7493.06,Critical,2026-01-09,False
+CON0086,CRE0116,Factor Meals,Education & Online Courses,7,4,3,True,False,False,False,30,Unlimited,2816.91,Critical,2025-04-08,False
+CON0087,CRE0529,Noom,Travel & Adventure,7,1,6,False,False,False,False,90,2,823.06,Medium,2025-09-28,True
+CON0088,CRE0031,MVMT Watches,Food & Cooking,7,0,7,True,False,False,False,30,Unlimited,0.0,Low,2026-02-15,True
+CON0089,CRE0222,Codecademy,Finance & Investing,7,1,6,True,False,False,True,90,1,1462.85,Medium,2025-04-27,True
+CON0090,CRE0099,Toptal,Photography & Videography,7,2,5,False,False,False,False,60,Unlimited,2846.71,High,2025-08-21,True
+CON0091,CRE0159,Robinhood,Home Decor & Interior Design,7,1,6,True,False,False,False,30,Unlimited,1691.26,Medium,2025-11-24,False
+CON0092,CRE0002,Factor Meals,Science & Space,7,1,6,True,False,False,False,45,2,769.94,Medium,2026-01-26,False
+CON0093,CRE0178,Shopify,Sustainable Living,7,1,6,False,False,False,False,60,Unlimited,2129.99,Medium,2025-12-09,False
+CON0094,CRE0536,Codecademy,Science & Space,7,1,6,True,False,False,True,90,1,1302.57,Medium,2025-12-07,True
+CON0095,CRE0397,Fiverr,Travel & Adventure,7,1,6,True,False,False,False,90,3,444.35,Medium,2025-05-12,True
+CON0096,CRE0198,LastPass,Technology & Software,7,1,6,True,False,False,False,45,Unlimited,1673.7,Medium,2025-03-24,True
+CON0097,CRE0382,Fiverr,Home Decor & Interior Design,7,2,5,False,False,False,True,30,Unlimited,4010.16,High,2025-04-13,False
+CON0098,CRE0074,Headspace,Business & Entrepreneurship,7,0,7,False,False,False,False,30,2,0.0,Low,2025-05-02,False
+CON0099,CRE0018,Magic Spoon,Technology & Software,7,2,5,False,False,False,False,30,2,1822.64,High,2026-03-05,False
+CON0100,CRE0365,Hover,Personal Development,7,1,6,True,False,False,False,30,1,776.02,Medium,2025-11-17,True
+CON0101,CRE0228,Codecademy,Parenting & Family,7,2,5,True,False,False,False,45,2,4836.84,High,2025-12-07,True
+CON0102,CRE0480,Skillshare,Photography & Videography,7,3,4,True,False,False,True,90,Unlimited,2867.36,Critical,2025-10-11,False
+CON0103,CRE0089,Magic Spoon,Language Learning,7,4,3,False,True,False,False,30,2,3059.16,Critical,2026-01-17,False
+CON0104,CRE0594,Brilliant,Gaming & Esports,7,1,6,False,False,False,False,30,Unlimited,1245.62,Medium,2025-03-30,True
+CON0105,CRE0116,Morning Brew,Finance & Investing,7,3,4,False,True,False,False,30,2,6083.14,Critical,2025-08-20,True
+CON0106,CRE0464,Squarespace,Gaming & Esports,7,4,3,False,True,False,False,30,Unlimited,1262.11,Critical,2025-07-28,True
+CON0107,CRE0243,Toptal,Pet Care,7,1,6,False,False,False,False,30,Unlimited,1162.5,Medium,2025-04-17,True
+CON0108,CRE0163,Hubspot,Education & Online Courses,7,1,6,False,False,False,False,30,2,1562.52,Medium,2025-12-11,False
+CON0109,CRE0269,ExpressVPN,Pet Care,7,3,4,True,True,False,False,90,1,2387.81,Critical,2025-09-18,False
+CON0110,CRE0513,Airtable,Language Learning,7,0,7,True,False,False,False,45,2,0.0,Low,2026-02-28,False
+CON0111,CRE0592,Calm,Education & Online Courses,7,2,5,True,False,False,False,30,2,4372.7,High,2025-08-01,True
+CON0112,CRE0578,Fiverr,Language Learning,7,3,4,True,True,False,True,90,1,6195.48,Critical,2025-11-07,False
+CON0113,CRE0326,Headspace,Music & Audio Production,7,1,6,False,False,False,True,60,Unlimited,1848.7,Medium,2025-10-27,False
+CON0114,CRE0497,Morning Brew,Finance & Investing,7,3,4,True,False,False,False,30,Unlimited,6113.99,Critical,2025-10-23,True
+CON0115,CRE0135,Acorns,Business & Entrepreneurship,7,4,3,True,True,False,True,45,Unlimited,4304.39,Critical,2025-03-29,False
+CON0116,CRE0055,Headspace,Comedy & Entertainment,7,2,5,False,False,False,False,90,Unlimited,827.28,High,2025-09-16,True
+CON0117,CRE0343,Public,Home Decor & Interior Design,7,0,7,True,False,False,False,60,Unlimited,0.0,Low,2025-09-03,False
+CON0118,CRE0332,Hover,Sustainable Living,7,3,4,False,False,False,True,90,3,4413.31,Critical,2026-01-06,False
+CON0119,CRE0341,Wix,Parenting & Family,7,1,6,False,False,False,False,90,2,1000.7,Medium,2026-03-19,False
+CON0120,CRE0331,Acorns,Parenting & Family,7,1,6,False,False,False,False,45,2,1315.26,Medium,2025-08-16,True
+CON0121,CRE0573,Betterment,Beauty & Fashion,7,4,3,False,True,False,True,30,Unlimited,3949.4,Critical,2025-10-20,False
+CON0122,CRE0071,Monday.com,Food & Cooking,7,2,5,True,False,False,True,45,3,1088.55,High,2025-10-15,True
+CON0123,CRE0192,Codecademy,Personal Development,7,2,5,True,False,False,False,90,1,4855.53,High,2026-01-29,False
+CON0124,CRE0013,Hover,Personal Development,7,1,6,False,False,False,True,30,3,847.45,Medium,2025-09-05,True
+CON0125,CRE0199,Grammarly,Food & Cooking,7,0,7,False,False,False,False,30,1,0.0,Low,2025-06-09,False
+CON0126,CRE0219,Notion,Finance & Investing,7,2,5,True,False,False,False,90,Unlimited,883.59,High,2025-04-30,False
+CON0127,CRE0367,LastPass,Sustainable Living,7,0,7,True,False,False,False,30,Unlimited,0.0,Low,2025-03-28,False
+CON0128,CRE0482,Noom,Language Learning,7,4,3,False,False,False,True,60,2,9766.68,Critical,2025-10-30,False
+CON0129,CRE0169,Noom,Business & Entrepreneurship,7,2,5,True,False,False,False,30,Unlimited,4883.65,High,2026-01-05,False
+CON0130,CRE0293,Wix,Food & Cooking,7,2,5,True,False,False,True,30,3,4667.25,High,2025-08-05,True
+CON0131,CRE0564,Notion,Business & Entrepreneurship,7,1,6,False,False,False,False,90,2,2303.82,Medium,2025-12-04,False
+CON0132,CRE0262,Factor Meals,Beauty & Fashion,7,3,4,False,False,False,True,60,Unlimited,4798.84,Critical,2025-09-23,False
+CON0133,CRE0548,Calm,Parenting & Family,7,1,6,True,False,False,True,60,Unlimited,844.23,Medium,2026-01-31,False
+CON0134,CRE0121,Betterment,Education & Online Courses,7,0,7,True,False,False,False,60,1,0.0,Low,2025-04-25,True
+CON0135,CRE0553,Squarespace,Food & Cooking,7,1,6,False,False,False,False,30,2,1471.98,Medium,2026-02-17,False
+CON0136,CRE0509,Asana,Technology & Software,7,3,4,True,False,False,True,30,3,5793.51,Critical,2025-10-24,True
+CON0137,CRE0458,Canva,Music & Audio Production,7,1,6,False,False,False,False,60,2,1396.08,Medium,2025-09-02,True
+CON0138,CRE0496,Raycon,Parenting & Family,7,1,6,False,False,False,False,30,Unlimited,1486.66,Medium,2025-11-23,False
+CON0139,CRE0159,Monday.com,Language Learning,7,0,7,True,False,False,False,30,2,0.0,Low,2025-07-20,True
+CON0140,CRE0498,Toptal,Home Decor & Interior Design,7,0,7,True,False,False,False,30,Unlimited,0.0,Low,2025-04-03,True
+CON0141,CRE0583,Skillshare,Music & Audio Production,7,2,5,True,False,False,False,45,3,4756.15,High,2025-08-15,True
+CON0142,CRE0144,Betterment,Home Decor & Interior Design,7,3,4,False,False,False,False,30,2,1950.63,Critical,2025-06-17,True
+CON0143,CRE0149,Toptal,Gaming & Esports,7,3,4,True,False,False,False,30,2,2945.15,Critical,2025-05-10,False
+CON0144,CRE0536,Monday.com,Photography & Videography,7,0,7,True,False,False,False,45,1,0.0,Low,2026-02-07,True
+CON0145,CRE0372,Hover,Language Learning,7,2,5,False,False,False,False,30,Unlimited,633.31,High,2026-03-07,False
+CON0146,CRE0220,Calm,Beauty & Fashion,7,0,7,False,False,False,False,60,2,0.0,Low,2026-02-17,False
+CON0147,CRE0198,Shopify,Food & Cooking,7,2,5,True,False,False,False,30,Unlimited,3874.21,High,2025-08-30,False
+CON0148,CRE0318,Headspace,Science & Space,7,2,5,True,False,False,True,30,2,4853.26,High,2026-02-10,True
+CON0149,CRE0017,Blue Apron,Parenting & Family,7,1,6,True,False,False,False,60,1,1190.36,Medium,2026-02-19,False
+CON0150,CRE0092,Skillshare,Music & Audio Production,7,1,6,False,False,False,False,30,Unlimited,2144.26,Medium,2025-06-28,False
+CON0151,CRE0159,Codecademy,Comedy & Entertainment,7,1,6,True,False,False,False,90,2,1280.14,Medium,2026-01-27,False
+CON0152,CRE0251,Notion,Personal Development,7,2,5,True,False,False,True,30,2,3587.81,High,2025-07-30,False
+CON0153,CRE0005,Skillshare,Pet Care,7,1,6,True,False,False,False,30,2,1235.26,Medium,2025-08-11,True
+CON0154,CRE0130,MVMT Watches,Music & Audio Production,7,2,5,False,False,False,False,30,2,738.49,High,2025-12-09,False
+CON0155,CRE0022,MasterClass,Comedy & Entertainment,7,1,6,True,False,False,False,90,1,912.46,Medium,2025-10-12,True
+CON0156,CRE0454,Shopify,Photography & Videography,7,1,6,True,False,False,False,90,2,846.03,Medium,2026-03-09,False
+CON0157,CRE0525,LastPass,Education & Online Courses,7,3,4,False,True,False,False,60,1,5970.81,Critical,2025-12-08,True
+CON0158,CRE0298,Dollar Shave Club,Pet Care,7,2,5,True,False,False,False,30,Unlimited,3301.98,High,2025-07-20,True
+CON0159,CRE0075,Dollar Shave Club,Language Learning,7,4,3,True,True,False,True,45,Unlimited,5074.73,Critical,2026-03-18,True
+CON0160,CRE0528,Brilliant,Travel & Adventure,7,1,6,False,False,False,False,30,2,324.09,Medium,2025-03-26,False
+CON0161,CRE0175,Asana,Science & Space,7,0,7,False,False,False,False,90,3,0.0,Low,2025-09-29,True
+CON0162,CRE0154,Headspace,Sustainable Living,7,1,6,False,False,False,True,90,3,479.95,Medium,2025-06-09,True
+CON0163,CRE0486,Robinhood,Travel & Adventure,7,4,3,False,False,False,False,30,2,4452.64,Critical,2025-05-09,True
+CON0164,CRE0285,NordVPN,Personal Development,7,3,4,True,True,False,False,90,2,4948.57,Critical,2026-02-22,True
+CON0165,CRE0506,MVMT Watches,Finance & Investing,7,1,6,False,False,False,False,45,2,731.52,Medium,2025-07-16,True
+CON0166,CRE0490,Acorns,Home Decor & Interior Design,7,1,6,True,False,False,True,30,Unlimited,2030.92,Medium,2025-11-27,True
+CON0167,CRE0278,Acorns,Travel & Adventure,7,0,7,False,False,False,False,90,2,0.0,Low,2025-11-03,True
+CON0168,CRE0340,Airtable,Personal Development,7,0,7,False,False,False,False,30,2,0.0,Low,2025-04-14,True
+CON0169,CRE0222,LastPass,Language Learning,7,3,4,False,False,False,False,90,1,1999.01,Critical,2025-08-07,False
+CON0170,CRE0222,Wix,Parenting & Family,7,0,7,False,False,False,False,90,2,0.0,Low,2026-01-02,True
+CON0171,CRE0204,Hubspot,Personal Development,7,2,5,False,False,False,False,45,3,1925.05,High,2026-03-17,False
+CON0172,CRE0471,Public,Education & Online Courses,7,0,7,False,False,False,False,90,2,0.0,Low,2026-01-21,False
+CON0173,CRE0005,Hubspot,Business & Entrepreneurship,7,0,7,False,False,False,False,30,3,0.0,Low,2025-03-30,True
+CON0174,CRE0254,Noom,Education & Online Courses,7,1,6,True,False,False,False,90,3,2149.94,Medium,2025-07-14,False
+CON0175,CRE0085,Noom,Business & Entrepreneurship,7,0,7,True,False,False,False,30,2,0.0,Low,2026-02-23,False
+CON0176,CRE0386,Public,Comedy & Entertainment,7,3,4,False,True,False,True,30,Unlimited,5407.25,Critical,2025-12-10,False
+CON0177,CRE0381,Audible,Finance & Investing,7,4,3,False,True,False,True,90,1,5804.46,Critical,2025-11-02,False
+CON0178,CRE0514,Codecademy,Home Decor & Interior Design,7,0,7,True,False,False,False,90,1,0.0,Low,2026-03-05,True
+CON0179,CRE0242,Airtable,Business & Entrepreneurship,7,4,3,True,False,False,False,30,2,3586.17,Critical,2025-04-15,False
+CON0180,CRE0281,ExpressVPN,Parenting & Family,7,3,4,True,False,False,True,60,Unlimited,2125.38,Critical,2025-07-08,True
+CON0181,CRE0064,Dollar Shave Club,Sustainable Living,7,3,4,True,False,False,False,60,3,3946.69,Critical,2026-02-02,False
+CON0182,CRE0375,Canva,Photography & Videography,7,1,6,False,False,False,True,60,1,2320.68,Medium,2025-09-27,False
+CON0183,CRE0442,Public,Parenting & Family,7,3,4,True,True,False,False,90,Unlimited,3065.8,Critical,2025-08-17,True
+CON0184,CRE0256,MasterClass,Pet Care,7,0,7,False,False,False,False,90,2,0.0,Low,2026-01-16,False
+CON0185,CRE0222,ExpressVPN,Language Learning,7,2,5,False,False,False,False,90,2,4763.0,High,2025-07-08,False
+CON0186,CRE0017,Headspace,Education & Online Courses,7,3,4,False,False,False,False,30,1,2115.51,Critical,2025-10-25,True
+CON0187,CRE0166,Squarespace,Language Learning,7,2,5,False,False,False,False,60,2,1123.52,High,2025-12-18,False
+CON0188,CRE0331,Dollar Shave Club,Home Decor & Interior Design,7,2,5,True,False,False,False,30,3,4466.77,High,2025-06-04,False
+CON0189,CRE0131,Ridge Wallet,Travel & Adventure,7,3,4,False,True,False,False,90,1,5941.59,Critical,2025-12-10,False
+CON0190,CRE0158,Canva,Business & Entrepreneurship,7,3,4,True,False,False,True,30,3,1039.91,Critical,2026-01-16,False
+CON0191,CRE0379,Canva,Business & Entrepreneurship,7,4,3,False,True,False,False,30,2,9908.87,Critical,2025-10-11,False
+CON0192,CRE0194,Headspace,Travel & Adventure,7,4,3,False,False,False,True,30,Unlimited,5898.79,Critical,2025-08-23,False
+CON0193,CRE0175,Public,Finance & Investing,7,4,3,True,True,False,False,30,2,7012.56,Critical,2026-01-02,True
+CON0194,CRE0288,Betterment,Home Decor & Interior Design,7,2,5,True,False,False,True,60,2,1017.92,High,2025-09-11,False
+CON0195,CRE0420,HelloFresh,Beauty & Fashion,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2025-08-01,True
+CON0196,CRE0468,Grammarly,Home Decor & Interior Design,7,3,4,False,True,False,True,30,2,2985.55,Critical,2026-01-03,False
+CON0197,CRE0405,Notion,Technology & Software,7,2,5,True,False,False,False,90,3,1672.97,High,2025-07-24,False
+CON0198,CRE0390,Monday.com,Parenting & Family,7,0,7,True,False,False,False,30,1,0.0,Low,2025-09-07,False
+CON0199,CRE0074,Hover,Beauty & Fashion,7,3,4,True,False,False,False,30,Unlimited,2112.76,Critical,2026-03-02,True
+CON0200,CRE0442,Magic Spoon,Science & Space,7,1,6,True,False,False,False,30,Unlimited,2475.89,Medium,2025-05-06,True
+CON0201,CRE0020,Notion,Parenting & Family,7,4,3,False,True,False,True,90,Unlimited,9164.75,Critical,2025-08-23,False
+CON0202,CRE0373,Skillshare,Finance & Investing,7,2,5,False,False,False,True,45,Unlimited,2076.16,High,2025-08-10,False
+CON0203,CRE0551,Shopify,Science & Space,7,1,6,True,False,False,False,30,Unlimited,2297.24,Medium,2025-08-27,False
+CON0204,CRE0055,Betterment,Comedy & Entertainment,7,3,4,True,False,False,False,30,2,4614.36,Critical,2025-04-17,False
+CON0205,CRE0313,Factor Meals,Gaming & Esports,7,2,5,True,False,False,True,30,Unlimited,944.33,High,2025-05-09,False
+CON0206,CRE0118,Raycon,Education & Online Courses,7,2,5,True,False,False,False,30,Unlimited,4822.28,High,2026-03-08,False
+CON0207,CRE0202,Brilliant,Language Learning,7,2,5,True,False,False,True,30,1,3887.42,High,2026-03-05,False
+CON0208,CRE0593,ExpressVPN,Pet Care,7,3,4,True,False,False,False,45,3,4238.31,Critical,2026-02-10,True
+CON0209,CRE0297,Ridge Wallet,Pet Care,7,4,3,True,True,False,True,30,Unlimited,9238.6,Critical,2025-10-26,True
+CON0210,CRE0166,Airtable,Business & Entrepreneurship,7,2,5,True,False,False,False,30,2,733.19,High,2025-10-07,True
+CON0211,CRE0256,Athletic Greens,Business & Entrepreneurship,7,1,6,False,False,False,False,60,Unlimited,2289.06,Medium,2025-12-08,True
+CON0212,CRE0487,ExpressVPN,Travel & Adventure,7,1,6,False,False,False,False,45,1,1267.83,Medium,2025-11-11,True
+CON0213,CRE0324,Raycon,Home Decor & Interior Design,7,1,6,True,False,False,False,90,2,1320.34,Medium,2025-06-03,False
+CON0214,CRE0195,Public,Home Decor & Interior Design,7,3,4,False,True,False,True,45,2,3388.51,Critical,2025-07-29,False
+CON0215,CRE0231,Codecademy,Pet Care,7,1,6,False,False,False,False,30,Unlimited,2028.07,Medium,2025-07-27,False
+CON0216,CRE0266,HelloFresh,Education & Online Courses,7,3,4,True,False,False,True,90,1,2027.76,Critical,2026-02-05,True
+CON0217,CRE0530,Audible,Travel & Adventure,7,0,7,False,False,False,False,90,1,0.0,Low,2025-07-07,True
+CON0218,CRE0265,Hubspot,Technology & Software,7,1,6,False,False,False,False,60,2,731.17,Medium,2025-10-24,True
+CON0219,CRE0155,Grammarly,Technology & Software,7,0,7,True,False,False,False,60,Unlimited,0.0,Low,2026-02-27,True
+CON0220,CRE0536,Hubspot,Education & Online Courses,7,1,6,False,False,False,False,30,2,2160.89,Medium,2026-02-03,True
+CON0221,CRE0105,Brilliant,Finance & Investing,7,1,6,False,False,False,False,90,1,357.83,Medium,2025-10-02,True
+CON0222,CRE0066,Monday.com,Beauty & Fashion,7,3,4,True,False,False,True,90,3,5834.65,Critical,2026-02-11,True
+CON0223,CRE0060,Blue Apron,Personal Development,7,3,4,True,True,False,False,60,Unlimited,7487.05,Critical,2025-05-17,False
+CON0224,CRE0463,Robinhood,Pet Care,7,0,7,True,False,False,False,30,Unlimited,0.0,Low,2025-05-19,False
+CON0225,CRE0371,Headspace,Business & Entrepreneurship,7,0,7,False,False,False,False,30,2,0.0,Low,2026-02-13,False
+CON0226,CRE0422,Codecademy,Business & Entrepreneurship,7,3,4,True,False,False,False,30,1,1693.46,Critical,2025-04-09,False
+CON0227,CRE0014,Airtable,Comedy & Entertainment,7,2,5,True,False,False,False,45,2,4892.87,High,2025-10-16,True
+CON0228,CRE0397,Factor Meals,Language Learning,7,3,4,False,False,False,False,90,3,2513.82,Critical,2025-06-29,False
+CON0229,CRE0260,Betterment,Gaming & Esports,7,3,4,False,True,False,False,90,2,4590.88,Critical,2025-04-04,False
+CON0230,CRE0537,Betterment,Gaming & Esports,7,1,6,True,False,False,False,30,3,374.92,Medium,2025-05-19,False
+CON0231,CRE0554,Raycon,Travel & Adventure,7,0,7,False,False,False,False,90,Unlimited,0.0,Low,2026-03-10,True
+CON0232,CRE0404,Raycon,Pet Care,7,1,6,False,False,False,False,90,Unlimited,522.72,Medium,2025-04-02,False
+CON0233,CRE0159,Grammarly,Science & Space,7,4,3,False,False,False,True,60,2,4319.46,Critical,2026-01-18,True
+CON0234,CRE0093,Factor Meals,Music & Audio Production,7,2,5,True,False,False,False,90,Unlimited,4292.63,High,2025-06-11,False
+CON0235,CRE0129,Asana,Finance & Investing,7,3,4,True,False,False,False,90,3,937.14,Critical,2025-08-09,True
+CON0236,CRE0124,Factor Meals,Language Learning,7,4,3,True,True,False,False,30,Unlimited,5828.18,Critical,2025-08-14,True
+CON0237,CRE0238,Airtable,Gaming & Esports,7,1,6,False,False,False,True,90,Unlimited,1661.2,Medium,2025-05-18,False
+CON0238,CRE0585,MasterClass,Pet Care,7,3,4,False,True,False,True,60,Unlimited,6634.88,Critical,2026-02-25,False
+CON0239,CRE0408,HelloFresh,Comedy & Entertainment,7,1,6,False,False,False,False,30,2,975.02,Medium,2026-01-22,True
+CON0240,CRE0176,Acorns,Business & Entrepreneurship,7,2,5,False,False,False,False,90,Unlimited,4536.92,High,2025-05-12,True
+CON0241,CRE0586,Shopify,Beauty & Fashion,7,0,7,True,False,False,False,60,Unlimited,0.0,Low,2025-12-15,False
+CON0242,CRE0142,Public,Beauty & Fashion,7,1,6,True,False,False,False,30,Unlimited,1351.84,Medium,2025-10-31,False
+CON0243,CRE0594,Squarespace,Home Decor & Interior Design,7,3,4,False,False,False,True,90,3,5811.42,Critical,2025-09-10,False
+CON0244,CRE0412,Public,Beauty & Fashion,7,3,4,True,False,False,True,30,Unlimited,1418.76,Critical,2025-05-22,False
+CON0245,CRE0220,Fiverr,Parenting & Family,7,1,6,False,False,False,False,45,2,1979.34,Medium,2025-10-08,False
+CON0246,CRE0090,HelloFresh,Finance & Investing,7,1,6,False,False,False,False,30,2,2425.83,Medium,2025-12-29,False
+CON0247,CRE0416,Morning Brew,Food & Cooking,7,3,4,True,False,False,False,30,Unlimited,1452.1,Critical,2025-04-02,False
+CON0248,CRE0217,Notion,Business & Entrepreneurship,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2025-09-11,True
+CON0249,CRE0583,HelloFresh,Pet Care,7,0,7,True,False,False,False,30,Unlimited,0.0,Low,2025-08-23,False
+CON0250,CRE0049,Athletic Greens,Home Decor & Interior Design,7,1,6,False,False,False,False,90,2,510.75,Medium,2025-05-30,False
+CON0251,CRE0247,Manscaped,Food & Cooking,7,2,5,True,False,False,True,45,2,3880.4,High,2025-12-03,False
+CON0252,CRE0366,MVMT Watches,Language Learning,7,1,6,False,False,False,True,60,Unlimited,2492.49,Medium,2025-08-19,True
+CON0253,CRE0194,Calm,Home Decor & Interior Design,7,1,6,True,False,False,False,90,2,895.35,Medium,2026-01-29,True
+CON0254,CRE0058,Magic Spoon,Photography & Videography,7,4,3,True,True,False,False,30,1,7995.84,Critical,2025-03-22,False
+CON0255,CRE0394,MasterClass,Music & Audio Production,7,1,6,True,False,False,False,30,Unlimited,610.76,Medium,2025-08-06,False
+CON0256,CRE0039,Squarespace,Music & Audio Production,7,1,6,True,False,False,False,60,Unlimited,737.66,Medium,2025-09-07,False
+CON0257,CRE0025,Raycon,Gaming & Esports,7,0,7,False,False,False,False,30,2,0.0,Low,2025-12-07,True
+CON0258,CRE0408,Blue Apron,Gaming & Esports,7,4,3,False,False,False,False,30,2,6587.9,Critical,2025-09-10,False
+CON0259,CRE0170,Ridge Wallet,Sustainable Living,7,1,6,True,False,False,False,30,1,2207.65,Medium,2025-08-30,True
+CON0260,CRE0472,Robinhood,Business & Entrepreneurship,7,0,7,False,False,False,False,30,1,0.0,Low,2025-04-01,True
+CON0261,CRE0366,Notion,Photography & Videography,7,0,7,False,False,False,False,30,3,0.0,Low,2025-08-26,True
+CON0262,CRE0404,Raycon,Finance & Investing,7,1,6,False,False,False,False,45,Unlimited,930.71,Medium,2025-06-06,True
+CON0263,CRE0294,Robinhood,Music & Audio Production,7,2,5,True,False,False,True,45,2,1150.77,High,2025-10-09,True
+CON0264,CRE0362,HelloFresh,Photography & Videography,7,3,4,True,False,False,True,90,1,1905.63,Critical,2025-05-27,True
+CON0265,CRE0108,Manscaped,Finance & Investing,7,0,7,False,False,False,False,90,2,0.0,Low,2026-02-21,False
+CON0266,CRE0238,Robinhood,Travel & Adventure,7,4,3,True,True,False,True,90,2,4352.33,Critical,2025-07-09,True
+CON0267,CRE0106,Headspace,Home Decor & Interior Design,7,2,5,False,False,False,False,90,Unlimited,3199.63,High,2025-08-20,False
+CON0268,CRE0027,Audible,Pet Care,7,0,7,True,False,False,False,90,Unlimited,0.0,Low,2025-07-20,False
+CON0269,CRE0253,Magic Spoon,Photography & Videography,7,0,7,True,False,False,False,90,Unlimited,0.0,Low,2025-12-20,False
+CON0270,CRE0199,Public,Language Learning,7,1,6,True,False,False,False,45,3,1986.86,Medium,2025-06-30,False
+CON0271,CRE0146,Acorns,Travel & Adventure,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2025-03-30,True
+CON0272,CRE0534,Dollar Shave Club,Music & Audio Production,7,3,4,False,False,False,False,30,1,3573.22,Critical,2025-05-04,False
+CON0273,CRE0519,Blue Apron,Comedy & Entertainment,7,1,6,False,False,False,False,30,3,1145.6,Medium,2025-08-05,True
+CON0274,CRE0530,Asana,Food & Cooking,7,1,6,False,False,False,False,30,2,1821.14,Medium,2025-04-25,True
+CON0275,CRE0385,Skillshare,Comedy & Entertainment,7,4,3,False,False,False,False,90,1,4029.51,Critical,2026-02-02,False
+CON0276,CRE0076,Magic Spoon,Education & Online Courses,7,2,5,True,False,False,True,90,2,1842.92,High,2025-04-16,False
+CON0277,CRE0270,Headspace,Sustainable Living,7,1,6,False,False,False,True,30,Unlimited,1398.43,Medium,2025-10-05,False
+CON0278,CRE0136,Public,Food & Cooking,7,4,3,False,False,False,False,60,Unlimited,6306.99,Critical,2025-11-26,True
+CON0279,CRE0340,LastPass,Business & Entrepreneurship,7,4,3,True,True,False,True,90,2,4757.6,Critical,2025-11-05,True
+CON0280,CRE0014,Toptal,Beauty & Fashion,7,2,5,False,False,False,True,90,2,2824.93,High,2025-06-08,False
+CON0281,CRE0186,Dollar Shave Club,Gaming & Esports,7,0,7,True,False,False,False,60,2,0.0,Low,2025-06-05,True
+CON0282,CRE0249,MasterClass,Science & Space,7,1,6,False,False,False,False,30,1,2260.04,Medium,2026-03-05,False
+CON0283,CRE0130,Notion,Language Learning,7,4,3,False,False,False,False,90,Unlimited,9890.07,Critical,2025-10-11,False
+CON0284,CRE0335,Squarespace,Education & Online Courses,7,2,5,False,False,False,True,60,Unlimited,3269.52,High,2025-10-28,True
+CON0285,CRE0187,HelloFresh,Home Decor & Interior Design,7,2,5,True,False,False,False,90,Unlimited,732.25,High,2025-05-29,False
+CON0286,CRE0471,Athletic Greens,Comedy & Entertainment,7,4,3,False,False,False,False,30,1,8131.5,Critical,2025-05-13,True
+CON0287,CRE0313,Acorns,Education & Online Courses,7,0,7,True,False,False,False,90,2,0.0,Low,2025-08-14,True
+CON0288,CRE0268,Public,Science & Space,7,1,6,False,False,False,False,90,1,683.84,Medium,2026-02-08,True
+CON0289,CRE0058,Hover,Home Decor & Interior Design,7,2,5,False,False,False,False,30,Unlimited,1364.21,High,2025-04-13,True
+CON0290,CRE0281,Athletic Greens,Beauty & Fashion,7,2,5,True,False,False,False,30,Unlimited,4974.62,High,2025-08-30,True
+CON0291,CRE0206,NordVPN,Photography & Videography,7,4,3,False,True,False,True,30,Unlimited,1823.85,Critical,2025-11-14,True
+CON0292,CRE0357,Robinhood,Food & Cooking,7,0,7,True,False,False,False,45,2,0.0,Low,2025-07-24,True
+CON0293,CRE0432,MasterClass,Business & Entrepreneurship,7,1,6,False,False,False,False,30,Unlimited,2075.21,Medium,2025-03-21,True
+CON0294,CRE0078,Skillshare,Sustainable Living,7,0,7,False,False,False,False,60,Unlimited,0.0,Low,2025-04-12,False
+CON0295,CRE0437,HelloFresh,Parenting & Family,7,2,5,True,False,False,True,30,1,4917.17,High,2025-10-04,False
+CON0296,CRE0438,Noom,Parenting & Family,7,1,6,True,False,False,False,45,1,1929.2,Medium,2025-07-28,True
+CON0297,CRE0300,Headspace,Travel & Adventure,7,3,4,False,True,False,False,60,2,5409.0,Critical,2025-08-20,False
+CON0298,CRE0445,LastPass,Travel & Adventure,7,2,5,False,False,False,True,30,Unlimited,2266.37,High,2025-09-12,True
+CON0299,CRE0406,Athletic Greens,Science & Space,7,2,5,False,False,False,False,90,2,1469.04,High,2025-10-09,True
+CON0300,CRE0326,NordVPN,Parenting & Family,7,1,6,True,False,False,False,60,3,635.96,Medium,2025-03-26,True
+CON0301,CRE0335,Blue Apron,Finance & Investing,7,2,5,False,False,False,False,90,Unlimited,1426.68,High,2025-05-10,True
+CON0302,CRE0260,Dollar Shave Club,Comedy & Entertainment,7,2,5,False,False,False,False,90,1,1860.6,High,2025-11-21,True
+CON0303,CRE0171,Shopify,Science & Space,7,2,5,False,False,False,False,30,2,4125.75,High,2025-08-19,True
+CON0304,CRE0466,Monday.com,Travel & Adventure,7,1,6,False,False,False,False,45,Unlimited,2263.95,Medium,2025-11-04,True
+CON0305,CRE0569,Fiverr,Education & Online Courses,7,2,5,True,False,False,False,30,2,1385.49,High,2025-07-25,True
+CON0306,CRE0325,Morning Brew,Business & Entrepreneurship,7,0,7,True,False,False,False,30,Unlimited,0.0,Low,2025-12-09,True
+CON0307,CRE0445,Skillshare,Education & Online Courses,7,1,6,False,False,False,False,30,Unlimited,1859.82,Medium,2025-08-06,True
+CON0308,CRE0275,Blue Apron,Language Learning,7,2,5,False,False,False,True,90,2,4544.85,High,2025-08-20,True
+CON0309,CRE0596,ExpressVPN,Science & Space,7,1,6,False,False,False,False,90,Unlimited,2049.67,Medium,2025-11-02,True
+CON0310,CRE0401,Robinhood,Personal Development,7,4,3,False,True,False,True,30,Unlimited,1541.74,Critical,2026-02-13,True
+CON0311,CRE0428,Airtable,Education & Online Courses,7,0,7,False,False,False,False,30,2,0.0,Low,2025-10-23,False
+CON0312,CRE0460,Factor Meals,Beauty & Fashion,7,3,4,True,False,False,False,30,Unlimited,1643.2,Critical,2025-11-19,True
+CON0313,CRE0018,Codecademy,Pet Care,7,2,5,True,False,False,False,30,Unlimited,4409.16,High,2025-06-17,False
+CON0314,CRE0460,Codecademy,Pet Care,7,4,3,True,True,False,False,30,Unlimited,3082.2,Critical,2025-11-06,True
+CON0315,CRE0411,Fiverr,Technology & Software,7,4,3,True,False,False,False,45,2,8629.36,Critical,2025-09-10,False
+CON0316,CRE0499,Headspace,Personal Development,7,2,5,False,False,False,False,90,Unlimited,3159.1,High,2025-09-28,False
+CON0317,CRE0291,Grammarly,Sustainable Living,7,3,4,False,True,False,False,30,2,6131.65,Critical,2026-01-19,False
+CON0318,CRE0487,Audible,Language Learning,7,3,4,True,False,False,False,60,Unlimited,5124.64,Critical,2025-09-21,False
+CON0319,CRE0302,HelloFresh,Travel & Adventure,7,2,5,True,False,False,False,45,Unlimited,3316.5,High,2025-04-07,True
+CON0320,CRE0110,Notion,Finance & Investing,7,1,6,True,False,False,False,45,2,2211.97,Medium,2026-01-03,True
+CON0321,CRE0066,Raycon,Technology & Software,7,2,5,False,False,False,False,30,Unlimited,4175.33,High,2025-10-11,False
+CON0322,CRE0003,Shopify,Business & Entrepreneurship,7,1,6,True,False,False,False,60,3,1489.33,Medium,2025-11-10,True
+CON0323,CRE0508,Noom,Home Decor & Interior Design,7,4,3,True,False,False,True,30,1,5591.19,Critical,2025-04-18,False
+CON0324,CRE0476,Skillshare,Parenting & Family,7,1,6,False,False,False,False,60,Unlimited,658.74,Medium,2026-03-08,False
+CON0325,CRE0138,Fiverr,Comedy & Entertainment,7,1,6,False,False,False,False,60,1,1008.59,Medium,2025-04-17,False
+CON0326,CRE0236,Grammarly,Personal Development,7,1,6,True,False,False,True,90,Unlimited,1585.88,Medium,2025-12-19,True
+CON0327,CRE0073,MVMT Watches,Comedy & Entertainment,7,0,7,True,False,False,False,30,2,0.0,Low,2025-06-19,True
+CON0328,CRE0123,Shopify,Comedy & Entertainment,7,1,6,True,False,False,False,30,1,2236.29,Medium,2026-01-23,True
+CON0329,CRE0199,Brilliant,Parenting & Family,7,1,6,False,False,False,False,60,2,761.33,Medium,2025-12-15,True
+CON0330,CRE0287,NordVPN,Travel & Adventure,7,2,5,False,False,False,True,60,1,754.82,High,2025-11-18,False
+CON0331,CRE0364,Blue Apron,Gaming & Esports,7,3,4,True,False,False,True,30,3,7425.6,Critical,2025-06-22,True
+CON0332,CRE0539,Magic Spoon,Food & Cooking,7,2,5,True,False,False,False,60,2,845.03,High,2026-01-04,True
+CON0333,CRE0308,Acorns,Education & Online Courses,7,3,4,False,True,False,True,30,1,3480.01,Critical,2025-11-15,False
+CON0334,CRE0082,Magic Spoon,Music & Audio Production,7,2,5,True,False,False,True,30,2,4652.34,High,2026-01-30,False
+CON0335,CRE0546,Dollar Shave Club,Pet Care,7,1,6,True,False,False,True,30,2,789.11,Medium,2025-11-14,True
+CON0336,CRE0263,Codecademy,Parenting & Family,7,2,5,False,False,False,False,45,Unlimited,1043.34,High,2026-01-02,False
+CON0337,CRE0200,Airtable,Business & Entrepreneurship,7,1,6,False,False,False,False,30,Unlimited,1349.68,Medium,2025-05-22,True
+CON0338,CRE0058,LastPass,Parenting & Family,7,1,6,True,False,False,False,30,Unlimited,938.95,Medium,2026-02-24,False
+CON0339,CRE0463,Notion,Technology & Software,7,3,4,False,False,False,False,45,2,2271.94,Critical,2025-04-20,False
+CON0340,CRE0599,MasterClass,Finance & Investing,7,1,6,False,False,False,False,45,1,1043.41,Medium,2025-07-09,True
+CON0341,CRE0478,Acorns,Personal Development,7,4,3,True,True,False,True,30,2,7974.44,Critical,2025-06-27,False
+CON0342,CRE0295,Factor Meals,Photography & Videography,7,2,5,False,False,False,False,90,2,1904.58,High,2025-05-27,True
+CON0343,CRE0224,HelloFresh,Personal Development,7,4,3,True,False,False,False,45,1,5471.09,Critical,2025-08-22,False
+CON0344,CRE0237,ExpressVPN,Parenting & Family,7,1,6,False,False,False,False,30,2,1125.71,Medium,2025-06-30,False
+CON0345,CRE0314,Hover,Personal Development,7,2,5,False,False,False,False,30,Unlimited,4765.8,High,2025-10-11,False
+CON0346,CRE0420,Notion,Language Learning,7,2,5,False,False,False,False,60,1,2975.39,High,2025-06-11,False
+CON0347,CRE0339,Airtable,Comedy & Entertainment,7,0,7,True,False,False,False,60,Unlimited,0.0,Low,2025-08-28,False
+CON0348,CRE0124,Toptal,Travel & Adventure,7,1,6,False,False,False,False,60,Unlimited,1503.97,Medium,2025-07-03,True
+CON0349,CRE0003,Skillshare,Home Decor & Interior Design,7,2,5,True,False,False,True,30,Unlimited,3662.52,High,2025-06-07,True
+CON0350,CRE0156,NordVPN,Pet Care,7,1,6,False,False,False,False,30,2,650.89,Medium,2025-07-19,False
+CON0351,CRE0539,HelloFresh,Parenting & Family,7,0,7,False,False,False,False,45,2,0.0,Low,2026-01-01,False
+CON0352,CRE0226,Robinhood,Gaming & Esports,7,4,3,False,False,False,False,30,2,3324.19,Critical,2025-08-14,False
+CON0353,CRE0580,Monday.com,Home Decor & Interior Design,7,2,5,True,False,False,True,60,2,931.13,High,2025-08-15,False
+CON0354,CRE0385,Hover,Gaming & Esports,7,2,5,False,False,False,False,30,1,1489.83,High,2025-12-31,False
+CON0355,CRE0487,MasterClass,Gaming & Esports,7,1,6,True,False,False,True,90,Unlimited,2300.45,Medium,2025-08-29,False
+CON0356,CRE0126,Robinhood,Business & Entrepreneurship,7,2,5,True,False,False,False,90,3,3159.68,High,2025-07-10,True
+CON0357,CRE0445,HelloFresh,Personal Development,7,1,6,False,False,False,False,30,1,1163.05,Medium,2025-09-27,False
+CON0358,CRE0045,HelloFresh,Sustainable Living,7,1,6,True,False,False,False,60,1,1034.5,Medium,2025-06-04,True
+CON0359,CRE0430,Asana,Technology & Software,7,1,6,False,False,False,False,30,3,1252.58,Medium,2026-01-12,True
+CON0360,CRE0540,HelloFresh,Beauty & Fashion,7,2,5,False,False,False,True,30,2,1055.95,High,2025-10-26,True
+CON0361,CRE0513,Raycon,Home Decor & Interior Design,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2026-01-18,True
+CON0362,CRE0152,Athletic Greens,Travel & Adventure,7,0,7,True,False,False,False,45,Unlimited,0.0,Low,2025-06-11,True
+CON0363,CRE0309,Factor Meals,Gaming & Esports,7,2,5,True,False,False,True,90,2,1007.9,High,2025-10-27,False
+CON0364,CRE0436,Robinhood,Technology & Software,7,3,4,True,False,False,False,60,3,1174.02,Critical,2025-06-20,True
+CON0365,CRE0302,Skillshare,Technology & Software,7,4,3,False,False,False,True,30,3,4693.37,Critical,2026-01-07,True
+CON0366,CRE0249,Blue Apron,Music & Audio Production,7,1,6,True,False,False,False,30,2,694.31,Medium,2026-01-29,False
+CON0367,CRE0173,Toptal,Finance & Investing,7,2,5,True,False,False,True,30,Unlimited,3007.43,High,2025-12-24,True
+CON0368,CRE0588,Robinhood,Science & Space,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2025-04-10,False
+CON0369,CRE0360,Fiverr,Travel & Adventure,7,1,6,True,False,False,False,60,Unlimited,2050.98,Medium,2025-09-26,True
+CON0370,CRE0581,Morning Brew,Pet Care,7,1,6,False,False,False,False,90,Unlimited,1811.44,Medium,2026-01-29,True
+CON0371,CRE0373,Dollar Shave Club,Food & Cooking,7,3,4,True,False,False,False,30,1,2649.79,Critical,2025-08-02,True
+CON0372,CRE0534,Acorns,Photography & Videography,7,3,4,True,True,False,False,30,Unlimited,6265.38,Critical,2026-01-01,True
+CON0373,CRE0294,Blue Apron,Sustainable Living,7,1,6,False,False,False,False,90,Unlimited,1349.34,Medium,2025-09-23,False
+CON0374,CRE0010,Betterment,Personal Development,7,3,4,True,True,False,True,45,2,3968.23,Critical,2025-08-03,True
+CON0375,CRE0471,Brilliant,Food & Cooking,7,1,6,True,False,False,True,45,1,1627.72,Medium,2025-07-24,True
+CON0376,CRE0023,Wix,Personal Development,7,0,7,False,False,False,False,60,Unlimited,0.0,Low,2025-07-25,True
+CON0377,CRE0009,Magic Spoon,Home Decor & Interior Design,7,0,7,True,False,False,False,45,1,0.0,Low,2025-04-28,True
+CON0378,CRE0073,Morning Brew,Business & Entrepreneurship,7,3,4,True,True,False,False,30,1,4896.8,Critical,2025-07-13,True
+CON0379,CRE0144,Noom,Photography & Videography,7,0,7,True,False,False,False,30,1,0.0,Low,2025-04-18,False
+CON0380,CRE0083,MVMT Watches,Parenting & Family,7,1,6,False,False,False,True,90,Unlimited,683.09,Medium,2025-12-16,True
+CON0381,CRE0437,Betterment,Travel & Adventure,7,1,6,False,False,False,False,60,Unlimited,698.09,Medium,2025-11-27,True
+CON0382,CRE0503,Athletic Greens,Sustainable Living,7,3,4,False,True,False,False,30,Unlimited,7495.49,Critical,2025-09-03,False
+CON0383,CRE0074,Monday.com,Science & Space,7,1,6,False,False,False,True,30,Unlimited,1822.64,Medium,2025-07-28,False
+CON0384,CRE0576,Raycon,Business & Entrepreneurship,7,1,6,True,False,False,False,90,1,1330.44,Medium,2025-09-19,False
+CON0385,CRE0353,ExpressVPN,Personal Development,7,0,7,True,False,False,False,30,1,0.0,Low,2026-01-19,False
+CON0386,CRE0477,Betterment,Education & Online Courses,7,2,5,True,False,False,False,90,Unlimited,4509.61,High,2026-02-15,False
+CON0387,CRE0385,MVMT Watches,Language Learning,7,3,4,True,True,False,True,60,3,1649.89,Critical,2025-09-03,True
+CON0388,CRE0139,LastPass,Gaming & Esports,7,4,3,True,False,False,True,30,Unlimited,8100.49,Critical,2026-02-05,False
+CON0389,CRE0416,Acorns,Travel & Adventure,7,1,6,False,False,False,False,45,3,2240.85,Medium,2025-04-13,True
+CON0390,CRE0425,ExpressVPN,Pet Care,7,4,3,False,True,False,False,30,3,2901.85,Critical,2025-09-29,True
+CON0391,CRE0122,Athletic Greens,Science & Space,7,2,5,False,False,False,False,45,3,4045.99,High,2025-07-29,False
+CON0392,CRE0332,Wix,Parenting & Family,7,2,5,False,False,False,True,30,Unlimited,4513.4,High,2025-05-02,True
+CON0393,CRE0395,Factor Meals,Gaming & Esports,7,1,6,True,False,False,False,45,2,969.98,Medium,2025-04-03,False
+CON0394,CRE0190,Headspace,Personal Development,7,0,7,True,False,False,False,45,Unlimited,0.0,Low,2026-01-28,False
+CON0395,CRE0318,Headspace,Photography & Videography,7,2,5,True,False,False,True,90,2,2277.06,High,2025-06-18,True
+CON0396,CRE0239,Athletic Greens,Pet Care,7,1,6,False,False,False,True,45,2,402.04,Medium,2025-07-21,True
+CON0397,CRE0259,Morning Brew,Business & Entrepreneurship,7,1,6,False,False,False,True,30,1,1226.0,Medium,2025-09-13,False
+CON0398,CRE0390,MasterClass,Business & Entrepreneurship,7,1,6,True,False,False,False,90,1,2314.2,Medium,2025-04-24,True
+CON0399,CRE0038,Asana,Food & Cooking,7,0,7,False,False,False,False,90,2,0.0,Low,2025-07-14,True
+CON0400,CRE0447,Magic Spoon,Education & Online Courses,7,1,6,False,False,False,False,90,Unlimited,807.06,Medium,2025-04-28,True
+CON0401,CRE0271,Magic Spoon,Language Learning,7,1,6,False,False,False,False,30,3,594.42,Medium,2025-07-09,False
+CON0402,CRE0313,Calm,Music & Audio Production,7,2,5,True,False,False,False,30,3,795.77,High,2026-01-22,True
+CON0403,CRE0424,MVMT Watches,Education & Online Courses,7,1,6,False,False,False,False,90,3,1024.37,Medium,2025-09-07,True
+CON0404,CRE0533,Dollar Shave Club,Gaming & Esports,7,1,6,False,False,False,False,90,Unlimited,1319.19,Medium,2025-04-07,False
+CON0405,CRE0344,Raycon,Finance & Investing,7,1,6,True,False,False,False,45,2,626.33,Medium,2025-03-23,True
+CON0406,CRE0170,Robinhood,Home Decor & Interior Design,7,0,7,True,False,False,False,30,3,0.0,Low,2025-12-16,True
+CON0407,CRE0118,Manscaped,Food & Cooking,7,1,6,True,False,False,False,45,2,410.58,Medium,2026-02-23,True
+CON0408,CRE0172,Magic Spoon,Beauty & Fashion,7,0,7,False,False,False,False,45,2,0.0,Low,2025-04-27,True
+CON0409,CRE0163,ExpressVPN,Business & Entrepreneurship,7,0,7,False,False,False,False,90,1,0.0,Low,2025-12-18,True
+CON0410,CRE0473,Asana,Finance & Investing,7,0,7,True,False,False,False,90,1,0.0,Low,2025-03-28,True
+CON0411,CRE0245,Wix,Pet Care,7,4,3,False,True,False,False,30,Unlimited,7015.46,Critical,2026-01-12,True
+CON0412,CRE0562,Codecademy,Science & Space,7,2,5,True,False,False,True,90,3,2354.06,High,2025-10-13,True
+CON0413,CRE0300,Toptal,Personal Development,7,0,7,False,False,False,False,60,Unlimited,0.0,Low,2025-08-13,False
+CON0414,CRE0097,NordVPN,Education & Online Courses,7,1,6,True,False,False,False,30,3,2450.6,Medium,2025-06-14,False
+CON0415,CRE0385,Athletic Greens,Pet Care,7,2,5,False,False,False,True,45,2,4780.93,High,2025-09-22,False
+CON0416,CRE0138,Blue Apron,Home Decor & Interior Design,7,4,3,False,False,False,True,90,1,3443.16,Critical,2025-11-18,False
+CON0417,CRE0422,Airtable,Technology & Software,7,1,6,False,False,False,False,30,1,324.9,Medium,2025-07-07,False
+CON0418,CRE0499,Robinhood,Food & Cooking,7,0,7,True,False,False,False,30,3,0.0,Low,2025-06-17,False
+CON0419,CRE0090,Audible,Comedy & Entertainment,7,2,5,False,False,False,False,30,2,4045.56,High,2025-12-07,True
+CON0420,CRE0538,Canva,Music & Audio Production,7,1,6,False,False,False,False,60,1,871.07,Medium,2025-07-22,True
+CON0421,CRE0144,Athletic Greens,Food & Cooking,7,2,5,False,False,False,True,90,Unlimited,2809.82,High,2025-11-02,False
+CON0422,CRE0155,Audible,Music & Audio Production,7,3,4,False,True,False,False,90,2,5591.17,Critical,2025-08-27,False
+CON0423,CRE0355,Calm,Travel & Adventure,7,2,5,False,False,False,False,30,2,4808.2,High,2025-07-03,False
+CON0424,CRE0067,Public,Photography & Videography,7,2,5,False,False,False,True,90,3,3107.52,High,2026-02-03,True
+CON0425,CRE0524,Grammarly,Technology & Software,7,1,6,False,False,False,False,45,Unlimited,811.45,Medium,2025-04-15,True
+CON0426,CRE0267,Magic Spoon,Beauty & Fashion,7,2,5,True,False,False,True,30,2,3628.1,High,2025-10-31,False
+CON0427,CRE0164,Calm,Photography & Videography,7,1,6,False,False,False,False,45,2,1206.58,Medium,2025-05-02,False
+CON0428,CRE0082,Factor Meals,Food & Cooking,7,2,5,True,False,False,False,30,2,4329.9,High,2025-08-29,False
+CON0429,CRE0480,Blue Apron,Personal Development,7,3,4,True,False,False,False,30,2,5315.06,Critical,2025-08-29,True
+CON0430,CRE0458,Toptal,Food & Cooking,7,1,6,False,False,False,False,90,1,1566.33,Medium,2025-12-22,True
+CON0431,CRE0267,Headspace,Parenting & Family,7,4,3,True,False,False,True,90,Unlimited,9771.28,Critical,2025-08-05,False
+CON0432,CRE0310,Codecademy,Parenting & Family,7,3,4,False,True,False,True,90,Unlimited,1908.48,Critical,2025-08-08,True
+CON0433,CRE0009,Factor Meals,Finance & Investing,7,2,5,False,False,False,True,30,1,1551.77,High,2026-03-18,False
+CON0434,CRE0597,Manscaped,Science & Space,7,3,4,False,True,False,False,30,3,6283.27,Critical,2025-05-30,False
+CON0435,CRE0057,Squarespace,Home Decor & Interior Design,7,3,4,True,False,False,False,45,2,1982.1,Critical,2025-03-30,True
+CON0436,CRE0566,Grammarly,Beauty & Fashion,7,2,5,False,False,False,True,30,Unlimited,2055.51,High,2025-10-21,True
+CON0437,CRE0498,Betterment,Travel & Adventure,7,4,3,False,False,False,True,30,2,3259.79,Critical,2025-06-26,False
+CON0438,CRE0107,Brilliant,Beauty & Fashion,7,2,5,False,False,False,False,90,1,2728.83,High,2025-12-02,False
+CON0439,CRE0584,Public,Parenting & Family,7,2,5,False,False,False,False,45,1,3357.31,High,2026-01-14,True
+CON0440,CRE0055,Calm,Technology & Software,7,4,3,False,False,False,False,90,2,3796.26,Critical,2025-09-28,True
+CON0441,CRE0544,Airtable,Pet Care,7,4,3,True,True,False,True,90,2,7388.7,Critical,2026-02-26,False
+CON0442,CRE0576,Noom,Photography & Videography,7,4,3,False,True,False,True,30,2,9954.63,Critical,2025-09-21,False
+CON0443,CRE0370,Skillshare,Personal Development,7,0,7,True,False,False,False,90,Unlimited,0.0,Low,2025-09-24,True
+CON0444,CRE0167,HelloFresh,Business & Entrepreneurship,7,2,5,True,False,False,False,60,3,3360.19,High,2026-02-23,False
+CON0445,CRE0177,Monday.com,Photography & Videography,7,1,6,True,False,False,False,30,3,588.86,Medium,2025-11-01,True
+CON0446,CRE0403,Hover,Personal Development,7,1,6,False,False,False,False,30,2,410.84,Medium,2026-02-24,True
+CON0447,CRE0212,MasterClass,Music & Audio Production,7,1,6,False,False,False,False,30,Unlimited,1768.28,Medium,2025-08-30,True
+CON0448,CRE0507,Athletic Greens,Music & Audio Production,7,1,6,False,False,False,False,90,Unlimited,558.56,Medium,2025-07-29,True
+CON0449,CRE0247,Notion,Comedy & Entertainment,7,4,3,True,False,False,True,90,2,9718.86,Critical,2026-02-02,True
+CON0450,CRE0023,Morning Brew,Pet Care,7,1,6,True,False,False,False,45,3,949.18,Medium,2025-08-11,True
+CON0451,CRE0038,Fiverr,Pet Care,7,4,3,True,False,False,True,90,Unlimited,9140.85,Critical,2025-11-10,False
+CON0452,CRE0008,Brilliant,Business & Entrepreneurship,7,3,4,True,True,False,False,30,2,3225.65,Critical,2026-01-21,True
+CON0453,CRE0566,Codecademy,Food & Cooking,7,3,4,True,False,False,False,45,Unlimited,7490.09,Critical,2025-05-01,False
+CON0454,CRE0284,Calm,Home Decor & Interior Design,7,0,7,True,False,False,False,90,Unlimited,0.0,Low,2025-04-25,False
+CON0455,CRE0362,Raycon,Personal Development,7,2,5,True,False,False,False,30,Unlimited,1096.25,High,2025-03-28,False
+CON0456,CRE0540,Codecademy,Business & Entrepreneurship,7,3,4,True,False,False,True,90,3,4746.41,Critical,2025-04-19,False
+CON0457,CRE0089,Headspace,Personal Development,7,1,6,True,False,False,False,30,2,898.05,Medium,2025-05-07,False
+CON0458,CRE0239,Squarespace,Home Decor & Interior Design,7,4,3,False,False,False,False,90,2,9775.7,Critical,2025-12-10,True
+CON0459,CRE0421,Magic Spoon,Pet Care,7,2,5,True,False,False,True,30,Unlimited,4504.93,High,2025-04-18,True
+CON0460,CRE0423,Notion,Language Learning,7,2,5,True,False,False,False,90,2,1246.88,High,2025-12-12,False
+CON0461,CRE0058,Hover,Business & Entrepreneurship,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2026-01-08,False
+CON0462,CRE0388,Monday.com,Pet Care,7,1,6,True,False,False,False,60,2,1726.94,Medium,2025-07-11,False
+CON0463,CRE0014,Airtable,Technology & Software,7,1,6,True,False,False,False,30,Unlimited,2301.26,Medium,2025-10-25,False
+CON0464,CRE0513,ExpressVPN,Sustainable Living,7,4,3,False,False,False,True,90,1,5745.09,Critical,2026-02-04,False
+CON0465,CRE0008,Calm,Sustainable Living,7,0,7,False,False,False,False,30,2,0.0,Low,2025-12-18,False
+CON0466,CRE0087,Dollar Shave Club,Food & Cooking,7,2,5,True,False,False,True,90,Unlimited,3308.79,High,2025-12-28,True
+CON0467,CRE0417,Canva,Sustainable Living,7,1,6,False,False,False,False,30,3,1321.42,Medium,2025-07-04,False
+CON0468,CRE0202,Hubspot,Music & Audio Production,7,2,5,True,False,False,False,30,3,1946.86,High,2026-01-31,False
+CON0469,CRE0176,Grammarly,Pet Care,7,1,6,False,False,False,False,45,Unlimited,1749.12,Medium,2025-10-12,True
+CON0470,CRE0188,NordVPN,Pet Care,7,2,5,True,False,False,False,45,1,686.6,High,2025-05-30,False
+CON0471,CRE0579,Toptal,Beauty & Fashion,7,3,4,False,True,False,False,45,2,5124.68,Critical,2026-02-25,True
+CON0472,CRE0161,Raycon,Music & Audio Production,7,0,7,False,False,False,False,90,3,0.0,Low,2026-02-15,False
+CON0473,CRE0449,Wix,Education & Online Courses,7,2,5,False,False,False,True,30,Unlimited,4555.48,High,2025-11-16,False
+CON0474,CRE0589,Monday.com,Home Decor & Interior Design,7,0,7,True,False,False,False,90,2,0.0,Low,2025-03-25,True
+CON0475,CRE0205,Grammarly,Science & Space,7,3,4,False,True,False,False,90,1,6765.34,Critical,2026-01-20,True
+CON0476,CRE0342,Fiverr,Comedy & Entertainment,7,2,5,False,False,False,False,30,Unlimited,3606.16,High,2025-12-13,False
+CON0477,CRE0234,Dollar Shave Club,Gaming & Esports,7,3,4,True,False,False,True,90,3,2825.62,Critical,2025-08-17,False
+CON0478,CRE0016,Skillshare,Sustainable Living,7,0,7,True,False,False,False,45,2,0.0,Low,2025-08-05,False
+CON0479,CRE0188,MVMT Watches,Pet Care,7,2,5,True,False,False,False,30,1,2274.26,High,2025-09-22,True
+CON0480,CRE0079,Calm,Food & Cooking,7,2,5,True,False,False,False,30,2,3308.04,High,2026-01-28,True
+CON0481,CRE0230,Shopify,Sustainable Living,7,2,5,True,False,False,True,30,2,1113.28,High,2025-10-07,True
+CON0482,CRE0187,Raycon,Food & Cooking,7,2,5,False,False,False,False,90,2,2644.21,High,2025-08-02,False
+CON0483,CRE0090,Magic Spoon,Travel & Adventure,7,1,6,True,False,False,False,30,3,2239.6,Medium,2025-10-27,False
+CON0484,CRE0094,Public,Education & Online Courses,7,1,6,False,False,False,True,90,Unlimited,932.45,Medium,2025-04-07,False
+CON0485,CRE0378,NordVPN,Home Decor & Interior Design,7,4,3,False,False,False,True,60,Unlimited,6758.4,Critical,2025-10-09,False
+CON0486,CRE0111,Hubspot,Food & Cooking,7,2,5,True,False,False,False,60,3,2326.89,High,2025-10-06,False
+CON0487,CRE0552,Robinhood,Travel & Adventure,7,1,6,True,False,False,False,30,Unlimited,622.28,Medium,2025-12-15,True
+CON0488,CRE0114,Noom,Comedy & Entertainment,7,0,7,True,False,False,False,90,Unlimited,0.0,Low,2025-07-01,True
+CON0489,CRE0503,NordVPN,Travel & Adventure,7,3,4,True,False,False,False,90,2,5145.97,Critical,2025-03-28,False
+CON0490,CRE0030,Morning Brew,Music & Audio Production,7,1,6,True,False,False,False,45,Unlimited,884.47,Medium,2025-11-21,True
+CON0491,CRE0180,Robinhood,Business & Entrepreneurship,7,1,6,True,False,False,False,45,1,2224.6,Medium,2025-04-18,False
+CON0492,CRE0341,Noom,Personal Development,7,2,5,True,False,False,False,30,1,1048.34,High,2025-06-01,False
+CON0493,CRE0240,Audible,Travel & Adventure,7,1,6,True,False,False,False,60,3,2446.71,Medium,2025-10-20,True
+CON0494,CRE0405,LastPass,Travel & Adventure,7,4,3,False,True,False,True,30,2,5322.58,Critical,2025-11-01,True
+CON0495,CRE0337,Manscaped,Sustainable Living,7,1,6,False,False,False,False,30,Unlimited,2057.88,Medium,2025-06-29,False
+CON0496,CRE0071,Skillshare,Home Decor & Interior Design,7,1,6,False,False,False,False,45,2,704.98,Medium,2025-08-23,False
+CON0497,CRE0069,Wix,Technology & Software,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2026-01-09,False
+CON0498,CRE0447,Raycon,Sustainable Living,7,2,5,False,False,False,True,30,Unlimited,1161.7,High,2026-02-08,False
+CON0499,CRE0144,Factor Meals,Pet Care,7,1,6,False,False,False,True,90,Unlimited,1804.24,Medium,2025-04-19,False
+CON0500,CRE0518,MVMT Watches,Music & Audio Production,7,1,6,False,False,False,False,30,3,1105.87,Medium,2025-07-03,True
+CON0501,CRE0140,Toptal,Home Decor & Interior Design,7,3,4,True,False,False,False,30,Unlimited,4730.37,Critical,2025-09-15,True
+CON0502,CRE0150,Grammarly,Language Learning,7,3,4,True,False,False,False,30,2,6790.4,Critical,2025-04-08,True
+CON0503,CRE0033,Headspace,Personal Development,7,2,5,False,False,False,False,60,1,882.23,High,2025-09-22,True
+CON0504,CRE0449,NordVPN,Food & Cooking,7,3,4,True,True,False,True,30,2,1218.25,Critical,2025-10-17,False
+CON0505,CRE0209,Wix,Music & Audio Production,7,2,5,True,False,False,False,30,Unlimited,1868.12,High,2025-10-04,False
+CON0506,CRE0268,Magic Spoon,Personal Development,7,1,6,False,False,False,True,45,2,618.83,Medium,2025-08-21,True
+CON0507,CRE0133,Toptal,Food & Cooking,7,2,5,False,False,False,False,30,2,3485.76,High,2025-05-29,True
+CON0508,CRE0417,HelloFresh,Science & Space,7,4,3,False,True,False,False,60,1,2365.07,Critical,2025-11-17,True
+CON0509,CRE0530,Skillshare,Music & Audio Production,7,3,4,True,False,False,True,30,1,2683.44,Critical,2025-08-09,True
+CON0510,CRE0027,Manscaped,Beauty & Fashion,7,0,7,False,False,False,False,45,3,0.0,Low,2025-07-15,True
+CON0511,CRE0030,Raycon,Music & Audio Production,7,3,4,True,True,False,True,60,2,6318.7,Critical,2025-12-27,False
+CON0512,CRE0470,Audible,Parenting & Family,7,4,3,True,False,False,False,30,Unlimited,2042.76,Critical,2025-06-29,False
+CON0513,CRE0007,Magic Spoon,Home Decor & Interior Design,7,4,3,False,False,False,True,90,Unlimited,9513.17,Critical,2025-11-28,False
+CON0514,CRE0056,ExpressVPN,Sustainable Living,7,0,7,False,False,False,False,90,Unlimited,0.0,Low,2025-09-22,True
+CON0515,CRE0545,Wix,Finance & Investing,7,2,5,False,False,False,True,30,Unlimited,929.01,High,2025-04-19,True
+CON0516,CRE0426,Magic Spoon,Personal Development,7,2,5,True,False,False,False,45,3,4659.4,High,2026-01-30,False
+CON0517,CRE0398,Dollar Shave Club,Home Decor & Interior Design,7,3,4,False,False,False,False,30,2,4642.87,Critical,2025-07-19,False
+CON0518,CRE0130,Audible,Comedy & Entertainment,7,2,5,False,False,False,False,45,Unlimited,3287.06,High,2026-03-14,False
+CON0519,CRE0445,Hover,Travel & Adventure,7,0,7,False,False,False,False,90,2,0.0,Low,2026-02-24,False
+CON0520,CRE0364,Dollar Shave Club,Gaming & Esports,7,2,5,True,False,False,False,30,Unlimited,2197.42,High,2026-01-06,True
+CON0521,CRE0270,Canva,Technology & Software,7,3,4,True,False,False,False,30,2,5069.11,Critical,2026-01-15,True
+CON0522,CRE0339,MVMT Watches,Comedy & Entertainment,7,4,3,True,True,False,True,30,Unlimited,3601.05,Critical,2025-09-02,False
+CON0523,CRE0159,Blue Apron,Sustainable Living,7,2,5,False,False,False,False,30,1,3921.57,High,2026-01-20,False
+CON0524,CRE0541,Canva,Home Decor & Interior Design,7,1,6,True,False,False,True,45,2,680.69,Medium,2025-04-26,True
+CON0525,CRE0037,Airtable,Finance & Investing,7,4,3,True,False,False,True,30,Unlimited,4894.85,Critical,2025-09-02,True
+CON0526,CRE0010,MasterClass,Photography & Videography,7,0,7,False,False,False,False,90,1,0.0,Low,2025-11-19,True
+CON0527,CRE0466,Codecademy,Technology & Software,7,4,3,False,True,False,True,90,2,9015.77,Critical,2025-04-12,True
+CON0528,CRE0118,Airtable,Music & Audio Production,7,1,6,True,False,False,True,30,2,2035.63,Medium,2025-04-13,False
+CON0529,CRE0251,Brilliant,Sustainable Living,7,1,6,False,False,False,True,45,1,2153.89,Medium,2025-11-01,False
+CON0530,CRE0267,MasterClass,Food & Cooking,7,3,4,False,False,False,True,90,1,5731.39,Critical,2025-09-20,True
+CON0531,CRE0125,Shopify,Comedy & Entertainment,7,2,5,False,False,False,False,30,1,4989.43,High,2025-12-03,True
+CON0532,CRE0065,LastPass,Education & Online Courses,7,2,5,True,False,False,False,30,Unlimited,2990.69,High,2025-12-08,False
+CON0533,CRE0071,Monday.com,Technology & Software,7,0,7,True,False,False,False,30,3,0.0,Low,2025-12-16,False
+CON0534,CRE0153,MasterClass,Finance & Investing,7,3,4,True,False,False,False,90,2,1792.56,Critical,2025-09-25,False
+CON0535,CRE0098,LastPass,Language Learning,7,3,4,True,False,False,False,45,2,1297.12,Critical,2025-12-04,True
+CON0536,CRE0365,Acorns,Sustainable Living,7,3,4,True,False,False,False,90,1,3561.16,Critical,2026-02-05,True
+CON0537,CRE0396,Athletic Greens,Parenting & Family,7,1,6,False,False,False,True,60,3,316.76,Medium,2026-02-03,True
+CON0538,CRE0442,Shopify,Food & Cooking,7,1,6,True,False,False,True,90,Unlimited,855.37,Medium,2025-04-03,False
+CON0539,CRE0470,Audible,Gaming & Esports,7,1,6,True,False,False,False,60,Unlimited,1294.34,Medium,2025-10-29,True
+CON0540,CRE0128,Athletic Greens,Technology & Software,7,2,5,True,False,False,False,30,Unlimited,4240.16,High,2025-09-14,False
+CON0541,CRE0351,Squarespace,Sustainable Living,7,3,4,True,True,False,False,30,Unlimited,1719.02,Critical,2026-03-14,True
+CON0542,CRE0006,Ridge Wallet,Science & Space,7,2,5,False,False,False,False,60,Unlimited,3438.71,High,2025-03-29,False
+CON0543,CRE0493,Calm,Photography & Videography,7,2,5,False,False,False,False,90,1,4561.32,High,2025-10-29,True
+CON0544,CRE0297,Notion,Language Learning,7,2,5,True,False,False,False,90,1,2466.12,High,2025-04-22,True
+CON0545,CRE0432,Brilliant,Finance & Investing,7,4,3,True,True,False,True,90,Unlimited,5311.47,Critical,2025-08-01,False
+CON0546,CRE0312,MasterClass,Pet Care,7,1,6,True,False,False,True,90,1,1105.7,Medium,2026-02-23,True
+CON0547,CRE0384,Notion,Finance & Investing,7,3,4,False,False,False,False,60,Unlimited,933.32,Critical,2025-04-01,False
+CON0548,CRE0160,Robinhood,Education & Online Courses,7,0,7,True,False,False,False,30,1,0.0,Low,2025-09-22,True
+CON0549,CRE0481,Canva,Travel & Adventure,7,1,6,False,False,False,False,90,Unlimited,316.36,Medium,2025-06-29,True
+CON0550,CRE0233,Hubspot,Gaming & Esports,7,1,6,False,False,False,False,45,1,894.73,Medium,2025-04-28,False
+CON0551,CRE0189,Public,Music & Audio Production,7,3,4,True,True,False,True,45,1,2022.86,Critical,2025-05-09,False
+CON0552,CRE0383,Wix,Sustainable Living,7,4,3,False,False,False,True,30,3,3391.24,Critical,2026-02-28,False
+CON0553,CRE0106,Factor Meals,Comedy & Entertainment,7,2,5,True,False,False,False,45,Unlimited,3409.72,High,2026-01-04,False
+CON0554,CRE0080,Morning Brew,Comedy & Entertainment,7,3,4,True,False,False,False,60,2,4584.99,Critical,2025-07-02,True
+CON0555,CRE0580,HelloFresh,Home Decor & Interior Design,7,1,6,False,False,False,False,45,1,563.35,Medium,2025-08-03,True
+CON0556,CRE0566,Squarespace,Home Decor & Interior Design,7,1,6,False,False,False,False,60,2,1190.71,Medium,2025-10-15,True
+CON0557,CRE0502,Athletic Greens,Education & Online Courses,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2025-06-30,False
+CON0558,CRE0575,Morning Brew,Technology & Software,7,1,6,False,False,False,False,90,1,2221.3,Medium,2025-09-19,True
+CON0559,CRE0086,Noom,Photography & Videography,7,2,5,True,False,False,True,30,2,4120.3,High,2025-12-22,True
+CON0560,CRE0298,Fiverr,Finance & Investing,7,0,7,True,False,False,False,90,Unlimited,0.0,Low,2025-05-26,False
+CON0561,CRE0403,Grammarly,Food & Cooking,7,1,6,False,False,False,False,90,Unlimited,386.17,Medium,2026-02-19,True
+CON0562,CRE0198,Factor Meals,Finance & Investing,7,1,6,True,False,False,False,45,1,2055.2,Medium,2026-02-11,True
+CON0563,CRE0066,Notion,Parenting & Family,7,3,4,True,False,False,False,30,Unlimited,6438.76,Critical,2026-02-18,True
+CON0564,CRE0161,Morning Brew,Gaming & Esports,7,3,4,True,True,False,False,90,Unlimited,6271.44,Critical,2025-08-15,True
+CON0565,CRE0149,MVMT Watches,Food & Cooking,7,0,7,False,False,False,False,30,3,0.0,Low,2025-06-12,False
+CON0566,CRE0017,Hubspot,Travel & Adventure,7,1,6,True,False,False,False,45,Unlimited,2424.63,Medium,2026-03-14,True
+CON0567,CRE0219,Airtable,Language Learning,7,0,7,False,False,False,False,30,2,0.0,Low,2025-03-25,False
+CON0568,CRE0007,HelloFresh,Comedy & Entertainment,7,0,7,True,False,False,False,30,1,0.0,Low,2025-10-24,True
+CON0569,CRE0067,Calm,Travel & Adventure,7,1,6,True,False,False,False,30,2,1725.94,Medium,2025-04-17,False
+CON0570,CRE0397,Dollar Shave Club,Technology & Software,7,3,4,False,True,False,False,30,1,1866.35,Critical,2025-09-28,False
+CON0571,CRE0202,Morning Brew,Comedy & Entertainment,7,1,6,True,False,False,False,60,3,404.77,Medium,2026-03-15,True
+CON0572,CRE0335,Notion,Home Decor & Interior Design,7,1,6,True,False,False,True,90,2,522.28,Medium,2025-06-08,False
+CON0573,CRE0420,Betterment,Travel & Adventure,7,2,5,True,False,False,False,60,2,4854.85,High,2025-09-27,False
+CON0574,CRE0421,Betterment,Parenting & Family,7,2,5,False,False,False,False,60,Unlimited,4232.78,High,2026-01-09,False
+CON0575,CRE0177,Wix,Gaming & Esports,7,4,3,False,True,False,True,90,1,7778.43,Critical,2025-09-03,False
+CON0576,CRE0413,Betterment,Finance & Investing,7,2,5,False,False,False,False,60,2,1631.04,High,2025-07-12,True
+CON0577,CRE0327,Calm,Science & Space,7,1,6,True,False,False,False,30,2,1362.77,Medium,2025-11-22,True
+CON0578,CRE0270,Squarespace,Travel & Adventure,7,4,3,True,False,False,True,60,2,6194.66,Critical,2025-04-01,False
+CON0579,CRE0177,Public,Education & Online Courses,7,0,7,True,False,False,False,45,3,0.0,Low,2025-12-26,False
+CON0580,CRE0582,Calm,Photography & Videography,7,4,3,True,True,False,True,30,Unlimited,6004.25,Critical,2025-06-16,True
+CON0581,CRE0280,LastPass,Travel & Adventure,7,0,7,False,False,False,False,60,Unlimited,0.0,Low,2025-07-19,True
+CON0582,CRE0207,Audible,Business & Entrepreneurship,7,2,5,False,False,False,False,60,3,2573.7,High,2025-12-23,True
+CON0583,CRE0304,Asana,Gaming & Esports,7,4,3,True,True,False,False,90,Unlimited,9337.14,Critical,2025-08-13,True
+CON0584,CRE0010,Brilliant,Food & Cooking,7,2,5,True,False,False,False,30,Unlimited,4165.41,High,2025-12-07,False
+CON0585,CRE0539,Hover,Music & Audio Production,7,2,5,False,False,False,False,60,Unlimited,2774.93,High,2025-09-21,False
+CON0586,CRE0072,Dollar Shave Club,Photography & Videography,7,2,5,True,False,False,True,45,1,1423.21,High,2025-10-11,True
+CON0587,CRE0550,MasterClass,Beauty & Fashion,7,1,6,True,False,False,False,60,2,947.88,Medium,2025-04-20,True
+CON0588,CRE0341,Headspace,Pet Care,7,2,5,True,False,False,False,90,3,3268.88,High,2025-12-03,False
+CON0589,CRE0269,Asana,Home Decor & Interior Design,7,0,7,True,False,False,False,60,2,0.0,Low,2025-11-18,True
+CON0590,CRE0189,Asana,Travel & Adventure,7,0,7,True,False,False,False,90,2,0.0,Low,2025-08-15,True
+CON0591,CRE0507,Monday.com,Gaming & Esports,7,0,7,True,False,False,False,45,Unlimited,0.0,Low,2025-05-23,True
+CON0592,CRE0515,Blue Apron,Parenting & Family,7,1,6,True,False,False,True,45,2,1605.97,Medium,2025-08-25,False
+CON0593,CRE0258,MasterClass,Travel & Adventure,7,2,5,True,False,False,False,30,2,1812.78,High,2025-09-10,False
+CON0594,CRE0109,MVMT Watches,Travel & Adventure,7,1,6,True,False,False,False,90,3,636.76,Medium,2025-05-21,False
+CON0595,CRE0276,HelloFresh,Beauty & Fashion,7,0,7,False,False,False,False,60,2,0.0,Low,2025-04-28,True
+CON0596,CRE0253,Raycon,Pet Care,7,1,6,True,False,False,False,60,3,1306.1,Medium,2026-01-25,True
+CON0597,CRE0122,Audible,Comedy & Entertainment,7,1,6,True,False,False,True,30,2,1392.26,Medium,2026-01-27,True
+CON0598,CRE0522,NordVPN,Personal Development,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2026-01-08,True
+CON0599,CRE0228,Hover,Music & Audio Production,7,1,6,True,False,False,False,60,1,1045.45,Medium,2025-11-08,True
+CON0600,CRE0214,Toptal,Music & Audio Production,7,2,5,True,False,False,False,45,1,1708.67,High,2025-08-15,False
+CON0601,CRE0443,Public,Photography & Videography,7,2,5,False,False,False,False,60,Unlimited,789.42,High,2025-04-20,True
+CON0602,CRE0429,Noom,Technology & Software,7,2,5,False,False,False,False,30,1,626.83,High,2025-05-21,False
+CON0603,CRE0559,Notion,Photography & Videography,7,4,3,True,True,False,False,30,1,7908.59,Critical,2025-11-08,False
+CON0604,CRE0483,Blue Apron,Parenting & Family,7,1,6,False,False,False,False,30,Unlimited,1426.28,Medium,2025-10-17,False
+CON0605,CRE0318,Shopify,Photography & Videography,7,0,7,False,False,False,False,60,3,0.0,Low,2025-03-24,False
+CON0606,CRE0316,Audible,Science & Space,7,1,6,False,False,False,False,45,Unlimited,1110.45,Medium,2025-11-11,False
+CON0607,CRE0548,HelloFresh,Pet Care,7,0,7,False,False,False,False,60,2,0.0,Low,2025-12-29,True
+CON0608,CRE0275,Toptal,Personal Development,7,0,7,True,False,False,False,90,2,0.0,Low,2025-09-23,False
+CON0609,CRE0533,Public,Technology & Software,7,3,4,False,True,False,False,30,2,2664.72,Critical,2026-03-12,True
+CON0610,CRE0458,Notion,Technology & Software,7,1,6,True,False,False,False,90,2,1133.36,Medium,2025-05-19,False
+CON0611,CRE0267,Ridge Wallet,Finance & Investing,7,2,5,True,False,False,True,30,2,2506.43,High,2025-08-03,False
+CON0612,CRE0343,Blue Apron,Comedy & Entertainment,7,2,5,True,False,False,False,30,2,2725.21,High,2025-11-09,False
+CON0613,CRE0027,Asana,Comedy & Entertainment,7,1,6,False,False,False,True,30,2,321.12,Medium,2026-03-03,False
+CON0614,CRE0590,Athletic Greens,Personal Development,7,1,6,True,False,False,False,30,Unlimited,2302.9,Medium,2025-05-26,False
+CON0615,CRE0555,Calm,Business & Entrepreneurship,7,2,5,True,False,False,False,45,Unlimited,1184.58,High,2025-10-08,False
+CON0616,CRE0105,Hover,Beauty & Fashion,7,2,5,True,False,False,True,45,Unlimited,4233.25,High,2026-01-15,True
+CON0617,CRE0088,MasterClass,Education & Online Courses,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2025-11-01,False
+CON0618,CRE0249,Canva,Business & Entrepreneurship,7,2,5,True,False,False,False,30,3,877.75,High,2026-02-01,True
+CON0619,CRE0529,Canva,Business & Entrepreneurship,7,3,4,False,False,False,False,45,Unlimited,1042.39,Critical,2026-02-20,True
+CON0620,CRE0385,Athletic Greens,Comedy & Entertainment,7,3,4,False,False,False,False,30,Unlimited,6395.98,Critical,2026-01-14,False
+CON0621,CRE0205,NordVPN,Photography & Videography,7,4,3,True,False,False,False,30,Unlimited,2345.95,Critical,2025-07-03,True
+CON0622,CRE0568,Calm,Photography & Videography,7,1,6,True,False,False,False,30,2,1264.88,Medium,2025-12-31,True
+CON0623,CRE0201,NordVPN,Language Learning,7,1,6,False,False,False,False,90,Unlimited,859.56,Medium,2026-01-21,True
+CON0624,CRE0072,Asana,Finance & Investing,7,3,4,False,True,False,False,30,2,4814.18,Critical,2025-10-22,False
+CON0625,CRE0350,Manscaped,Beauty & Fashion,7,2,5,True,False,False,False,60,2,3157.51,High,2025-05-06,False
+CON0626,CRE0292,Public,Parenting & Family,7,2,5,True,False,False,False,90,Unlimited,2832.0,High,2025-12-24,False
+CON0627,CRE0586,Shopify,Gaming & Esports,7,3,4,False,False,False,False,30,1,3429.89,Critical,2025-07-23,False
+CON0628,CRE0275,Calm,Education & Online Courses,7,1,6,False,False,False,False,90,3,1955.43,Medium,2026-02-14,False
+CON0629,CRE0207,Toptal,Home Decor & Interior Design,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2025-06-08,True
+CON0630,CRE0317,Manscaped,Beauty & Fashion,7,1,6,True,False,False,True,90,2,324.8,Medium,2025-12-16,True
+CON0631,CRE0482,Audible,Beauty & Fashion,7,3,4,False,False,False,False,45,Unlimited,4308.91,Critical,2025-04-12,False
+CON0632,CRE0210,MVMT Watches,Personal Development,7,2,5,False,False,False,True,90,Unlimited,2855.75,High,2025-12-29,True
+CON0633,CRE0433,Shopify,Finance & Investing,7,0,7,True,False,False,False,30,3,0.0,Low,2025-09-03,False
+CON0634,CRE0391,Brilliant,Comedy & Entertainment,7,2,5,True,False,False,False,30,2,2063.37,High,2025-12-22,False
+CON0635,CRE0459,Factor Meals,Travel & Adventure,7,1,6,True,False,False,False,30,3,2365.24,Medium,2025-09-20,True
+CON0636,CRE0029,Skillshare,Sustainable Living,7,2,5,True,False,False,False,30,3,4155.54,High,2026-02-01,False
+CON0637,CRE0465,Asana,Parenting & Family,7,3,4,True,False,False,False,90,2,5533.49,Critical,2025-12-22,True
+CON0638,CRE0113,Brilliant,Parenting & Family,7,1,6,True,False,False,False,45,3,1942.35,Medium,2026-01-27,False
+CON0639,CRE0081,Dollar Shave Club,Food & Cooking,7,1,6,True,False,False,False,45,1,1662.39,Medium,2025-07-03,False
+CON0640,CRE0070,Headspace,Science & Space,7,1,6,True,False,False,False,90,2,882.45,Medium,2026-01-13,False
+CON0641,CRE0531,Calm,Business & Entrepreneurship,7,0,7,False,False,False,False,30,2,0.0,Low,2025-06-10,False
+CON0642,CRE0281,Athletic Greens,Personal Development,7,3,4,True,True,False,True,60,2,3696.26,Critical,2025-04-27,False
+CON0643,CRE0442,NordVPN,Parenting & Family,7,0,7,False,False,False,False,45,Unlimited,0.0,Low,2025-03-27,False
+CON0644,CRE0324,Hover,Travel & Adventure,7,2,5,True,False,False,False,45,1,1330.36,High,2025-04-29,True
+CON0645,CRE0306,MVMT Watches,Food & Cooking,7,3,4,False,False,False,False,30,3,4915.68,Critical,2025-09-13,False
+CON0646,CRE0089,Shopify,Technology & Software,7,0,7,True,False,False,False,45,3,0.0,Low,2025-06-26,False
+CON0647,CRE0045,NordVPN,Personal Development,7,2,5,True,False,False,False,45,Unlimited,4066.31,High,2025-04-17,True
+CON0648,CRE0027,Athletic Greens,Gaming & Esports,7,3,4,False,False,False,True,90,2,5270.94,Critical,2026-03-03,True
+CON0649,CRE0014,Wix,Comedy & Entertainment,7,2,5,False,False,False,False,30,Unlimited,3700.99,High,2025-08-25,False
+CON0650,CRE0121,Asana,Finance & Investing,7,1,6,True,False,False,True,45,Unlimited,1986.27,Medium,2025-10-24,True
+CON0651,CRE0502,Acorns,Gaming & Esports,7,2,5,False,False,False,False,90,3,816.39,High,2025-05-08,False
+CON0652,CRE0012,HelloFresh,Travel & Adventure,7,2,5,False,False,False,False,60,2,3018.91,High,2025-05-06,False
+CON0653,CRE0314,Shopify,Education & Online Courses,7,1,6,False,False,False,False,90,2,1905.59,Medium,2025-11-14,False
+CON0654,CRE0007,NordVPN,Pet Care,7,0,7,False,False,False,False,30,3,0.0,Low,2026-03-06,False
+CON0655,CRE0546,Codecademy,Comedy & Entertainment,7,4,3,False,False,False,False,90,2,2698.32,Critical,2025-07-25,True
+CON0656,CRE0184,Acorns,Music & Audio Production,7,4,3,False,False,False,True,90,Unlimited,3278.7,Critical,2025-07-12,False
+CON0657,CRE0478,ExpressVPN,Beauty & Fashion,7,2,5,False,False,False,True,90,Unlimited,1976.46,High,2025-10-17,True
+CON0658,CRE0108,Airtable,Home Decor & Interior Design,7,0,7,False,False,False,False,30,Unlimited,0.0,Low,2025-11-06,True
+CON0659,CRE0501,MasterClass,Beauty & Fashion,7,1,6,True,False,False,False,45,2,2389.6,Medium,2025-03-23,True
+CON0660,CRE0291,HelloFresh,Home Decor & Interior Design,7,2,5,False,False,False,False,30,1,4336.6,High,2025-08-11,True
+CON0661,CRE0334,LastPass,Language Learning,7,2,5,False,False,False,True,90,3,4593.4,High,2025-03-19,True
+CON0662,CRE0255,Audible,Music & Audio Production,7,1,6,False,False,False,False,30,3,1150.77,Medium,2025-10-18,False
+CON0663,CRE0442,Codecademy,Science & Space,7,3,4,True,False,False,False,30,Unlimited,6854.63,Critical,2025-05-06,False
+CON0664,CRE0265,MasterClass,Home Decor & Interior Design,7,1,6,False,False,False,False,60,1,356.19,Medium,2025-09-27,False
+CON0665,CRE0049,Hubspot,Business & Entrepreneurship,7,1,6,False,False,False,False,60,2,1952.39,Medium,2025-07-23,False
+CON0666,CRE0574,Notion,Photography & Videography,7,1,6,True,False,False,True,90,3,1379.28,Medium,2026-02-13,False
+CON0667,CRE0062,Robinhood,Pet Care,7,0,7,False,False,False,False,45,Unlimited,0.0,Low,2025-04-27,True
+CON0668,CRE0548,Factor Meals,Business & Entrepreneurship,7,4,3,False,True,False,False,90,2,5564.68,Critical,2025-10-17,True
+CON0669,CRE0587,Shopify,Music & Audio Production,7,1,6,True,False,False,False,45,2,2336.04,Medium,2025-05-20,True
+CON0670,CRE0244,Grammarly,Education & Online Courses,7,1,6,True,False,False,False,60,Unlimited,1030.23,Medium,2025-12-30,False
+CON0671,CRE0305,Manscaped,Food & Cooking,7,1,6,True,False,False,False,90,3,2443.77,Medium,2025-06-11,False
+CON0672,CRE0110,Calm,Sustainable Living,7,3,4,True,False,False,False,60,2,4863.63,Critical,2025-07-10,False
+CON0673,CRE0424,Brilliant,Business & Entrepreneurship,7,3,4,False,True,False,False,90,1,7179.32,Critical,2025-10-04,False
+CON0674,CRE0511,Betterment,Business & Entrepreneurship,7,1,6,True,False,False,False,45,2,1337.2,Medium,2026-02-06,True
+CON0675,CRE0241,Canva,Comedy & Entertainment,7,3,4,True,False,False,True,90,Unlimited,7379.24,Critical,2025-04-23,False
+CON0676,CRE0468,Notion,Photography & Videography,7,1,6,True,False,False,False,30,Unlimited,817.16,Medium,2025-07-08,False
+CON0677,CRE0352,Robinhood,Comedy & Entertainment,7,0,7,True,False,False,False,90,Unlimited,0.0,Low,2026-02-03,True
+CON0678,CRE0488,Wix,Business & Entrepreneurship,7,1,6,False,False,False,False,30,Unlimited,1281.74,Medium,2025-05-13,False
+CON0679,CRE0494,Audible,Parenting & Family,7,2,5,True,False,False,False,45,Unlimited,3105.64,High,2026-01-01,True
+CON0680,CRE0306,Public,Food & Cooking,7,3,4,False,True,False,False,30,1,5088.91,Critical,2025-05-01,True
+CON0681,CRE0225,Hubspot,Business & Entrepreneurship,7,1,6,True,False,False,True,30,2,1484.92,Medium,2025-12-05,True
+CON0682,CRE0179,Airtable,Education & Online Courses,7,0,7,False,False,False,False,30,3,0.0,Low,2025-09-14,True
+CON0683,CRE0246,Noom,Language Learning,7,2,5,True,False,False,False,90,1,814.11,High,2025-12-26,False
+CON0684,CRE0330,Airtable,Technology & Software,7,1,6,False,False,False,False,45,2,2408.62,Medium,2026-03-18,False
+CON0685,CRE0497,Noom,Comedy & Entertainment,7,1,6,False,False,False,False,30,1,1587.24,Medium,2025-04-28,True
+CON0686,CRE0395,Wix,Language Learning,7,0,7,True,False,False,False,45,3,0.0,Low,2025-04-28,True
+CON0687,CRE0349,Brilliant,Sustainable Living,7,1,6,False,False,False,False,90,2,1849.24,Medium,2025-07-21,True
+CON0688,CRE0199,Raycon,Pet Care,7,4,3,False,False,False,False,30,1,1793.05,Critical,2025-12-25,True
+CON0689,CRE0240,Calm,Science & Space,7,1,6,False,False,False,False,90,1,1022.67,Medium,2025-05-06,False
+CON0690,CRE0304,Noom,Sustainable Living,7,2,5,False,False,False,True,30,Unlimited,3360.22,High,2025-05-19,False
+CON0691,CRE0031,Betterment,Finance & Investing,7,2,5,False,False,False,False,45,2,4239.65,High,2025-08-01,True
+CON0692,CRE0224,Fiverr,Personal Development,7,1,6,True,False,False,False,30,3,1446.55,Medium,2025-11-29,False
+CON0693,CRE0572,Audible,Education & Online Courses,7,4,3,False,True,False,True,30,1,4501.34,Critical,2026-01-15,True
+CON0694,CRE0185,Manscaped,Comedy & Entertainment,7,3,4,True,False,False,False,30,Unlimited,5717.17,Critical,2025-08-10,False
+CON0695,CRE0491,LastPass,Personal Development,7,3,4,True,False,False,False,30,2,2206.12,Critical,2025-11-02,False
+CON0696,CRE0567,Calm,Technology & Software,7,2,5,True,False,False,False,30,3,3487.49,High,2025-04-05,False
+CON0697,CRE0157,Wix,Finance & Investing,7,1,6,False,False,False,False,60,3,1841.46,Medium,2025-04-26,True
+CON0698,CRE0114,Betterment,Comedy & Entertainment,7,0,7,True,False,False,False,30,2,0.0,Low,2026-03-06,True
+CON0699,CRE0511,Grammarly,Home Decor & Interior Design,7,0,7,False,False,False,False,30,1,0.0,Low,2025-09-10,True
+CON0700,CRE0362,Athletic Greens,Comedy & Entertainment,7,4,3,True,True,False,False,60,Unlimited,2433.43,Critical,2025-09-22,True
+CON0701,CRE0187,MasterClass,Food & Cooking,7,0,7,False,False,False,False,30,2,0.0,Low,2025-09-07,True
+CON0702,CRE0282,HelloFresh,Science & Space,7,2,5,False,False,False,False,30,2,1488.96,High,2025-05-13,True
+CON0703,CRE0269,Canva,Science & Space,7,2,5,True,False,False,False,45,2,1022.09,High,2025-07-08,False
+CON0704,CRE0273,Skillshare,Sustainable Living,7,1,6,True,False,False,False,45,3,1312.05,Medium,2025-06-04,True
+CON0705,CRE0418,Dollar Shave Club,Science & Space,7,4,3,True,False,False,True,30,Unlimited,3109.63,Critical,2025-08-31,True
+CON0706,CRE0173,Squarespace,Travel & Adventure,7,0,7,True,False,False,False,90,1,0.0,Low,2026-01-19,True
+CON0707,CRE0013,Factor Meals,Travel & Adventure,7,1,6,True,False,False,False,30,Unlimited,2120.67,Medium,2025-04-29,True
+CON0708,CRE0361,Brilliant,Home Decor & Interior Design,7,3,4,False,False,False,True,30,Unlimited,5560.52,Critical,2025-10-06,True
+CON0709,CRE0007,Ridge Wallet,Parenting & Family,7,1,6,True,False,False,False,45,Unlimited,1292.58,Medium,2025-08-02,False
+CON0710,CRE0428,Wix,Food & Cooking,7,1,6,False,False,False,False,90,1,1319.7,Medium,2025-10-29,True
+CON0711,CRE0600,Brilliant,Parenting & Family,7,2,5,False,False,False,False,90,3,1569.19,High,2025-06-21,False
+CON0712,CRE0572,Audible,Music & Audio Production,7,4,3,True,True,False,False,45,Unlimited,8644.32,Critical,2025-11-05,True
+CON0713,CRE0126,ExpressVPN,Beauty & Fashion,7,1,6,False,False,False,False,90,3,1520.84,Medium,2025-07-31,True
+CON0714,CRE0490,Athletic Greens,Finance & Investing,7,3,4,False,True,False,False,60,3,5541.14,Critical,2025-12-19,True
+CON0715,CRE0200,Manscaped,Technology & Software,7,2,5,False,False,False,False,30,2,3080.11,High,2025-03-29,True
+CON0716,CRE0512,MasterClass,Comedy & Entertainment,7,3,4,False,False,False,True,30,2,6979.4,Critical,2025-12-17,True
+CON0717,CRE0435,Brilliant,Food & Cooking,7,2,5,True,False,False,True,45,2,4656.8,High,2025-03-21,True
+CON0718,CRE0379,Noom,Science & Space,7,1,6,False,False,False,True,60,Unlimited,311.69,Medium,2025-07-24,True
+CON0719,CRE0511,Canva,Music & Audio Production,7,2,5,False,False,False,False,45,2,3487.56,High,2025-07-31,False
+CON0720,CRE0399,Blue Apron,Education & Online Courses,7,0,7,False,False,False,False,90,2,0.0,Low,2026-03-08,True
+CON0721,CRE0402,Airtable,Gaming & Esports,7,1,6,True,False,False,False,30,Unlimited,1002.58,Medium,2025-04-30,True
+CON0722,CRE0170,Blue Apron,Technology & Software,7,1,6,True,False,False,False,45,3,1017.98,Medium,2025-08-22,True
+CON0723,CRE0233,Codecademy,Photography & Videography,7,2,5,False,False,False,False,30,2,3784.21,High,2025-04-10,True
+CON0724,CRE0052,Public,Beauty & Fashion,7,4,3,True,False,False,False,45,Unlimited,9102.48,Critical,2026-01-12,False
+CON0725,CRE0192,Factor Meals,Comedy & Entertainment,7,3,4,True,False,False,True,60,2,1241.67,Critical,2025-05-13,True
+CON0726,CRE0118,Public,Technology & Software,7,1,6,True,False,False,True,30,2,2004.1,Medium,2025-06-16,True
+CON0727,CRE0408,ExpressVPN,Comedy & Entertainment,7,1,6,True,False,False,False,90,Unlimited,864.38,Medium,2025-04-07,True
+CON0728,CRE0547,Dollar Shave Club,Science & Space,7,3,4,False,False,False,False,90,2,1219.35,Critical,2025-08-22,True
+CON0729,CRE0120,Factor Meals,Finance & Investing,7,2,5,False,False,False,False,30,3,2004.57,High,2025-03-23,False
+CON0730,CRE0003,Calm,Beauty & Fashion,7,2,5,False,False,False,False,90,1,823.54,High,2025-08-27,False
+CON0731,CRE0195,Noom,Gaming & Esports,7,2,5,False,False,False,True,90,2,2372.67,High,2025-07-18,True
+CON0732,CRE0002,Codecademy,Education & Online Courses,7,1,6,True,False,False,False,90,2,1506.98,Medium,2025-07-22,True
+CON0733,CRE0032,Shopify,Technology & Software,7,3,4,True,False,False,False,90,3,2177.46,Critical,2025-10-15,False
+CON0734,CRE0299,Asana,Beauty & Fashion,7,1,6,True,False,False,True,30,1,2116.04,Medium,2025-08-27,False
+CON0735,CRE0119,Squarespace,Education & Online Courses,7,4,3,False,False,False,True,30,2,5228.53,Critical,2025-07-03,False
+CON0736,CRE0257,Airtable,Travel & Adventure,7,3,4,True,False,False,False,30,2,1518.08,Critical,2026-02-13,False
+CON0737,CRE0241,Notion,Technology & Software,7,0,7,False,False,False,False,30,2,0.0,Low,2025-04-29,True
+CON0738,CRE0532,MasterClass,Parenting & Family,7,1,6,False,False,False,False,60,2,2439.76,Medium,2025-08-09,False
+CON0739,CRE0348,HelloFresh,Home Decor & Interior Design,7,0,7,False,False,False,False,90,2,0.0,Low,2026-03-18,True
+CON0740,CRE0521,Hover,Photography & Videography,7,4,3,False,True,False,False,30,1,7499.65,Critical,2026-02-26,False
+CON0741,CRE0146,Raycon,Business & Entrepreneurship,7,2,5,False,False,False,False,45,Unlimited,930.38,High,2025-06-10,True
+CON0742,CRE0262,Codecademy,Business & Entrepreneurship,7,1,6,False,False,False,False,60,3,2041.33,Medium,2025-05-20,True
+CON0743,CRE0004,Skillshare,Pet Care,7,4,3,False,True,False,True,30,3,9211.08,Critical,2025-04-04,False
+CON0744,CRE0555,Betterment,Comedy & Entertainment,7,2,5,False,False,False,False,90,3,1641.51,High,2026-01-09,False
+CON0745,CRE0266,Grammarly,Business & Entrepreneurship,7,0,7,False,False,False,False,30,1,0.0,Low,2025-07-02,True
+CON0746,CRE0046,Ridge Wallet,Personal Development,7,2,5,False,False,False,True,60,Unlimited,782.74,High,2025-08-28,False
+CON0747,CRE0057,Headspace,Music & Audio Production,7,2,5,True,False,False,False,90,2,1880.78,High,2025-03-30,True
+CON0748,CRE0329,Skillshare,Technology & Software,7,0,7,True,False,False,False,30,2,0.0,Low,2026-02-16,True
+CON0749,CRE0167,Wix,Gaming & Esports,7,1,6,False,False,False,False,30,2,601.88,Medium,2025-05-07,False
+CON0750,CRE0244,MasterClass,Gaming & Esports,7,2,5,True,False,False,False,90,2,800.53,High,2025-12-13,False
+CON0751,CRE0318,Monday.com,Home Decor & Interior Design,7,0,7,True,False,False,False,90,Unlimited,0.0,Low,2025-10-14,True
+CON0752,CRE0388,Canva,Gaming & Esports,7,1,6,False,False,False,False,45,Unlimited,1016.01,Medium,2025-05-06,True
+CON0753,CRE0495,Squarespace,Personal Development,7,3,4,True,False,False,False,90,3,3786.82,Critical,2025-11-28,False
+CON0754,CRE0274,NordVPN,Personal Development,7,0,7,False,False,False,False,90,1,0.0,Low,2025-07-11,False
+CON0755,CRE0004,Toptal,Science & Space,7,0,7,False,False,False,False,30,3,0.0,Low,2025-08-04,False
+CON0756,CRE0563,Audible,Travel & Adventure,7,2,5,False,False,False,True,90,2,3093.61,High,2025-12-16,False
+CON0757,CRE0188,Canva,Technology & Software,7,2,5,False,False,False,True,90,2,2607.24,High,2025-11-10,True
+CON0758,CRE0571,Monday.com,Sustainable Living,7,1,6,False,False,False,False,90,2,1121.5,Medium,2025-05-16,True
+CON0759,CRE0350,NordVPN,Education & Online Courses,7,1,6,True,False,False,False,90,2,2404.67,Medium,2025-03-27,False
+CON0760,CRE0177,Blue Apron,Photography & Videography,7,1,6,True,False,False,False,30,3,1637.79,Medium,2025-11-22,True
+CON0761,CRE0411,Magic Spoon,Photography & Videography,7,0,7,False,False,False,False,90,2,0.0,Low,2025-07-24,False
+CON0762,CRE0434,Squarespace,Beauty & Fashion,7,2,5,False,False,False,False,60,2,1879.01,High,2026-02-05,False
+CON0763,CRE0594,Shopify,Personal Development,7,3,4,True,False,False,True,30,2,5468.25,Critical,2025-04-13,True
+CON0764,CRE0219,Noom,Education & Online Courses,7,0,7,False,False,False,False,30,1,0.0,Low,2026-03-07,True
+CON0765,CRE0119,Asana,Music & Audio Production,7,0,7,True,False,False,False,30,3,0.0,Low,2025-06-15,True
+CON0766,CRE0216,Fiverr,Personal Development,7,0,7,False,False,False,False,90,2,0.0,Low,2025-10-07,False
+CON0767,CRE0434,Squarespace,Photography & Videography,7,4,3,True,True,False,True,30,Unlimited,6329.5,Critical,2026-02-14,True
+CON0768,CRE0330,HelloFresh,Parenting & Family,7,1,6,False,False,False,False,30,Unlimited,595.86,Medium,2025-04-28,False
+CON0769,CRE0180,Squarespace,Science & Space,7,0,7,True,False,False,False,45,3,0.0,Low,2025-07-09,False
+CON0770,CRE0263,Hubspot,Photography & Videography,7,1,6,True,False,False,False,60,Unlimited,2408.02,Medium,2025-11-02,True
+CON0771,CRE0502,Toptal,Food & Cooking,7,2,5,True,False,False,False,45,2,1524.95,High,2026-01-17,True
+CON0772,CRE0222,Squarespace,Beauty & Fashion,7,2,5,True,False,False,False,45,Unlimited,2451.21,High,2025-05-13,True
+CON0773,CRE0347,MVMT Watches,Photography & Videography,7,1,6,False,False,False,False,60,2,345.25,Medium,2025-12-15,True
+CON0774,CRE0556,Magic Spoon,Beauty & Fashion,7,2,5,True,False,False,True,60,Unlimited,3048.99,High,2025-12-26,False
+CON0775,CRE0399,Asana,Parenting & Family,7,1,6,False,False,False,False,90,Unlimited,1949.02,Medium,2025-08-27,True
+CON0776,CRE0100,Grammarly,Food & Cooking,7,0,7,False,False,False,False,90,Unlimited,0.0,Low,2026-01-01,True
+CON0777,CRE0357,Ridge Wallet,Education & Online Courses,7,1,6,True,False,False,True,60,2,787.25,Medium,2025-07-06,True
+CON0778,CRE0003,Skillshare,Education & Online Courses,7,2,5,True,False,False,False,60,Unlimited,1350.11,High,2025-07-26,False
+CON0779,CRE0072,Notion,Science & Space,7,1,6,False,False,False,False,45,2,1581.48,Medium,2025-06-26,False
+CON0780,CRE0005,NordVPN,Music & Audio Production,7,3,4,True,True,False,False,90,2,1890.21,Critical,2025-11-25,True
+CON0781,CRE0471,Manscaped,Music & Audio Production,7,4,3,False,True,False,True,30,1,9589.01,Critical,2025-05-24,True
+CON0782,CRE0518,Betterment,Pet Care,7,1,6,False,False,False,False,30,2,2330.53,Medium,2025-05-22,False
+CON0783,CRE0366,Morning Brew,Education & Online Courses,7,4,3,True,True,False,False,30,2,7121.93,Critical,2026-02-21,True
+CON0784,CRE0366,NordVPN,Technology & Software,7,1,6,True,False,False,True,30,Unlimited,970.67,Medium,2025-05-11,True
+CON0785,CRE0047,Blue Apron,Pet Care,7,0,7,True,False,False,False,45,Unlimited,0.0,Low,2025-05-03,True
+CON0786,CRE0333,Airtable,Music & Audio Production,7,0,7,False,False,False,False,30,1,0.0,Low,2025-08-19,True
+CON0787,CRE0269,Toptal,Language Learning,7,2,5,True,False,False,False,90,2,4051.65,High,2025-08-13,True
+CON0788,CRE0127,Betterment,Photography & Videography,7,3,4,True,True,False,False,90,Unlimited,3804.61,Critical,2025-10-20,True
+CON0789,CRE0014,Morning Brew,Food & Cooking,7,3,4,True,True,False,False,45,1,1156.91,Critical,2025-05-17,True
+CON0790,CRE0430,Public,Business & Entrepreneurship,7,2,5,False,False,False,False,30,1,3430.3,High,2025-07-16,True
+CON0791,CRE0549,Athletic Greens,Sustainable Living,7,0,7,True,False,False,False,30,Unlimited,0.0,Low,2025-07-15,True
+CON0792,CRE0399,Robinhood,Food & Cooking,7,4,3,False,False,False,False,30,2,7446.7,Critical,2025-10-03,False
+CON0793,CRE0478,Headspace,Music & Audio Production,7,2,5,False,False,False,False,30,Unlimited,2610.7,High,2025-10-30,False
+CON0794,CRE0087,MVMT Watches,Education & Online Courses,7,4,3,True,False,False,False,30,Unlimited,5127.2,Critical,2025-10-18,False
+CON0795,CRE0173,Notion,Education & Online Courses,7,2,5,False,False,False,False,30,1,4943.48,High,2025-10-11,True
+CON0796,CRE0549,Airtable,Comedy & Entertainment,7,0,7,False,False,False,False,90,Unlimited,0.0,Low,2025-07-16,False
+CON0797,CRE0141,Raycon,Business & Entrepreneurship,7,3,4,False,False,False,True,30,Unlimited,6726.85,Critical,2026-01-23,True
+CON0798,CRE0550,ExpressVPN,Travel & Adventure,7,2,5,False,False,False,True,90,2,2751.73,High,2025-04-25,True
+CON0799,CRE0075,Toptal,Pet Care,7,2,5,True,False,False,False,60,Unlimited,1318.45,High,2025-06-04,True
+CON0800,CRE0454,NordVPN,Beauty & Fashion,7,1,6,False,False,False,False,30,2,683.45,Medium,2025-08-15,False

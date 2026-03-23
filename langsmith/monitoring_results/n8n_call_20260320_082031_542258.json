@@ -1,0 +1,20 @@
+{
+  "type": "n8n_call",
+  "workflow": "O4 Brand Deal Rate Checker",
+  "webhook_path": "brand-deal-check",
+  "latency_ms": 980.1,
+  "inputs": {
+    "niche": "fitness",
+    "platform": "instagram",
+    "followers": 50000,
+    "offered_rate_usd": 3000
+  },
+  "outputs": {
+    "status": "BELOW_MARKET",
+    "market_rate_usd": 3500
+  },
+  "error": null,
+  "timestamp": "2026-03-20T08:20:31.542227",
+  "status": "success",
+  "saved_at": "2026-03-20T08:20:31.542345"
+}

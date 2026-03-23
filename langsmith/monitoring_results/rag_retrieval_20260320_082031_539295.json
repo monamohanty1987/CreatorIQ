@@ -1,0 +1,13 @@
+{
+  "type": "rag_retrieval",
+  "query_preview": "exclusivity clause indefinite duration",
+  "n_results": 3,
+  "documents_found": 3,
+  "latency_ms": 125.3,
+  "metadata": {
+    "collection": "creatoriq_knowledge_base"
+  },
+  "timestamp": "2026-03-20T08:20:31.539267",
+  "status": "success",
+  "saved_at": "2026-03-20T08:20:31.539369"
+}

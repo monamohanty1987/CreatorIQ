@@ -1,0 +1,20 @@
+{
+  "type": "n8n_call",
+  "workflow": "brand-deal-check",
+  "webhook_path": "brand-deal-check",
+  "latency_ms": 2685.8,
+  "inputs": {
+    "body": {
+      "niche": "food",
+      "platform": "instagram",
+      "followers": 25000,
+      "offered_rate_usd": 150.0,
+      "format": "post"
+    }
+  },
+  "outputs": null,
+  "error": "RequestError: All connection attempts failed",
+  "timestamp": "2026-03-22T23:42:56.483441",
+  "status": "error",
+  "saved_at": "2026-03-22T23:42:56.483483"
+}
