@@ -2,7 +2,7 @@
  * API Service - Handles all calls to FastAPI backend
  */
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = `${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api`;
 
 // Helper function to make API calls
 async function apiCall(endpoint, method = 'GET', data = null) {
@@ -182,7 +182,7 @@ export async function getContentInsights() {
 
 export async function healthCheck() {
   try {
-    const response = await fetch(`http://localhost:8000/health`);
+    const response = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/health`);
     return await response.json();
   } catch (error) {
     console.error('Health check failed:', error);

@@ -187,3 +187,64 @@ class ContentAnalysis(Base):
             "publish_date": self.publish_date.isoformat() if self.publish_date else None,
             "created_at": self.created_at.isoformat() if self.created_at else None
         }
+
+
+class ContentRepurpose(Base):
+    """Content repurposing record - converts 1 piece into multiple formats"""
+    __tablename__ = "content_repurpose"
+
+    id = Column(Integer, primary_key=True, index=True)
+    creator_name = Column(String(255), index=True)
+
+    # Original content
+    original_content = Column(Text)  # YouTube transcript, blog post, podcast transcript
+    content_type = Column(String(50))  # "video", "blog", "podcast"
+    content_title = Column(String(500))
+    content_duration = Column(String(50), nullable=True)  # e.g., "10:30" for video
+
+    # Metadata
+    topic = Column(String(100))
+    niche = Column(String(100))
+    target_audience = Column(String(255))
+
+    # Repurposed outputs (JSON format for flexibility)
+    tiktok_scripts = Column(JSON)  # Array of 3 TikTok scripts
+    instagram_captions = Column(JSON)  # Array of 5 Instagram captions
+    twitter_thread = Column(JSON)  # Array of 5-10 tweets
+    blog_post = Column(Text)  # Full 1500+ word blog post
+    email_scripts = Column(JSON)  # Array of 3 email versions (short, medium, long)
+    podcast_notes = Column(JSON)  # {intro, outro, show_notes, timestamps}
+    linkedin_post = Column(JSON)  # {post, comment_hooks, hashtags}
+
+    # Metadata
+    hashtags = Column(JSON)  # Recommended hashtags per platform
+    best_posting_times = Column(JSON)  # Recommended posting times per platform
+    engagement_forecast = Column(JSON)  # Predicted metrics per platform
+
+    # Processing info
+    status = Column(String(50), default="processing")  # "processing", "completed", "failed"
+    error_message = Column(Text, nullable=True)
+    processing_time_seconds = Column(Float, nullable=True)
+
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), index=True)
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "creator_name": self.creator_name,
+            "content_title": self.content_title,
+            "content_type": self.content_type,
+            "topic": self.topic,
+            "niche": self.niche,
+            "target_audience": self.target_audience,
+            "status": self.status,
+            "tiktok_scripts": self.tiktok_scripts,
+            "instagram_captions": self.instagram_captions,
+            "twitter_thread": self.twitter_thread,
+            "email_scripts": self.email_scripts,
+            "podcast_notes": self.podcast_notes,
+            "linkedin_post": self.linkedin_post,
+            "processing_time_seconds": self.processing_time_seconds,
+            "created_at": self.created_at.isoformat() if self.created_at else None
+        }

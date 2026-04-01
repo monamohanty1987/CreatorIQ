@@ -63,7 +63,7 @@ class RAGService:
             # Load FTC guidelines
             ftc_path = os.path.join(settings.RAG_DATA_PATH, "knowledge_base", "ftc_guidelines.md")
             if os.path.exists(ftc_path):
-                with open(ftc_path, "r") as f:
+                with open(ftc_path, "r", encoding="utf-8", errors="ignore") as f:
                     ftc_content = f.read()
 
                 # Split into chunks and add to ChromaDB
@@ -79,7 +79,7 @@ class RAGService:
             # Load sample contract templates
             sample_contracts_path = os.path.join(settings.RAG_DATA_PATH, "knowledge_base", "sample_contracts.md")
             if os.path.exists(sample_contracts_path):
-                with open(sample_contracts_path, "r") as f:
+                with open(sample_contracts_path, "r", encoding="utf-8", errors="ignore") as f:
                     contracts_content = f.read()
 
                 chunks = self._chunk_text(contracts_content, chunk_size=500)
@@ -94,7 +94,7 @@ class RAGService:
             # Load red-flag patterns
             red_flags_path = os.path.join(settings.RAG_DATA_PATH, "knowledge_base", "red_flags.md")
             if os.path.exists(red_flags_path):
-                with open(red_flags_path, "r") as f:
+                with open(red_flags_path, "r", encoding="utf-8", errors="ignore") as f:
                     red_flags_content = f.read()
 
                 chunks = self._chunk_text(red_flags_content, chunk_size=300)

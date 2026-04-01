@@ -60,6 +60,13 @@ def _configure_langsmith() -> bool:
 # Configure at import time
 TRACING_ENABLED = _configure_langsmith()
 
+# Fix Pydantic v2 forward reference issue with LangSmith RunTree
+try:
+    from langsmith.run_trees import RunTree
+    RunTree.model_rebuild()
+except Exception:
+    pass
+
 
 def calculate_cost(model: str, input_tokens: int, output_tokens: int) -> float:
     """Calculate USD cost for a Claude API call."""
@@ -112,13 +119,18 @@ def traceable(name: str = None, run_type: str = "chain", tags: list = None):
             return func   # no-op passthrough
         try:
             from langsmith import traceable as ls_traceable
+            from langsmith.run_trees import RunTree
+            try:
+                RunTree.model_rebuild()
+            except Exception:
+                pass
             return ls_traceable(
                 name=name or func.__name__,
                 run_type=run_type,
                 tags=tags or [],
             )(func)
-        except ImportError:
-            logger.warning("langsmith not installed — tracing disabled")
+        except Exception as e:
+            logger.warning(f"langsmith error: {type(e).__name__}: {str(e)}")
             return func
     return decorator
 
@@ -162,6 +174,32 @@ class LangSmithMonitor:
         }
         save_trace_locally(trace)
 
+        # Send to LangSmith cloud if enabled
+        if TRACING_ENABLED:
+            try:
+                from langsmith import Client
+                import uuid
+
+                client = Client()
+                run_id = uuid.uuid4()
+                start_time = datetime.utcnow()
+                end_time = datetime.utcnow()
+
+                client.create_run(
+                    id=run_id,
+                    name=operation,
+                    run_type="llm",
+                    inputs=inputs,
+                    outputs=outputs,
+                    tags=["openai", "gpt", model.split("-")[0]],
+                    metadata={**(metadata or {}), "cost_usd": cost, "latency_ms": latency_ms},
+                    start_time=start_time,
+                    end_time=end_time,
+                )
+                logger.info(f"✅ Sent to LangSmith: {operation} (run_id: {run_id})")
+            except Exception as e:
+                logger.warning(f"⚠️ Could not send to LangSmith cloud: {type(e).__name__}: {str(e)}")
+
         logger.info(
             f"🤖 Claude [{operation}] | {input_tokens}+{output_tokens} tokens "
             f"| ${cost:.6f} | {latency_ms:.0f}ms | {'❌' if error else '✅'}"
@@ -187,6 +225,32 @@ class LangSmithMonitor:
             "status":          "success",
         }
         save_trace_locally(trace)
+
+        # Send to LangSmith cloud if enabled
+        if TRACING_ENABLED:
+            try:
+                from langsmith import Client
+                import uuid
+
+                client = Client()
+                run_id = uuid.uuid4()
+                start_time = datetime.utcnow()
+                end_time = datetime.utcnow()
+
+                client.create_run(
+                    id=run_id,
+                    name="rag_retrieval",
+                    run_type="retriever",
+                    inputs={"query": query, "n_results": n_results},
+                    outputs={"documents_found": documents_found},
+                    tags=["rag", "chromadb"],
+                    metadata={**(metadata or {}), "latency_ms": latency_ms},
+                    start_time=start_time,
+                    end_time=end_time,
+                )
+                logger.info(f"✅ Sent to LangSmith: rag_retrieval (run_id: {run_id})")
+            except Exception as e:
+                logger.warning(f"⚠️ Could not send RAG trace to LangSmith: {type(e).__name__}: {str(e)}")
 
         logger.info(
             f"🔍 RAG retrieval | query={query[:60]}… | "
@@ -215,6 +279,32 @@ class LangSmithMonitor:
             "status":       "error" if error else "success",
         }
         save_trace_locally(trace)
+
+        # Send to LangSmith cloud if enabled
+        if TRACING_ENABLED:
+            try:
+                from langsmith import Client
+                import uuid
+
+                client = Client()
+                run_id = uuid.uuid4()
+                start_time = datetime.utcnow()
+                end_time = datetime.utcnow()
+
+                client.create_run(
+                    id=run_id,
+                    name=f"n8n_{workflow}",
+                    run_type="tool",
+                    inputs=inputs,
+                    outputs=outputs or {},
+                    tags=["n8n", "workflow", workflow],
+                    metadata={"webhook_path": webhook_path, "latency_ms": latency_ms},
+                    start_time=start_time,
+                    end_time=end_time,
+                )
+                logger.info(f"✅ Sent to LangSmith: n8n_{workflow} (run_id: {run_id})")
+            except Exception as e:
+                logger.warning(f"⚠️ Could not send n8n trace to LangSmith: {type(e).__name__}: {str(e)}")
 
         logger.info(
             f"⚡ n8n [{workflow}] → /webhook/{webhook_path} "

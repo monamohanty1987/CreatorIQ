@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { analyzeBrandDeal } from '../services/api';
 import {
   TrendingUp, TrendingDown, DollarSign, Users, AlertTriangle,
-  CheckCircle, ChevronRight, BarChart2, Zap, RefreshCw
+  CheckCircle, ChevronRight, BarChart2, Zap, RefreshCw, Home
 } from 'lucide-react';
 
 const NICHES = [
@@ -39,7 +39,7 @@ function StatCard({ label, value, sub, color = 'text-foreground' }) {
   );
 }
 
-export default function DealAnalyzer() {
+export default function DealAnalyzer({ onNavigate }) {
   const [loading, setLoading] = useState(false);
   const [error,   setError]   = useState(null);
   const [result,  setResult]  = useState(null);
@@ -86,14 +86,39 @@ export default function DealAnalyzer() {
     <div className="max-w-5xl mx-auto space-y-6 p-6">
 
       {/* ── Header ── */}
-      <div>
-        <h1 className="text-2xl font-bold text-foreground flex items-center gap-2">
-          <DollarSign className="w-6 h-6 text-primary" />
-          Brand Deal Analyzer
-        </h1>
-        <p className="text-muted-foreground mt-1 text-sm">
-          Check if you're getting fair market rate · Based on 52,000+ real creator deals
-        </p>
+      <div className="flex items-start justify-between">
+        <div>
+          <h1 className="text-2xl font-bold text-foreground">
+            Brand Deal Analyzer
+          </h1>
+          <p className="text-muted-foreground mt-1 text-sm">
+            Check if you're getting fair market rate · Based on 52,000+ real creator deals
+          </p>
+        </div>
+        {onNavigate && (
+          <button
+            onClick={() => onNavigate('home')}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+              padding: '0.5rem 1rem',
+              background: '#051730',
+              color: 'white',
+              border: 'none',
+              borderRadius: '6px',
+              fontSize: '14px',
+              fontWeight: '600',
+              cursor: 'pointer',
+              transition: 'opacity 0.2s'
+            }}
+            onMouseEnter={e => e.target.style.opacity = '0.9'}
+            onMouseLeave={e => e.target.style.opacity = '1'}
+          >
+            <Home size={16} />
+            Home
+          </button>
+        )}
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">

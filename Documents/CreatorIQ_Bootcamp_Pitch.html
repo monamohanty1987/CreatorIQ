@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreatorIQ - AI-Powered Creator Success | Bootcamp Pitch</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-orange: #FF8C2E;
+            --dark-navy: #051730;
+            --light-bg: #F9F7F4;
+            --light-gray: #F3F4F6;
+            --text-dark: #051730;
+            --text-light: #6B7280;
+            --accent-brown: #8B6F47;
+            --success-green: #10B981;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--light-bg);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .section-container {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-orange);
+            letter-spacing: -0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            transition: color 0.3s;
+            font-size: 14px;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-orange);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, rgba(255, 140, 46, 0.08) 0%, rgba(139, 111, 71, 0.04) 100%);
+            padding-top: 100px;
+            text-align: center;
+        }
+
+        .hero-content h1 {
+            font-size: 72px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            color: var(--dark-navy);
+            font-weight: 800;
+        }
+
+        .hero-content h1 .highlight {
+            color: var(--primary-orange);
+        }
+
+        .hero-content p {
+            font-size: 24px;
+            color: var(--text-light);
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 16px 40px;
+            background: var(--primary-orange);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .cta-button:hover {
+            background: var(--accent-brown);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(255, 140, 46, 0.3);
+        }
+
+        .problem-section {
+            background: white;
+        }
+
+        .section-title {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            color: var(--dark-navy);
+            text-align: center;
+        }
+
+        .section-subtitle {
+            font-size: 20px;
+            color: var(--text-light);
+            text-align: center;
+            margin-bottom: 60px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .problem-card {
+            background: var(--light-bg);
+            padding: 40px 30px;
+            border-radius: 20px;
+            border-left: 5px solid var(--primary-orange);
+            transition: all 0.3s;
+            text-align: center;
+        }
+
+        .problem-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+        }
+
+        .problem-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .problem-card h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: var(--text-dark);
+        }
+
+        .problem-card p {
+            font-size: 16px;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        .stats-section {
+            background: var(--dark-navy);
+            color: white;
+            text-align: center;
+            padding: 60px 40px !important;
+            border-radius: 20px;
+        }
+
+        .stats-section .section-title {
+            color: white;
+        }
+
+        .stat-box {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .stat-number {
+            font-size: 56px;
+            font-weight: 900;
+            color: var(--primary-orange);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 18px;
+            color: rgba(255,255,255,0.8);
+            margin-top: 10px;
+        }
+
+        .solution-section {
+            background: white;
+        }
+
+        .pillars-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .pillar {
+            background: var(--light-gray);
+            padding: 40px;
+            border-radius: 15px;
+            border-top: 4px solid var(--primary-orange);
+            text-align: center;
+        }
+
+        .pillar-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .pillar h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: var(--dark-navy);
+        }
+
+        .pillar p {
+            font-size: 16px;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        .router-section {
+            background: linear-gradient(135deg, rgba(255, 140, 46, 0.1) 0%, rgba(139, 111, 71, 0.05) 100%);
+        }
+
+        .router-diagram {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+        }
+
+        .router-flow {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 40px 0;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .flow-step {
+            flex: 1;
+            min-width: 150px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .flow-box {
+            background: var(--light-gray);
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid var(--primary-orange);
+            margin-bottom: 15px;
+            font-weight: 600;
+            color: var(--dark-navy);
+        }
+
+        .flow-arrow {
+            font-size: 28px;
+            color: var(--primary-orange);
+            font-weight: bold;
+        }
+
+        .router-benefits {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .benefit-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            border: 2px solid var(--light-gray);
+        }
+
+        .benefit-number {
+            font-size: 48px;
+            font-weight: 900;
+            color: var(--primary-orange);
+        }
+
+        .benefit-label {
+            font-size: 16px;
+            color: var(--text-light);
+            margin-top: 10px;
+        }
+
+        .demo-section {
+            background: white;
+        }
+
+        .demo-container {
+            background: var(--light-gray);
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+        }
+
+        .demo-video {
+            width: 100%;
+            height: 500px;
+            background: var(--dark-navy);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .demo-video:hover {
+            box-shadow: 0 20px 40px rgba(255, 140, 46, 0.3);
+            transform: scale(1.02);
+        }
+
+        .demo-features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .demo-feature {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border-left: 4px solid var(--primary-orange);
+        }
+
+        .demo-feature h4 {
+            color: var(--dark-navy);
+            margin-bottom: 10px;
+        }
+
+        .demo-feature p {
+            font-size: 14px;
+            color: var(--text-light);
+        }
+
+        .vision-section {
+            background: linear-gradient(135deg, var(--dark-navy) 0%, rgba(5, 23, 48, 0.9) 100%);
+            color: white;
+        }
+
+        .vision-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .vision-content h3 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: var(--primary-orange);
+        }
+
+        .vision-content p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: rgba(255,255,255,0.9);
+        }
+
+        .vision-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .vision-stat {
+            background: rgba(255, 140, 46, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid var(--primary-orange);
+        }
+
+        .vision-stat-value {
+            font-size: 32px;
+            font-weight: 900;
+            color: var(--primary-orange);
+        }
+
+        .vision-stat-label {
+            font-size: 14px;
+            color: rgba(255,255,255,0.8);
+            margin-top: 5px;
+        }
+
+        .cta-section {
+            background: white;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: var(--dark-navy);
+        }
+
+        .cta-section p {
+            font-size: 20px;
+            color: var(--text-light);
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-primary {
+            padding: 16px 50px;
+            background: var(--primary-orange);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 2px solid var(--primary-orange);
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .cta-primary:hover {
+            background: var(--accent-brown);
+            border-color: var(--accent-brown);
+        }
+
+        .cta-secondary {
+            padding: 16px 50px;
+            background: transparent;
+            color: var(--primary-orange);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 2px solid var(--primary-orange);
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .cta-secondary:hover {
+            background: var(--light-gray);
+            border-color: var(--accent-brown);
+            color: var(--accent-brown);
+        }
+
+        footer {
+            background: var(--dark-navy);
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                padding: 40px 20px;
+            }
+
+            .hero-content h1 {
+                font-size: 42px;
+            }
+
+            .hero-content p {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 36px;
+            }
+
+            .problem-grid, .pillars-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .vision-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .demo-features {
+                grid-template-columns: 1fr;
+            }
+
+            .router-flow {
+                flex-direction: column;
+            }
+
+            .nav-links {
+                display: none;
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-in {
+            animation: slideInUp 0.6s ease-out;
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 24px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">CreatorIQ</div>
+        <ul class="nav-links">
+            <li><a href="#problem">Problem & Solution</a></li>
+            <li><a href="#router">AI Router</a></li>
+            <li><a href="#demo">Demo</a></li>
+            <li><a href="#vision">Vision</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with Mona Persona -->
+    <section class="section hero">
+        <div class="section-container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+                <div class="hero-content" style="text-align: left;">
+                    <h1 style="text-align: left; font-size: 56px; margin-bottom: 30px;">Meet <span class="highlight">Mona</span></h1>
+                    <div style="background: white; padding: 30px; border-radius: 15px; border-left: 5px solid var(--primary-orange); margin-bottom: 30px;">
+                        <p style="font-size: 18px; color: var(--text-dark); margin-bottom: 15px;"><strong>260K+ followers</strong> | Digital Creator</p>
+                        <p style="font-size: 16px; color: var(--text-light); line-height: 1.8;">
+                            Mona creates amazing content. Her audience loves her. But behind the scenes? She's drowning in busywork. Juggling content platforms. Struggling with brand deals. Undercharging for her value.
+                        </p>
+                    </div>
+                    <p style="font-size: 16px; color: var(--text-dark); font-weight: 600;">Sound familiar? You're not alone. 🎯</p>
+                </div>
+                <div style="background: linear-gradient(135deg, rgba(255, 140, 46, 0.1) 0%, rgba(139, 111, 71, 0.05) 100%); border-radius: 20px; padding: 50px; text-align: center;">
+                    <div style="font-size: 120px; margin-bottom: 20px;">👩‍💻</div>
+                    <p style="font-size: 18px; color: var(--text-dark); font-weight: 600;">Mona's Day</p>
+                    <p style="font-size: 14px; color: var(--text-light); margin-top: 15px;">🎥 Record content<br>📱 Edit & repurpose to 4 platforms<br>✍️ Write product scripts<br>📊 Review brand deals<br>😴 Sleep at 2 AM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Combined Problem & Solution Section -->
+    <section class="section problem-section" id="problem">
+        <div class="section-container">
+            <h2 class="section-title" style="margin-bottom: 15px;">Mona's Real <span style="color: var(--primary-orange);">Problems</span></h2>
+            <p class="section-subtitle">And how CreatorIQ solves them, instantly.</p>
+
+            <div style="margin-top: 60px;">
+                <!-- Problem 1 -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 80px;">
+                    <div style="order: 1;">
+                        <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.08);">
+                            <div style="font-size: 60px; margin-bottom: 20px;">⏱️</div>
+                            <h3 style="font-size: 28px; color: var(--dark-navy); margin-bottom: 20px;">The Content Grind</h3>
+                            <p style="font-size: 16px; color: var(--text-light); line-height: 1.8; margin-bottom: 20px;">
+                                <strong>"I film one YouTube video on Monday. Then I spend Tuesday-Thursday manually editing clips into TikTok hooks, Instagram reels, LinkedIn posts, Twitter threads. It's 10+ hours of repetitive work that doesn't pay the bills."</strong>
+                            </p>
+                            <div style="background: rgba(255, 140, 46, 0.1); padding: 15px; border-radius: 10px; border-left: 4px solid var(--primary-orange);">
+                                <p style="font-size: 13px; color: var(--text-dark); font-weight: 600;">💔 The Cost: 54% of creators waste 4+ hours/week on this</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="order: 2; background: linear-gradient(135deg, var(--primary-orange) 0%, var(--accent-brown) 100%); padding: 40px; border-radius: 20px; color: white;">
+                        <h3 style="font-size: 28px; margin-bottom: 20px; color: white;">✅ CreatorIQ Solution</h3>
+                        <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px;">
+                            <p style="font-size: 16px; margin-bottom: 15px; font-weight: 600;">🔄 Content Repurposer</p>
+                            <p style="font-size: 14px; line-height: 1.8; margin-bottom: 20px;">
+                                Upload 1 video. Select platforms. AI automatically generates clips, hooks, and posts optimized for each platform.
+                            </p>
+                            <div style="background: rgba(255,255,255,0.2); padding: 15px; border-radius: 10px; text-align: center;">
+                                <p style="font-size: 18px; font-weight: 700;">⚡ 10 hours → 2 minutes</p>
+                                <p style="font-size: 13px; margin-top: 8px; opacity: 0.9;">Ready to post. Better quality. Consistent branding.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Problem 2 -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-bottom: 80px;">
+                    <div style="order: 2;">
+                        <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.08);">
+                            <div style="font-size: 60px; margin-bottom: 20px;">🎬</div>
+                            <h3 style="font-size: 28px; color: var(--dark-navy); margin-bottom: 20px;">The Script Struggle</h3>
+                            <p style="font-size: 16px; color: var(--text-light); line-height: 1.8; margin-bottom: 20px;">
+                                <strong>"A brand wants me to promote their new fitness app. But how do I write a 30-second script that feels authentic and doesn't scream 'AD'? I'm not a copywriter. I'm a creator."</strong>
+                            </p>
+                            <div style="background: rgba(255, 140, 46, 0.1); padding: 15px; border-radius: 10px; border-left: 4px solid var(--primary-orange);">
+                                <p style="font-size: 13px; color: var(--text-dark); font-weight: 600;">💔 The Cost: 72% struggle with authentic brand voice</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="order: 1; background: linear-gradient(135deg, var(--primary-orange) 0%, var(--accent-brown) 100%); padding: 40px; border-radius: 20px; color: white;">
+                        <h3 style="font-size: 28px; margin-bottom: 20px; color: white;">✅ CreatorIQ Solution</h3>
+                        <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px;">
+                            <p style="font-size: 16px; margin-bottom: 15px; font-weight: 600;">🎬 Commerce Script Generator</p>
+                            <p style="font-size: 14px; line-height: 1.8; margin-bottom: 20px;">
+                                Paste product details. Choose your tone (casual, professional, funny, energetic). AI generates 30sec, 60sec, and full-length scripts—in YOUR voice.
+                            </p>
+                            <div style="background: rgba(255,255,255,0.2); padding: 15px; border-radius: 10px; text-align: center;">
+                                <p style="font-size: 18px; font-weight: 700;">✍️ 90 seconds → Ready to Shoot</p>
+                                <p style="font-size: 13px; margin-top: 8px; opacity: 0.9;">Authentic. Professional. Actually performs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Problem 3 -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center;">
+                    <div style="order: 1;">
+                        <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.08);">
+                            <div style="font-size: 60px; margin-bottom: 20px;">💰</div>
+                            <h3 style="font-size: 28px; color: var(--dark-navy); margin-bottom: 20px;">The Deal Dilemma</h3>
+                            <p style="font-size: 16px; color: var(--text-light); line-height: 1.8; margin-bottom: 20px;">
+                                <strong>"A brand just offered me €3,500 for a sponsored post. It sounds good, but... is it? Am I undervalued? What do other creators with my audience make? I have no idea, and my lawyer isn't answering."</strong>
+                            </p>
+                            <div style="background: rgba(255, 140, 46, 0.1); padding: 15px; border-radius: 10px; border-left: 4px solid var(--primary-orange);">
+                                <p style="font-size: 13px; color: var(--text-dark); font-weight: 600;">💔 The Cost: 68% don't know fair market rates</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="order: 2; background: linear-gradient(135deg, var(--primary-orange) 0%, var(--accent-brown) 100%); padding: 40px; border-radius: 20px; color: white;">
+                        <h3 style="font-size: 28px; margin-bottom: 20px; color: white;">✅ CreatorIQ Solution</h3>
+                        <div style="background: rgba(255,255,255,0.15); padding: 25px; border-radius: 15px;">
+                            <p style="font-size: 16px; margin-bottom: 15px; font-weight: 600;">💰 Deal Navigator & Analyzer</p>
+                            <p style="font-size: 14px; line-height: 1.8; margin-bottom: 20px;">
+                                Paste the contract. AI explains terms in plain English, identifies red flags, and benchmarks against market rates for your niche & audience.
+                            </p>
+                            <div style="background: rgba(255,255,255,0.2); padding: 15px; border-radius: 10px; text-align: center;">
+                                <p style="font-size: 18px; font-weight: 700;">📊 30 seconds → Full Clarity</p>
+                                <p style="font-size: 13px; margin-top: 8px; opacity: 0.9;">Know your worth. Negotiate with confidence.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 80px; background: linear-gradient(135deg, rgba(255, 140, 46, 0.1) 0%, rgba(139, 111, 71, 0.05) 100%); padding: 50px; border-radius: 20px; text-align: center; border: 2px solid var(--primary-orange);">
+                <p style="font-size: 24px; color: var(--dark-navy); font-weight: 800; margin-bottom: 20px;">Mona's New Reality with CreatorIQ</p>
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 30px;">
+                    <div>
+                        <p style="font-size: 32px; color: var(--primary-orange); font-weight: 800;">15+ hrs</p>
+                        <p style="font-size: 14px; color: var(--text-light); margin-top: 8px;">Saved every week</p>
+                    </div>
+                    <div>
+                        <p style="font-size: 32px; color: var(--primary-orange); font-weight: 800;">3x</p>
+                        <p style="font-size: 14px; color: var(--text-light); margin-top: 8px;">More deal opportunities</p>
+                    </div>
+                    <div>
+                        <p style="font-size: 32px; color: var(--primary-orange); font-weight: 800;">100%</p>
+                        <p style="font-size: 14px; color: var(--text-light); margin-top: 8px;">Confident negotiations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Router Section -->
+    <section class="section router-section" id="router">
+        <div class="section-container">
+            <h2 class="section-title">The Secret Sauce: <span style="color: var(--primary-orange);">Intelligent AI Optimization</span></h2>
+            <p class="section-subtitle">Most AI tools charge the same for every request. We're different.</p>
+
+            <div class="router-diagram">
+                <div style="text-align: center; margin: 60px 0;">
+                    <h3 style="font-size: 32px; margin-bottom: 40px; color: var(--text-dark);">What Matters Most</h3>
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-bottom: 60px;">
+                        <div style="background: var(--light-gray); padding: 30px; border-radius: 15px; border-left: 4px solid var(--primary-orange);">
+                            <div style="font-size: 36px; margin-bottom: 15px;">⚡</div>
+                            <h4 style="color: var(--dark-navy); margin-bottom: 10px;">Speed</h4>
+                            <p style="color: var(--text-light); font-size: 14px;">Instant results when creators need to move fast</p>
+                        </div>
+                        <div style="background: var(--light-gray); padding: 30px; border-radius: 15px; border-left: 4px solid var(--primary-orange);">
+                            <div style="font-size: 36px; margin-bottom: 15px;">🎯</div>
+                            <h4 style="color: var(--dark-navy); margin-bottom: 10px;">Accuracy</h4>
+                            <p style="color: var(--text-light); font-size: 14px;">Precise analysis you can trust for big decisions</p>
+                        </div>
+                        <div style="background: var(--light-gray); padding: 30px; border-radius: 15px; border-left: 4px solid var(--primary-orange);">
+                            <div style="font-size: 36px; margin-bottom: 15px;">💰</div>
+                            <h4 style="color: var(--dark-navy); margin-bottom: 10px;">Affordability</h4>
+                            <p style="color: var(--text-light); font-size: 14px;">Lower costs mean more creators can use us</p>
+                        </div>
+                    </div>
+
+                    <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.08);">
+                        <p style="font-size: 20px; color: var(--text-dark); margin-bottom: 20px; font-weight: 600;">
+                            Our proprietary optimization engine delivers <span style="color: var(--primary-orange);">all three at once.</span>
+                        </p>
+                        <p style="font-size: 16px; color: var(--text-light); line-height: 1.8;">
+                            Every request is intelligently analyzed and routed to the optimal AI system. You get premium quality without premium costs. It's like having a smart assistant that knows exactly which tool to use for the job.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="router-benefits">
+                <div class="benefit-card animate-in">
+                    <div class="benefit-number">47%</div>
+                    <div class="benefit-label">Lower Costs Than Competitors</div>
+                </div>
+
+                <div class="benefit-card animate-in">
+                    <div class="benefit-number">98%</div>
+                    <div class="benefit-label">Output Quality Consistency</div>
+                </div>
+
+                <div class="benefit-card animate-in">
+                    <div class="benefit-number">10x</div>
+                    <div class="benefit-label">Faster Than Manual Work</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="section demo-section" id="demo">
+        <div class="section-container">
+            <h2 class="section-title">See it in <span style="color: var(--primary-orange);">Action</span></h2>
+            <p class="section-subtitle">Real workflows. Real results. Real time savings.</p>
+
+            <div style="display: flex; justify-content: center; margin-bottom: 40px;">
+                <div class="demo-container" style="padding: 0; max-width: 500px; width: 100%;">
+                    <div style="background: var(--dark-navy); padding: 60px 40px; border-radius: 20px 20px 0 0; text-align: center; color: white;">
+                        <div style="font-size: 80px; margin-bottom: 15px;">▶️</div>
+                        <h3 style="color: white; margin-bottom: 10px; font-size: 28px;">Demo Video</h3>
+                    </div>
+                    <div style="background: white; padding: 40px; border-radius: 0 0 20px 20px; text-align: center;">
+                        <p style="font-size: 16px; color: var(--text-light); margin-bottom: 15px;">See CreatorIQ in action with a complete walkthrough of features and benefits.</p>
+                        <p style="font-size: 14px; color: var(--primary-orange); font-weight: 600; font-style: italic;">Coming Soon</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background: var(--light-gray); padding: 30px; border-radius: 15px; text-align: center;">
+                <p style="font-size: 18px; color: var(--text-dark); margin-bottom: 10px;"><strong>What Creators Get:</strong></p>
+                <p style="font-size: 16px; color: var(--text-light);">
+                    AI-powered content repurposing, smart deal analysis, and automated commerce workflows—all designed to save time and maximize earnings.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Market Section -->
+    <section class="section vision-section" id="vision">
+        <div class="section-container">
+            <div class="vision-grid">
+                <div class="vision-content animate-in">
+                    <h3>A €100B Market Waiting for Solutions</h3>
+                    <p>The creator economy is booming. But creators are still suffering from the same problems we solved for.</p>
+                    <p><strong>The opportunity?</strong> Creators need tools that understand their unique struggles. Tools that automate the busywork. Tools that make them money.</p>
+                    <p style="margin-top: 30px; font-size: 16px; font-style: italic; color: rgba(255,255,255,0.8);">"CreatorIQ isn't just a tool. It's a creator's competitive advantage."</p>
+                </div>
+
+                <div class="vision-stats animate-in">
+                    <div class="vision-stat">
+                        <div class="vision-stat-value">€100B+</div>
+                        <div class="vision-stat-label">Creator Economy Market Size</div>
+                    </div>
+
+                    <div class="vision-stat">
+                        <div class="vision-stat-value">500M+</div>
+                        <div class="vision-stat-label">Content Creators Globally</div>
+                    </div>
+
+                    <div class="vision-stat">
+                        <div class="vision-stat-value">€29/mo</div>
+                        <div class="vision-stat-label">Average Creator Willingness to Pay</div>
+                    </div>
+
+                    <div class="vision-stat">
+                        <div class="vision-stat-value">3.5 yrs</div>
+                        <div class="vision-stat-label">Payback Period (Conservative)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="section" style="background: var(--light-gray);">
+        <div class="section-container">
+            <h2 class="section-title">Why <span style="color: var(--primary-orange);">CreatorIQ</span> Wins</h2>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 50px;">
+                <div class="pillar" style="border-top: none; background: white;">
+                    <h3 style="color: var(--primary-orange); font-size: 24px;">⚡ Time is Money</h3>
+                    <p>Save 15+ hours per week on repetitive tasks. Every hour saved is an hour you can spend creating, growing, or simply living.</p>
+                </div>
+
+                <div class="pillar" style="border-top: none; background: white;">
+                    <h3 style="color: var(--primary-orange); font-size: 24px;">📈 Data-Driven Decisions</h3>
+                    <p>No more guessing on deal fairness. Know your market value. Negotiate with confidence backed by real benchmarks.</p>
+                </div>
+
+                <div class="pillar" style="border-top: none; background: white;">
+                    <h3 style="color: var(--primary-orange); font-size: 24px;">🎯 Actually Works</h3>
+                    <p>Not hype. Real creators. Real results. Proven workflows that deliver immediate value. From day one, creators see time savings and better deal outcomes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Impact & Monetization Section -->
+    <section class="section" style="background: white;">
+        <div class="section-container">
+            <h2 class="section-title">Business Impact & <span style="color: var(--primary-orange);">Monetization</span></h2>
+            <p class="section-subtitle">Flexible pricing that scales with creator growth. High margins. Sustainable unit economics.</p>
+
+            <div style="overflow-x: auto; margin-bottom: 50px;">
+                <table style="width: 100%; border-collapse: collapse; background: white;">
+                    <thead>
+                        <tr style="background: var(--dark-navy); color: white;">
+                            <th style="padding: 20px; text-align: left; border: none; font-weight: 600;">Plan</th>
+                            <th style="padding: 20px; text-align: center; border: none; font-weight: 600;">Price</th>
+                            <th style="padding: 20px; text-align: left; border: none; font-weight: 600;">Features</th>
+                            <th style="padding: 20px; text-align: center; border: none; font-weight: 600;">Target User</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom: 1px solid var(--light-gray);">
+                            <td style="padding: 25px 20px; font-weight: 600; color: var(--dark-navy);">Creator</td>
+                            <td style="padding: 25px 20px; text-align: center; color: var(--primary-orange); font-size: 20px; font-weight: 700;">€15/mo</td>
+                            <td style="padding: 25px 20px; color: var(--text-dark);">
+                                ✓ Content Repurposer<br>
+                                ✓ Commerce Script (3/month)<br>
+                                ✓ Deal Analyzer<br>
+                                ✓ Basic Insights
+                            </td>
+                            <td style="padding: 25px 20px; text-align: center; color: var(--text-light);">Solo creators<br>10K-100K followers</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid var(--light-gray); background: linear-gradient(135deg, rgba(255, 140, 46, 0.05) 0%, rgba(139, 111, 71, 0.02) 100%);">
+                            <td style="padding: 25px 20px; font-weight: 600; color: var(--dark-navy);">
+                                Pro <span style="background: var(--primary-orange); color: white; padding: 3px 8px; border-radius: 5px; font-size: 12px; margin-left: 10px;">POPULAR</span>
+                            </td>
+                            <td style="padding: 25px 20px; text-align: center; color: var(--primary-orange); font-size: 20px; font-weight: 700;">€25/mo</td>
+                            <td style="padding: 25px 20px; color: var(--text-dark);">
+                                ✓ All Creator features<br>
+                                ✓ Unlimited Commerce Scripts<br>
+                                ✓ Advanced Analytics<br>
+                                ✓ Priority Support
+                            </td>
+                            <td style="padding: 25px 20px; text-align: center; color: var(--text-light);">Growing creators<br>100K-1M followers</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid var(--light-gray);">
+                            <td style="padding: 25px 20px; font-weight: 600; color: var(--dark-navy);">Agency</td>
+                            <td style="padding: 25px 20px; text-align: center; color: var(--primary-orange); font-size: 20px; font-weight: 700;">€99/mo</td>
+                            <td style="padding: 25px 20px; color: var(--text-dark);">
+                                ✓ All Pro features<br>
+                                ✓ Team accounts (5 seats)<br>
+                                ✓ Custom integrations<br>
+                                ✓ Dedicated account manager
+                            </td>
+                            <td style="padding: 25px 20px; text-align: center; color: var(--text-light);">Agencies & teams<br>1M+ followers</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 40px;">
+                <!-- ROI Highlight -->
+                <div style="background: linear-gradient(135deg, rgba(255, 140, 46, 0.1) 0%, rgba(139, 111, 71, 0.05) 100%); padding: 30px; border-radius: 15px; border-left: 4px solid var(--primary-orange);">
+                    <h3 style="color: var(--dark-navy); font-size: 20px; margin-bottom: 15px;">💰 Average Creator ROI</h3>
+                    <div style="margin-bottom: 20px;">
+                        <div style="font-size: 36px; font-weight: 900; color: var(--primary-orange);">€564/year</div>
+                        <div style="font-size: 14px; color: var(--text-light);">Saved on AI costs + productivity gains</div>
+                    </div>
+                    <p style="font-size: 14px; color: var(--text-dark); line-height: 1.6;">
+                        <strong>Breakdown:</strong><br>
+                        • €228 on AI tools replaced<br>
+                        • €336 in time saved (15 hrs/week × €28/hr)
+                    </p>
+                </div>
+
+                <!-- Unit Economics -->
+                <div style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(139, 111, 71, 0.05) 100%); padding: 30px; border-radius: 15px; border-left: 4px solid var(--success-green);">
+                    <h3 style="color: var(--dark-navy); font-size: 20px; margin-bottom: 15px;">📊 Sustainable Unit Economics</h3>
+                    <div style="margin-bottom: 20px;">
+                        <div style="font-size: 24px; font-weight: 700; color: var(--success-green);">68% Gross Margin</div>
+                        <div style="font-size: 14px; color: var(--text-light);">After AI costs + infrastructure</div>
+                    </div>
+                    <p style="font-size: 14px; color: var(--text-dark); line-height: 1.6;">
+                        <strong>Year 1 Projection:</strong><br>
+                        • 915 active creators @ €29/mo avg<br>
+                        • €315K ARR | €215K gross profit
+                    </p>
+                </div>
+            </div>
+
+            <div style="background: var(--light-gray); padding: 30px; border-radius: 15px; border-left: 4px solid var(--primary-orange);">
+                <p style="font-size: 16px; color: var(--text-dark); line-height: 1.8;">
+                    <strong>💡 The Secret:</strong> Our intelligent AI optimization keeps our cost per request <span style="color: var(--primary-orange); font-weight: 600;">47% lower</span> than competitors. This means we can offer the lowest prices AND maintain the highest margins. Creators win. We win.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GreenTech Assessment Section -->
+    <section class="section" style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(139, 111, 71, 0.04) 100%);">
+        <div class="section-container">
+            <h2 class="section-title">🌱 GreenTech Assessment</h2>
+            <p class="section-subtitle">CreatorIQ's Environmental & Social Impact</p>
+
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; margin-top: 50px;">
+                <!-- Environmental Impact -->
+                <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--dark-navy); font-size: 24px; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+                        <span style="font-size: 32px;">♻️</span> Environmental Sustainability
+                    </h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 12px 0; border-bottom: 1px solid var(--light-gray); color: var(--text-dark);">
+                            <strong>✓ Cloud-Based Infrastructure:</strong> 100% renewable energy powered data centers
+                        </li>
+                        <li style="padding: 12px 0; border-bottom: 1px solid var(--light-gray); color: var(--text-dark);">
+                            <strong>✓ Reduced Digital Waste:</strong> AI optimization = 47% lower energy consumption vs. alternatives
+                        </li>
+                        <li style="padding: 12px 0; border-bottom: 1px solid var(--light-gray); color: var(--text-dark);">
+                            <strong>✓ Paperless Workflow:</strong> Eliminates need for printed contracts, scripts, briefs
+                        </li>
+                        <li style="padding: 12px 0; color: var(--text-dark);">
+                            <strong>✓ Carbon Footprint:</strong> Estimated 0.5 kg CO2 saved per creator per month vs. manual processes
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Social Impact -->
+                <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.08);">
+                    <h3 style="color: var(--dark-navy); font-size: 24px; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+                        <span style="font-size: 32px;">👥</span> Social Impact
+                    </h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 12px 0; border-bottom: 1px solid var(--light-gray); color: var(--text-dark);">
+                            <strong>✓ Creator Empowerment:</strong> Democratizes deal analysis tools (previously only for big agencies)
+                        </li>
+                        <li style="padding: 12px 0; border-bottom: 1px solid var(--light-gray); color: var(--text-dark);">
+                            <strong>✓ Fair Earnings:</strong> Enables 68% of creators to negotiate better deals (+15-20% avg. income increase)
+                        </li>
+                        <li style="padding: 12px 0; border-bottom: 1px solid var(--light-gray); color: var(--text-dark);">
+                            <strong>✓ Work-Life Balance:</strong> 15+ hours/week saved = time for personal growth & wellbeing
+                        </li>
+                        <li style="padding: 12px 0; color: var(--text-dark);">
+                            <strong>✓ Inclusive Design:</strong> EU AI Act compliant, transparent, human-centered AI (not a black box)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="background: linear-gradient(135deg, var(--primary-orange) 0%, var(--accent-brown) 100%); color: white; padding: 30px; border-radius: 15px; margin-top: 40px; text-align: center;">
+                <p style="font-size: 18px; margin-bottom: 10px;">
+                    <strong>🎯 GreenTech Certification Goal:</strong>
+                </p>
+                <p style="font-size: 16px;">
+                    Targeting B-Corp Certification in Year 1 | EU AI Act Compliant from Day 1 | SDG Alignment: #8 (Decent Work), #5 (Gender Equality), #12 (Responsible Consumption)
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap & Future Section -->
+    <section class="section" style="background: white;">
+        <div class="section-container">
+            <h2 class="section-title">Roadmap & <span style="color: var(--primary-orange);">Future Vision</span></h2>
+            <p class="section-subtitle">We're just getting started. Here's what's coming next.</p>
+
+            <!-- Timeline -->
+            <div style="margin: 60px 0; position: relative;">
+                <!-- Timeline line -->
+                <div style="position: absolute; top: 50px; left: 5%; right: 5%; height: 4px; background: linear-gradient(90deg, var(--primary-orange) 0%, var(--accent-brown) 100%); border-radius: 2px;"></div>
+
+                <!-- Timeline items -->
+                <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; position: relative; z-index: 2;">
+                    <!-- NOW -->
+                    <div style="text-align: center;">
+                        <div style="background: var(--primary-orange); color: white; width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 32px; box-shadow: 0 10px 30px rgba(255, 140, 46, 0.3);">
+                            ✅
+                        </div>
+                        <h3 style="color: var(--dark-navy); font-weight: 700; margin-bottom: 10px;">NOW</h3>
+                        <div style="background: var(--light-gray); padding: 20px; border-radius: 12px; text-align: center;">
+                            <p style="font-weight: 600; color: var(--dark-navy); margin-bottom: 10px;">MVP Launch</p>
+                            <ul style="list-style: none; padding: 0; font-size: 13px; color: var(--text-dark);">
+                                <li>✓ Content Repurposer</li>
+                                <li>✓ Commerce Script</li>
+                                <li>✓ Deal Analyzer</li>
+                                <li>✓ AI Router</li>
+                                <li>✓ LangSmith Eval</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Q2 -->
+                    <div style="text-align: center;">
+                        <div style="background: var(--accent-brown); color: white; width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 32px; box-shadow: 0 10px 30px rgba(139, 111, 71, 0.3);">
+                            🎯
+                        </div>
+                        <h3 style="color: var(--dark-navy); font-weight: 700; margin-bottom: 10px;">Q2 2026</h3>
+                        <div style="background: var(--light-gray); padding: 20px; border-radius: 12px; text-align: center;">
+                            <p style="font-weight: 600; color: var(--dark-navy); margin-bottom: 10px;">Growth Tools</p>
+                            <ul style="list-style: none; padding: 0; font-size: 13px; color: var(--text-dark);">
+                                <li>✨ Campaign Generator</li>
+                                <li>✨ Collaboration Matcher</li>
+                                <li>🤝 AI Partnership Detection</li>
+                                <li>📊 Growth Analytics</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Q3 -->
+                    <div style="text-align: center;">
+                        <div style="background: var(--primary-orange); color: white; width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 32px; box-shadow: 0 10px 30px rgba(255, 140, 46, 0.3);">
+                            🔮
+                        </div>
+                        <h3 style="color: var(--dark-navy); font-weight: 700; margin-bottom: 10px;">Q3 2026</h3>
+                        <div style="background: var(--light-gray); padding: 20px; border-radius: 12px; text-align: center;">
+                            <p style="font-weight: 600; color: var(--dark-navy); margin-bottom: 10px;">Predictive AI</p>
+                            <ul style="list-style: none; padding: 0; font-size: 13px; color: var(--text-dark);">
+                                <li>🚀 Performance Forecaster</li>
+                                <li>📈 Predict Video Success</li>
+                                <li>⚡ Pre-publish Optimization</li>
+                                <li>🎬 Content Performance Score</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Q4 -->
+                    <div style="text-align: center;">
+                        <div style="background: var(--accent-brown); color: white; width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 32px; box-shadow: 0 10px 30px rgba(139, 111, 71, 0.3);">
+                            🎓
+                        </div>
+                        <h3 style="color: var(--dark-navy); font-weight: 700; margin-bottom: 10px;">Q4 2026</h3>
+                        <div style="background: var(--light-gray); padding: 20px; border-radius: 12px; text-align: center;">
+                            <p style="font-weight: 600; color: var(--dark-navy); margin-bottom: 10px;">Intelligence Hub</p>
+                            <ul style="list-style: none; padding: 0; font-size: 13px; color: var(--text-dark);">
+                                <li>🎯 Topic Matching</li>
+                                <li>📊 Content Analysis</li>
+                                <li>🔍 Trend Detection</li>
+                                <li>💡 Niche Insights</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Roadmap Details -->
+            <div style="margin-top: 80px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+                <!-- What's Next -->
+                <div style="background: linear-gradient(135deg, rgba(255, 140, 46, 0.08) 0%, rgba(139, 111, 71, 0.04) 100%); padding: 30px; border-radius: 15px; border-left: 4px solid var(--primary-orange);">
+                    <h3 style="color: var(--dark-navy); font-size: 20px; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+                        <span style="font-size: 28px;">🚀</span> What's Next
+                    </h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 12px 0; border-bottom: 1px solid rgba(255, 140, 46, 0.2); color: var(--text-dark);">
+                            <strong>Collaboration Matcher:</strong> AI suggests perfect partnership creators based on audience overlap, engagement, and niche alignment
+                        </li>
+                        <li style="padding: 12px 0; border-bottom: 1px solid rgba(255, 140, 46, 0.2); color: var(--text-dark);">
+                            <strong>Performance Forecaster:</strong> Predict video success BEFORE publishing. Optimize thumbnail, title, timing for maximum impact
+                        </li>
+                        <li style="padding: 12px 0; color: var(--text-dark);">
+                            <strong>Trend Intelligence:</strong> Know what topics are emerging in your niche 30 days before they blow up
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Impact by 2027 -->
+                <div style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(139, 111, 71, 0.04) 100%); padding: 30px; border-radius: 15px; border-left: 4px solid var(--success-green);">
+                    <h3 style="color: var(--dark-navy); font-size: 20px; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+                        <span style="font-size: 28px;">🎯</span> 2027 Vision
+                    </h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 12px 0; border-bottom: 1px solid rgba(16, 185, 129, 0.2); color: var(--text-dark);">
+                            <strong>10,000+ Active Creators</strong> using CreatorIQ daily across 50+ countries
+                        </li>
+                        <li style="padding: 12px 0; border-bottom: 1px solid rgba(16, 185, 129, 0.2); color: var(--text-dark);">
+                            <strong>€5M+ ARR</strong> with profitable unit economics and sustainable growth
+                        </li>
+                        <li style="padding: 12px 0; color: var(--text-dark);">
+                            <strong>Industry Standard</strong> for AI-powered creator success tools. The "must-have" platform in every creator's toolkit
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Quote -->
+            <div style="background: var(--dark-navy); color: white; padding: 40px; border-radius: 15px; margin-top: 40px; text-align: center;">
+                <p style="font-size: 20px; font-style: italic; margin-bottom: 15px;">
+                    "We're not just building features. We're building a complete intelligence platform that helps mid-size creators grow together – from finding perfect collaboration partners to predicting content performance before it's posted."
+                </p>
+                <p style="font-size: 14px; color: rgba(255,255,255,0.7);">
+                    The future of creator success is intelligent, collaborative, and predictive.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusion Section -->
+    <section class="section" style="background: linear-gradient(135deg, var(--dark-navy) 0%, rgba(5, 23, 48, 0.95) 100%); color: white;">
+        <div class="section-container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+                <!-- Left: Graphics -->
+                <div style="text-align: center; margin-left: 40px;">
+                    <div style="font-size: 120px; margin-bottom: 20px; animation: bounce 2s infinite; margin-left: 60px;">
+                        🚀
+                    </div>
+                    <div style="font-size: 80px; margin-bottom: 20px;">👥</div>
+                    <p style="font-size: 18px; font-style: italic; color: rgba(255,255,255,0.8);">
+                        "Creators are the growth engine of the modern economy"
+                    </p>
+                </div>
+
+                <!-- Right: Message -->
+                <div>
+                    <h2 style="font-size: 48px; margin-bottom: 30px; color: var(--primary-orange);">
+                        Creators Are the<br>Growth Engine
+                    </h2>
+                    <p style="font-size: 20px; line-height: 1.8; margin-bottom: 30px; color: rgba(255,255,255,0.95);">
+                        Empower them with the right tools, and they'll drive your brand forward.
+                    </p>
+                    <div style="background: rgba(255, 140, 46, 0.15); padding: 25px; border-radius: 12px; border-left: 4px solid var(--primary-orange);">
+                        <p style="font-size: 18px; line-height: 1.8; color: rgba(255,255,255,0.9);">
+                            Creators are the engine of the modern economy. <span style="color: var(--primary-orange); font-weight: 600;">CreatorIQ gives them the fuel</span> — insights, automation, and intelligence — to turn their passion into a sustainable business.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats at bottom -->
+            <div style="margin-top: 60px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.1);">
+                <div style="text-align: center;">
+                    <div style="font-size: 40px; font-weight: 900; color: var(--primary-orange);">⚡</div>
+                    <div style="font-size: 14px; color: rgba(255,255,255,0.7); margin-top: 10px;">Instant Time Savings</div>
+                </div>
+                <div style="text-align: center;">
+                    <div style="font-size: 40px; font-weight: 900; color: var(--primary-orange);">📈</div>
+                    <div style="font-size: 14px; color: rgba(255,255,255,0.7); margin-top: 10px;">Real Value Delivered</div>
+                </div>
+                <div style="text-align: center;">
+                    <div style="font-size: 40px; font-weight: 900; color: var(--primary-orange);">🌍</div>
+                    <div style="font-size: 14px; color: rgba(255,255,255,0.7); margin-top: 10px;">Global Opportunity</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section cta-section">
+        <div class="section-container">
+            <h2>Ready to Transform Creator Success?</h2>
+            <p>Don't just post and wait. Start earning smarter. CreatorIQ helps creators build sustainable income, negotiate better deals, and grow their business with intelligence and confidence.</p>
+
+            <div class="cta-buttons">
+                <button class="cta-primary">Start Free Trial</button>
+                <button class="cta-secondary">Schedule Demo</button>
+            </div>
+
+            <p style="margin-top: 40px; font-size: 16px; color: var(--text-light);">
+                💡 First 100 creators get lifetime 30% discount + personal onboarding
+            </p>
+        </div>
+    </section>
+
+    <!-- Q&A / Contact Section -->
+    <section class="section" style="background: linear-gradient(135deg, var(--light-bg) 0%, rgba(243, 244, 246, 0.5) 100%); text-align: center;">
+        <div class="section-container">
+            <div style="max-width: 600px; margin: 0 auto;">
+                <h1 style="font-size: 64px; color: var(--dark-navy); margin-bottom: 20px;">Thank You</h1>
+
+                <div style="background: white; padding: 50px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); margin-bottom: 40px;">
+                    <div style="margin-bottom: 30px;">
+                        <h2 style="color: var(--primary-orange); font-size: 32px; margin-bottom: 10px;">CreatorIQ</h2>
+                        <p style="color: var(--text-light); font-size: 18px; margin-bottom: 30px;">
+                            AI-Powered Creator Success Platform
+                        </p>
+
+                        <!-- Demo Video -->
+                        <div style="background: var(--light-gray); border: 2px solid var(--primary-orange); border-radius: 15px; padding: 30px; display: inline-block; margin-bottom: 30px;">
+                            <div style="font-size: 48px; margin-bottom: 15px;">▶️</div>
+                            <p style="font-weight: 600; color: var(--dark-navy); font-size: 16px; margin-bottom: 10px;">
+                                Live Demo Video
+                            </p>
+                            <p style="font-size: 13px; color: var(--text-light);">
+                                (Coming Soon)
+                            </p>
+                        </div>
+
+                        <!-- GitHub Repo -->
+                        <div style="margin-bottom: 20px; margin-top: 30px;">
+                            <p style="font-size: 16px; color: var(--text-dark); margin-bottom: 8px;">
+                                <strong>💻 GitHub Repository:</strong>
+                            </p>
+                            <p style="font-size: 14px; color: var(--primary-orange); word-break: break-all; font-family: monospace; background: var(--light-gray); padding: 12px; border-radius: 8px; margin-top: 10px;">
+                                github.com/monamohanty1987/CreatorIQ
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Call to Action -->
+                    <div style="border-top: 1px solid var(--light-gray); padding-top: 30px;">
+                        <p style="font-size: 20px; color: var(--text-dark); margin-bottom: 20px; font-weight: 600;">
+                            I'm happy to answer any questions
+                        </p>
+                        <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                            <button style="padding: 12px 30px; background: var(--primary-orange); color: white; border: none; border-radius: 50px; font-weight: 600; cursor: pointer; font-size: 14px; transition: all 0.3s;" onmouseover="this.style.background='var(--accent-brown)'">
+                                💬 Start Conversation
+                            </button>
+                            <button style="padding: 12px 30px; background: transparent; color: var(--primary-orange); border: 2px solid var(--primary-orange); border-radius: 50px; font-weight: 600; cursor: pointer; font-size: 14px; transition: all 0.3s;" onmouseover="this.style.background='var(--light-gray)'">
+                                📅 Schedule Meeting
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Note -->
+                <p style="font-size: 14px; color: var(--text-light);">
+                    🙏 Thank you for your time and consideration.<br>
+                    We're excited to partner with you on the future of creator success.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p><strong>CreatorIQ</strong> - AI-Powered Creator Success Platform</p>
+        <p>© 2026. EU AI Act Compliant. GDPR Ready. Creator-Focused.</p>
+        <p style="margin-top: 20px; font-size: 14px; color: rgba(255,255,255,0.7);">
+            Built for creators by creators | github.com/monamohanty1987/CreatorIQ
+        </p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-in, .problem-card, .pillar, .benefit-card, .vision-content, .vision-stats').forEach(el => {
+            observer.observe(el);
+        });
+
+        document.querySelectorAll('.cta-button, .cta-primary, .cta-secondary, .demo-video').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                const text = this.textContent || '';
+                if (text.includes('Trial')) {
+                    alert('🎉 Welcome to CreatorIQ!\n\nRedirecting to signup...');
+                } else if (text.includes('Demo')) {
+                    alert('📅 Schedule your personalized demo\n\nOur team will be in touch within 24 hours');
+                } else if (text.includes('Watch') || text.includes('▶️')) {
+                    alert('▶️ Play 2-min pitch video\n\n(Embed your actual demo video here)');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

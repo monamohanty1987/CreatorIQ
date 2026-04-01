@@ -5,21 +5,36 @@ Main application entry point
 
 from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.gzip import GZipMiddleware
 from sqlalchemy.orm import Session
 from contextlib import asynccontextmanager
 import logging
 from datetime import datetime
 from typing import Optional
+from pydantic import BaseModel
+import re
 
 # Import configuration and services
 from config import settings
 from database import init_db, get_db, SessionLocal
 from models import Deal, Contract, Campaign, ContentAnalysis
-from services.rag_service import rag_service
+try:
+    from services.rag_service import rag_service
+except Exception as e:
+    logger_import = logging.getLogger(__name__)
+    logger_import.warning(f"Could not import rag_service: {e}")
+    rag_service = None
 from services.n8n_client import n8n_client
 from services.claude_service import claude_service
-from services.langsmith_service import TRACING_ENABLED, RESULTS_DIR
+try:
+    from services.langsmith_service import TRACING_ENABLED, RESULTS_DIR
+except Exception as e:
+    logger_import = logging.getLogger(__name__)
+    logger_import.warning(f"Could not import langsmith_service: {e}")
+    TRACING_ENABLED = False
+    RESULTS_DIR = "/tmp"
 from services.deal_benchmark import calculate_market_rate
+from cache_utils import cache_response, invalidate_cache
 
 # Import routes
 try:
@@ -27,6 +42,36 @@ try:
 except ImportError:
     logger_import = logging.getLogger(__name__)
     logger_import.warning("Could not import content_commerce routes")
+
+try:
+    from routes import content_repurpose
+except Exception as e:
+    logger_import = logging.getLogger(__name__)
+    logger_import.error(f"❌ FAILED TO IMPORT content_repurpose: {type(e).__name__}: {str(e)}")
+    import traceback
+    traceback.print_exc()
+    content_repurpose = None
+
+try:
+    from routes import consent_routes
+except ImportError:
+    logger_import = logging.getLogger(__name__)
+    logger_import.warning("Could not import consent_routes")
+
+try:
+    from routes import ai_repurposer_routes
+except ImportError:
+    logger_import = logging.getLogger(__name__)
+    logger_import.warning("Could not import ai_repurposer_routes")
+
+try:
+    from routes import ai_commerce_routes
+except Exception as e:
+    logger_import = logging.getLogger(__name__)
+    logger_import.error(f"❌ FAILED TO IMPORT ai_commerce_routes: {type(e).__name__}: {str(e)}")
+    import traceback
+    traceback.print_exc()
+    ai_commerce_routes = None
 
 # Configure logging
 logging.basicConfig(
@@ -61,11 +106,11 @@ async def lifespan(app: FastAPI):
     except Exception as e:
         logger.warning(f"⚠️ RAG initialization failed: {str(e)}")
 
-    # Check Claude API
-    if settings.ANTHROPIC_API_KEY and settings.ANTHROPIC_API_KEY != "your_anthropic_api_key_here":
-        logger.info("✅ Claude API key configured")
+    # Check OpenAI API (used for all AI services)
+    if settings.OPENAI_API_KEY and settings.OPENAI_API_KEY != "your_openai_api_key_here":
+        logger.info("✅ OpenAI API key configured - all AI services ready")
     else:
-        logger.warning("⚠️ ANTHROPIC_API_KEY not set - contract analysis may be limited")
+        logger.warning("⚠️ OPENAI_API_KEY not set - AI services will fail")
 
     # Check LangSmith
     if TRACING_ENABLED:
@@ -100,6 +145,31 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Add Gzip compression middleware
+# Compresses responses larger than 500 bytes to reduce bandwidth by ~80%
+app.add_middleware(GZipMiddleware, minimum_size=500)
+
+# Include routes
+if content_repurpose:
+    app.include_router(content_repurpose.router)
+else:
+    logger.warning("⚠️ content_repurpose routes NOT loaded")
+
+if consent_routes:
+    app.include_router(consent_routes.router)
+else:
+    logger.warning("⚠️ consent_routes NOT loaded")
+
+if ai_repurposer_routes:
+    app.include_router(ai_repurposer_routes.router)
+else:
+    logger.warning("⚠️ ai_repurposer_routes NOT loaded")
+
+if ai_commerce_routes:
+    app.include_router(ai_commerce_routes.router)
+else:
+    logger.warning("⚠️ ai_commerce_routes NOT loaded")
+
 
 # ==================== ROOT ENDPOINTS ====================
 
@@ -115,6 +185,7 @@ async def root():
             "deals": "/api/deals",
             "contracts": "/api/contracts",
             "campaigns": "/api/campaigns",
+            "repurpose": "/api/repurpose",
             "history": "/api/history"
         }
     }
@@ -127,7 +198,7 @@ async def health_check():
         "status": "healthy",
         "timestamp": datetime.now().isoformat(),
         "services": {
-            "n8n": f"http://localhost:5678",
+            "n8n": settings.N8N_BASE_URL,
             "chromadb": "initialized",
             "database": "sqlite3"
         }
@@ -137,6 +208,7 @@ async def health_check():
 # ==================== LANGSMITH MONITORING ENDPOINTS ====================
 
 @app.get("/api/monitoring/status")
+@cache_response(ttl=600)  # Cache for 10 minutes
 async def monitoring_status():
     """LangSmith monitoring status and configuration"""
     import os
@@ -173,6 +245,7 @@ async def get_local_traces(limit: int = 20, trace_type: Optional[str] = None):
 
 
 @app.get("/api/monitoring/summary")
+@cache_response(ttl=600)  # Cache for 10 minutes
 async def monitoring_summary():
     """
     Aggregated stats: total calls, total tokens, total cost, avg latency
@@ -386,19 +459,63 @@ async def get_deals_history(creator_name: Optional[str] = None, db: Session = De
         raise HTTPException(status_code=500, detail=str(e))
 
 
-# ==================== CONTRACT ANALYSIS ENDPOINTS ====================
+# ==================== DEAL NAVIGATOR (CONTRACT ANALYSIS) ====================
+
+# Pydantic Model for Deal Navigator
+class DealNavigatorRequest(BaseModel):
+    creator_name: str
+    brand_name: str
+    contract_text: str
+    contract_type: str  # "brand-sponsorship", "nda", "influencer-marketing"
+    creator_niche: str = "lifestyle"
+    deal_value: float = 0.0
+
+# Complexity Detection Function
+def detect_contract_complexity(contract_text: str, user_override: str = None) -> str:
+    """
+    Detect contract complexity using rule-based heuristics.
+    Returns: 'simple' or 'complex'
+    """
+    if user_override:
+        return user_override
+
+    # Heuristic 1: Text length (rough page count)
+    # Assuming avg 500 chars per page
+    pages = len(contract_text) / 500
+    if pages > 5:
+        return "complex"
+
+    # Heuristic 2: Clause complexity keywords
+    complex_keywords = [
+        "exclusivity", "non-compete", "indemnity",
+        "liquidated damages", "limitation of liability",
+        "intellectual property", "ip rights", "governing law",
+        "arbitration", "termination for cause"
+    ]
+
+    text_lower = contract_text.lower()
+    keyword_count = sum(1 for kw in complex_keywords if kw in text_lower)
+
+    if keyword_count >= 3:
+        return "complex"
+
+    # Heuristic 3: Clause count (look for numbered sections)
+    clause_count = len(re.findall(r'\d+\.\s', contract_text))
+    if clause_count > 10:
+        return "complex"
+
+    return "simple"
 
 @app.post("/api/contracts/analyze")
 async def analyze_contract(
-    creator_name: str,
-    brand_name: str,
-    contract_text: str,
-    creator_niche: str = "lifestyle",
-    deal_value: float = 0,
+    request: DealNavigatorRequest,
     db: Session = Depends(get_db)
 ):
     """
-    Analyze a contract for red flags and FTC compliance (O3 workflow + RAG + Claude)
+    Deal Navigator: Educational contract analysis for creators
+    Explains contract terms in simple language, highlights common questions, suggests discussion points.
+
+    NOT legal advice - always consult a qualified lawyer before signing.
 
     Request:
         POST /api/contracts/analyze
@@ -406,9 +523,15 @@ async def analyze_contract(
             "creator_name": "Sarah",
             "brand_name": "FitnessCo",
             "contract_text": "...",
+            "contract_type": "brand-sponsorship",
             "creator_niche": "fitness",
             "deal_value": 5000
         }
+
+    Contract Types:
+        - "brand-sponsorship": Brand Sponsorship / Partnership
+        - "nda": Non-Disclosure Agreement (NDA)
+        - "influencer-marketing": Influencer Marketing Agreement
 
     Returns:
         {
@@ -416,52 +539,88 @@ async def analyze_contract(
             "verdict": "NEGOTIATE",
             "health_score": 65,
             "red_flags": [...],
-            "recommendations": [...]
+            "recommendations": [...],
+            "complexity": "simple"
         }
     """
     try:
-        logger.info(f"Analyzing contract from {brand_name} for {creator_name}")
+        # Validate contract type
+        valid_types = ["brand-sponsorship", "nda", "influencer-marketing"]
+        if request.contract_type not in valid_types:
+            raise HTTPException(
+                status_code=422,
+                detail="Contract type must be one of: brand-sponsorship, nda, influencer-marketing"
+            )
 
-        # Retrieve relevant documents from RAG
-        rag_documents = rag_service.retrieve_relevant_documents(
-            query=contract_text[:1000],  # Use first 1000 chars as query
-            n_results=3
-        )
-        rag_context = [doc.get("content", "") for doc in rag_documents]
+        # Detect complexity
+        complexity = detect_contract_complexity(request.contract_text)
+        model_to_use = "gpt-4o" if complexity == "complex" else "gpt-4o-mini"
+
+        logger.info(f"Deal Navigator - Type: {request.contract_type}, Complexity: {complexity}, Model: {model_to_use}")
+        logger.info(f"Analyzing contract from {request.brand_name} for {request.creator_name}")
+
+        # Retrieve relevant documents from RAG (safe — rag_service may be None)
+        rag_documents = []
+        rag_context = []
+        if rag_service is not None:
+            try:
+                rag_documents = rag_service.retrieve_relevant_documents(
+                    query=request.contract_text[:1000],
+                    n_results=3
+                )
+                rag_context = [doc.get("content", "") for doc in rag_documents]
+            except Exception as e:
+                logger.warning(f"RAG retrieval skipped: {str(e)}")
 
         # Call n8n O3 Contract Analysis
         n8n_response = await n8n_client.analyze_contract(
-            contract_text=contract_text,
-            creator_name=creator_name,
-            creator_niche=creator_niche,
-            deal_value=deal_value,
-            brand_name=brand_name
+            contract_text=request.contract_text,
+            creator_name=request.creator_name,
+            creator_niche=request.creator_niche,
+            deal_value=request.deal_value,
+            brand_name=request.brand_name
         )
 
+        # n8n may return None if workflow has no Respond node or empty body
+        n8n_response = n8n_response or {}
+
+        # Extract n8n pre-analysis if available (populated when n8n has Respond to Webhook node)
+        # Expected n8n response format: {clauses_found: [], risk_keywords: [], contract_summary: ""}
+        n8n_context = {
+            "clauses_found": n8n_response.get("clauses_found", []),
+            "risk_keywords": n8n_response.get("risk_keywords", []),
+            "contract_summary": n8n_response.get("contract_summary", ""),
+        }
+
+        # Also support legacy n8n format (analysis nested object)
         analysis = n8n_response.get("analysis", {})
-        health_score = analysis.get("contract_health", {}).get("score", 0)
-        verdict = analysis.get("contract_health", {}).get("verdict", "UNKNOWN")
+        health_score = analysis.get("contract_health", {}).get("score", 65)
+        verdict = analysis.get("contract_health", {}).get("verdict", "REVIEW_RECOMMENDED")
         red_flags = analysis.get("red_flags", [])
 
-        # Use Claude for enhanced analysis if API key is available
+        n8n_active = bool(n8n_context["clauses_found"] or n8n_context["risk_keywords"] or n8n_context["contract_summary"])
+        logger.info(f"n8n context active: {n8n_active} | clauses: {len(n8n_context['clauses_found'])} | keywords: {len(n8n_context['risk_keywords'])}")
+
+        # Always run OpenAI GPT educational analysis (core of Deal Navigator)
         claude_analysis = None
-        if settings.ANTHROPIC_API_KEY:
-            try:
-                claude_analysis = claude_service.analyze_contract_with_rag(
-                    contract_text=contract_text,
-                    creator_name=creator_name,
-                    brand_name=brand_name,
-                    retrieved_documents=rag_context
-                )
-                logger.info(f"Claude analysis completed for {brand_name}")
-            except Exception as e:
-                logger.warning(f"Claude analysis failed: {str(e)}")
+        try:
+            claude_analysis = claude_service.analyze_contract_with_rag(
+                contract_text=request.contract_text,
+                creator_name=request.creator_name,
+                brand_name=request.brand_name,
+                retrieved_documents=rag_context,
+                contract_type=request.contract_type,
+                n8n_context=n8n_context if n8n_active else None,
+            )
+            logger.info(f"✅ Deal Navigator GPT educational analysis completed for {request.brand_name}")
+        except Exception as e:
+            logger.warning(f"GPT educational analysis failed: {str(e)}")
 
         # Save to database
         contract = Contract(
-            creator_name=creator_name,
-            brand_name=brand_name,
-            contract_text=contract_text[:5000],  # Store first 5000 chars
+            creator_name=request.creator_name,
+            brand_name=request.brand_name,
+            contract_text=request.contract_text[:5000],  # Store first 5000 chars
             health_score=health_score,
             verdict=verdict,
             red_flags_count=len(red_flags),
@@ -479,21 +638,32 @@ async def analyze_contract(
 
         return {
             "contract_id": contract.id,
-            "creator_name": creator_name,
-            "brand_name": brand_name,
+            "creator_name": request.creator_name,
+            "brand_name": request.brand_name,
+            "contract_type": request.contract_type,
+            "complexity": complexity,
             "verdict": verdict,
             "health_score": health_score,
             "red_flags_count": len(red_flags),
             "critical_flags": len([f for f in red_flags if f.get("severity") == "CRITICAL"]),
             "ftc_compliance": analysis.get("ftc_compliance", {}).get("risk_level", "UNKNOWN"),
-            "red_flags": red_flags[:5],  # Return top 5 red flags
+            "red_flags": red_flags[:5],
             "recommendations": analysis.get("recommendations", []),
+            # GPT educational analysis is the primary output for Deal Navigator
             "claude_analysis": claude_analysis,
+            "educational_explanation": claude_analysis.get("explanation", "") if isinstance(claude_analysis, dict) else (claude_analysis or ""),
+            # n8n pre-analysis metadata
+            "n8n_context_used": n8n_active,
+            "n8n_clauses_found": n8n_context["clauses_found"],
+            "n8n_risk_keywords": n8n_context["risk_keywords"],
+            "disclaimer": "⚖️ This is educational information only. Always consult a qualified legal professional before signing any contract.",
             "created_at": contract.created_at.isoformat()
         }
 
     except Exception as e:
-        logger.error(f"Error analyzing contract: {str(e)}")
+        import traceback
+        logger.error(f"Error in Deal Navigator analysis: {str(e)}")
+        logger.error(f"Full traceback:\n{traceback.format_exc()}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -566,7 +736,8 @@ async def generate_campaign(
             subscriber_count=subscriber_count
         )
 
-        # The n8n response is an array of email objects
+        # The n8n response is an array of email objects (handle None/empty)
+        n8n_response = n8n_response or []
         emails = n8n_response if isinstance(n8n_response, list) else [n8n_response]
 
         # Extract campaign info
@@ -677,6 +848,7 @@ async def get_all_history(creator_name: Optional[str] = None, db: Session = Depe
 # ==================== CONTENT-TO-COMMERCE ====================
 
 @app.get("/api/content/performance")
+@cache_response(ttl=300)  # Cache for 5 minutes
 async def get_content_performance(db: Session = Depends(get_db)):
     """Get all content with performance metrics"""
     try:
@@ -692,6 +864,7 @@ async def get_content_performance(db: Session = Depends(get_db)):
 
 
 @app.get("/api/content/by-type")
+@cache_response(ttl=300)  # Cache for 5 minutes
 async def get_content_by_type(db: Session = Depends(get_db)):
     """Get content grouped by type with analytics"""
     try:
@@ -785,6 +958,7 @@ async def update_content_sales(content_id: int, sales_data: dict, db: Session = 
 
 
 @app.get("/api/content/calendar")
+@cache_response(ttl=600)  # Cache for 10 minutes
 async def get_content_calendar(db: Session = Depends(get_db)):
     """Get weekly calendar with commerce recommendations"""
     try:
@@ -808,6 +982,7 @@ async def get_content_calendar(db: Session = Depends(get_db)):
 
 
 @app.get("/api/content/insights")
+@cache_response(ttl=600)  # Cache for 10 minutes
 async def get_content_insights(db: Session = Depends(get_db)):
     """Get strategic insights and recommendations"""
     try:
