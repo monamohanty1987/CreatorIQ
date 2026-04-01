@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["start"],
+      "port": 3000,
+      "cwd": "C:\\CreatorIQ Project\\frontend"
+    },
+    {
+      "name": "backend",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["app.py"],
+      "port": 8000,
+      "cwd": "C:\\CreatorIQ Project\\backend"
+    }
+  ]
+}
