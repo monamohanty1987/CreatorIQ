@@ -59,6 +59,13 @@ except ImportError:
     logger_import.warning("Could not import consent_routes")
 
 try:
+    from routes import chat as chat_routes
+except ImportError:
+    logger_import = logging.getLogger(__name__)
+    logger_import.warning("Could not import chat routes")
+    chat_routes = None
+
+try:
     from routes import ai_repurposer_routes
 except ImportError:
     logger_import = logging.getLogger(__name__)
@@ -169,6 +176,11 @@ if ai_commerce_routes:
     app.include_router(ai_commerce_routes.router)
 else:
     logger.warning("⚠️ ai_commerce_routes NOT loaded")
+
+if chat_routes:
+    app.include_router(chat_routes.router)
+else:
+    logger.warning("⚠️ chat_routes NOT loaded")
 
 
 # ==================== ROOT ENDPOINTS ====================

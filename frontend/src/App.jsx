@@ -3,6 +3,7 @@ import './App.css';
 import Layout from './components/Layout';
 import LandingPage from './pages/LandingPage';
 import CookieConsentBanner from './components/CookieConsentBanner';
+import ChatWidget from './components/ChatWidget';
 import { healthCheck } from './services/api';
 
 // ===== LAZY LOADED COMPONENTS =====
@@ -225,6 +226,7 @@ function App() {
       <>
         <CookieConsentBanner />
         {renderPage()}
+        <ChatWidget />
       </>
     );
   }
@@ -240,6 +242,7 @@ function App() {
       >
         {renderPage()}
       </Layout>
+      <ChatWidget />
     </>
   );
 }
