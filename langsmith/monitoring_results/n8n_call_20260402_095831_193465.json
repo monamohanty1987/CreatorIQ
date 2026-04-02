@@ -1,0 +1,16 @@
+{
+  "type": "n8n_call",
+  "workflow": "test_workflow",
+  "webhook_path": "test-path",
+  "latency_ms": 123.4,
+  "inputs": {
+    "test": "input"
+  },
+  "outputs": {
+    "test": "output"
+  },
+  "error": null,
+  "timestamp": "2026-04-02T09:58:31.193431",
+  "status": "success",
+  "saved_at": "2026-04-02T09:58:31.193534"
+}

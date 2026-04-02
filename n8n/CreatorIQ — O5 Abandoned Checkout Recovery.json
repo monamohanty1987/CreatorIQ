@@ -1,0 +1,198 @@
+{
+  "name": "CreatorIQ — O5 Abandoned Checkout Recovery",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "checkout-abandoned",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "o5000000-0000-0000-0000-000000000001",
+      "name": "Webhook — Checkout Abandoned",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        240,
+        304
+      ],
+      "webhookId": "bf5a27be-82f5-553b-a3bb-58db306c6e17",
+      "notes": "POST /webhook/checkout-abandoned\nBody: { customer_email, product_name, product_price, cart_value, creator_name, creator_niche }\nO5: Content-to-Commerce Attribution (20-35% revenue increase)"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "o5000000-0000-0000-0000-000000000002",
+      "name": "Set — Extract Checkout Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [
+        464,
+        304
+      ],
+      "notes": "Extracts and structures checkout abandonment data.\nGenerates unique recovery_id for tracking."
+    },
+    {
+      "parameters": {
+        "amount": 60,
+        "unit": "minutes"
+      },
+      "id": "o5000000-0000-0000-0000-000000000003",
+      "name": "Wait — 1 Hour",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [
+        688,
+        304
+      ],
+      "webhookId": "e1cc61bc-50ac-4953-a991-1dd15c24ffdf",
+      "notes": "Waits 1 hour before sending recovery email.\nThis is the optimal abandoned cart recovery window.\nFor demo/testing: change to seconds."
+    },
+    {
+      "parameters": {
+        "jsCode": "// ════════════════════════════════════════════\n// CreatorIQ — Generate Recovery Email Content\n// AI-crafted personalised recovery email\n// In production: call Claude API for dynamic generation\n// For POC: uses template logic\n// ════════════════════════════════════════════\n\nconst d = $input.first().json;\nconst discountPct = 10;\nconst discountAmt = Math.round(d.cart_value * discountPct / 100);\nconst finalPrice  = d.cart_value - discountAmt;\n\nconst email = {\n  to:       d.customer_email,\n  subject:  `🛒 You left something behind — ${d.product_name}`,\n  preview:  `Complete your purchase and save $${discountAmt} today only`,\n\n  html_body: `\n    <h2>Hey there!</h2>\n    <p>You were so close! Your cart from <strong>${d.creator_name}</strong> is waiting.</p>\n    <p>You left behind: <strong>${d.product_name}</strong></p>\n    <p>For the next 24 hours, use this exclusive code to save ${discountPct}%:</p>\n    <h3 style=\"color:#e74c3c\">COMEBACK${discountPct}</h3>\n    <p>Original price: $${d.cart_value} → <strong>Your price: $${finalPrice}</strong></p>\n    <p>This offer expires in 24 hours.</p>\n    <p>Warm regards,<br/>${d.creator_name}</p>\n  `,\n\n  metadata: {\n    recovery_id:   d.recovery_id,\n    discount_code: `COMEBACK${discountPct}`,\n    discount_amt:  discountAmt,\n    final_price:   finalPrice,\n    expires_at:    new Date(Date.now() + 24*60*60*1000).toISOString(),\n    workflow:      'O5 — Abandoned Checkout Recovery',\n    estimated_recovery_value: finalPrice\n  }\n};\n\nreturn [{ json: { ...d, email } }];"
+      },
+      "id": "o5000000-0000-0000-0000-000000000004",
+      "name": "Code — Generate Recovery Email",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        912,
+        304
+      ],
+      "notes": "Generates personalised recovery email with 10% discount.\nProduction: replace with Claude API call for dynamic AI copy.\nValue: $3,492/launch recovered on average."
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://webhook.site/YOUR-EMAIL-WEBHOOK",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.email, null, 2) }}",
+        "options": {}
+      },
+      "id": "o5000000-0000-0000-0000-000000000005",
+      "name": "HTTP Request — Send Recovery Email",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [
+        1120,
+        192
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "onError": "continueErrorOutput",
+      "notes": "Sends recovery email via webhook/email service.\nReplace URL with: Mailgun, SendGrid, or SMTP webhook.\nRetry 3x with 5s delay (matches lab error handling pattern)."
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "o5000000-0000-0000-0000-000000000006",
+      "name": "Set — Format Error",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [
+        1120,
+        448
+      ],
+      "notes": "Captures email delivery errors.\nMatches lab error handling pattern from n8n_lab_workflows.json."
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "o5000000-0000-0000-0000-000000000007",
+      "name": "Set — Success Confirmation",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3,
+      "position": [
+        1344,
+        192
+      ],
+      "notes": "Formats success response with recovery tracking info."
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook — Checkout Abandoned": {
+      "main": [
+        [
+          {
+            "node": "Set — Extract Checkout Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set — Extract Checkout Data": {
+      "main": [
+        [
+          {
+            "node": "Wait — 1 Hour",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait — 1 Hour": {
+      "main": [
+        [
+          {
+            "node": "Code — Generate Recovery Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code — Generate Recovery Email": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request — Send Recovery Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request — Send Recovery Email": {
+      "main": [
+        [
+          {
+            "node": "Set — Success Confirmation",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ],
+      "error": [
+        [
+          {
+            "node": "Set — Format Error",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "executionOrder": "v1"
+  },
+  "versionId": "7a24699b-f41c-4121-98c3-c8dc20e08983",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "aa73719b26c62e350f285e3bc7429645adfd218851873ad4793c11f20d7a9189"
+  },
+  "id": "2f315fb7",
+  "tags": []
+}
