@@ -1,7 +1,7 @@
 # CreatorIQ 🤖
 ### AI-Powered Platform for Content Creators
 
-CreatorIQ helps digital creators manage brand deals, analyze contracts, repurpose content, and grow their business with AI.
+CreatorIQ helps digital creators manage brand deals, Educate about the contracts, repurpose content, and grow their business in less time than they can ever think.
 
 ## 🎬 Demo
 
