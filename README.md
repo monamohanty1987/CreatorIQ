@@ -29,6 +29,8 @@ https://github.com/user-attachments/assets/c2b8cd38-ea89-4dca-8dad-74bdeb7348f9
 - **AI:** OpenAI GPT-4
 - **Automation:** n8n workflows
 - **Deployment:** Railway
+- RAG‑first architecture
+- Langsmith Evaluation
 
 ## 🔗 Links
 
