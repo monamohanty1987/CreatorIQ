@@ -92,6 +92,18 @@ def save_trace_locally(trace: Dict[str, Any]) -> str:
     return str(filename)
 
 
+def _make_client():
+    """Return a LangSmith Client pointed at the EU endpoint."""
+    from langsmith import Client
+    from config import settings
+    endpoint = (
+        settings.LANGSMITH_ENDPOINT
+        or settings.LANGCHAIN_ENDPOINT
+        or "https://eu.api.smith.langchain.com"
+    )
+    return Client(api_url=endpoint, api_key=settings.LANGCHAIN_API_KEY)
+
+
 def get_tracer():
     """
     Return a LangSmith Client if tracing is enabled, else None.
@@ -100,8 +112,7 @@ def get_tracer():
     if not TRACING_ENABLED:
         return None
     try:
-        from langsmith import Client
-        return Client()
+        return _make_client()
     except Exception as e:
         logger.warning(f"LangSmith client init failed: {e}")
         return None
@@ -177,10 +188,9 @@ class LangSmithMonitor:
         # Send to LangSmith cloud if enabled
         if TRACING_ENABLED:
             try:
-                from langsmith import Client
                 import uuid
 
-                client = Client()
+                client = _make_client()
                 run_id = uuid.uuid4()
                 start_time = datetime.utcnow()
                 end_time = datetime.utcnow()
@@ -229,10 +239,9 @@ class LangSmithMonitor:
         # Send to LangSmith cloud if enabled
         if TRACING_ENABLED:
             try:
-                from langsmith import Client
                 import uuid
 
-                client = Client()
+                client = _make_client()
                 run_id = uuid.uuid4()
                 start_time = datetime.utcnow()
                 end_time = datetime.utcnow()
@@ -283,10 +292,9 @@ class LangSmithMonitor:
         # Send to LangSmith cloud if enabled
         if TRACING_ENABLED:
             try:
-                from langsmith import Client
                 import uuid
 
-                client = Client()
+                client = _make_client()
                 run_id = uuid.uuid4()
                 start_time = datetime.utcnow()
                 end_time = datetime.utcnow()
